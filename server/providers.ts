@@ -28,7 +28,7 @@ async function externalFetch(url:string,init:RequestInit,label:string):Promise<R
   }catch(e){if(e instanceof PublicError)throw e;throw new PublicError(`${label}请求超时或网络不可用。进度已保留，可稍后重试。`,502);}
 }
 const KNOWLEDGE_URL="https://api.zhihu.com/km-indep-home/hackathon/v2/knowledge";
-const TARGET_TITLE="实现大目标：依靠「小胜」 和「闭合任务回路」";
+const TARGET_TITLE="小时候经常给孩子挫折教育是否能提高他成年后的抗挫折能力？";
 export async function fetchKnowledge():Promise<KnowledgeItem[]> {
   const r=await externalFetch(`${KNOWLEDGE_URL}/list`,{headers:{Accept:"application/json"}},"知乎接口");
   const raw:unknown=await r.json();
