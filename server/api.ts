@@ -76,7 +76,7 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(path==="/api/episodes" && request.method==="GET"){
       const rows=await env.DB.prepare("SELECT payload FROM episodes ORDER BY created_at DESC LIMIT 50").all<{payload:string}>();
-      return json({episodes:rows.results.map(r=>{const e=JSON.parse(r.payload) as Episode;return {id:e.id,title:e.title,minutes:e.minutes,stage:e.stage,status:e.status,createdAt:e.createdAt,author:e.source?.author,duration:e.segments.reduce((n,s)=>n+(s.duration||0),0)};})});
+      return json({episodes:rows.results.map(r=>JSON.parse(r.payload) as Episode).filter(e=>e.status!=="failed").map(e=>({id:e.id,title:e.title,minutes:e.minutes,stage:e.stage,status:e.status,createdAt:e.createdAt,author:e.source?.author,duration:e.segments.reduce((n,s)=>n+(s.duration||0),0)}))});
     }
     if(path==="/api/episodes" && request.method==="POST") {
       if(!providerStatus(env).textReady)throw new PublicError("AI 编导尚未配置，请先完成文本模型接入。知乎原文可以正常浏览。",503);
