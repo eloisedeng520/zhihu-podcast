@@ -3,7 +3,7 @@ import {synthesizeTencent,tencentReady,type TencentEnv} from './tencent-tts.ts';
 import {synthesizeDoubao,doubaoReady,type DoubaoEnv} from './doubao-tts.ts';
 import {transcribeQuestion,type SpeechRecognitionEnv} from './doubao-asr.ts';
 import type { ConnectionStatus, Answer, Outline, Segment, KnowledgeItem } from "../lib/podcast.ts";
-import {EXAMPLE_ID,EXAMPLE_ITEM,exampleAnswer,EXAMPLE_CHILDHOOD_ID,EXAMPLE_CHILDHOOD_ITEM,childhoodExampleAnswer} from "./example-knowledge.ts";
+import {EXAMPLE_ID,EXAMPLE_ITEM,exampleAnswer} from "./example-knowledge.ts";
 
 export type ProviderEnv = TencentEnv & DoubaoEnv & SpeechRecognitionEnv & {
   TTS_PROVIDER?:string;
@@ -28,15 +28,16 @@ async function externalFetch(url:string,init:RequestInit,label:string):Promise<R
   }catch(e){if(e instanceof PublicError)throw e;throw new PublicError(`${label}请求超时或网络不可用。进度已保留，可稍后重试。`,502);}
 }
 const KNOWLEDGE_URL="https://api.zhihu.com/km-indep-home/hackathon/v2/knowledge";
+const TARGET_TITLE="实现大目标：依靠「小胜」 和「闭合任务回路」";
 export async function fetchKnowledge():Promise<KnowledgeItem[]> {
   const r=await externalFetch(`${KNOWLEDGE_URL}/list`,{headers:{Accept:"application/json"}},"知乎接口");
   const raw:unknown=await r.json();
   if(!Array.isArray(raw))throw new PublicError("知乎内容列表格式发生变化，请检查接口。",502);
-  return [...raw.filter(v=>v&&typeof v.work_id==="string"&&/^[A-Za-z0-9_-]{1,80}$/.test(v.work_id)&&typeof v.title==="string").map(v=>({id:v.work_id,title:v.title,description:typeof v.description==="string"?v.description:"",labels:Array.isArray(v.labels)?v.labels.filter((s:unknown)=>typeof s==="string"):[]})),EXAMPLE_ITEM,EXAMPLE_CHILDHOOD_ITEM];
+  const items=raw.filter(v=>v&&typeof v.work_id==="string"&&/^[A-Za-z0-9_-]{1,80}$/.test(v.work_id)&&typeof v.title==="string").map(v=>({id:v.work_id,title:v.title,description:typeof v.description==="string"?v.description:"",labels:Array.isArray(v.labels)?v.labels.filter((s:unknown)=>typeof s==="string"):[]}));
+  return [...(items.length<=1?items:items.filter(item=>item.title.trim()===TARGET_TITLE)),EXAMPLE_ITEM];
 }
 export async function fetchAnswer(_env:ProviderEnv,id:string) {
   if(id===EXAMPLE_ID)return exampleAnswer();
-  if(id===EXAMPLE_CHILDHOOD_ID)return childhoodExampleAnswer();
   const list=await fetchKnowledge();
   if(!list.some(item=>item.id===id))throw new PublicError("请从知乎知识列表中选择内容；该接口不支持任意回答 ID。",404);
   const url=`${KNOWLEDGE_URL}/${encodeURIComponent(id)}`;

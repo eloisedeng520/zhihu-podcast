@@ -25,6 +25,7 @@ export default function Home(){
   const loadSaved=async()=>{setSavedError("");try{setSaved((await api<{episodes:Saved[]}>("/api/episodes")).episodes);}catch(e){setSavedError((e as Error).message);}};
   const navigate=(v:View)=>{setView(v);setError("");window.history.pushState({},"",v==="episode"&&ep?`/?episode=${ep.id}`:"/");};
   const openEpisode=async(id:string)=>{setError("");setRunning(false);try{const next=await api<Episode>(`/api/episodes/${id}`);setEp(next);setView("episode");setPos(0);window.history.pushState({},"",`/?episode=${id}`);}catch(e){setError((e as Error).message);}};
+  const deleteEpisode=async(id:string,title:string)=>{if(!window.confirm(`确定删除《${title}》吗？删除后无法恢复。`))return;setSavedError("");try{await api<{deleted:boolean}>(`/api/episodes/${id}/delete`,{method:"DELETE",headers:{"Content-Type":"application/json"}});setSaved(items=>items.filter(item=>item.id!==id));if(ep?.id===id)setEp(null);}catch(e){setSavedError((e as Error).message);}};
   useEffect(()=>{void loadList();void loadStatus();void loadSaved();const id=new URLSearchParams(window.location.search).get("episode");if(id)void openEpisode(id);const pop=()=>{setRunning(false);setView("discover");};window.addEventListener("popstate",pop);return()=>window.removeEventListener("popstate",pop);},[]);
   useEffect(()=>{if(!toast)return;const t=setTimeout(()=>setToast(""),2600);return()=>clearTimeout(t);},[toast]);
   useEffect(()=>{

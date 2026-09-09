@@ -89,7 +89,7 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
       const now=new Date().toISOString();const ep:Episode={id:key,answerId:body.answerId,minutes:body.minutes,stage:"fetching",status:"pending",title:"新一期节目",createdAt:now,updatedAt:now,segments:[],completedAudio:0};
       await env.DB.prepare("INSERT OR IGNORE INTO episodes (id,payload,created_at) VALUES (?,?,?)").bind(ep.id,JSON.stringify(ep),ep.createdAt).run();return json(present((await readEpisode(env.DB,key))!),201);
     }
-    const match=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})(?:\/(advance|retry|audio))?$/);
+    const match=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})(?:\/(advance|retry|audio|delete))?$/);
     if(!match)throw new PublicError("没有找到这个接口。",404);
     const [,id,action]=match;let ep=await readEpisode(env.DB,id);if(!ep)throw new PublicError("没有找到这期节目。",404);
     if(!action&&request.method==="GET")return json(present(ep));
@@ -99,6 +99,11 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
       const headers=new Headers({"Content-Type":"audio/wav","Cache-Control":"private, max-age=3600","Accept-Ranges":"bytes","X-Content-Type-Options":"nosniff"});
       if(obj.range){headers.set("Content-Range",`bytes ${obj.range.offset}-${obj.range.offset+obj.range.length-1}/${obj.size}`);headers.set("Content-Length",String(obj.range.length));}else headers.set("Content-Length",String(obj.size));
       return new Response(request.method==="HEAD"?null:obj.body,{status:obj.range?206:200,headers});
+    }
+    if(action==="delete"){
+      if(request.method!=="DELETE")throw new PublicError("不支持此操作。",405);
+      await env.DB.prepare("DELETE FROM episodes WHERE id = ?").bind(id).run();
+      return json({deleted:true});
     }
     if(!["advance","retry"].includes(action)||request.method!=="POST")throw new PublicError("不支持此操作。",405);
     if(ep.status==="ready")return json(present(ep));
