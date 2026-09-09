@@ -21,3 +21,4 @@
 .answer-chat{display:flex;flex-direction:column;gap:10px;margin:-4px 0 18px}.chat-bubble{max-width:88%;padding:11px 13px;border-radius:14px;font-size:11px;line-height:1.8}.chat-bubble small{display:block;font-size:9px;color:#9a8878;margin-bottom:4px}.chat-bubble p{margin:0;color:#514b42}.user-bubble{align-self:flex-end;background:#ead9c8;border-bottom-right-radius:4px}.ai-bubble{align-self:flex-start;background:#f5ecdf;border-bottom-left-radius:4px}.error-bubble{background:#f7e6df}.chat-hint{display:block;color:#a2694c;font-size:9px;margin-top:6px}.chat-bubble audio{display:block;width:100%;height:28px;margin-top:7px}.typing-dots{color:#b87958;font-size:9px;letter-spacing:3px}.chat-close{align-self:center;font-size:9px;color:#a2694c;padding:5px 12px}
 /* 回答朗读仅展示文字，不显示音频进度条 */
 .answer-chat audio{display:none}
+.answer-chat .chat-hint,.answer-chat .chat-play{display:none}
