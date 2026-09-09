@@ -22,3 +22,4 @@
 /* 回答朗读仅展示文字，不显示音频进度条 */
 .answer-chat audio{display:none}
 .answer-chat .chat-hint,.answer-chat .chat-play{display:none}
+.source-sheet .notice{display:none}
