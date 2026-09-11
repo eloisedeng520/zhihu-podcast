@@ -4,6 +4,7 @@ import {synthesizeDoubao,doubaoReady,type DoubaoEnv} from './doubao-tts.ts';
 import {transcribeQuestion,type SpeechRecognitionEnv} from './doubao-asr.ts';
 import type { ConnectionStatus, Answer, Outline, Segment, KnowledgeItem } from "../lib/podcast.ts";
 import {EXAMPLE_ID,EXAMPLE_ITEM,exampleAnswer} from "./example-knowledge.ts";
+import {localAnswer,localKnowledgeItems} from "./local-knowledge.ts";
 
 export type ProviderEnv = TencentEnv & DoubaoEnv & SpeechRecognitionEnv & {
   TTS_PROVIDER?:string;
@@ -12,7 +13,7 @@ export type ProviderEnv = TencentEnv & DoubaoEnv & SpeechRecognitionEnv & {
 };
 export function providerStatus(env:ProviderEnv):ConnectionStatus {
   const services=[
-    {name:"知乎内容",configured:true,detail:"已接入官方知识内容接口"},
+    {name:"知乎内容",configured:true,detail:"已接入热榜、专栏和圈子内容快照"},
     {name:"AI 编导",configured:!!(env.LLM_URL&&env.LLM_API_KEY&&env.LLM_MODEL),detail:"文本生成服务"},
     {name:"双人语音",configured:env.TTS_PROVIDER==="doubao"?doubaoReady(env):env.TTS_PROVIDER==="tencent"?tencentReady(env):(!env.TTS_PROVIDER||env.TTS_PROVIDER==="openai-compatible")&&!!(env.TTS_URL&&env.TTS_API_KEY&&env.TTS_MODEL&&env.TTS_HOST_VOICE&&env.TTS_GUEST_VOICE),detail:env.TTS_PROVIDER==="doubao"?"豆包语音 · 双音色朗读":env.TTS_PROVIDER==="tencent"?"腾讯云 TTS · 双音色朗读":"语音合成服务与两种声音"},
   ];return {ready:services.every(s=>s.configured),textReady:services[1].configured,audioReady:services[2].configured,services};
@@ -29,19 +30,24 @@ async function externalFetch(url:string,init:RequestInit,label:string):Promise<R
 }
 const KNOWLEDGE_URL="https://api.zhihu.com/km-indep-home/hackathon/v2/knowledge";
 const TARGET_TITLE="小时候经常给孩子挫折教育是否能提高他成年后的抗挫折能力？";
-export async function fetchKnowledge():Promise<KnowledgeItem[]> {
+async function fetchRemoteKnowledge():Promise<KnowledgeItem[]> {
   const r=await externalFetch(`${KNOWLEDGE_URL}/list`,{headers:{Accept:"application/json"}},"知乎接口");
   const raw:unknown=await r.json();
   if(!Array.isArray(raw))throw new PublicError("知乎内容列表格式发生变化，请检查接口。",502);
-  const items=raw.filter(v=>v&&typeof v.work_id==="string"&&/^[A-Za-z0-9_-]{1,80}$/.test(v.work_id)&&typeof v.title==="string").map(v=>({id:v.work_id,title:v.title,description:typeof v.description==="string"?v.description:"",labels:Array.isArray(v.labels)?v.labels.filter((s:unknown)=>typeof s==="string"):[]}));
+  const items=raw.filter(v=>v&&typeof v.work_id==="string"&&/^[A-Za-z0-9_-]{1,80}$/.test(v.work_id)&&typeof v.title==="string").map(v=>({id:v.work_id,title:v.title,description:typeof v.description==="string"?v.description:"",labels:Array.isArray(v.labels)?v.labels.filter((s:unknown)=>typeof s==="string"):[],category:"hot" as const,sourceName:"知乎精选"}));
   const selected=items.filter(item=>item.title.trim()===TARGET_TITLE);
-  if(!selected.length && items.length>1)selected.push({id:"1118390837",title:TARGET_TITLE,description:"探讨挫折教育、无条件的爱与成年后的抗挫折能力。",labels:["亲子关系","挫折教育","心理成长"]});
-  if(!selected.length)return [EXAMPLE_ITEM];
-  return [...selected,EXAMPLE_ITEM];
+  if(!selected.length&&items.length)selected.push(items[0]);
+  return selected;
+}
+export async function fetchKnowledge():Promise<KnowledgeItem[]> {
+  const local=localKnowledgeItems();
+  try{return [...await fetchRemoteKnowledge(),{...EXAMPLE_ITEM,category:"hot",sourceName:"知乎精选"},...local];}
+  catch{return local;}
 }
 export async function fetchAnswer(_env:ProviderEnv,id:string) {
   if(id===EXAMPLE_ID)return exampleAnswer();
-  const list=await fetchKnowledge();
+  if(id.startsWith("local_"))return localAnswer(id);
+  const list=await fetchRemoteKnowledge();
   if(!list.some(item=>item.id===id))throw new PublicError("请从知乎知识列表中选择内容；该接口不支持任意回答 ID。",404);
   const url=`${KNOWLEDGE_URL}/${encodeURIComponent(id)}`;
   const r=await externalFetch(url,{headers:{Accept:"application/json"}},"知乎接口");

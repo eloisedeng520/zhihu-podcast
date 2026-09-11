@@ -1,7 +1,8 @@
 export type Stage = "fetching" | "analyzing" | "writing" | "reviewing" | "synthesizing" | "ready";
 export type Paragraph = { id: string; text: string };
 export type Answer = { id: string; title: string; author: string; url: string; paragraphs: Paragraph[]; fetchedAt: string; incomplete?: boolean };
-export type KnowledgeItem = { id: string; title: string; description: string; labels: string[] };
+export type KnowledgeCategory = "hot" | "columns" | "rings";
+export type KnowledgeItem = { id: string; title: string; description: string; labels: string[]; category?: KnowledgeCategory; author?: string; sourceName?: string; metric?: number };
 export type Outline = { thesis: string; themes: { title: string; summary: string; sourceIds: string[] }[]; limitations: string[] };
 export type Segment = { id: string; speaker: "host" | "guest"; chapter: string; text: string; kind: "paraphrase" | "quote" | "transition"; sourceIds: string[]; duration?: number; audioKey?: string };
 export type Episode = {
@@ -20,6 +21,9 @@ export function filterKnowledgeItems(items: KnowledgeItem[], query: string): Kno
       .toLocaleLowerCase("zh-CN")
       .includes(keyword)
   );
+}
+export function filterKnowledgeCategory(items:KnowledgeItem[],category:KnowledgeCategory):KnowledgeItem[]{
+  return items.filter(item=>(item.category||"hot")===category);
 }
 export type PlaybackRate = 0.75 | 1 | 1.25 | 1.5 | 2;
 export const playbackRates: PlaybackRate[] = [0.75, 1, 1.25, 1.5, 2];

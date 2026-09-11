@@ -4,7 +4,8 @@ import {DatabaseSync} from 'node:sqlite';
 import {normalizeAnswer,plainText,validateScript,validateReview,wavInfo,joinWav} from '../server/core.ts';
 import {handleApi} from '../server/api.ts';
 import {providerStatus,fetchAnswer} from '../server/providers.ts';
-import {filterKnowledgeItems} from '../lib/podcast.ts';
+import {filterKnowledgeItems,filterKnowledgeCategory} from '../lib/podcast.ts';
+import {localKnowledgeItems,localAnswer} from '../server/local-knowledge.ts';
 import * as podcast from '../lib/podcast.ts';
 
 const original='选择工作时，应该先了解岗位的具体职责，再结合自己的经验进行判断。这个建议只适用于具备基本信息的情况，不能替代个人决定。';
@@ -34,6 +35,43 @@ test('精选内容筛选会匹配标题、简介和标签，并忽略关键词�
   assert.deepEqual(filterKnowledgeItems(items,' 量化 ').map(item=>item.id),['1','3']);
   assert.deepEqual(filterKnowledgeItems(items,'可衡量').map(item=>item.id),['2']);
   assert.deepEqual(filterKnowledgeItems(items,'   ').map(item=>item.id),['1','2','3','4']);
+});
+test('内容频道只展示当前分类，未标注的旧内容归入热榜',()=>{
+  const items=[
+    {id:'1',title:'A',description:'',labels:[],category:'columns'},
+    {id:'2',title:'B',description:'',labels:[],category:'rings'},
+    {id:'3',title:'C',description:'',labels:[]},
+  ];
+  assert.deepEqual(filterKnowledgeCategory(items,'columns').map(item=>item.id),['1']);
+  assert.deepEqual(filterKnowledgeCategory(items,'rings').map(item=>item.id),['2']);
+  assert.deepEqual(filterKnowledgeCategory(items,'hot').map(item=>item.id),['3']);
+});
+test('本地内容快照包含热榜、专栏和圈子三个频道',()=>{
+  const items=localKnowledgeItems();
+  assert.ok(items.length>0);
+  assert.deepEqual([...new Set(items.map(item=>item.category))].sort(),['columns','hot','rings']);
+  for(const category of ['hot','columns','rings'])assert.ok(items.some(item=>item.category===category&&item.author&&item.sourceName));
+});
+test('本地内容可以通过列表 ID 读取完整正文',()=>{
+  const item=localKnowledgeItems().find(item=>item.category==='rings');
+  const answer=localAnswer(item.id);
+  assert.equal(answer.id,item.id);
+  assert.equal(answer.author,item.author);
+  assert.ok(answer.paragraphs.length>0);
+  assert.ok(answer.paragraphs.every((paragraph,index)=>paragraph.id===`p${index+1}`&&paragraph.text.trim()));
+});
+test('本地内容不接受列表之外的 ID',()=>assert.throws(()=>localAnswer('local_missing'),/没有找到/));
+test('知乎上游不可用时仍然返回三个本地内容频道',async t=>{
+  t.mock.method(globalThis,'fetch',async()=>{throw new TypeError('offline');});
+  const response=await handleApi(req('/api/knowledge'),{});
+  assert.equal(response.status,200);
+  const {items}=await response.json();
+  assert.deepEqual([...new Set(items.map(item=>item.category))].sort(),['columns','hot','rings']);
+});
+test('本地快照内容不依赖网络就能读取',async t=>{
+  const item=localKnowledgeItems()[0];
+  t.mock.method(globalThis,'fetch',async()=>{throw new Error('不应访问网络');});
+  assert.equal((await fetchAnswer({},item.id)).id,item.id);
 });
 test('可以直接选择 0.75 倍速并立即应用到播放器',()=>{
   assert.equal(typeof podcast.choosePlaybackRate,'function');
@@ -88,15 +126,15 @@ test('知识列表兼容 Worker fetch，仅使用 manual 并返回内容',async 
   assert.equal(r.status,200);
   assert.equal((await r.json()).items[0].id,'123');
 });
-test('上游重定向不跟随，也不返回目标地址或鉴权信息',async t=>{
+test('上游重定向不跟随，且安全回退到本地快照',async t=>{
   let calls=0;
   t.mock.method(globalThis,'fetch',async(url,init)=>{
     calls++;assert.equal(init.redirect,'manual');
     return new Response(null,{status:302,headers:{Location:'https://other.test/private'}});
   });
   const r=await handleApi(req('/api/knowledge'),{});
-  assert.equal(r.status,502);
-  assert.match((await r.json()).error,/302/);
+  assert.equal(r.status,200);
+  const {items}=await r.json();assert.ok(items.some(item=>item.id.startsWith('local_')));
   assert.equal(calls,1);
 });
 
