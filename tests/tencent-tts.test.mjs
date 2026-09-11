@@ -26,6 +26,12 @@ test('Tencent signs actual payload, selects speaker, and decodes WAV',async t=>{
  });
  assert.equal(wavInfo(await synthesize(env,{...segment,speaker:'guest'})).duration,.01);
 });
+test('Tencent assigns a different configured voice to each guest index',async t=>{
+ const voices=[];t.mock.method(globalThis,'fetch',async(url,init)=>{voices.push(JSON.parse(init.body).VoiceType);return Response.json({Response:{Audio:wav().toString('base64')}});});
+ const pooled={...env,TTS_GUEST_VOICES:'101004,101005,101006'};
+ await synthesize(pooled,{...segment,speaker:'guest',voiceIndex:0});await synthesize(pooled,{...segment,speaker:'guest',voiceIndex:1});await synthesize(pooled,{...segment,speaker:'guest',voiceIndex:2});
+ assert.deepEqual(voices,[101004,101005,101006]);
+});
 test('Long Chinese text is split without losing characters, audio joined',async t=>{
  const text=('原文的完整内容不能被截断。').repeat(32)+'结束😀';let pieces=[];
  t.mock.method(globalThis,'fetch',async(url,init)=>{const b=JSON.parse(init.body);pieces.push(b.Text);assert.ok(new TextEncoder().encode(b.Text).length<=420);return Response.json({Response:{Audio:wav().toString('base64')}});});

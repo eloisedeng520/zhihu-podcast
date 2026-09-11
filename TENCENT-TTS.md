@@ -15,9 +15,10 @@ TENCENT_SECRET_KEY=
 TENCENT_SESSION_TOKEN=
 TTS_HOST_VOICE=101001
 TTS_GUEST_VOICE=101004
+TTS_GUEST_VOICES=101004,101005,101006
 ```
 
-默认主持人为智瑜（女声），讲述人为智云（男声），使用 16 kHz、单声道 WAV。两种音色可更换为[官方音色列表](https://cloud.tencent.com/document/product/1073/92668)中支持基础语音合成和 16 kHz 的不同数字 ID。使用临时凭证时还需填写 `TENCENT_SESSION_TOKEN`。
+默认主持人为智瑜（女声），单篇讲述人使用 `TTS_GUEST_VOICE`。多人圆桌按照答主顺序，从 `TTS_GUEST_VOICES` 音色池稳定分配不同音色；未配置音色池时自动回退到原来的单一嘉宾音色。所有音色需从[官方音色列表](https://cloud.tencent.com/document/product/1073/92668)选择账户已开通、支持基础语音合成和 16 kHz 的不同数字 ID。使用临时凭证时还需填写 `TENCENT_SESSION_TOKEN`。
 
 腾讯云模式不使用 `TTS_API_KEY`、`TTS_URL`、`TTS_MODEL`，也不需要额外 AppID。DeepSeek 配置保持独立。
 

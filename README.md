@@ -40,6 +40,7 @@ TENCENT_SECRET_ID=你的SecretId
 TENCENT_SECRET_KEY=你的SecretKey
 TTS_HOST_VOICE=101001
 TTS_GUEST_VOICE=101004
+TTS_GUEST_VOICES=101004,101005,101006
 ```
 
 详见 [腾讯云 TTS 接入说明](TENCENT-TTS.md)。密钥只保存在后端环境变量中，`.env` 已被 Git 忽略。配置修改后重启服务。没有语音凭证时仍可生成文字稿。

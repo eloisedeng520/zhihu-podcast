@@ -21,6 +21,12 @@ test('Doubao API key headers, guest selection and fragmented SSE PCM to WAV',asy
  });
  const info=wavInfo(await synthesize(env,segment));assert.equal(info.duration,.01);assert.deepEqual(Buffer.from(info.data),pcm);
 });
+test('Doubao assigns a different configured voice to each guest index',async t=>{
+ const voices=[];t.mock.method(globalThis,'fetch',async(url,init)=>{voices.push(JSON.parse(init.body).req_params.speaker);return new Response(event({code:0,data:pcm.toString('base64')})+event({code:20000000}));});
+ const pooled={...env,DOUBAO_GUEST_VOICES:'guest-one, guest-two, guest-three'};
+ await synthesize(pooled,{...segment,voiceIndex:0});await synthesize(pooled,{...segment,voiceIndex:1});await synthesize(pooled,{...segment,voiceIndex:2});
+ assert.deepEqual(voices,['guest-one','guest-two','guest-three']);
+});
 test('Doubao rejects incomplete, invalid, empty and error streams',async t=>{
  for(const stream of [event({code:0,data:pcm.toString('base64')}),event({code:20000000}),'data: broken\n\n',event({code:45000000,message:'private detail'}),event({code:0,data:'bad!'})+event({code:20000000})]){
   t.mock.method(globalThis,'fetch',async()=>new Response(stream));

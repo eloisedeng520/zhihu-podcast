@@ -3,14 +3,15 @@ import type {Segment} from '../lib/podcast.ts';
 
 export type TencentEnv = {
   TENCENT_SECRET_ID?:string; TENCENT_SECRET_KEY?:string; TENCENT_SESSION_TOKEN?:string;
-  TTS_HOST_VOICE?:string; TTS_GUEST_VOICE?:string;
+  TTS_HOST_VOICE?:string; TTS_GUEST_VOICE?:string; TTS_GUEST_VOICES?:string;
 };
 const host='tts.tencentcloudapi.com';
 const encoder=new TextEncoder();
 const numericVoice=(value?:string)=>!!value&&/^\d{1,9}$/.test(value)&&Number(value)>0;
 export function tencentReady(env:TencentEnv):boolean {
-  return !!(env.TENCENT_SECRET_ID?.trim()&&env.TENCENT_SECRET_KEY?.trim()&&numericVoice(env.TTS_HOST_VOICE)&&numericVoice(env.TTS_GUEST_VOICE)&&env.TTS_HOST_VOICE!==env.TTS_GUEST_VOICE);
+  const guests=tencentGuestVoices(env);return !!(env.TENCENT_SECRET_ID?.trim()&&env.TENCENT_SECRET_KEY?.trim()&&numericVoice(env.TTS_HOST_VOICE)&&guests.length&&guests.every(voice=>numericVoice(voice)&&voice!==env.TTS_HOST_VOICE));
 }
+export const tencentGuestVoices=(env:TencentEnv)=>[...new Set((env.TTS_GUEST_VOICES||env.TTS_GUEST_VOICE||"").split(",").map(v=>v.trim()).filter(Boolean))];
 const hex=(value:ArrayBuffer)=>Array.from(new Uint8Array(value),b=>b.toString(16).padStart(2,'0')).join('');
 const hash=async(value:string)=>hex(await crypto.subtle.digest('SHA-256',encoder.encode(value)));
 async function hmac(key:string|ArrayBuffer,value:string):Promise<ArrayBuffer> {
@@ -53,7 +54,7 @@ function serviceError(code:unknown):PublicError {
 export async function synthesizeTencent(env:TencentEnv,segment:Segment):Promise<Uint8Array> {
   if(!tencentReady(env))throw new PublicError('腾讯云语音尚未配置，请填写 SecretId、SecretKey 和两个不同的数字音色 ID。',503);
   if(!segment.text.trim()||segment.text.length>600)throw new PublicError('待朗读文字为空或超过单段长度限制。',422);
-  const voice=Number(segment.speaker==='host'?env.TTS_HOST_VOICE:env.TTS_GUEST_VOICE);
+  const guests=tencentGuestVoices(env),voice=Number(segment.speaker==='host'?env.TTS_HOST_VOICE:guests[(segment.voiceIndex||0)%guests.length]);
   const parts:Uint8Array[]=[];let total=0;
   const signal=AbortSignal.timeout(180000);
   for(const text of splitText(segment.text)){

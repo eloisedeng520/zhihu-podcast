@@ -37,6 +37,8 @@ for(const config of roots){
       const title=rawTitle.replace(/\s+/g," ").slice(0,200);
       const description=content.replace(/\s+/g," ").slice(0,110);
       let ringData={};
+      let hotData={};
+      if(config.category==="hot")hotData={collectionId:String(meta.question_id||""),collectionRank:Number(meta.rank||999)};
       if(config.category==="rings"){
         const circleFolder=dirname(dirname(path));
         const iconFile=readdirSync(circleFolder).find(name=>/^circle_icon\.(jpg|png|webp)$/i.test(name));
@@ -60,7 +62,7 @@ for(const config of roots){
           columnData={...columnData,iconPath:`/data/column-icons/${iconName}`};
         }
       }
-      records.push({id:`local_${config.category}_${rawId}`,category:config.category,title,description,author,sourceName,url,metric,...ringData,...columnData,content,fetchedAt:String(meta.fetched_at||new Date(0).toISOString())});
+      records.push({id:`local_${config.category}_${rawId}`,category:config.category,title,description,author,sourceName,url,metric,...hotData,...ringData,...columnData,content,fetchedAt:String(meta.fetched_at||new Date(0).toISOString())});
     }
   }
 }

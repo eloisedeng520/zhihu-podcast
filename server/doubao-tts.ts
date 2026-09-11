@@ -1,8 +1,9 @@
 import {PublicError} from './core.ts';
 import type {Segment} from '../lib/podcast.ts';
-export type DoubaoEnv={DOUBAO_API_KEY?:string;DOUBAO_RESOURCE_ID?:string;DOUBAO_HOST_VOICE?:string;DOUBAO_GUEST_VOICE?:string};
+export type DoubaoEnv={DOUBAO_API_KEY?:string;DOUBAO_RESOURCE_ID?:string;DOUBAO_HOST_VOICE?:string;DOUBAO_GUEST_VOICE?:string;DOUBAO_GUEST_VOICES?:string};
+export const doubaoGuestVoices=(env:DoubaoEnv)=>[...new Set((env.DOUBAO_GUEST_VOICES||env.DOUBAO_GUEST_VOICE||"").split(",").map(v=>v.trim()).filter(Boolean))];
 export function doubaoReady(env:DoubaoEnv):boolean {
-  return !!(env.DOUBAO_API_KEY?.trim()&&env.DOUBAO_RESOURCE_ID?.trim()&&env.DOUBAO_HOST_VOICE?.trim()&&env.DOUBAO_GUEST_VOICE?.trim()&&env.DOUBAO_HOST_VOICE.trim()!==env.DOUBAO_GUEST_VOICE.trim());
+  const guests=doubaoGuestVoices(env);return !!(env.DOUBAO_API_KEY?.trim()&&env.DOUBAO_RESOURCE_ID?.trim()&&env.DOUBAO_HOST_VOICE?.trim()&&guests.length&&guests.every(voice=>voice!==env.DOUBAO_HOST_VOICE?.trim()));
 }
 function pcmWave(parts:Uint8Array[],size:number):Uint8Array {
   if(!size||size%2)throw new PublicError('豆包返回的 PCM 音频为空或不完整。',502);
@@ -19,7 +20,7 @@ export async function synthesizeDoubao(env:DoubaoEnv,segment:Segment):Promise<Ui
     const response=await fetch('https://openspeech.bytedance.com/api/v3/tts/unidirectional/sse',{
       method:'POST',redirect:'manual',signal:AbortSignal.timeout(90000),
       headers:{'Content-Type':'application/json','X-Api-Key':env.DOUBAO_API_KEY!.trim(),'X-Api-Resource-Id':env.DOUBAO_RESOURCE_ID!.trim(),'X-Api-Request-Id':crypto.randomUUID()},
-      body:JSON.stringify({user:{uid:'tingjian'},req_params:{text:segment.text,speaker:(segment.speaker==='host'?env.DOUBAO_HOST_VOICE:env.DOUBAO_GUEST_VOICE)!.trim(),sample_rate:24000,audio_params:{format:'pcm',sample_rate:24000}}}),
+      body:JSON.stringify({user:{uid:'tingjian'},req_params:{text:segment.text,speaker:segment.speaker==='host'?env.DOUBAO_HOST_VOICE!.trim():doubaoGuestVoices(env)[(segment.voiceIndex||0)%doubaoGuestVoices(env).length],sample_rate:24000,audio_params:{format:'pcm',sample_rate:24000}}}),
     });
     if(!response.ok)throw new PublicError(response.status===401||response.status===403?'豆包语音鉴权或权限校验失败，请检查语音 API Key 和服务开通状态。':`豆包语音请求失败（HTTP ${response.status}）。`,502);
     if(!response.body)throw new PublicError('豆包未返回音频流。',502);

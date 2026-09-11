@@ -61,6 +61,23 @@ test('本地内容可以通过列表 ID 读取完整正文',()=>{
   assert.ok(answer.paragraphs.length>0);
   assert.ok(answer.paragraphs.every((paragraph,index)=>paragraph.id===`p${index+1}`&&paragraph.text.trim()));
 });
+test('热榜按问题聚合，并默认组合赞同数最高的三位答主',()=>{
+  const hot=localKnowledgeItems().filter(item=>item.category==='hot');
+  assert.equal(hot.length,30);
+  assert.ok(hot.every(item=>item.id.startsWith('local_hot_question_')&&item.author==='3 位代表答主'));
+  const source=localAnswer(hot[0].id);
+  assert.equal(source.contributors?.length,3);
+  assert.ok(source.paragraphs.some(p=>p.id.startsWith('a1p')));
+  assert.ok(source.paragraphs.some(p=>p.id.startsWith('a2p')));
+  assert.ok(source.paragraphs.some(p=>p.id.startsWith('a3p')));
+});
+test('多观点脚本不能把一位答主的话归到另一位答主名下',()=>{
+  const source={id:'q',title:'问题',author:'2 位答主',url:'',fetchedAt:'',contributors:[{id:'a',name:'甲',url:''},{id:'b',name:'乙',url:''}],paragraphs:[{id:'a1p1',text:original.repeat(4)},{id:'a2p1',text:original.repeat(4)}]};
+  const valid={title:'圆桌',segments:Array.from({length:6},(_,i)=>i%2?{speaker:'guest',speakerName:i===1?'甲':'乙',chapter:'讨论',kind:'paraphrase',text:'转述观点',sourceIds:[i===1?'a1p1':'a2p1']}:{speaker:'host',speakerName:'主持人',chapter:'讨论',kind:'transition',text:'继续来看另一个角度',sourceIds:[]})};
+  assert.doesNotThrow(()=>validateScript(valid,source));
+  const invalid=structuredClone(valid);invalid.segments[1].sourceIds=['a2p1'];
+  assert.throws(()=>validateScript(invalid,source),/其他答主/);
+});
 test('圈子快照保留圈子 ID、圈子名和帖子自身标题',()=>{
   const rings=localKnowledgeItems().filter(item=>item.category==='rings');
   assert.ok(rings.length>0);

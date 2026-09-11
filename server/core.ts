@@ -63,8 +63,16 @@ export function validateScript(value: unknown, source: Answer): { title: string;
     if (!["host","guest"].includes(String(s.speaker)) || !["quote","paraphrase","transition"].includes(String(s.kind))) throw new PublicError("脚本角色或引用类型错误。", 422);
     if (s.kind === "transition" && s.speaker !== "host") throw new PublicError("讲述人的发言必须有原文依据。", 422);
     const text=str(s.text,600); const sourceIds=refs(s.sourceIds,validIds,s.kind === "transition");
+    const speakerName=typeof s.speakerName==="string"?str(s.speakerName,100):undefined;
+    let voiceIndex:number|undefined;
+    if(source.contributors&&s.speaker==="guest"){
+      const contributorIndex=source.contributors.findIndex(contributor=>contributor.name===speakerName);
+      if(contributorIndex<0)throw new PublicError("多观点脚本缺少有效的答主署名。",422);
+      if(sourceIds.some(id=>!id.startsWith(`a${contributorIndex+1}p`)))throw new PublicError("答主观点引用了其他答主的原文。",422);
+      voiceIndex=contributorIndex;
+    }
     if (s.kind === "quote" && !sourceIds.some(id => source.paragraphs.find(p=>p.id===id)?.text.includes(text))) throw new PublicError("标记为直接引用的内容与原文不一致。",422);
-    return {id:`s${i+1}`,speaker:s.speaker as Segment["speaker"],kind:s.kind as Segment["kind"],text,chapter:str(s.chapter,60),sourceIds};
+    return {id:`s${i+1}`,speaker:s.speaker as Segment["speaker"],speakerName,voiceIndex,kind:s.kind as Segment["kind"],text,chapter:str(s.chapter,60),sourceIds};
   });
   if (!segments.some(s=>s.speaker === "host") || !segments.some(s=>s.speaker === "guest")) throw new PublicError("访谈需要主持人和讲述人两个角色。",422);
   if (segments.reduce((n,s)=>n+s.text.length,0)>5500) throw new PublicError("节目文字过长，请重新编排。",422);

@@ -1,11 +1,12 @@
 export type Stage = "fetching" | "analyzing" | "writing" | "reviewing" | "synthesizing" | "ready";
 export type Paragraph = { id: string; text: string };
-export type Answer = { id: string; title: string; author: string; url: string; paragraphs: Paragraph[]; fetchedAt: string; incomplete?: boolean };
+export type Contributor = {id:string;name:string;url:string};
+export type Answer = { id: string; title: string; author: string; url: string; paragraphs: Paragraph[]; fetchedAt: string; incomplete?: boolean; contributors?:Contributor[] };
 export type KnowledgeCategory = "hot" | "columns" | "rings";
 export type KnowledgeItem = { id: string; title: string; description: string; labels: string[]; category?: KnowledgeCategory; author?: string; sourceName?: string; metric?: number; collectionId?:string; collectionRank?:number; iconPath?:string };
 export type KnowledgeCollection = {id:string;name:string;rank:number;iconPath?:string;items:KnowledgeItem[]};
 export type Outline = { thesis: string; themes: { title: string; summary: string; sourceIds: string[] }[]; limitations: string[] };
-export type Segment = { id: string; speaker: "host" | "guest"; chapter: string; text: string; kind: "paraphrase" | "quote" | "transition"; sourceIds: string[]; duration?: number; audioKey?: string; audioReady?: boolean };
+export type Segment = { id: string; speaker: "host" | "guest"; speakerName?:string; voiceIndex?:number; chapter: string; text: string; kind: "paraphrase" | "quote" | "transition"; sourceIds: string[]; duration?: number; audioKey?: string; audioReady?: boolean };
 export type Episode = {
   id: string; answerId: string; minutes: 3 | 8; stage: Stage; status: "pending" | "working" | "failed" | "ready";
   title: string; createdAt: string; updatedAt: string; source?: Answer; outline?: Outline; segments: Segment[];
