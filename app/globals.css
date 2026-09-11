@@ -20,6 +20,23 @@
 @media(max-width:370px){.app-header{padding-left:20px;padding-right:18px}.app-header .wordmark>small{font-size:8px}.home-hero,.create-page,.generation-page,.library-page,.player-page{padding-left:20px;padding-right:20px}.home-hero h1{font-size:33px}.hero-art{right:-75px;transform:scale(.9) rotate(-14deg)}.discover-section{padding-left:20px;padding-right:20px}.cover-mini{width:80px;min-width:80px;height:113px}.content-item{gap:12px}.hosts-row{gap:6px}.avatar{width:28px;height:28px}.hosts-row strong{font-size:9px}.hosts-row small{font-size:7px}.library-summary{gap:22px}.episode-art-title{font-size:35px}.episode-art-title>span{font-size:26px}.episode-art-record{width:225px;height:225px;right:-87px}.hero-foot{gap:8px}.hero-foot span+span:before{margin-right:8px}}
 
 .history-card{padding:0;gap:10px}.history-main{display:flex;flex:1;min-width:0;gap:14px;align-items:center;text-align:left;padding:23px 0;background:none;border:0;color:inherit}.history-main>div:nth-child(2){flex:1;min-width:0}.history-main>span{color:#b7aa97;font-size:25px}.delete-button{flex-shrink:0;border:1px solid #d9b9a5;border-radius:999px;background:transparent;color:#b66f4c;padding:7px 11px;font-size:11px}
+
+/* Keep functional navigation in Chinese; reserve spaced English for the brand line. */
+.section-kicker{font-size:10px;letter-spacing:.12em;font-weight:600;color:#858178}
+.section-heading .section-kicker{font-size:9px;color:#8c887f}
+.section-heading h2{margin-top:8px}
+
+/* Give the record its own quiet corner so the primary action stays dominant. */
+.hero-art{width:184px;height:184px;right:-38px;top:57px;transform:rotate(-10deg);opacity:.9}
+.hero-art .record{width:132px;height:132px;right:9px;top:24px;box-shadow:8px 9px 14px #292b2826}
+.hero-art .record-label{width:53px;height:53px}
+.hero-art .record-label .sound-mark{transform:scale(.52);height:19px}
+.hero-art .record-label small{letter-spacing:.5px;margin-top:1px}
+.hero-art .orbit{width:176px;height:176px;top:2px;left:2px;border-color:#e5ddd1;opacity:.72}
+.hero-art .orbit.two{width:202px;height:202px;top:-11px;left:-11px;border-color:#ece4d8;opacity:.58}
+.hero-cta{margin-top:38px}
+
+@media(max-width:370px){.hero-art{right:-49px;top:61px;transform:scale(.9) rotate(-10deg)}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
 .voice-question-wrap{margin:4px 0 20px;text-align:center}.voice-question-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #ddc9b8;border-radius:24px;padding:10px 20px;min-height:42px;color:#9b6648;background:#fff8f0;font-size:11px}.voice-question-button.recording{background:#f6dfd2;border-color:#cb704d;color:#a3472d;box-shadow:0 0 0 5px #f5e9df;animation:pulse 1.2s infinite}.voice-error{display:block;color:#b05f43;font-size:9px;margin-top:6px}.question-history{padding-bottom:20px}.question-card{padding:17px 4px;border-bottom:1px solid var(--line)}.question-meta{font-size:9px;color:#a2866f}.question-card h3{font-size:13px;line-height:1.7;margin:7px 0;font-weight:550}.question-card p{font-size:11px;line-height:1.9;color:#706657;background:#f8f2e9;padding:10px;border-radius:8px}.question-actions{display:flex;gap:14px;margin-top:9px}.question-actions button{font-size:9px;color:#a2694c}.answer-player{display:flex;align-items:center;justify-content:center;gap:12px;padding:10px;margin:-8px 0 12px;background:#f5ecdf;border-radius:10px;font-size:10px;color:#886848}.answer-player audio{display:none}.answer-player button{font-size:9px;color:#a2694c}
 .answer-chat{display:flex;flex-direction:column;gap:10px;margin:-4px 0 18px}.chat-bubble{max-width:88%;padding:11px 13px;border-radius:14px;font-size:11px;line-height:1.8}.chat-bubble small{display:block;font-size:9px;color:#9a8878;margin-bottom:4px}.chat-bubble p{margin:0;color:#514b42}.user-bubble{align-self:flex-end;background:#ead9c8;border-bottom-right-radius:4px}.ai-bubble{align-self:flex-start;background:#f5ecdf;border-bottom-left-radius:4px}.error-bubble{background:#f7e6df}.chat-hint{display:block;color:#a2694c;font-size:9px;margin-top:6px}.chat-bubble audio{display:block;width:100%;height:28px;margin-top:7px}.typing-dots{color:#b87958;font-size:9px;letter-spacing:3px}.chat-close{align-self:center;font-size:9px;color:#a2694c;padding:5px 12px}
