@@ -1,7 +1,8 @@
 export type Stage = "fetching" | "analyzing" | "writing" | "reviewing" | "synthesizing" | "ready";
-export type Paragraph = { id: string; text: string };
+export type ImageAsset = { id: string; url: string; originalUrl?: string; alt?: string; summary?: string; paragraphId?: string; status?: "available" | "unavailable" };
+export type Paragraph = { id: string; text: string; images?: ImageAsset[] };
 export type Contributor = {id:string;name:string;url:string};
-export type Answer = { id: string; title: string; author: string; url: string; paragraphs: Paragraph[]; fetchedAt: string; incomplete?: boolean; contributors?:Contributor[] };
+export type Answer = { id: string; title: string; author: string; url: string; paragraphs: Paragraph[]; images?: ImageAsset[]; fetchedAt: string; incomplete?: boolean; contributors?:Contributor[] };
 export type KnowledgeCategory = "hot" | "columns" | "rings";
 export type KnowledgeItem = { id: string; title: string; description: string; labels: string[]; category?: KnowledgeCategory; author?: string; sourceName?: string; metric?: number; collectionId?:string; collectionRank?:number; iconPath?:string };
 export type KnowledgeCollection = {id:string;name:string;rank:number;iconPath?:string;items:KnowledgeItem[]};

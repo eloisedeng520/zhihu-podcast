@@ -2,7 +2,7 @@ import raw from "./local-content.generated.json" with {type:"json"};
 import type {Answer,KnowledgeItem,KnowledgeCategory} from "../lib/podcast.ts";
 import {PublicError,normalizeAnswer} from "./core.ts";
 
-type LocalRecord={id:string;category:KnowledgeCategory;title:string;description:string;author:string;sourceName:string;url:string;metric:number;collectionId?:string;collectionRank?:number;iconPath?:string;content:string;fetchedAt:string};
+type LocalRecord={id:string;category:KnowledgeCategory;title:string;description:string;author:string;sourceName:string;url:string;metric:number;collectionId?:string;collectionRank?:number;iconPath?:string;content:string;images?: import("../lib/podcast.ts").ImageAsset[];fetchedAt:string};
 const records=raw as LocalRecord[];
 const byId=new Map(records.map(record=>[record.id,record]));
 const hotQuestionPrefix="local_hot_question_";
@@ -25,15 +25,16 @@ export function localAnswer(id:string):Answer{
       const content=record.content.split(/\n/).map(line=>line.trim()).filter(Boolean).join("\n");
       const answer=normalizeAnswer({content,title:record.title,author:record.author},record.id,{});
       contributors.push({id:record.id,name:record.author,url:record.url});
-      paragraphs.push(...answer.paragraphs.map((paragraph,index)=>({id:`a${answerIndex+1}p${index+1}`,text:paragraph.text})));
+      paragraphs.push(...answer.paragraphs.map((paragraph,index)=>({id:`a${answerIndex+1}p${index+1}`,text:paragraph.text,images:index===0?record.images:undefined})));
     }
-    return {id,title:answers[0].title,author:`${contributors.length} 位答主`,url:`https://www.zhihu.com/question/${questionId}`,paragraphs,contributors,fetchedAt:answers[0].fetchedAt};
+    return {id,title:answers[0].title,author:`${contributors.length} 位答主`,url:`https://www.zhihu.com/question/${questionId}`,paragraphs,images:answers.flatMap(answer=>answer.images||[]),contributors,fetchedAt:answers[0].fetchedAt};
   }
   const record=byId.get(id);
   if(!record)throw new PublicError("没有找到这篇本地内容。",404);
   const content=record.content.split(/\n/).map(line=>line.trim()).filter(Boolean).join("\n");
   const answer=normalizeAnswer({content,title:record.title,author:record.author},record.id,{});
   answer.url=record.url;
+  if(record.images?.length){ answer.images=record.images; if(answer.paragraphs[0])answer.paragraphs[0].images=record.images; }
   answer.fetchedAt=record.fetchedAt;
   return answer;
 }
