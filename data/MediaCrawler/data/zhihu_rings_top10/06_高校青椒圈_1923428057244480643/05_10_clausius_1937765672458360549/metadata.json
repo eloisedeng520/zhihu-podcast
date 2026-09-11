@@ -1,0 +1,48 @@
+{
+  "circle_id": "1923428057244480643",
+  "circle_name": "高校青椒圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1923428057244480643",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1937765672458360549",
+  "post_url": "https://www.zhihu.com/pin/1937765672458360549?native=0",
+  "title": "高校教师工资揭秘：讲师到教授的差距\n高校教师的工资结构中，基础工资和绩效工资是主要组成部分。以我自己为例，副教授的绩效工资较高，但基础工资仍按普通老师计算，因此",
+  "author": "clausius",
+  "author_id": "75642e5dea56956b66ac840652e63d5a",
+  "favorite_count": 10,
+  "like_count": 32,
+  "comment_count": 6,
+  "created": 1754779353,
+  "updated": 1754779374,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-c25e36472723fb197fcd705cb17be014_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 175979
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-e499d22dd3ec2d230d8e423d51199deb_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 172102
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-c795b2237ea390c6ffce9550438304fd_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 188532
+    }
+  ],
+  "fetched_at": "2026-09-10T17:34:40.179Z"
+}

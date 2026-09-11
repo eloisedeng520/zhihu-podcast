@@ -1,0 +1,56 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1948124270682154149",
+  "post_url": "https://www.zhihu.com/pin/1948124270682154149?native=0",
+  "title": "独立开发者必备：免费开发工具和云服务大合集\n分享一个超实用的开源清单——free-for-dev，目前 86.5k⭐。系统整理了适合开发者使用的免费服务：从云厂",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 270,
+  "like_count": 44,
+  "comment_count": 0,
+  "created": 1757249786,
+  "updated": 1757249786,
+  "is_essence": true,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-a9ab6bf489245ed328f378f5ce074376_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 331803
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-1532b2dbc2c98b0d7560d2b81058da23_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 150238
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-55895b303582606ecea7cfa15204a207_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 171755
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic2.zhimg.com/50/v2-46f128b765ca6a9cb2598d01709e0281_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 270752
+    }
+  ],
+  "fetched_at": "2026-09-10T17:34:27.168Z"
+}

@@ -1,0 +1,31 @@
+{
+  "column_rank": 10,
+  "column_name": "浮生杂记807",
+  "column_slug": "c_1855645494493192192",
+  "column_url": "https://www.zhihu.com/column/c_1855645494493192192",
+  "article_rank": 3,
+  "ranking_metric": "voteup_count",
+  "article_id": "14587522103",
+  "article_url": "https://zhuanlan.zhihu.com/p/14587522103",
+  "title": "凉凉的吴柳芳们",
+  "author": "胡取禾兮",
+  "author_id": "7ef6a461bbc2905e8938de602340cd36",
+  "author_url_token": "deshi",
+  "voteup_count": 27,
+  "comment_count": 2,
+  "created": 1735105851,
+  "updated": 1735105851,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-8b22636287420c5d10c2b354d02478b2_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 53430
+    }
+  ],
+  "fetched_at": "2026-09-11T03:12:12.628Z"
+}

@@ -1,0 +1,111 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 8,
+  "ranking_metric": "voteup_count",
+  "article_id": "24062157353",
+  "article_url": "https://zhuanlan.zhihu.com/p/24062157353",
+  "title": "划胎与4死交通事故无关，但阳江服务区成了空城，亟待重建信任",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 1644,
+  "comment_count": 409,
+  "created": 1739695561,
+  "updated": 1739695561,
+  "image_count": 11,
+  "downloaded_image_count": 11,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-f66b28f9ecf043885805de49484a6b47_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 61651
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-2d3777c3a605c9148cf77f9afdc54ed9_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 20031
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-e9e4fd7b994501c1170ba48a2781b42b_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 85571
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-e70dcadfe547b49180ab30c1f11bd714_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 60523
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-ed2509daa8fc89f81fc480774fc800c5_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 51468
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-eccfd7dc23648bed0b26b9bc995a84e3_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48840
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-08ea7445f0158224f90ab87858444ddc_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 80067
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-4e523de9404b00959b0d6e3c5d3df464_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 30434
+    },
+    {
+      "index": 9,
+      "original_url": "https://pica.zhimg.com/v2-2a8b6a1ddc7cda5089498f5ce7ad1965_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 92699
+    },
+    {
+      "index": 10,
+      "original_url": "https://picx.zhimg.com/v2-23be24cfe3caf3c5182e922a22289a33_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "010.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 87691
+    },
+    {
+      "index": 11,
+      "original_url": "https://picx.zhimg.com/v2-a91ccd31d3019605820a00a14fe44115_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "011.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 82701
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

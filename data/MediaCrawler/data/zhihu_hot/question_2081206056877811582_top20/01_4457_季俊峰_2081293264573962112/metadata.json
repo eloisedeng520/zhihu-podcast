@@ -1,0 +1,36 @@
+{
+  "question_id": "2081206056877811582",
+  "question_url": "https://www.zhihu.com/question/2081206056877811582",
+  "question_title": "如何评价苹果折叠屏手机 iPhone Duo？国行售价 15999 元起值得入手吗？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081293264573962112",
+  "answer_url": "https://www.zhihu.com/question/2081206056877811582/answer/2081293264573962112",
+  "author": "季俊峰",
+  "voteup_count": 4457,
+  "comment_count": 722,
+  "created_time": 1788998982,
+  "updated_time": 1789001007,
+  "is_collapsed": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-1d1c635849848a25043b657e5d084682_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 11521
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-5b0560f1effec38bacb024a395f87ac2_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 22887
+    }
+  ],
+  "fetched_at": "2026-09-10T12:43:56.197Z"
+}

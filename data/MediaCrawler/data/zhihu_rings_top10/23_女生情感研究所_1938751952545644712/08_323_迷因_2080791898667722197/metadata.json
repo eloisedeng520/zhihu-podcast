@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938751952545644712",
+  "circle_name": "女生情感研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1938751952545644712",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2080791898667722197",
+  "post_url": "https://www.zhihu.com/pin/2080791898667722197?native=0",
+  "title": "是什么让一个女人为你“颅内高潮”？\n一个美女对一个一无所有的老头说了这样的一句话。\n她说：认识你以后，你在我心里成了一个特殊存在。这种特殊让我好奇、着迷，情不自",
+  "author": "迷因",
+  "author_id": "4064f84c9651e0b65fbf695c99d954c7",
+  "favorite_count": 323,
+  "like_count": 135,
+  "comment_count": 38,
+  "created": 1788880233,
+  "updated": 1788880233,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-2ef9a4a3eb4f750fc84ba4c3b83abb5f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1316529
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:30.357Z"
+}

@@ -1,0 +1,3 @@
+看了公告，印象最深的是这句话：腾讯 codebuddy 跟 opencode 是官方合作伙伴，首发deepseek v4.1 flash。
+看来这俩应该是最推荐的 harness 了。至少在 dsh 成长到并非极客专用客户端之前。
+实测：效率飞快，而且缓存命中明显比 v4 有改善了（opencode go 的 v4f 缓存命中很成问题）。

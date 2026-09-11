@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2003128022253995485",
+  "post_url": "https://www.zhihu.com/pin/2003128022253995485?native=0",
+  "title": "50条不成文的社会潜规则\n1、修车，别叫师傅，叫老板。\n2、女人，不要在外面认“哥哥”。\n3、去医院，要尽量避开周一。\n4、再色，不娶：护士、幼师、银行女。\n5",
+  "author": "知乎用户vwpEPg",
+  "author_id": "83986016cc19dc2e9b5c227c6a034c33",
+  "favorite_count": 3549,
+  "like_count": 1799,
+  "comment_count": 100,
+  "created": 1770363565,
+  "updated": 1770431174,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-ad7da33f46e4c7136346a77a6ea244df.jpeg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 333958
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-604be790be36bbf84c249b26fe781202.jpeg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 294287
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-84b79dc10a3765782148e9669ca6bc98.jpeg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 306934
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

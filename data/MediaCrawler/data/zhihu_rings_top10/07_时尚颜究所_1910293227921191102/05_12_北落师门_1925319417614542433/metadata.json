@@ -1,0 +1,64 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1925319417614542433",
+  "post_url": "https://www.zhihu.com/pin/1925319417614542433?native=0",
+  "title": "🚿化妆工具清洗之一——化妆刷\n1️⃣清洗频率：\n❤️粉状产品刷（散粉刷、腮红刷、修容刷、眼影刷）： 使用频率高的话，1-2周深度洗一次。日常可以用“干洗法”：",
+  "author": "北落师门",
+  "author_id": "811613bf6973d198b45013a12eaa7230",
+  "favorite_count": 12,
+  "like_count": 29,
+  "comment_count": 22,
+  "created": 1751812217,
+  "updated": 1751812217,
+  "is_essence": true,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-6eed96a1cbac67ca7d8c2080ae57ea6f_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 149371
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-8994bc2f0f4e6d34f18c2329699cbc84_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 552175
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/50/v2-8aa1476caf7383a9f76feaa8c0df77b9_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 455853
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic4.zhimg.com/50/v2-ea5d764d3043a3b12a1c32dc8246c89d_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 309171
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/50/v2-575b3b0fbc947c4f29d320af6654b449_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 269639
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}

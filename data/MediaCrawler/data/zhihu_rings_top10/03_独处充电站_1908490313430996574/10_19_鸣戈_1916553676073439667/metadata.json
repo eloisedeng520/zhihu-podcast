@@ -1,0 +1,40 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1916553676073439667",
+  "post_url": "https://www.zhihu.com/pin/1916553676073439667?native=0",
+  "title": "咨询师的颤抖：假如你的来访者会读心\n写《高质量独处手册》第14期的时候，我随手抛了个假设性实验：&#34;一个有读心术的来访者去见心理咨询师会发生什么？&#34",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 19,
+  "like_count": 37,
+  "comment_count": 23,
+  "created": 1749723023,
+  "updated": 1749725859,
+  "is_essence": true,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-1e36cf099e7d123f127f76db43d4dadd_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 602155
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-982d9db7481246e454034c39a1899954_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 8605
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

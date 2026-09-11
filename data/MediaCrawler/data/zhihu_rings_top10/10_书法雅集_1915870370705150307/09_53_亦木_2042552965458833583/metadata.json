@@ -1,0 +1,96 @@
+{
+  "circle_id": "1915870370705150307",
+  "circle_name": "书法雅集",
+  "circle_url": "https://www.zhihu.com/ring/host/1915870370705150307",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2042552965458833583",
+  "post_url": "https://www.zhihu.com/pin/2042552965458833583?native=0",
+  "title": "学书法为什么要多看看和尚写的字？\n学习书法，最好多看看和尚写的字。因为和尚不用参加科举考试，所以他们的字不受官方规定的考试字体束缚，有一种自由舒展的气息。另外，",
+  "author": "亦木",
+  "author_id": "959f79534727e00048c2e5bde4c8cd30",
+  "favorite_count": 53,
+  "like_count": 41,
+  "comment_count": 9,
+  "created": 1779762675,
+  "updated": 1779762675,
+  "is_essence": false,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-96bdcf18f65ac79e035ee8fef9eb9df9.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 724830
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-e6bd27178afe7feae37c0cf3a9f1dd99.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 758055
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-db98bdd58dd3d8bae2fd03c2b4ffb436.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 785415
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-8773feed516a3d2d096ddd0f9eb3e394.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 775430
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-90aa41e11f83c32b381ada5fab7948f5.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 743262
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-71b5a31134a3b4c6030bbb2a25b36004.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 801018
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-fc002ba86d644646a65b673a868a85ae.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 780212
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-282e4b16cb26c5a98aa967ec102c225d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 766835
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-d5fdc7c411366fbe3583831f4588cb65.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 753363
+    }
+  ],
+  "fetched_at": "2026-09-10T18:06:48.349Z"
+}

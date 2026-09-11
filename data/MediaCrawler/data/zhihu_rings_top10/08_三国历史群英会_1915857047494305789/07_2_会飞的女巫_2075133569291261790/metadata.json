@@ -1,0 +1,48 @@
+{
+  "circle_id": "1915857047494305789",
+  "circle_name": "三国历史群英会",
+  "circle_url": "https://www.zhihu.com/ring/host/1915857047494305789",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2075133569291261790",
+  "post_url": "https://www.zhihu.com/pin/2075133569291261790?native=0",
+  "title": "丞相有过村一级武侯祠和井一级武侯祠\n村一级武侯祠在江南余杭村。\n这事儿是清代大文学家袁枚记载的，见《余杭诸葛武侯庙碑》\n井一级武侯祠在成都。\n明代成都有一口古井",
+  "author": "会飞的女巫",
+  "author_id": "d0ea3586995752c4a82bfd89f2f05698",
+  "favorite_count": 2,
+  "like_count": 16,
+  "comment_count": 3,
+  "created": 1787530827,
+  "updated": 1787534301,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-5dc9fbd06ea53f751558395bd4d7bf6a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 60069
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-4e2256d953e8e43315610cbb7e3f9f5d.png",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 53651
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-d7243cf40d23079c34135c92e5c1d314.png",
+      "status": "downloaded",
+      "local_file": "003.webp",
+      "content_type": "image/webp",
+      "size_bytes": 58188
+    }
+  ],
+  "fetched_at": "2026-09-10T17:59:37.181Z"
+}

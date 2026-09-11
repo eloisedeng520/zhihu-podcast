@@ -1,0 +1,16 @@
+无脑astra，Astra low已经摸到了5.6sol max水平
+Astra Medium 50
+Sol Max 47
+Astra Low 46
+Sol XHigh 44
+Sol High 42
+Terra Max 42
+Luna Max 38
+虽然按额度算astra low的消耗比 5.6 luna贵，但单次完成的效率跟质量对于普通用户来说可以抹平这个差距
+这个就像之前的deepseek的api单价便宜，但单任务的多次迭代、试错、尝试成本可能会消耗到30-40rmb，但gpt的coding plan而言，仅仅是略微的小额度就一次性完成。
+之前在同一个feature，用同一个prompt试过luna max跟astra low的区别
+Luna max：36分钟第一次实现，后续花了19分钟repair，两次返工，额度消耗＞2%
+astra low： 8分16秒 一次过，无返工 额度消耗＜2%
+我是pro20用户，平时常驻xhight+2x速度，目前astra不会因为推理强度高就消耗大量时间，反而增加了更多效率，所以pro以上的用户我同时也认为应该使用high以上的强度
+而plus则是常驻astra low，只有机械性、简单的任务/对话用sol
+总而言之，我认为考虑怎么选的时候，除了额度差距，也应该考虑时间、效率、返工、试错的成本。综合来说，没有不无脑Astra的道理

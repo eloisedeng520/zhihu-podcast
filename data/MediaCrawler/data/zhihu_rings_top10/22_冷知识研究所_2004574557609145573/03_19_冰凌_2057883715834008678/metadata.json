@@ -1,0 +1,48 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2057883715834008678",
+  "post_url": "https://www.zhihu.com/pin/2057883715834008678?native=0",
+  "title": "救命！这只澳洲小鸟也太会穿了\n谁能拒绝一只胸口揣了团草莓棉花糖的小鸟啊🍓\n它叫粉红鸲鹟（qú wēng），也被大家叫粉红知更鸟。\n\n浑身是哑光深黑的小脑袋，胸",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 19,
+  "like_count": 75,
+  "comment_count": 38,
+  "created": 1783812880,
+  "updated": 1783812880,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-51486cf30a749bf02ef82582fc89684f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 78270
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-8e6e7825d46fe0719e01b01b2dc037ce.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 63466
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-3b85722d588d085aba851295ae39770e.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 71720
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

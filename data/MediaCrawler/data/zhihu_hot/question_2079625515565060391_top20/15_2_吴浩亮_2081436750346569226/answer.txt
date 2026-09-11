@@ -1,0 +1,38 @@
+astra 我还没有深度使用，不过可以简单分享下我自己关于这类问题的通用选择策略，对于任何 model 都是适用的。
+首先，分级标签意味着模型在速度和推理、价位三个维度下，不同取舍的组合，每家模型都是有类似的概念的：
+GPT 5.6 是 sol, terra, luna, 把 GPT 6 考虑上最前面应是 astra
+Claude 是 opus, sonnet, haiku，后来又加了个 fable
+Gemini 是 ultra, pro, flash, nano
+DeepSeek 早期时候也是 flash 和 pro，但现在 flash 给 pro 斩杀了
+名字不用纠结，你只需要关注推理能力这个指标即可，而且基本上推理能力越强，价格越贵，因为推理能力代表着模型会消耗更多的算力，也更加聪明。
+在编程场景下怎么使用这些模型，你只需要按照常见技术团队的组织架构来搭配就行，比如：
+一个架构师、两个专家、四个高工
+一个架构师，八个高工
+还可以只要高工或者只要专家
+怎么搭配取决于你日常的工作类型，但通常情况下，第一种是最稳的。
+拿 GPT 举例，你只需要把 sol, terra, luna 这些名字和架构师、专家、高工这些角色绑定起来，让它们对号入座，然后再看看你们公司这些人每天都在干什么，按照相同的逻辑指挥 AI 就行。
+架构师做什么，你就用 sol 或者 astra 做什么，专家做什么，你就用 terra 做什么，高工以此类推。
+你当然可以反其道而行，但是你要仔细思考下现实中为什么不是这样。比如架构师去搬砖，高工去做系统架构和设计，这没有什么不妥，但结果可能就是钱花多了或者是钱花了事儿还没办好。
+我认为这种方法比去看什么测评参数再做选择高效快捷多了，毕竟 AI 本身是参考人类智能表现设计出来的，可能会误判，但不会错判。
+然后，再上面的基础上，额外看一下模型本身的特长是什么，比如早期的刻板印象大概如下：
+写代码就是 Claude 牛逼
+分析、审查、调研就是 GPT 吊
+Gemini 就是审美在线
+DeepSeek 就是便宜
+结合这些刻板印象，扬长避短地来选择和使用模型，是事半功倍的。
+当然，这些刻板印象放到当前这个时间点，随着模型越卷越厉害，其实都同质化了，因此也不用过分在意。
+不过问题既然是 GPT，astra 相比较其他型号的特长，在于它操作电脑的能力（computer use），那如果你的场景会高频涉及操控 GUI 软件的话，那显然使用 astra 是更加正确的选择，不然，GPT 这不相当于欺骗用户嘛。
+另外，reasoning effort 这个东西，不同的推理引擎，实现机制是不一样的，有的其实就是 prompt engineering，比如 sglang，当然 GPT 这块咋整的就不太清楚了，但我总认为不要太迷信就是了。
+
+以及 max 注入的 prompt：
+REASONING_EFFORT_MAX = (
+    &#34;Reasoning Effort: Absolute maximum with no shortcuts permitted.\n&#34;
+    &#34;You MUST be very thorough in your thinking and comprehensively decompose &#34;
+    &#34;the problem to resolve the root cause, rigorously stress-testing your logic &#34;
+    &#34;against all potential paths, edge cases, and adversarial scenarios.\n&#34;
+    &#34;Explicitly write out your entire deliberation process, documenting every &#34;
+    &#34;intermediate step, considered alternative, and rejected hypothesis to ensure &#34;
+    &#34;absolutely no assumption is left unchecked.\n\n&#34;
+)
+你要真迷信这个，我建议就无脑开 medium 或者 high 就行，不然超长的思维链大概率会把你搞到失去耐心，同时模型频繁地自我质疑，在比较 minor 的场景下，实际上属于是负优化，是典型的钱花了事儿没办好的场景。
+大概就这么多，如果觉得有所帮助，可以点个赞或者关注我，感谢。

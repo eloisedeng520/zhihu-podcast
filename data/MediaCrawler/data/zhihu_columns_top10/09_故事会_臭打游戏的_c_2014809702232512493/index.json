@@ -1,0 +1,130 @@
+{
+  "column_rank": 9,
+  "column_name": "故事会",
+  "listed_author": "臭打游戏的",
+  "column_slug": "c_2014809702232512493",
+  "column_url": "https://www.zhihu.com/column/c_2014809702232512493",
+  "source_page": "https://www.zhihu.com/column-square",
+  "requested_count": 10,
+  "selection_rule": "遍历专栏全部文章，按单篇 voteup_count（赞同数）降序取前十",
+  "scanned_article_count": 81,
+  "api_total": 85,
+  "pages": 1,
+  "selected_count": 10,
+  "shortage": 0,
+  "image_errors": [],
+  "fetched_at": "2026-09-11T03:11:51.626Z",
+  "complete": true,
+  "articles": [
+    {
+      "folder": "01_17838_臭打游戏的_2035755491490535219",
+      "rank": 1,
+      "article_id": "2035755491490535219",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 17838,
+      "comment_count": 1510,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "02_13689_臭打游戏的_2072615837358364360",
+      "rank": 2,
+      "article_id": "2072615837358364360",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 13689,
+      "comment_count": 946,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "03_11965_臭打游戏的_2034394500768982090",
+      "rank": 3,
+      "article_id": "2034394500768982090",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 11965,
+      "comment_count": 609,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "04_11869_臭打游戏的_2065335318811764384",
+      "rank": 4,
+      "article_id": "2065335318811764384",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 11869,
+      "comment_count": 522,
+      "images": 16,
+      "downloaded": 16
+    },
+    {
+      "folder": "05_10185_臭打游戏的_2055600960051978987",
+      "rank": 5,
+      "article_id": "2055600960051978987",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 10185,
+      "comment_count": 534,
+      "images": 16,
+      "downloaded": 16
+    },
+    {
+      "folder": "06_9960_臭打游戏的_2050072780444538068",
+      "rank": 6,
+      "article_id": "2050072780444538068",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 9960,
+      "comment_count": 1560,
+      "images": 8,
+      "downloaded": 8
+    },
+    {
+      "folder": "07_9579_臭打游戏的_2041677385800610079",
+      "rank": 7,
+      "article_id": "2041677385800610079",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 9579,
+      "comment_count": 446,
+      "images": 9,
+      "downloaded": 9
+    },
+    {
+      "folder": "08_9339_臭打游戏的_2056167975112258371",
+      "rank": 8,
+      "article_id": "2056167975112258371",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 9339,
+      "comment_count": 1516,
+      "images": 50,
+      "downloaded": 50
+    },
+    {
+      "folder": "09_8341_臭打游戏的_2053858449537102511",
+      "rank": 9,
+      "article_id": "2053858449537102511",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 8341,
+      "comment_count": 732,
+      "images": 9,
+      "downloaded": 9
+    },
+    {
+      "folder": "10_8216_臭打游戏的_2070834946982274608",
+      "rank": 10,
+      "article_id": "2070834946982274608",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 8216,
+      "comment_count": 570,
+      "images": 5,
+      "downloaded": 5
+    }
+  ]
+}

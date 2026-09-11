@@ -1,0 +1,88 @@
+{
+  "circle_id": "1911058658416138000",
+  "circle_name": "力训与摔柔研究",
+  "circle_url": "https://www.zhihu.com/ring/host/1911058658416138000",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1991186458560726378",
+  "post_url": "https://www.zhihu.com/pin/1991186458560726378?native=0",
+  "title": "八段锦需要用力做吗？\n吸气时缓缓用力，呼气时收力放松。\n\n双手托天理三焦，劲道在掌根处，掌根上撑，百会穴上顶，后背夹挤，拔肩，活动到肩井，收头，回落，像画一个圆",
+  "author": "康复与养生",
+  "author_id": "afad8b9e028d6a82d0e3f0f527b2c0da",
+  "favorite_count": 62,
+  "like_count": 26,
+  "comment_count": 0,
+  "created": 1767515933,
+  "updated": 1767515933,
+  "is_essence": false,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-08a2bd1ccae1cd13756c2bc970d4b31e.jpg?28b664d72e8749849b7974d4e6d862a3",
+      "status": "downloaded",
+      "local_file": "001.webp",
+      "content_type": "image/webp",
+      "size_bytes": 53890
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/v2-b0759e660cc06bd45b1c875661b4ad3e.jpg?e5158bbeb3b44ac4baafcbe294d8cf17",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 124055
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/v2-bb83987cf73e7582affedd85069c89d1.jpg?c06179aeb61944dc97b2d174ef770b3a",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 125166
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic3.zhimg.com/v2-292f1ffbf284dfafaab881193d98c6d8.jpg?c79c8d765d2743169ee406b20b73b20a",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 134882
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic3.zhimg.com/v2-fa475e588d4f59634a9a24d0bc6ac3be.jpg?162961b1d0984473b2af089a8573b1b5",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 131803
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-acdcec4a842605a113691288963b5732.jpg?a8df378dce004ac782781727b2884d7c",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 123401
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic3.zhimg.com/v2-b2ef35e63b5bc23381fedf61e6d8ae6c.jpg?711d26b8e07948228c561403a47e2ed5",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 125298
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic3.zhimg.com/v2-4470cef446d1484d2c0f0a99c9f231aa.jpg?2436a308735b4924a684351ba18edf5f",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 127340
+    }
+  ],
+  "fetched_at": "2026-09-10T18:28:26.342Z"
+}

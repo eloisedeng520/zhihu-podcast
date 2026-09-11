@@ -1,0 +1,48 @@
+{
+  "circle_id": "1913603409447203015",
+  "circle_name": "在废纸上书写",
+  "circle_url": "https://www.zhihu.com/ring/host/1913603409447203015",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1931679458143740238",
+  "post_url": "https://www.zhihu.com/pin/1931679458143740238?native=0",
+  "title": "巧手华姐：市井人物的温暖剪影\n华姐是个朴实的农村妇女，凭借一手好裁剪手艺，在城里开了家小店。\n\n她待人诚恳，做事认真，无论顾客还是员工都对她赞不绝口。\n\n华姐的",
+  "author": "龙妞妈",
+  "author_id": "4a7c90f33e6cd047b53d39644086e676",
+  "favorite_count": 4,
+  "like_count": 32,
+  "comment_count": 18,
+  "created": 1753511316,
+  "updated": 1754197450,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-510285b5cf1831d12aa63674f619eaca_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 107636
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-e23f81683dce9a7b5e14c4eca3653050_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1253547
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-e60fa9aa43ba986295c20670e913276e_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 55744
+    }
+  ],
+  "fetched_at": "2026-09-10T18:19:03.362Z"
+}

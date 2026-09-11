@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908509014544872258",
+  "circle_name": "劳动仲裁那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1908509014544872258",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2044420996254396749",
+  "post_url": "https://www.zhihu.com/pin/2044420996254396749?native=0",
+  "title": "你死磕劳动法，公司比你先死，这笔账你算过吗？\n     上周，我裁了个入职刚满一年的运营。\n\n原因很简单：他太“懂法”了。\n\n考勤必打卡，加班必提费，请假必走流",
+  "author": "清禾乀认知",
+  "author_id": "047c627e1006d18b040f5c5f4686a070",
+  "favorite_count": 43,
+  "like_count": 140,
+  "comment_count": 680,
+  "created": 1780208142,
+  "updated": 1780208173,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-9637a2617423f25dc7b9f1a6194668c3.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 273068
+    }
+  ],
+  "fetched_at": "2026-09-10T18:14:55.384Z"
+}

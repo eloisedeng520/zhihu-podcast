@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911058658416138000",
+  "circle_name": "力训与摔柔研究",
+  "circle_url": "https://www.zhihu.com/ring/host/1911058658416138000",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1963251099835269273",
+  "post_url": "https://www.zhihu.com/pin/1963251099835269273?native=0",
+  "title": "姐们儿，你是多打了个0还是多打了两个0。",
+  "author": "柔王丸",
+  "author_id": "4719effbbe11dfaa29bc4ad5659462aa",
+  "favorite_count": 134,
+  "like_count": 1400,
+  "comment_count": 759,
+  "created": 1760855603,
+  "updated": 1760855603,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-72e309a4c0bd95a350332d98b01e37e9_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 102785
+    }
+  ],
+  "fetched_at": "2026-09-10T18:28:26.342Z"
+}

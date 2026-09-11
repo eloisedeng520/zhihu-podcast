@@ -1,0 +1,47 @@
+{
+  "column_rank": 5,
+  "column_name": "历史的天空",
+  "column_slug": "c_1967251563912357179",
+  "column_url": "https://www.zhihu.com/column/c_1967251563912357179",
+  "article_rank": 2,
+  "ranking_metric": "voteup_count",
+  "article_id": "2076401593700959081",
+  "article_url": "https://zhuanlan.zhihu.com/p/2076401593700959081",
+  "title": "",
+  "author": "北泽无人",
+  "author_id": "f110716ca0d020b95620f571ea5aa836",
+  "author_url_token": "bei-ze-wu-ren",
+  "voteup_count": 5609,
+  "comment_count": 891,
+  "created": null,
+  "updated": 0,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-62aedae49dbbaa43ec78f5b262e4937b_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 72537
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-07d914c3b581c3dae8c078219be5c82f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 110564
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-e737b0c45ce4d26a461bf77aa6c09f1d_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 102827
+    }
+  ],
+  "fetched_at": "2026-09-11T03:09:21.630Z"
+}

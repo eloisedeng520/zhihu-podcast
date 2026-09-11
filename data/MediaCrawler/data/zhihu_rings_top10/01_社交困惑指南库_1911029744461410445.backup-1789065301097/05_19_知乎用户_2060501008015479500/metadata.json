@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2060501008015479500",
+  "post_url": "https://www.zhihu.com/pin/2060501008015479500?native=0",
+  "title": "人际关系里，沉默和争吵哪个更伤人？\n我个人认为沉默更伤人。\n\n但是，它们都是表面症状，真正伤人的，是症状背后的关系判决。\n\n先说争吵。\n\n争吵是一种高耗能行为，",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 19,
+  "like_count": 10,
+  "comment_count": 0,
+  "created": 1784041961,
+  "updated": 1784041961,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-c25abb6c2589fd23c185b8f613ce4e82.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.webp",
+      "content_type": "image/webp",
+      "size_bytes": 58160
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

@@ -1,0 +1,71 @@
+{
+  "column_rank": 3,
+  "column_name": "汪汪吐槽",
+  "column_slug": "c_2065918269060601064",
+  "column_url": "https://www.zhihu.com/column/c_2065918269060601064",
+  "article_rank": 2,
+  "ranking_metric": "voteup_count",
+  "article_id": "2078089416967570522",
+  "article_url": "https://zhuanlan.zhihu.com/p/2078089416967570522",
+  "title": "",
+  "author": "阿汪",
+  "author_id": "0e696ebd1c21874b71221d2dc5fd5353",
+  "author_url_token": "yang-yue-37-9",
+  "voteup_count": 4419,
+  "comment_count": 778,
+  "created": null,
+  "updated": 0,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-457852af481fc7e7b32e62b7b92962bb_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28351
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-4cba8c5e6df4c35e0c7cef8c1e021143_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38766
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-a8d889d09aa18a3e6959e9060c03eda0_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 41663
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-851004864b1c5c622f55d7c628c9ba31_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 27143
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-89980f7bf0955b4cf8bcd39b91299375_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 30385
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-b835619cfb1a186766035500e1f3e406_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 45281
+    }
+  ],
+  "fetched_at": "2026-09-11T03:08:37.628Z"
+}

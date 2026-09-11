@@ -1,0 +1,28 @@
+{
+  "question_id": "2081330102722195681",
+  "question_url": "https://www.zhihu.com/question/2081330102722195681",
+  "question_title": "如何看待 Anthropic 研究员 Jacob 离职，称 AI 公司正「拿全人类的命运下注」？",
+  "rank": 12,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081356340673492782",
+  "answer_url": "https://www.zhihu.com/question/2081330102722195681/answer/2081356340673492782",
+  "author": "划水的青蛙",
+  "voteup_count": 10,
+  "comment_count": 3,
+  "created_time": 1789014021,
+  "updated_time": 1789014021,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-270105346cdc25b4fc870046212b1174_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 81905
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:46.608Z"
+}

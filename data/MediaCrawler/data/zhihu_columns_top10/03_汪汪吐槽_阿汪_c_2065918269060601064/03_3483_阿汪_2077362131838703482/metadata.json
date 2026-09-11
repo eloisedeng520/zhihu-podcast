@@ -1,0 +1,79 @@
+{
+  "column_rank": 3,
+  "column_name": "汪汪吐槽",
+  "column_slug": "c_2065918269060601064",
+  "column_url": "https://www.zhihu.com/column/c_2065918269060601064",
+  "article_rank": 3,
+  "ranking_metric": "voteup_count",
+  "article_id": "2077362131838703482",
+  "article_url": "https://zhuanlan.zhihu.com/p/2077362131838703482",
+  "title": "",
+  "author": "阿汪",
+  "author_id": "0e696ebd1c21874b71221d2dc5fd5353",
+  "author_url_token": "yang-yue-37-9",
+  "voteup_count": 3483,
+  "comment_count": 453,
+  "created": null,
+  "updated": 0,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b0c384b3dfc589897dcbcdbc4009d8f2_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13629
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-e3abcbe20674dc428a6e69924893ceb7_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 24802
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-da929a3b49a5011a86ef2a3c1d9701be_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 145101
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-cadf1dc1c2c2602b82764f4d53be2dac_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 111009
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/v2-d2b44704090c5c0423f3877da5e0e8b8_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 34479
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-cc91b9ac5768d5ab4cbe8880b715b954_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 35153
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-a962740d5fcf087a6bb26605693d65ae_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 16710
+    }
+  ],
+  "fetched_at": "2026-09-11T03:08:37.628Z"
+}

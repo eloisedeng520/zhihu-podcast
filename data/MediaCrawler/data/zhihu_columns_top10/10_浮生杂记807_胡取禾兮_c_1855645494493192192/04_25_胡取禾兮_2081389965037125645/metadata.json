@@ -1,0 +1,55 @@
+{
+  "column_rank": 10,
+  "column_name": "浮生杂记807",
+  "column_slug": "c_1855645494493192192",
+  "column_url": "https://www.zhihu.com/column/c_1855645494493192192",
+  "article_rank": 4,
+  "ranking_metric": "voteup_count",
+  "article_id": "2081389965037125645",
+  "article_url": "https://zhuanlan.zhihu.com/p/2081389965037125645",
+  "title": "比裸奔扔粑粑还荒谬的，是所有人都秒信",
+  "author": "胡取禾兮",
+  "author_id": "7ef6a461bbc2905e8938de602340cd36",
+  "author_url_token": "deshi",
+  "voteup_count": 25,
+  "comment_count": 8,
+  "created": 1789022172,
+  "updated": 1789022172,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-21261ef1ecc84385724ee810b6e1ecb4_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 47361
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-824ae001cf71c00e729daf56084ece19_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 203469
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-169d516aa24c9e1516f6db708a3cf00b_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 310681
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-ba64d5d947c08c53c4c29938c6bb3e96_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 37440
+    }
+  ],
+  "fetched_at": "2026-09-11T03:12:12.628Z"
+}

@@ -1,0 +1,92 @@
+{
+  "question_id": "2080257034830739049",
+  "question_url": "https://www.zhihu.com/question/2080257034830739049",
+  "question_title": "为什么成龙的 8 分动作片有 12 亿票房，而周星驰的 6 分喜剧片却有 23 亿票房？是喜剧片市场远大于动作片吗？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2080394761547035529",
+  "answer_url": "https://www.zhihu.com/question/2080257034830739049/answer/2080394761547035529",
+  "author": "姓亚名蒙",
+  "voteup_count": 237,
+  "comment_count": 72,
+  "created_time": 1788784763,
+  "updated_time": 1789041582,
+  "is_collapsed": false,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-d61dca8b0a98a63dc1eb2a9b38599e1b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 61523
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-9b67f843896f4854c49e2d8b9ef1ef2c_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.webp",
+      "content_type": "image/webp",
+      "size_bytes": 130458
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-91ffda5cdea6a7d693066cc990a34817_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 77452
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/50/v2-c12e0a1ab4cf9d363fef0c72e686b3a2_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 30055
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-6773706efc634caa3d88b1b85fc940d9_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 46010
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-947c67df9ad61d7619f88f7ba966af16_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 107812
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/v2-13caf54f760b89c69d6b747bc5f5f417_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 238319
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic1.zhimg.com/v2-787c39f646b951936a9d3079630384d0_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 341890
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-26b67f929b096453624827baef0d0027_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 81284
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:19.868Z"
+}

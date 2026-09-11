@@ -1,0 +1,40 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1908627892792955704",
+  "post_url": "https://www.zhihu.com/pin/1908627892792955704?native=0",
+  "title": "欢迎来到独处充电站：新圈友请进\n亲爱的独享家们，\n\n很高兴你发现了这个小小的充电站。\n\n&#34;又一个孤独者的集散地？&#34;\n也许你刚进来时会这样想。\n\n",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 25,
+  "like_count": 282,
+  "comment_count": 51,
+  "created": 1747832826,
+  "updated": 1785840759,
+  "is_essence": true,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/100/v2-de2e2e30c008e994b2eebba375ad3253_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 68872
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-f5bddd2f59febb88e361942909a592bf.png",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 2579592
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

@@ -1,0 +1,88 @@
+{
+  "circle_id": "1915870370705150307",
+  "circle_name": "书法雅集",
+  "circle_url": "https://www.zhihu.com/ring/host/1915870370705150307",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2032859459127658333",
+  "post_url": "https://www.zhihu.com/pin/2032859459127658333?native=0",
+  "title": "此《滕王阁序》被誉为“清代最美楷书”，你觉得如何？\n清代书法家高垲的《楷书滕王阁序》写于1826年，此作书法融合多家而自成一格，笔法、结体、气韵皆有来历，又浑然",
+  "author": "亦木",
+  "author_id": "959f79534727e00048c2e5bde4c8cd30",
+  "favorite_count": 57,
+  "like_count": 41,
+  "comment_count": 1,
+  "created": 1777451660,
+  "updated": 1777451660,
+  "is_essence": false,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-caf85e939da4ec3b9147d477f289b9ed.jpeg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 825200
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-4fc6c561811a78829609bbbe183a8a46.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 802808
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-611e8b3c077569d7641e2270ee2ff187.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 675944
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-8ce67f3a0f8fc0d5b34430242daf066e.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 555209
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-228edccdb779e6e78d9705b974aa39dd.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 587161
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-9dff8f51a7d044156cf14de6c8d2a5ad.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 630894
+    },
+    {
+      "index": 7,
+      "original_url": "https://pica.zhimg.com/v2-b967bf589f5a0fb42af5972284bf13f4.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 663628
+    },
+    {
+      "index": 8,
+      "original_url": "https://pica.zhimg.com/v2-da21f6b950d49c199da3d58b077b3d07.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 708066
+    }
+  ],
+  "fetched_at": "2026-09-10T18:06:48.349Z"
+}

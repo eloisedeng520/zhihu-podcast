@@ -1,0 +1,130 @@
+{
+  "column_rank": 3,
+  "column_name": "汪汪吐槽",
+  "listed_author": "阿汪",
+  "column_slug": "c_2065918269060601064",
+  "column_url": "https://www.zhihu.com/column/c_2065918269060601064",
+  "source_page": "https://www.zhihu.com/column-square",
+  "requested_count": 10,
+  "selection_rule": "遍历专栏全部文章，按单篇 voteup_count（赞同数）降序取前十",
+  "scanned_article_count": 123,
+  "api_total": 127,
+  "pages": 2,
+  "selected_count": 10,
+  "shortage": 0,
+  "image_errors": [],
+  "fetched_at": "2026-09-11T03:08:37.628Z",
+  "complete": true,
+  "articles": [
+    {
+      "folder": "01_4912_阿汪_2069736445305214752",
+      "rank": 1,
+      "article_id": "2069736445305214752",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 4912,
+      "comment_count": 888,
+      "images": 9,
+      "downloaded": 9
+    },
+    {
+      "folder": "02_4419_阿汪_2078089416967570522",
+      "rank": 2,
+      "article_id": "2078089416967570522",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 4419,
+      "comment_count": 778,
+      "images": 6,
+      "downloaded": 6
+    },
+    {
+      "folder": "03_3483_阿汪_2077362131838703482",
+      "rank": 3,
+      "article_id": "2077362131838703482",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 3483,
+      "comment_count": 453,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "04_2899_阿汪_2066638478088184154",
+      "rank": 4,
+      "article_id": "2066638478088184154",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 2899,
+      "comment_count": 162,
+      "images": 9,
+      "downloaded": 9
+    },
+    {
+      "folder": "05_2502_阿汪_2076415778988020519",
+      "rank": 5,
+      "article_id": "2076415778988020519",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 2502,
+      "comment_count": 547,
+      "images": 16,
+      "downloaded": 16
+    },
+    {
+      "folder": "06_2495_阿汪_2074932972323595282",
+      "rank": 6,
+      "article_id": "2074932972323595282",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 2495,
+      "comment_count": 285,
+      "images": 10,
+      "downloaded": 10
+    },
+    {
+      "folder": "07_1907_阿汪_2069693468885226205",
+      "rank": 7,
+      "article_id": "2069693468885226205",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 1907,
+      "comment_count": 362,
+      "images": 9,
+      "downloaded": 9
+    },
+    {
+      "folder": "08_1750_阿汪_2069792806818801422",
+      "rank": 8,
+      "article_id": "2069792806818801422",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 1750,
+      "comment_count": 160,
+      "images": 12,
+      "downloaded": 12
+    },
+    {
+      "folder": "09_1647_阿汪_2079616342005760476",
+      "rank": 9,
+      "article_id": "2079616342005760476",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 1647,
+      "comment_count": 265,
+      "images": 10,
+      "downloaded": 10
+    },
+    {
+      "folder": "10_1605_阿汪_2068455283907630301",
+      "rank": 10,
+      "article_id": "2068455283907630301",
+      "title": "",
+      "author": "阿汪",
+      "voteup_count": 1605,
+      "comment_count": 635,
+      "images": 10,
+      "downloaded": 10
+    }
+  ]
+}

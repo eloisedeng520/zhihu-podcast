@@ -1,0 +1,40 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2018844290202251881",
+  "post_url": "https://www.zhihu.com/pin/2018844290202251881?native=0",
+  "title": "把地球上任意地点一键导进 Minecraft，Rust 写的，11.9k stars\n在 GitHub Trending 看到的 arnis，一句话就是把地球上",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 1585,
+  "like_count": 629,
+  "comment_count": 21,
+  "created": 1774110149,
+  "updated": 1774110149,
+  "is_essence": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b7d42a7061c25f1204080c15e809199b.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 2902320
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-1c5ab217ef53a0b30fc16ab676383106.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1617927
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:15.194Z"
+}

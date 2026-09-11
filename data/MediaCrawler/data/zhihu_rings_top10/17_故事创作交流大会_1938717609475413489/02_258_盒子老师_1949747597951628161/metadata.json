@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938717609475413489",
+  "circle_name": "故事创作交流大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1938717609475413489",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1949747597951628161",
+  "post_url": "https://www.zhihu.com/pin/1949747597951628161?native=0",
+  "title": "创作笔记9：细节、细节、还是细节，魔鬼藏在细节里！  \n一、\t如何写出有信息的细节？\n1、\t常见的细节问题\na、\t出现事实性错误和偏差\nb、\t描述缺乏细节，过于",
+  "author": "盒子老师",
+  "author_id": "81e792bdb2c23c94ec212e6fc04f3fed",
+  "favorite_count": 258,
+  "like_count": 110,
+  "comment_count": 12,
+  "created": 1757636051,
+  "updated": 1757636051,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-e32e55f0d480f7477a4f0b37a1dcab42_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 537836
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-06e47e65985e876a86ea68c6fdab6303_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 535228
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-8890cad850b816bbd110be9cd841873a_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 469059
+    }
+  ],
+  "fetched_at": "2026-09-10T18:23:03.357Z"
+}

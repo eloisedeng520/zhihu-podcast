@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938005292467069465",
+  "circle_name": "AI副业圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938005292467069465",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1939002131475576560",
+  "post_url": "https://www.zhihu.com/pin/1939002131475576560?native=0",
+  "title": "2.5⭐ 开源神器 Abogen ：秒转电子书为同步字幕有声书，内容创作者必备\n\n开源项目 Abogen，它利用 Kokoro‑82M 直接把 EPUB、PDF",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 263,
+  "like_count": 55,
+  "comment_count": 5,
+  "created": 1755074133,
+  "updated": 1755074133,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-ec4f0f72b82fa98fa7d9a3783a5fa48a_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 253415
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-c9ca694a6a0ab5cc2552acf6bd31bb04_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 319161
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/50/v2-ef4ca44fb9513eaf8279d9f749fbee9c_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 605385
+    }
+  ],
+  "fetched_at": "2026-09-10T15:47:13.561Z"
+}

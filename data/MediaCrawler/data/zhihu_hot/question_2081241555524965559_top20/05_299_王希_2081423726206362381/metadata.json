@@ -1,0 +1,84 @@
+{
+  "question_id": "2081241555524965559",
+  "question_url": "https://www.zhihu.com/question/2081241555524965559",
+  "question_title": "如何评价霍奇猜想（七大千禧难题之一）疑似被 OpenAI 解决？",
+  "rank": 5,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081423726206362381",
+  "answer_url": "https://www.zhihu.com/question/2081241555524965559/answer/2081423726206362381",
+  "author": "王希",
+  "voteup_count": 299,
+  "comment_count": 22,
+  "created_time": 1789030087,
+  "updated_time": 1789030087,
+  "is_collapsed": false,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-ad76dde7435202fed2d432e9986a3549_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 313873
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-a567c35d445b346935c0e8bbf155d872_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 312855
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-5cfb5c5da716b921f81928037e2d140b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 286309
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-2afd22bccd8b34ccbc917027bd816ca2_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 269267
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-b3f631fc88089670d684ccaa1162f9e9_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 364570
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-e703113085612de4e2bdbfa654f37e99_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 289912
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-39e378b8fb2d205779f834072dd8f432_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 302568
+    },
+    {
+      "index": 8,
+      "original_url": "https://pica.zhimg.com/v2-ca64cb2ff2c45f00f1a48b627c35080a_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 300978
+    }
+  ],
+  "fetched_at": "2026-09-10T12:46:31.771Z"
+}

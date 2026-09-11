@@ -1,0 +1,64 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2045577638132069501",
+  "post_url": "https://www.zhihu.com/pin/2045577638132069501?native=0",
+  "title": "像解剖刀一样冰冷的矩阵书，为什么我劝你趁早被它碾压一次\n像解剖刀一样冰冷的矩阵书，为什么我劝你趁早被它碾压一次\n\n这本书像一把没有感情的解剖刀，把你对线性代数所",
+  "author": "南方",
+  "author_id": "52dafcbf0a589ea138aa0728b724a401",
+  "favorite_count": 198,
+  "like_count": 58,
+  "comment_count": 0,
+  "created": 1780483847,
+  "updated": 1780483851,
+  "is_essence": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-9255a84d9b6fd1ccf08510c8bfac7d0c.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 59377
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-50bf48aa8a794c9ea4ef36707a6e67c1.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 99357
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-e2f104dec4ff59fdf2ceadf978ec84e2.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 53782
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-a5b62059a1708e294c3de2cf8bd9da3d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 58154
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-e2868560ae27c0a9e9a8b3c338c3b883.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 554108
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

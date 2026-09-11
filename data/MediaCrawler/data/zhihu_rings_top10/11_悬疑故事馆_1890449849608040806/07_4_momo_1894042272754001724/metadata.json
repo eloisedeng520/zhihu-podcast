@@ -1,0 +1,48 @@
+{
+  "circle_id": "1890449849608040806",
+  "circle_name": "悬疑故事馆",
+  "circle_url": "https://www.zhihu.com/ring/host/1890449849608040806",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1894042272754001724",
+  "post_url": "https://www.zhihu.com/pin/1894042272754001724?native=0",
+  "title": "悬疑故事安利 📖 无暇赴死\n✨ 如果悬疑故事你没看过核融炉，我真的会伤心的！\n\n🕵️ 在这里，每个真相都是另一个谎言的开始。\n\n🎆 故事从烟花镇一桩 20",
+  "author": "momo",
+  "author_id": "1404ba5e715cb0ea63272d0b521f78be",
+  "favorite_count": 4,
+  "like_count": 20,
+  "comment_count": 0,
+  "created": 1744355059,
+  "updated": 1744355059,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-6fe2d0c1ed9ee87a756e1a034a433c89_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 50986
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-38b3ab1467fa4f97bb9f881786fbfb28_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 66242
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/50/v2-dfe2982765a1c77623330b8f088ae04e_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 70060
+    }
+  ],
+  "fetched_at": "2026-09-10T18:10:51.355Z"
+}

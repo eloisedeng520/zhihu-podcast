@@ -1,0 +1,56 @@
+{
+  "circle_id": "1919817879114711905",
+  "circle_name": "盐言作者新手村",
+  "circle_url": "https://www.zhihu.com/ring/host/1919817879114711905",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2037211919854085303",
+  "post_url": "https://www.zhihu.com/pin/2037211919854085303?native=0",
+  "title": "我好像吃到“互关互赞”的恶果了，踩坑了，才知道该怎么做账号，也知道流量差的原因了。说出来引以为戒吧\n最近阅读量每天50以下，发布新回答基本上也是100左右的阅读",
+  "author": "就是小夏",
+  "author_id": "bd068c9a1db4daba555e8b14dbec4107",
+  "favorite_count": 6,
+  "like_count": 33,
+  "comment_count": 45,
+  "created": 1778494650,
+  "updated": 1780251488,
+  "is_essence": true,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/100/v2-561024a34046be321204c760f55587e5_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 231061
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-dbb2f747d26524d87c7687f20c6787d0.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 155101
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/100/v2-83aa348501ab7edb1774cebab6fec395_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 1135435
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/100/v2-aac3a48d33d146f838d67741faa68ca6_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 2044308
+    }
+  ],
+  "fetched_at": "2026-09-10T18:11:09.333Z"
+}

@@ -1,0 +1,64 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2056329183991801213",
+  "post_url": "https://www.zhihu.com/pin/2056329183991801213?native=0",
+  "title": "科学家认为：宇宙或许并不是无限大的，如果真的存在“边界”，外面究竟还有什么？\n自从人类第一次仰望星空开始，一个问题便始终困扰着无数人：宇宙究竟有没有尽头？\n很多",
+  "author": "聪先生",
+  "author_id": "44d3db362576eb92dda511f0d499fe29",
+  "favorite_count": 38,
+  "like_count": 30,
+  "comment_count": 11,
+  "created": 1783047608,
+  "updated": 1783047608,
+  "is_essence": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-0e1cbd9c358147d43c3d4d5c371f21ce_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 334578
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-6bee18432e36173d67d0b4a7fc5f0218_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 215120
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-6200a7ce17fc57334ff258fd0c270d5d_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 244773
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic3.zhimg.com/50/v2-a434a3065955d35f8dd935fc69cd648a_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 313142
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic3.zhimg.com/50/v2-6aad4b0e2c4160a68532f1524b7f8d98_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 85321
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

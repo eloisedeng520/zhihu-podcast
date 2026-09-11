@@ -1,0 +1,116 @@
+{
+  "question_id": "2081192492448404939",
+  "question_url": "https://www.zhihu.com/question/2081192492448404939",
+  "question_title": "《王者荣耀》衍生作《王者万象棋》9 月 10 号全平台公测，你的游玩体验如何？",
+  "rank": 4,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081313721511630403",
+  "answer_url": "https://www.zhihu.com/question/2081192492448404939/answer/2081313721511630403",
+  "author": "烩面星",
+  "voteup_count": 54,
+  "comment_count": 27,
+  "created_time": 1789003860,
+  "updated_time": 1789022184,
+  "is_collapsed": false,
+  "image_count": 12,
+  "downloaded_image_count": 12,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-de8c75b37ead29c0ca21644a5e85d42c_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 577449
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-3dbed41f0744f38da7dc4158ae180c7a_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1048868
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-1584c7d817aeccb3502b17862cbc0e6b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 526922
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-c714595870e08389d4815a424c0ffb6a_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 411677
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-503a397e711a9ba2d80a28a408a38a6d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 2199825
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-3b171f864873136bab926a22e766ec9b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 638145
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-15693d4d5f2fe8a5f84d8f7e267925c3_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 226947
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-4b11e068974e23149174664b55d999ba_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "008.png",
+      "content_type": "image/png",
+      "size_bytes": 1253516
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-a335f688b83807d7ea2f64dfb7cc7654_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "009.png",
+      "content_type": "image/png",
+      "size_bytes": 1041293
+    },
+    {
+      "index": 10,
+      "original_url": "https://pic1.zhimg.com/v2-6803a8cd1dd7edec1437f0dfd68fa99d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "010.png",
+      "content_type": "image/png",
+      "size_bytes": 1657881
+    },
+    {
+      "index": 11,
+      "original_url": "https://picx.zhimg.com/v2-0bf7ca98aaaf753238dcc8a0ca63281a_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "011.png",
+      "content_type": "image/png",
+      "size_bytes": 527705
+    },
+    {
+      "index": 12,
+      "original_url": "https://pic1.zhimg.com/v2-902d38483dea844df47e827121ab8f9f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "012.png",
+      "content_type": "image/png",
+      "size_bytes": 151585
+    }
+  ],
+  "fetched_at": "2026-09-10T12:52:49.532Z"
+}

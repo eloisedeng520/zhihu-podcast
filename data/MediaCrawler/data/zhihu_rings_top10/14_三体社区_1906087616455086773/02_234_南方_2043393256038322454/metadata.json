@@ -1,0 +1,48 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2043393256038322454",
+  "post_url": "https://www.zhihu.com/pin/2043393256038322454?native=0",
+  "title": "捧着 Rudin 哭，对着 Lay 笑：你和实分析之间，或许只差这本书\n捧着 Rudin 哭，对着 Lay 笑：你和实分析之间，或许只差这本书\n\n每年秋天，数学",
+  "author": "南方",
+  "author_id": "52dafcbf0a589ea138aa0728b724a401",
+  "favorite_count": 234,
+  "like_count": 76,
+  "comment_count": 11,
+  "created": 1779963038,
+  "updated": 1779963046,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-3e19686a71095a21b50a7fa0a9c21218.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 12909
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-fe441d9b4add376b1771ba5bd6d45546.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43200
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-d1f3b2a239cd162e42766869d2fa5dd0.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 99280
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

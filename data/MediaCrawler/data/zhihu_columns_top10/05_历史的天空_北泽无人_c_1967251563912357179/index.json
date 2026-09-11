@@ -1,0 +1,130 @@
+{
+  "column_rank": 5,
+  "column_name": "历史的天空",
+  "listed_author": "北泽无人",
+  "column_slug": "c_1967251563912357179",
+  "column_url": "https://www.zhihu.com/column/c_1967251563912357179",
+  "source_page": "https://www.zhihu.com/column-square",
+  "requested_count": 10,
+  "selection_rule": "遍历专栏全部文章，按单篇 voteup_count（赞同数）降序取前十",
+  "scanned_article_count": 113,
+  "api_total": 123,
+  "pages": 2,
+  "selected_count": 10,
+  "shortage": 0,
+  "image_errors": [],
+  "fetched_at": "2026-09-11T03:09:21.630Z",
+  "complete": true,
+  "articles": [
+    {
+      "folder": "01_5967_北泽无人_1982779757151150871",
+      "rank": 1,
+      "article_id": "1982779757151150871",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 5967,
+      "comment_count": 905,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "02_5609_北泽无人_2076401593700959081",
+      "rank": 2,
+      "article_id": "2076401593700959081",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 5609,
+      "comment_count": 891,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "03_3645_北泽无人_2053914552195094292",
+      "rank": 3,
+      "article_id": "2053914552195094292",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 3645,
+      "comment_count": 111,
+      "images": 4,
+      "downloaded": 4
+    },
+    {
+      "folder": "04_2974_北泽无人_2007033784982336973",
+      "rank": 4,
+      "article_id": "2007033784982336973",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 2974,
+      "comment_count": 546,
+      "images": 4,
+      "downloaded": 4
+    },
+    {
+      "folder": "05_2696_北泽无人_2017632640128266799",
+      "rank": 5,
+      "article_id": "2017632640128266799",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 2696,
+      "comment_count": 151,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "06_2584_北泽无人_1985654780299863043",
+      "rank": 6,
+      "article_id": "1985654780299863043",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 2584,
+      "comment_count": 87,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "07_2257_北泽无人_1949077529827734058",
+      "rank": 7,
+      "article_id": "1949077529827734058",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 2257,
+      "comment_count": 39,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "08_2117_北泽无人_2079301949699127273",
+      "rank": 8,
+      "article_id": "2079301949699127273",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 2117,
+      "comment_count": 232,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "09_2039_北泽无人_1991493856278097930",
+      "rank": 9,
+      "article_id": "1991493856278097930",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 2039,
+      "comment_count": 415,
+      "images": 6,
+      "downloaded": 6
+    },
+    {
+      "folder": "10_1820_北泽无人_2068092422907753361",
+      "rank": 10,
+      "article_id": "2068092422907753361",
+      "title": "",
+      "author": "北泽无人",
+      "voteup_count": 1820,
+      "comment_count": 187,
+      "images": 3,
+      "downloaded": 3
+    }
+  ]
+}

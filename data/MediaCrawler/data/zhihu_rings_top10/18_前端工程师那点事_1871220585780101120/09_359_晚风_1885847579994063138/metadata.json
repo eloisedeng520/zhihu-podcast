@@ -1,0 +1,48 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1885847579994063138",
+  "post_url": "https://www.zhihu.com/pin/1885847579994063138?native=0",
+  "title": "PID控制杂谈：现代机器的“直觉”是如何炼成的？从恒温杯到火箭姿态控制\n想随便写点 #pid控制 \n一、PID的“三副面孔”：比例、积分、微分的哲学隐喻\n\n想象",
+  "author": "晚风",
+  "author_id": "ca5f5365f5889e736f14fd1b96e1f7ba",
+  "favorite_count": 359,
+  "like_count": 143,
+  "comment_count": 1,
+  "created": 1742401277,
+  "updated": 1742401277,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-83fbf9a3dbadca49fc1bc770ba6c368c_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.webp",
+      "content_type": "image/webp",
+      "size_bytes": 5986
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-cfb698760b275fcc701fe461aaf9d461_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 49960
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-70bd8aea6b2c96a2a1efb424d656babd_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 16484
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

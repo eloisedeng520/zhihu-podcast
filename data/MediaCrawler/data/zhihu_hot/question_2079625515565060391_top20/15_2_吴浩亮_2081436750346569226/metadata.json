@@ -1,0 +1,28 @@
+{
+  "question_id": "2079625515565060391",
+  "question_url": "https://www.zhihu.com/question/2079625515565060391",
+  "question_title": "Codex 里的 GPT 6 Astra 、 GPT 5.6 Sol 、 Terra 、 Luna 怎么选？",
+  "rank": 15,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081436750346569226",
+  "answer_url": "https://www.zhihu.com/question/2079625515565060391/answer/2081436750346569226",
+  "author": "吴浩亮",
+  "voteup_count": 2,
+  "comment_count": 0,
+  "created_time": 1789033192,
+  "updated_time": 1789033367,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-75cbc952c2db8824fcea06de12daa8a8_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 204352
+    }
+  ],
+  "fetched_at": "2026-09-10T12:53:38.035Z"
+}

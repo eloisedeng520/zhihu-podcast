@@ -94,8 +94,12 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     const [,id,action]=match;let ep=await readEpisode(env.DB,id);if(!ep)throw new PublicError("没有找到这期节目。",404);
     if(!action&&request.method==="GET")return json(present(ep));
     if(action==="audio"&&(request.method==="GET"||request.method==="HEAD")){
-      if(ep.status!=="ready")throw new PublicError("音频还没有生成完成。",409);
-      const obj=await env.AUDIO.get(`episodes/${id}/full.wav`,{range:request.headers});if(!obj)throw new PublicError("音频暂时不可用。",404);
+      const segmentId=new URL(request.url).searchParams.get("segment");
+      const segment=segmentId?ep.segments.find(s=>s.id===segmentId):undefined;
+      if(segmentId&&!segment)throw new PublicError("没有找到这段音频。",404);
+      if(segmentId&&!segment?.audioKey)throw new PublicError("这段音频还在生成中。",409);
+      if(!segmentId&&ep.status!=="ready")throw new PublicError("音频还没有生成完成。",409);
+      const obj=await env.AUDIO.get(segment?.audioKey||`episodes/${id}/full.wav`,{range:request.headers});if(!obj)throw new PublicError("音频暂时不可用。",404);
       const headers=new Headers({"Content-Type":"audio/wav","Cache-Control":"private, max-age=3600","Accept-Ranges":"bytes","X-Content-Type-Options":"nosniff"});
       if(obj.range){headers.set("Content-Range",`bytes ${obj.range.offset}-${obj.range.offset+obj.range.length-1}/${obj.size}`);headers.set("Content-Length",String(obj.range.length));}else headers.set("Content-Length",String(obj.size));
       return new Response(request.method==="HEAD"?null:obj.body,{status:obj.range?206:200,headers});

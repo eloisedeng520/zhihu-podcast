@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2032422433412624410",
+  "post_url": "https://www.zhihu.com/pin/2032422433412624410?native=0",
+  "title": "用 LLM 翻译整本书籍？这个仓库已经替你封装好了\n今天刷到 TranslateBooksWithLLMs，1.2k 星，刚刚发了 v1.0.21，瞬间被吸引。",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 2386,
+  "like_count": 567,
+  "comment_count": 33,
+  "created": 1777347382,
+  "updated": 1777347382,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-6ca9fbbccea839be2ddb3dfebbbbe155.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 170574
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-8bf55cd78a04b14e21052fa07419c940.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 218416
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-271dfacd1b1ae8c2ef4dbc3d73ef862c.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 168489
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:15.194Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938621827502049071",
+  "circle_name": "迦文聊写作",
+  "circle_url": "https://www.zhihu.com/ring/host/1938621827502049071",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2036838049062113874",
+  "post_url": "https://www.zhihu.com/pin/2036838049062113874?native=0",
+  "title": "转自天涯神帖—— 顶级高手的15条生存法则\n1️⃣不可怜任何人，不信任任何人，不深交任何人，不跟任何人诉苦。\n\n2️⃣能藏拙，能沉住气，不炫耀，不高傲。心思缜密",
+  "author": "迦文",
+  "author_id": "e259a39ca13724db738d4be8d0802f62",
+  "favorite_count": 3228,
+  "like_count": 1399,
+  "comment_count": 50,
+  "created": 1778400082,
+  "updated": 1778400082,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-1c595149b59249249d3f2b931496678d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 36666
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:40.327Z"
+}

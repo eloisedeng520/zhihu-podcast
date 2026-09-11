@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938717609475413489",
+  "circle_name": "故事创作交流大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1938717609475413489",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1950842407978525728",
+  "post_url": "https://www.zhihu.com/pin/1950842407978525728?native=0",
+  "title": "创作笔记12：写好言情文、世情文的“致胜法宝”\n一、\t言情文的“爆款秘密”\n1、极致虐：言情虐文、多数世情文的前半部分，均用此法。如《念念复年年》。\n2、极致甜",
+  "author": "盒子老师",
+  "author_id": "81e792bdb2c23c94ec212e6fc04f3fed",
+  "favorite_count": 24,
+  "like_count": 10,
+  "comment_count": 2,
+  "created": 1757897075,
+  "updated": 1757897075,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-2f27c5b7ab3cb00f1692ef18bf42ca17_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 938501
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-1f0a754f8f423cb0a7d6992aba0df789_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 755983
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/50/v2-e05c47cae3fd1faea9c2f68e7c21e4fc_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 916512
+    }
+  ],
+  "fetched_at": "2026-09-10T18:23:03.357Z"
+}

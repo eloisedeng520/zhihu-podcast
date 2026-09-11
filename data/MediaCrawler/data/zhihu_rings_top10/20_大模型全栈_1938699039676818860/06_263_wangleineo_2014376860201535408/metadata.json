@@ -1,0 +1,40 @@
+{
+  "circle_id": "1938699039676818860",
+  "circle_name": "大模型全栈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938699039676818860",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2014376860201535408",
+  "post_url": "https://www.zhihu.com/pin/2014376860201535408?native=0",
+  "title": "周末Karpathy又整个活：autoresearch\nKarpathy的Autoresearch简单来说，就是一个train.py脚本+ralph loop，",
+  "author": "wangleineo",
+  "author_id": "d9e78b550f018b9dd758fdc3a590fcc3",
+  "favorite_count": 263,
+  "like_count": 132,
+  "comment_count": 3,
+  "created": 1773046268,
+  "updated": 1773109764,
+  "is_essence": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-694686aa98420634213e902ca553c14a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 78666
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-caa5a17f70baadc8e08fdbc299ba7652.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 236148
+    }
+  ],
+  "fetched_at": "2026-09-10T18:27:09.359Z"
+}

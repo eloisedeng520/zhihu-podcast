@@ -1,0 +1,44 @@
+{
+  "question_id": "2080676618742260529",
+  "question_url": "https://www.zhihu.com/question/2080676618742260529",
+  "question_title": "如何评价电影《燃烧吧，爸爸》编剧发长文「杀死它的凶手，却连我们的电影都没看过」？",
+  "rank": 20,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081044159088038060",
+  "answer_url": "https://www.zhihu.com/question/2080676618742260529/answer/2081044159088038060",
+  "author": "彭飞",
+  "voteup_count": 599,
+  "comment_count": 35,
+  "created_time": 1788939591,
+  "updated_time": 1788939591,
+  "is_collapsed": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-8771097491ca036e91273344a86b25ca_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 168432
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-57524894ae7e6dbc87c95f7d6708fc8f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 145531
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-d908aad1a7d908d48369d14757a559c1_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 199868
+    }
+  ],
+  "fetched_at": "2026-09-10T12:49:58.886Z"
+}

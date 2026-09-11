@@ -1,0 +1,103 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 1,
+  "ranking_metric": "voteup_count",
+  "article_id": "591233612",
+  "article_url": "https://zhuanlan.zhihu.com/p/591233612",
+  "title": "山东重回48小时核酸引争议：要允许部分城市走回头路",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 3351,
+  "comment_count": 3527,
+  "created": 1670831196,
+  "updated": 1670837493,
+  "image_count": 10,
+  "downloaded_image_count": 10,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-1bad7de30060d4296967558702eb2b72_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 64029
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-5ba382135e500594c9d03c233b86bea5_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 393847
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-1bd39ff5960038d2abfa9fe86cd181c0_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 158315
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-6d468277668534498ac3cb711c9ca206_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 129980
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-a83111a2a60f7e14663bf4db4218ccef_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 139590
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-929d28e62cfe545f82fc66d71b645964_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 66207
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-8ac32741c433c66f5a46a37d1f986f0e_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 151241
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic1.zhimg.com/v2-4d714fb26db2e7d3004d8f389be269fa_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 98944
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-75cee49fb23eecc96627e7b347f0bef9_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 95546
+    },
+    {
+      "index": 10,
+      "original_url": "https://pica.zhimg.com/v2-657d34690de48385f919692415fd9cc1_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "010.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 109654
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

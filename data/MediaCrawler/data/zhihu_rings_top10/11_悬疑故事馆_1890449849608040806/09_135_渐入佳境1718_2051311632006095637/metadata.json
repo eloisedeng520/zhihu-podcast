@@ -1,0 +1,96 @@
+{
+  "circle_id": "1890449849608040806",
+  "circle_name": "悬疑故事馆",
+  "circle_url": "https://www.zhihu.com/ring/host/1890449849608040806",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2051311632006095637",
+  "post_url": "https://www.zhihu.com/pin/2051311632006095637?native=0",
+  "title": "有哪些电影您看过三遍以上呢？\n《孽迷宫》（魔鬼双姝）为两大影史顶级美人循环重刷，颜值冲击力至今找不到代餐。一边是法兰西绝色伊莎贝尔・阿佳妮，自带易碎朦胧的忧郁美",
+  "author": "渐入佳境1718",
+  "author_id": "ae98f6dcd85c8e572fbb89940c9ea4ec",
+  "favorite_count": 135,
+  "like_count": 62,
+  "comment_count": 17,
+  "created": 1781850860,
+  "updated": 1781850860,
+  "is_essence": false,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/v2-9d36c4da5ae6c8997beaa55eea892a15.jpg?9a95e5d367b84b268712dd4a2ffb2fa9",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 351195
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-60e814aaed1cf6fafebc737ec47f723a.jpg?7aedd7a8961648adaaaf0139a2396e88",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 86282
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/v2-08bec763841b89e27c1b71e8f9da4e93.jpg?bb8129ba65ea4cee8a52eccf243a8661",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 1427570
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-f3e19b98097e4248f94148a4dbfdce52.jpg?a554122aa6214695b7563fec9ad1141c",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 80754
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-cfeacc4ddbfbae401da65152e528c67c.jpg?fbbce2c7b737496aba22d0c71ff5665e",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 163725
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-23c61035d998a4d4635d5e22ca1e0c10.jpg?99d4fd5a2f454eb38039f9b71d437631",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 96870
+    },
+    {
+      "index": 7,
+      "original_url": "https://pica.zhimg.com/v2-fbafb92a0189bacdd09ec8d12b199958.jpg?3f4ec392b3c249dfaa6a6851e10973cb",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 121597
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-d8b8dc911b77a920054d14e8c680162b.jpg?477ac092272945749f7cda2d533eb5b2",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 149024
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-6751eb42069aa1e8f9b2b4ea10c1b810.jpg?94412335e0b941c49115b2c2298cb844",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 95015
+    }
+  ],
+  "fetched_at": "2026-09-10T18:10:51.355Z"
+}

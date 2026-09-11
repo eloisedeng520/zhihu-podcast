@@ -1,0 +1,36 @@
+{
+  "question_id": "2080267732650387304",
+  "question_url": "https://www.zhihu.com/question/2080267732650387304",
+  "question_title": "为啥星宇已经处罚了高管层且给应届生发补贴了，大众依旧不买账？星宇现在该怎么做才能挽回口碑？",
+  "rank": 6,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2080288862388086017",
+  "answer_url": "https://www.zhihu.com/question/2080267732650387304/answer/2080288862388086017",
+  "author": "35号庇护所",
+  "voteup_count": 1186,
+  "comment_count": 411,
+  "created_time": 1788759514,
+  "updated_time": 1788761304,
+  "is_collapsed": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-9a3539b473efecb00c22ac01d23f5e05_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 73326
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-cfca2408b8893d87e2f677d78c9c456f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 55726
+    }
+  ],
+  "fetched_at": "2026-09-10T12:51:34.800Z"
+}

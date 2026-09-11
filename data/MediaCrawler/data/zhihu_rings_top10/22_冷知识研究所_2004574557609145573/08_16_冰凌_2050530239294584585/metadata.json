@@ -1,0 +1,40 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2050530239294584585",
+  "post_url": "https://www.zhihu.com/pin/2050530239294584585?native=0",
+  "title": "泡泡龙：靠自己吹泡泡保命的神奇小虫\n走在公园、路边灌木丛，经常能看见嫩枝上裹着一堆白泡泡，老一辈都说这是“蛇沫、蛇口水”，小时候吓得绕着走。\n\n其实这团泡沫里住",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 16,
+  "like_count": 74,
+  "comment_count": 27,
+  "created": 1781832087,
+  "updated": 1781832087,
+  "is_essence": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-15096f08f09a021e6dbb7f012e44fa73.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 89701
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-797f6863cf34002f2ab7bd28059febf8.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69833
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

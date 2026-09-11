@@ -1,0 +1,71 @@
+{
+  "column_rank": 8,
+  "column_name": "互联网晚报",
+  "column_slug": "c_155611518",
+  "column_url": "https://www.zhihu.com/column/c_155611518",
+  "article_rank": 4,
+  "ranking_metric": "voteup_count",
+  "article_id": "2060742635514549014",
+  "article_url": "https://zhuanlan.zhihu.com/p/2060742635514549014",
+  "title": "",
+  "author": "卢诗翰",
+  "author_id": "7c50fef397641c8dc3ad935326863aa8",
+  "author_url_token": "lu-shi-han-89",
+  "voteup_count": 16156,
+  "comment_count": 994,
+  "created": null,
+  "updated": 0,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-804d3ee165d82b9dfc6c037cc3d7c019_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 30003
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-034e79824d42f16213b242c08baa6844_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 39162
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-22f0458669877ceb9e724d71bcbfd55a_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 63753
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-d0cab4780ec23733721311b8c620103b_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 73602
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-f87598d8cef2a980964a41b7be281937_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 68160
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-740ed97ecbc5c24623d1e9c1cf17cef8_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 65407
+    }
+  ],
+  "fetched_at": "2026-09-11T03:11:28.636Z"
+}

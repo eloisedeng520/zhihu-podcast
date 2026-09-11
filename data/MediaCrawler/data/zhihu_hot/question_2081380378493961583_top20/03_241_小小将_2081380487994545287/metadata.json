@@ -1,0 +1,140 @@
+{
+  "question_id": "2081380378493961583",
+  "question_url": "https://www.zhihu.com/question/2081380378493961583",
+  "question_title": "如何评价正式发布的 DeepSeek V4.1 Flash？",
+  "rank": 3,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081380487994545287",
+  "answer_url": "https://www.zhihu.com/question/2081380378493961583/answer/2081380487994545287",
+  "author": "小小将",
+  "voteup_count": 241,
+  "comment_count": 26,
+  "created_time": 1789019778,
+  "updated_time": 1789041500,
+  "is_collapsed": false,
+  "image_count": 15,
+  "downloaded_image_count": 15,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-a17ee339274bc0215019f77c924b2855_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 55662
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-b319e2878e49b8dde1a763a39ae0e75b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 170352
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-9df74f94f45922314482379fcfe1316f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 255688
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-bbb4697c79c9f02d6cb0c299a0fec4b0_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 41606
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-9baeceaa9e53601f26f0e20fcb32fbac_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 41301
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-f1e613800384ad23cddb8194e85f3209_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 134324
+    },
+    {
+      "index": 7,
+      "original_url": "https://pica.zhimg.com/v2-b147c221d90d926c493ea52b41e62f39_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 148492
+    },
+    {
+      "index": 8,
+      "original_url": "https://pica.zhimg.com/v2-bf43f70e8cd2f8c4599cf98f02bdfd20_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 172712
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-f822c0a18f514f209d0eb9962493021d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 300873
+    },
+    {
+      "index": 10,
+      "original_url": "https://pica.zhimg.com/v2-93e474c55407cd1b40ff81ef9e2e2bd6_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "010.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 44332
+    },
+    {
+      "index": 11,
+      "original_url": "https://picx.zhimg.com/v2-61869a9f60df9baf84dc7e1ee9b52cf9_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "011.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 50160
+    },
+    {
+      "index": 12,
+      "original_url": "https://picx.zhimg.com/v2-5544785b464802bf135e6e709883e515_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "012.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 42735
+    },
+    {
+      "index": 13,
+      "original_url": "https://picx.zhimg.com/v2-a1e5657bd684e97cf9a947ec97d3b830_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "013.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 219155
+    },
+    {
+      "index": 14,
+      "original_url": "https://pic1.zhimg.com/v2-3326a15472c834410377f27ce205eb0e_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "014.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 369249
+    },
+    {
+      "index": 15,
+      "original_url": "https://picx.zhimg.com/v2-c45d6b0bad37c73a9155292f36261297_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "015.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 262999
+    }
+  ],
+  "fetched_at": "2026-09-10T12:50:28.116Z"
+}

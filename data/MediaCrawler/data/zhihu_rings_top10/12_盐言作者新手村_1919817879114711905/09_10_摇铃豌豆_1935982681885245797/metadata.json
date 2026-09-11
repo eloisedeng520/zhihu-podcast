@@ -1,0 +1,48 @@
+{
+  "circle_id": "1919817879114711905",
+  "circle_name": "盐言作者新手村",
+  "circle_url": "https://www.zhihu.com/ring/host/1919817879114711905",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1935982681885245797",
+  "post_url": "https://www.zhihu.com/pin/1935982681885245797?native=0",
+  "title": "30天攻克知乎体：盐选故事创作解析(2)\n 30天攻克「知乎体」计划(2)\n🍄什么是盐选？如何获得盐选邀约？\n这个官方编辑课堂带来的内容对把这篇文变成一个标准",
+  "author": "摇铃豌豆",
+  "author_id": "ba325c241841f01cf5d04010065e15be",
+  "favorite_count": 10,
+  "like_count": 25,
+  "comment_count": 5,
+  "created": 1754354240,
+  "updated": 1754354652,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-ba04390eb38af4bd60e708b01773a107_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 160767
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-87738b149e4d535644375f69801e573e_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 127171
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/50/v2-0f89e98296f1b2f20d60768492250448_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 120072
+    }
+  ],
+  "fetched_at": "2026-09-10T18:11:09.333Z"
+}

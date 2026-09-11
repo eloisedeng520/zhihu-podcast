@@ -1,0 +1,72 @@
+{
+  "circle_id": "1938005292467069465",
+  "circle_name": "AI副业圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938005292467069465",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2032432668449715698",
+  "post_url": "https://www.zhihu.com/pin/2032432668449715698?native=0",
+  "title": "AI 员工开始有&#34;工位&#34;了\nGitHub上周有个项目，一份文件拿了91000星 🔥\n开发者基于 Andrej Karpathy（前特斯拉AI总",
+  "author": "AI淘金局",
+  "author_id": "18a247b62b3c76c7f944ff864a9641a1",
+  "favorite_count": 291,
+  "like_count": 58,
+  "comment_count": 5,
+  "created": 1777350173,
+  "updated": 1777350173,
+  "is_essence": false,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-46d47eab4f5c8fb0c59dacb6ca2989ca.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 557480
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-c040a7fcccb7d3601a274d9e9cb24bb2.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 268610
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-105fa7b1b11bbd2fdd4a7fb50003bafe.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 246939
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-08320ca3f6fc3baab5ec081bbc48501b.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 279833
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-b6587826e6e0d5639d0c12150361d9cd.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 314476
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-946a5f229d2f9bb6b4f16773adbe482b.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 399111
+    }
+  ],
+  "fetched_at": "2026-09-10T15:47:13.561Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1871221081496494082",
+  "circle_name": "轨道交通分享大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1871221081496494082",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1976574388318011534",
+  "post_url": "https://www.zhihu.com/pin/1976574388318011534?native=0",
+  "title": "广东城际交路种别图（2025.12）\n试着画了下目前广东城际的主要交路，没有覆盖首末车特殊交路和一些开行极少的特殊交路（如肇机特快）。今后争取动态更新，欢迎大家",
+  "author": "小榄",
+  "author_id": "f700aec6b1bce5653b52621802742422",
+  "favorite_count": 28,
+  "like_count": 63,
+  "comment_count": 5,
+  "created": 1764032235,
+  "updated": 1764157863,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-cbb0423827f5fc4594197a63afdf5ccc_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 354721
+    }
+  ],
+  "fetched_at": "2026-09-10T18:03:10.340Z"
+}

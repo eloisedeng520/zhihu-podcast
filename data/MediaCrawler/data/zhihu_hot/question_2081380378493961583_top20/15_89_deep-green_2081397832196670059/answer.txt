@@ -1,0 +1,1 @@
+什么？？回到了encoder-decoder架构了，那我毕业的时候背题 为什么现在的llm都是decoder-only的架构，算什么回事！！！

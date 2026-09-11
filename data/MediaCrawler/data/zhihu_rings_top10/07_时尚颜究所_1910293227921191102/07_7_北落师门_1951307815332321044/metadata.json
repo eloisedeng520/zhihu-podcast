@@ -1,0 +1,64 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1951307815332321044",
+  "post_url": "https://www.zhihu.com/pin/1951307815332321044?native=0",
+  "title": "🏫开学好物分享之——定妆粉饼\n❗️想要底妆持久在线，定妆肯定不能少\n1️⃣贵价版推荐：NARS大白饼\n✅NARS大白饼就跟DW粉底液一样是油皮回购清单上的常客",
+  "author": "北落师门",
+  "author_id": "811613bf6973d198b45013a12eaa7230",
+  "favorite_count": 7,
+  "like_count": 44,
+  "comment_count": 25,
+  "created": 1758008560,
+  "updated": 1758008756,
+  "is_essence": true,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-cd3d86ddeb6e9970d4c976e25f607d6d_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 390593
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-4e750777706042bb4746fd6b636692e8_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 722543
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-5ec777992bccf3c5ff73127ac50088c7_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 263521
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic4.zhimg.com/50/v2-11ccb94a207f9f9270b628ad74a7599f_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 322379
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/50/v2-5a74f6b36bba8473de6791577fe5eca2_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 282254
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}

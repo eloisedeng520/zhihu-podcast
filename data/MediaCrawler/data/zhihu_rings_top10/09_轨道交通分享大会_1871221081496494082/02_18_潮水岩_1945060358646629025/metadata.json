@@ -1,0 +1,48 @@
+{
+  "circle_id": "1871221081496494082",
+  "circle_name": "轨道交通分享大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1871221081496494082",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1945060358646629025",
+  "post_url": "https://www.zhihu.com/pin/1945060358646629025?native=0",
+  "title": "有感湛江泰州的地铁规划\n地铁规划，并不设限，湛江泰州这些城市都可以做。泰州去过，建了高架，有条南北向好巴士线路（准BRT）。\n有人问，这种明显是大饼的，怎么也能",
+  "author": "潮水岩",
+  "author_id": "94e93d6486d7eada44f3abfe02824b2f",
+  "favorite_count": 18,
+  "like_count": 46,
+  "comment_count": 2,
+  "created": 1756518763,
+  "updated": 1756518763,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-d36a606110010018716b51371eb5ad0c_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 250277
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-8d7b10c9e46c46ddec3206126d386f79_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 261244
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/50/v2-0b2ca164cf70a0fe9752964a5fd3e4b5_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 373971
+    }
+  ],
+  "fetched_at": "2026-09-10T18:03:10.340Z"
+}

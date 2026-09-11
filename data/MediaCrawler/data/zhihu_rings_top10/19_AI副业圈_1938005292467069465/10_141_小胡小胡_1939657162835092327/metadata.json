@@ -1,0 +1,56 @@
+{
+  "circle_id": "1938005292467069465",
+  "circle_name": "AI副业圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938005292467069465",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1939657162835092327",
+  "post_url": "https://www.zhihu.com/pin/1939657162835092327?native=0",
+  "title": "独立开发者的云自由来了：8.1k⭐ 开源 AWS 平替，自建一个云服务！\nUbicloud 8.1k star，Ruby 主栈，单仓库搞定 IaaS：弹性计算、",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 141,
+  "like_count": 30,
+  "comment_count": 0,
+  "created": 1755230420,
+  "updated": 1755230420,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-44b0c0ecc67973274354294aa6eb32e7_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 238685
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-a8751185aa5acec0365ee1beabf496b4_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 315209
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-b780b2d43bcef3aaa23b33382eb36de5_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 286166
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic3.zhimg.com/50/v2-89b341e8fdc35ca643becf2562457b24_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 350126
+    }
+  ],
+  "fetched_at": "2026-09-10T15:47:13.561Z"
+}

@@ -1,0 +1,47 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "article_rank": 10,
+  "ranking_metric": "voteup_count",
+  "article_id": "466941315",
+  "article_url": "https://zhuanlan.zhihu.com/p/466941315",
+  "title": "那两个大骂毛主席的人后来怎么样了？",
+  "author": "上官茂华",
+  "author_id": "656c0f28a7f3f7e12aca289596d11789",
+  "author_url_token": "fo-lan-ci-xiao-qu",
+  "voteup_count": 723,
+  "comment_count": 0,
+  "created": 1644745350,
+  "updated": 1644745399,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-f359499bb5f1f0c8b37047091337b57a_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 52506
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-f359499bb5f1f0c8b37047091337b57a_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 52506
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-b0128537dc0e993d62cd77a2bc46b999_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 98172
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:38.632Z"
+}

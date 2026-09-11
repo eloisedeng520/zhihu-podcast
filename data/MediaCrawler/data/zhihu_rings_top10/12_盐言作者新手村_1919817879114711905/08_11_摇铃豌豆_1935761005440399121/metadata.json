@@ -1,0 +1,48 @@
+{
+  "circle_id": "1919817879114711905",
+  "circle_name": "盐言作者新手村",
+  "circle_url": "https://www.zhihu.com/ring/host/1919817879114711905",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1935761005440399121",
+  "post_url": "https://www.zhihu.com/pin/1935761005440399121?native=0",
+  "title": "30天攻克「知乎体」计划(1)\n🍄全文链接：有哪些平平淡淡却虐到骨子里的虐文？ 原文作者： 沈不归\n🍄参考内容：\n 1.@榛十五 @爱摸鱼的蓝阿姨 关于这个",
+  "author": "摇铃豌豆",
+  "author_id": "ba325c241841f01cf5d04010065e15be",
+  "favorite_count": 11,
+  "like_count": 47,
+  "comment_count": 25,
+  "created": 1754301388,
+  "updated": 1754797063,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-4e136bb7860660b5dc184e6b95af6a28_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 145800
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-8b944c377c1161940108dc5db52833f3_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 123218
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/50/v2-9984c225d6792df9677f8fe2543c4cb6_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 157286
+    }
+  ],
+  "fetched_at": "2026-09-10T18:11:09.333Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1915857047494305789",
+  "circle_name": "三国历史群英会",
+  "circle_url": "https://www.zhihu.com/ring/host/1915857047494305789",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2068293623938900730",
+  "post_url": "https://www.zhihu.com/pin/2068293623938900730?native=0",
+  "title": "🐎 有奖活动｜三国人物AB面\n那些叱咤风云的三国人物，不仅以其盖世功业留名青史，更以其复杂深邃的内心世界和鲜明独特的性格特质，成为后世反复品味的经典。\n @知",
+  "author": "知乎人文",
+  "author_id": "0eebc9b425a88e87408729eec9f09be4",
+  "favorite_count": 25,
+  "like_count": 55,
+  "comment_count": 26,
+  "created": 1785899921,
+  "updated": 1785899921,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-8437908a79686e34bc22dfd188962b9f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 283611
+    }
+  ],
+  "fetched_at": "2026-09-10T17:59:37.181Z"
+}

@@ -1,0 +1,40 @@
+{
+  "circle_id": "1920561090632323706",
+  "circle_name": "从文学到投稿",
+  "circle_url": "https://www.zhihu.com/ring/host/1920561090632323706",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1999183020280795674",
+  "post_url": "https://www.zhihu.com/pin/1999183020280795674?native=0",
+  "title": "大陸雜誌都這麼糟糕嗎？\n我在台灣，去年投稿給一家大陸的小雜誌，不久就收到過稿通知，說會擇期刊登。很開心，這是去年3月的事。\n等到年底還沒上稿，去信問編輯，他說要",
+  "author": "吳荻",
+  "author_id": "7b8aa0cd32d64ba369f03cad284c8396",
+  "favorite_count": 94,
+  "like_count": 267,
+  "comment_count": 218,
+  "created": 1769422915,
+  "updated": 1771656039,
+  "is_essence": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-f4db1792fd7bac50967c185948582f23.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 102213
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-8f5bea133d3b3b54bad3294ccf8335ec.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 102718
+    }
+  ],
+  "fetched_at": "2026-09-10T18:22:24.363Z"
+}

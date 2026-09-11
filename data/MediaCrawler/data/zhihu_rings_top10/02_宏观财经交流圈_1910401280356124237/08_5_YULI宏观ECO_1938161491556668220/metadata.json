@@ -1,0 +1,32 @@
+{
+  "circle_id": "1910401280356124237",
+  "circle_name": "宏观财经交流圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1910401280356124237",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1938161491556668220",
+  "post_url": "https://www.zhihu.com/pin/1938161491556668220?native=0",
+  "title": "各地产业“内卷”的由来，产业政策趋同\n“反内卷”比较困难的原因之一，产业政策趋同导致的企业产能难以关停。\n产业政策趋同的原因主要以下三个原因：\n1.异地调任官员",
+  "author": "YULI宏观ECO",
+  "author_id": "f6ea64e075db97c210256802161e674f",
+  "favorite_count": 5,
+  "like_count": 32,
+  "comment_count": 11,
+  "created": 1754873708,
+  "updated": 1754873708,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-322f8e30852edb151f09cc010fbbe9bf_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 383985
+    }
+  ],
+  "fetched_at": "2026-09-10T17:32:15.190Z"
+}

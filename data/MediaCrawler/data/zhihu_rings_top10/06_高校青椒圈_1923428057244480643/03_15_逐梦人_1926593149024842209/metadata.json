@@ -1,0 +1,48 @@
+{
+  "circle_id": "1923428057244480643",
+  "circle_name": "高校青椒圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1923428057244480643",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1926593149024842209",
+  "post_url": "https://www.zhihu.com/pin/1926593149024842209?native=0",
+  "title": "博士生涯的收官之作\n论文投稿一直被拒心态崩了，怎么办？ 这个工作从2023年11月份就开始着手，历时近一年，一直到2024年9月才开始投稿。期间被4次拒稿，甚至",
+  "author": "逐梦人",
+  "author_id": "23054d687fca0efb75de7c263143dcaa",
+  "favorite_count": 15,
+  "like_count": 38,
+  "comment_count": 8,
+  "created": 1752116111,
+  "updated": 1752116111,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-ddaf784295d59a44640c5352e602f582_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 342209
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-fcc27b6af85efa45901bd80a0f485d15_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 455590
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-c5fea54ce4ebb6aff4cfddbb02851d04_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 58645
+    }
+  ],
+  "fetched_at": "2026-09-10T17:34:40.179Z"
+}

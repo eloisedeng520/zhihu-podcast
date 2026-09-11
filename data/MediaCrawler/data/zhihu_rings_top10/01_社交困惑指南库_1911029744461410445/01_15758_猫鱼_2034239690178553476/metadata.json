@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2034239690178553476",
+  "post_url": "https://www.zhihu.com/pin/2034239690178553476?native=0",
+  "title": "社交时切忌弱者表达！\n1、把“麻烦你了”换成“这事就靠你啦！”\n\n前者听起来就很卑微，不自觉把自己放在低位。\n\n后者瞬间变成平等协作的伙伴，对方也更愿意出力。\n",
+  "author": "猫鱼",
+  "author_id": "4bf3df9632d7ddba85b1eba4135a4653",
+  "favorite_count": 15758,
+  "like_count": 7210,
+  "comment_count": 327,
+  "created": 1777780573,
+  "updated": 1777859350,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-d7a540fd309bd90245d10735aedabbb7.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 64209
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

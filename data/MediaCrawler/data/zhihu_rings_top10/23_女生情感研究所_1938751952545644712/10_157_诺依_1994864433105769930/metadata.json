@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938751952545644712",
+  "circle_name": "女生情感研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1938751952545644712",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1994864433105769930",
+  "post_url": "https://www.zhihu.com/pin/1994864433105769930?native=0",
+  "title": "其实，创伤很难靠自己去疗愈好的\n现在老是看到一些铺天盖地的文字告诉你，一定要内求。\n \n其实只内求，很难。\n \n因为它常常不是“想通了”就能过去的。那些早年留下",
+  "author": "诺依",
+  "author_id": "9d238ae4ddd11cf198f40e2388bf2623",
+  "favorite_count": 157,
+  "like_count": 147,
+  "comment_count": 36,
+  "created": 1768393304,
+  "updated": 1768393304,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-47180cdb1997fe631ac073d013231d39.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 161174
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-9982313262d14ac0576cda2e4fa8ebc1.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 253096
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-c31e24246ab4430a0aac224df154c1c8.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 131670
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:30.357Z"
+}

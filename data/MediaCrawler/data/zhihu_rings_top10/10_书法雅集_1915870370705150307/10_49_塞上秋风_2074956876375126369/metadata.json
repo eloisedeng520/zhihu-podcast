@@ -1,0 +1,32 @@
+{
+  "circle_id": "1915870370705150307",
+  "circle_name": "书法雅集",
+  "circle_url": "https://www.zhihu.com/ring/host/1915870370705150307",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2074956876375126369",
+  "post_url": "https://www.zhihu.com/pin/2074956876375126369?native=0",
+  "title": "蒋纬国的字：一眼惊艳、出乎意料\n第一眼看到时，确实有惊艳的感觉！\n整体上工整秀美、清润干净，是工底扎实的日常书写，属于大众眼中漂亮的“好字”。\n但仔细端详，还是",
+  "author": "塞上秋风",
+  "author_id": "76bd5403f685653d93d73289b30dd5b4",
+  "favorite_count": 49,
+  "like_count": 144,
+  "comment_count": 82,
+  "created": 1787488510,
+  "updated": 1787488510,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-8315b3429cd558c89d2d0917be5eb181.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 133469
+    }
+  ],
+  "fetched_at": "2026-09-10T18:06:48.349Z"
+}

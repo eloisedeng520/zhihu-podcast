@@ -1,0 +1,28 @@
+{
+  "question_id": "2081320443747594654",
+  "question_url": "https://www.zhihu.com/question/2081320443747594654",
+  "question_title": "如何看待三星嘲讽苹果 iPhoneDuo，称其「热剩饭」？苹果这个时候为什么一定要推出折叠屏手机？",
+  "rank": 19,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081342096288624870",
+  "answer_url": "https://www.zhihu.com/question/2081320443747594654/answer/2081342096288624870",
+  "author": "遥想当年少年勇小号",
+  "voteup_count": 12,
+  "comment_count": 2,
+  "created_time": 1789010625,
+  "updated_time": 1789010625,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-25c947dbba9fd62cf9ac9a8988adfe2b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 455493
+    }
+  ],
+  "fetched_at": "2026-09-10T12:49:08.240Z"
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "2081241555524965559",
+  "question_url": "https://www.zhihu.com/question/2081241555524965559",
+  "question_title": "如何评价霍奇猜想（七大千禧难题之一）疑似被 OpenAI 解决？",
+  "rank": 18,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081431822727226797",
+  "answer_url": "https://www.zhihu.com/question/2081241555524965559/answer/2081431822727226797",
+  "author": "逸深",
+  "voteup_count": 49,
+  "comment_count": 10,
+  "created_time": 1789032017,
+  "updated_time": 1789032017,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-a916465957c145615f09f0b2571496ed_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97735
+    }
+  ],
+  "fetched_at": "2026-09-10T12:46:31.771Z"
+}

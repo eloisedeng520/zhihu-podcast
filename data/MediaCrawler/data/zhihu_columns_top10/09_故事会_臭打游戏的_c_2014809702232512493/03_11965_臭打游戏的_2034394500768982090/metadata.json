@@ -1,0 +1,31 @@
+{
+  "column_rank": 9,
+  "column_name": "故事会",
+  "column_slug": "c_2014809702232512493",
+  "column_url": "https://www.zhihu.com/column/c_2014809702232512493",
+  "article_rank": 3,
+  "ranking_metric": "voteup_count",
+  "article_id": "2034394500768982090",
+  "article_url": "https://zhuanlan.zhihu.com/p/2034394500768982090",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 11965,
+  "comment_count": 609,
+  "created": null,
+  "updated": 0,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-806a4da9a12951d30c5412aa0fbe9196_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 55097
+    }
+  ],
+  "fetched_at": "2026-09-11T03:11:51.626Z"
+}

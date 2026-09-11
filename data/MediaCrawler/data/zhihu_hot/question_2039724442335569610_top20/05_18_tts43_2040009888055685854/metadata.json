@@ -1,0 +1,44 @@
+{
+  "question_id": "2039724442335569610",
+  "question_url": "https://www.zhihu.com/question/2039724442335569610",
+  "question_title": "为什么身为成年人的我，基本功嘎嘎结实，游泳却只能游 25 米就游不动了？",
+  "rank": 5,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2040009888055685854",
+  "answer_url": "https://www.zhihu.com/question/2039724442335569610/answer/2040009888055685854",
+  "author": "tts43",
+  "voteup_count": 18,
+  "comment_count": 14,
+  "created_time": 1779156258,
+  "updated_time": 1779156258,
+  "is_collapsed": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b86b330f3d9a439b96e6215a666066aa_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97734
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-d85d7eac12c6613fdcf062314ce11428_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 258300
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-2137718da5af49735c66709eafa875c2_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 93800
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:38.041Z"
+}

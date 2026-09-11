@@ -1,0 +1,36 @@
+{
+  "question_id": "2080768309436458272",
+  "question_url": "https://www.zhihu.com/question/2080768309436458272",
+  "question_title": "如何看待大二学生因用名牌手机被取消资助后威胁要曝光，现愿意更换手机、到资助者亲戚家的店里打工挣钱？",
+  "rank": 3,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081163887370580653",
+  "answer_url": "https://www.zhihu.com/question/2080768309436458272/answer/2081163887370580653",
+  "author": "Happy",
+  "voteup_count": 789,
+  "comment_count": 79,
+  "created_time": 1788968136,
+  "updated_time": 1789008704,
+  "is_collapsed": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-5314025c2b7e555fd841dd1827a99f11_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 61333
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-32162a73b3c7c659be98b7bb0591b46d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 54383
+    }
+  ],
+  "fetched_at": "2026-09-10T12:46:21.740Z"
+}

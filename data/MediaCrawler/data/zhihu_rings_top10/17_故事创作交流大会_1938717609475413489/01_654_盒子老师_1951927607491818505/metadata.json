@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938717609475413489",
+  "circle_name": "故事创作交流大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1938717609475413489",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1951927607491818505",
+  "post_url": "https://www.zhihu.com/pin/1951927607491818505?native=0",
+  "title": "创作笔记15：七步故事法，也是最简单实用的小说结构\n第一步：目标\n明确主人公的动机、梦想/主人公的正常生活被打乱，无法维持，必须改变\n第二步：阻碍\n设计矛盾和冲",
+  "author": "盒子老师",
+  "author_id": "81e792bdb2c23c94ec212e6fc04f3fed",
+  "favorite_count": 654,
+  "like_count": 274,
+  "comment_count": 69,
+  "created": 1758155806,
+  "updated": 1758155806,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-958affe528741edc5dd042ee7de8c93d_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 771698
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-e4f0160e1fe9ffb6753178d08a7c4faf_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 498193
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-d7ebceecce6c70d17fdc71e22e88d08d_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 556907
+    }
+  ],
+  "fetched_at": "2026-09-10T18:23:03.357Z"
+}

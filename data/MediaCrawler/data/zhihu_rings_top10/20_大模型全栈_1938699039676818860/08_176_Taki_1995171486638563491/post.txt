@@ -1,0 +1,9 @@
+SFT只需要对齐部分token！
+论文：ProFit: Leveraging High-Value Signals in SFT via Probability-Guided
+Token Selection
+link：链接 
+code：链接
+TL, DR: 
+1) 用减法做加法，通过对齐部分高价值token放松SFT要求，提高训练效果👍🏻 
+2）通过对一个问题的多个正确答案进行分析，发现原始的预测概率可以作为不错的proxy来预测高价值token 😁
+3）SFT相比RL的缺点就是不是On-policy，这里通过使用预测概率来筛选训练目标，高预测概率才对齐，曲线达到“on-policy” 🐂

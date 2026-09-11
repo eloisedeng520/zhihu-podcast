@@ -1,0 +1,48 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1929665848399859896",
+  "post_url": "https://www.zhihu.com/pin/1929665848399859896?native=0",
+  "title": "防晒小知识之——防晒霜的正确涂抹方式\n❓防晒霜搓泥到崩溃\n是你手法错啦！🙅\n3个手法拯救你！\n✅ 正确姿势：  \n1. 顺着毛孔方向（脸颊向下、额头向上）单程",
+  "author": "北落师门",
+  "author_id": "811613bf6973d198b45013a12eaa7230",
+  "favorite_count": 24,
+  "like_count": 49,
+  "comment_count": 28,
+  "created": 1752849195,
+  "updated": 1752849195,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-9c633dcc66ed1fa13337d4f1c2191c3f_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1023712
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-0de42d8a0579a6de626cf10eb679b17d_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1082977
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-3c6fbe2c04278f879c061b2e7470f1c4_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 496007
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}

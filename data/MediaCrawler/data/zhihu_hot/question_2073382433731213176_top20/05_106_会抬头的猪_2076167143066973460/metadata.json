@@ -1,0 +1,44 @@
+{
+  "question_id": "2073382433731213176",
+  "question_url": "https://www.zhihu.com/question/2073382433731213176",
+  "question_title": "荷马《奥德赛》中 12 名女奴被处死的情节，为什么被诺兰删掉了？这一改编有什么用意？",
+  "rank": 5,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2076167143066973460",
+  "answer_url": "https://www.zhihu.com/question/2073382433731213176/answer/2076167143066973460",
+  "author": "会抬头的猪",
+  "voteup_count": 106,
+  "comment_count": 10,
+  "created_time": 1787776820,
+  "updated_time": 1788028592,
+  "is_collapsed": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-8e29854282cbdbc4c081fda5f8771041_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 24599
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-e9b9343b0fa0ba3475c32ec00cd404c5_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 29749
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-d19881d8a55375c54668161dca6361fa_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 139727
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:15.454Z"
+}

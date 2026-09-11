@@ -1,0 +1,17 @@
+做爬虫一直被 Cloudflare 拦的同学，终于有救了
+抓数据最难的就是过cf。Playwright 一开浏览器，Cloudflare Turnstile 直接拦下来，reCAPTCHA v3 给我打 0.1 分。改了一堆 stealth 插件还是过不了。
+
+GitHub 上 CloakBrowser，4k 星，MIT 协议，CloakHQ 团队做的隐形 Chromium，最新跟到 Chromium 146。
+
+它做了三件超戳的事：
+1. 49 个 C++ 源码级补丁，Canvas、WebGL、音频、字体、GPU、屏幕、WebRTC、网络计时、自动化信号全在二进制层改过，浏览器一启动指纹就和真人一样
+2. humanize=True 一行打开，鼠标曲线、键盘时序、滚动节奏全模拟真人，reCAPTCHA v3 直接打到 0.9
+3. 30+ 检测服务实测过：Cloudflare Turnstile、ShieldSquare、FingerprintJS、BrowserScan，一遍过
+
+接口完全 Playwright 兼容，现有代码改一行 import 就能跑，pip install cloakbrowser，npm 端 npm install cloakbrowser playwright-core。Linux x64/arm64、macOS、Windows 都给了二进制，零配置。
+
+一旦反爬这关被打掉，独立开发者做数据类小工具的门槛就直接降下来了。
+
+开源地址：链接
+
+#爬虫 #开源项目 #独立开发 #Python

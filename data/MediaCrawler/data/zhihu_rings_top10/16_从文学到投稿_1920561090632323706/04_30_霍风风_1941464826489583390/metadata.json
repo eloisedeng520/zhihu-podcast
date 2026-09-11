@@ -1,0 +1,40 @@
+{
+  "circle_id": "1920561090632323706",
+  "circle_name": "从文学到投稿",
+  "circle_url": "https://www.zhihu.com/ring/host/1920561090632323706",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1941464826489583390",
+  "post_url": "https://www.zhihu.com/pin/1941464826489583390?native=0",
+  "title": "超20家适合新人投稿的文学杂志！\n适合新人投稿的杂志，一般有几大共同点：\n\n1.上稿难度较低，或者针对新人开辟专门的栏目，使新人作者能避开激烈的竞争；\n2.对主",
+  "author": "霍风风",
+  "author_id": "58b9511e921df7e9017dd8a199647fb0",
+  "favorite_count": 30,
+  "like_count": 56,
+  "comment_count": 1,
+  "created": 1755661423,
+  "updated": 1755661423,
+  "is_essence": true,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-802b5c1dccced0535094a8c88db3c271_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 127888
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-aec9557e17cb13ee4bce8fd729d8a511_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 110689
+    }
+  ],
+  "fetched_at": "2026-09-10T18:22:24.363Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1910401280356124237",
+  "circle_name": "宏观财经交流圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1910401280356124237",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1995614890006709557",
+  "post_url": "https://www.zhihu.com/pin/1995614890006709557?native=0",
+  "title": "有色金属周期变动，值得关注",
+  "author": "YULI宏观ECO",
+  "author_id": "f6ea64e075db97c210256802161e674f",
+  "favorite_count": 6,
+  "like_count": 14,
+  "comment_count": 7,
+  "created": 1768571675,
+  "updated": 1768571675,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-f529e487baaf6ff660730c89b96dce9a_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 183683
+    }
+  ],
+  "fetched_at": "2026-09-10T17:32:15.190Z"
+}

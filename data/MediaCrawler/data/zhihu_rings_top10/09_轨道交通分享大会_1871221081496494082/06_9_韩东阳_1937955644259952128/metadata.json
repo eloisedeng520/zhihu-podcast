@@ -1,0 +1,64 @@
+{
+  "circle_id": "1871221081496494082",
+  "circle_name": "轨道交通分享大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1871221081496494082",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1937955644259952128",
+  "post_url": "https://www.zhihu.com/pin/1937955644259952128?native=0",
+  "title": "北京快速公交BRT3-一种丐版BRT的变体\n北京围绕着二环，形成了4条BRT线路。这些线路大部分的形态是：专用BRT站台，走行半专用道路（有公交专用道，但路口处",
+  "author": "韩东阳",
+  "author_id": "4256207f00e481ae9283ead3acc21935",
+  "favorite_count": 9,
+  "like_count": 37,
+  "comment_count": 16,
+  "created": 1754825015,
+  "updated": 1754825015,
+  "is_essence": true,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-5f6dae4d3ed7bc2f8fa31673696fb25b_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 942255
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-e4a93813161e304f76f1f4aa9ed875f4_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 795301
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-5b6ba105b46679cf6c9b71cbfef4dcc7_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 917485
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/50/v2-6cb8a5f047b2fb92401f1d4439e68d71_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 675741
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/50/v2-0277e7149dbe669075b21e209badf678_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 668489
+    }
+  ],
+  "fetched_at": "2026-09-10T18:03:10.340Z"
+}

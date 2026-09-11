@@ -1,0 +1,56 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1941644406483555169",
+  "post_url": "https://www.zhihu.com/pin/1941644406483555169?native=0",
+  "title": "73.8k⭐的开源照片管理神器，独立开发者的宝藏\n今天要分享一个我刚发现的超级项目——Immich，居然已经有73.8k⭐，更新活跃到每天都有commit，社区",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 560,
+  "like_count": 120,
+  "comment_count": 7,
+  "created": 1755704100,
+  "updated": 1755704100,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-d02116aa24b644ab2d9bf40d97be7436_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 1085227
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-a6ad34e195c17a5a2d1557d2d4fea3f8_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 2525988
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/50/v2-03e82d6dc46d8bd774cb9a9f801e536c_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 523745
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic3.zhimg.com/50/v2-207829e61930acd2a0e56449d4b23ffc_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 209797
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

@@ -1,0 +1,87 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 10,
+  "ranking_metric": "voteup_count",
+  "article_id": "594361042",
+  "article_url": "https://zhuanlan.zhihu.com/p/594361042",
+  "title": "对奥密克戎的低估，正在让我们付出越来越大的代价",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 1475,
+  "comment_count": 615,
+  "created": 1672027038,
+  "updated": 1672027038,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-a75a4d08ae1503373ce30baa9d4c069c_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 319523
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-a75a4d08ae1503373ce30baa9d4c069c_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 319523
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-7e57e9f550175d08e5eff6a6b45a9e1b_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 99789
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-1b99908cd06227f69c8b4b68476e98f9_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 249170
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-b99ea4ae2e5edf995f5476eb7b21b20b_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 85013
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-d51a1a6315c805de37db3547c3abd9b4_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 179644
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-9631af342565f160469b532d7717c644_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 284165
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-7ba195aacfc179504382a51c89b41816_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 121147
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

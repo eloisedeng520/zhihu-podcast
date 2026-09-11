@@ -1,0 +1,36 @@
+{
+  "question_id": "2081055302082717676",
+  "question_url": "https://www.zhihu.com/question/2081055302082717676",
+  "question_title": "女孩去邻居家吃饭惨遭夫妻分尸，时隔 21 年凶手被抓获，该案目前进展如何？哪些细节值得关注？",
+  "rank": 18,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081105043919577788",
+  "answer_url": "https://www.zhihu.com/question/2081055302082717676/answer/2081105043919577788",
+  "author": "我心永恒",
+  "voteup_count": 12,
+  "comment_count": 3,
+  "created_time": 1788954107,
+  "updated_time": 1788960275,
+  "is_collapsed": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-f8333cca1467601f5379d814fd7b7e30_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 1439424
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-c29604b3e4d5b422ebcd6ad9b59d1b14_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 44399
+    }
+  ],
+  "fetched_at": "2026-09-10T12:53:25.776Z"
+}

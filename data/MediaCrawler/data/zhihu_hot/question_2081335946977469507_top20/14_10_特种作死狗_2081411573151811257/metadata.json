@@ -1,0 +1,60 @@
+{
+  "question_id": "2081335946977469507",
+  "question_url": "https://www.zhihu.com/question/2081335946977469507",
+  "question_title": "机构称 iPhone Duo 首年有望拿下 25% 市场份额，晚了三星、华为数年入局折叠屏，苹果能改写格局吗？",
+  "rank": 14,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081411573151811257",
+  "answer_url": "https://www.zhihu.com/question/2081335946977469507/answer/2081411573151811257",
+  "author": "特种作死狗",
+  "voteup_count": 10,
+  "comment_count": 0,
+  "created_time": 1789027189,
+  "updated_time": 1789027189,
+  "is_collapsed": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-200c03d7fd5a324746a06071effea5c1_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 18581
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-a2835a229ff16aaa903eee1f08f7af45_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 14373
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-8f02480bd2114571cf0194aaf0f73219_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 16515
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/50/v2-bb7cad2e45b7334c3e70b41bed4387ce_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 14058
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/50/v2-23d23e5b619adce814797303f26f05a1_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13074
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:01.709Z"
+}

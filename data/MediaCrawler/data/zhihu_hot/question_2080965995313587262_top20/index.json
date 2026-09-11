@@ -1,0 +1,177 @@
+{
+  "question_id": "2080965995313587262",
+  "question_url": "https://www.zhihu.com/question/2080965995313587262",
+  "question_title": "在古代，盐为什么特别适合征税？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 41,
+  "fetched_pages": {
+    "default": 3,
+    "updated": 3
+  },
+  "fetched_at": "2026-09-10T12:52:23.911Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_81_晴耕雨读的浣熊君_2081273474090263240",
+      "rank": 1,
+      "author": "晴耕雨读的浣熊君",
+      "voteup_count": 81,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "02_61_曹多鱼_2081390076932760933",
+      "rank": 2,
+      "author": "曹多鱼",
+      "voteup_count": 61,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "03_50_比良坂_2080990024531760486",
+      "rank": 3,
+      "author": "比良坂",
+      "voteup_count": 50,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "04_44_Alex YU_2081051677864489892",
+      "rank": 4,
+      "author": "Alex YU",
+      "voteup_count": 44,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "05_36_无情的哈拉尔_2081157712713356088",
+      "rank": 5,
+      "author": "无情的哈拉尔",
+      "voteup_count": 36,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "06_30_Arci_2081365167506510479",
+      "rank": 6,
+      "author": "Arci",
+      "voteup_count": 30,
+      "images": 5,
+      "downloaded": 5
+    },
+    {
+      "folder": "07_25_财税星老师_2081154006223798916",
+      "rank": 7,
+      "author": "财税星老师",
+      "voteup_count": 25,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "08_18_陈冠同2号_2081032051600503654",
+      "rank": 8,
+      "author": "陈冠同2号",
+      "voteup_count": 18,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "09_13_中二冲上天灵盖_2081333897514820046",
+      "rank": 9,
+      "author": "中二冲上天灵盖",
+      "voteup_count": 13,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "10_12_煮酒_2081053029860755427",
+      "rank": 10,
+      "author": "煮酒",
+      "voteup_count": 12,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "11_12_牛斗之域_2081390629276460859",
+      "rank": 11,
+      "author": "牛斗之域",
+      "voteup_count": 12,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "12_8_傻瓜乐力_2081272191849607827",
+      "rank": 12,
+      "author": "傻瓜乐力",
+      "voteup_count": 8,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "13_7_经渡_2081167910790239236",
+      "rank": 13,
+      "author": "经渡",
+      "voteup_count": 7,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "14_7_士大夫_2081317429897175233",
+      "rank": 14,
+      "author": "士大夫",
+      "voteup_count": 7,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_6_貂裘相邦_2081024376640746910",
+      "rank": 15,
+      "author": "貂裘相邦",
+      "voteup_count": 6,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_6_博烟_2081403784060839693",
+      "rank": 16,
+      "author": "博烟",
+      "voteup_count": 6,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "17_5_明月双清_2080979657269298855",
+      "rank": 17,
+      "author": "明月双清",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "18_4_潇湘剑客_2080998928456081796",
+      "rank": 18,
+      "author": "潇湘剑客",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "19_4_周腾飞_2081024490021167314",
+      "rank": 19,
+      "author": "周腾飞",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_4_知乎也_2081061334398120161",
+      "rank": 20,
+      "author": "知乎也",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    }
+  ],
+  "image_errors": []
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2062603188667257433",
+  "post_url": "https://www.zhihu.com/pin/2062603188667257433?native=0",
+  "title": "未来人看我们现在像中世纪\n如果有个3024年的时间旅行者穿越到2024，咱们这个时代在他们眼里，恐怕既原始又野蛮——就像今天的我们看中世纪放血疗法似的。未来人眼",
+  "author": "Roxy",
+  "author_id": "67892a1ca6d936ab359f38266e82bb34",
+  "favorite_count": 50,
+  "like_count": 68,
+  "comment_count": 16,
+  "created": 1784542946,
+  "updated": 1784542946,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-a54986d5b7afa4ad71493e87acb9f519_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 67942
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

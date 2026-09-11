@@ -1,0 +1,71 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "article_rank": 1,
+  "ranking_metric": "voteup_count",
+  "article_id": "2078771414484640386",
+  "article_url": "https://zhuanlan.zhihu.com/p/2078771414484640386",
+  "title": "强烈呼吁国家对河南“泌阳事件”一查到底，严惩不贷！",
+  "author": "上官茂华",
+  "author_id": "656c0f28a7f3f7e12aca289596d11789",
+  "author_url_token": "fo-lan-ci-xiao-qu",
+  "voteup_count": 3912,
+  "comment_count": 709,
+  "created": 1788397767,
+  "updated": 1788397767,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/v2-37813c90d01f39e19f1a31500dffb73f_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 954226
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/v2-2bf4daf32e92aacce1b2d91c64a6b8a7_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 18175
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/v2-a35706598bca77a4f1ec6b9959f17d97_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 104207
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic4.zhimg.com/v2-ab18edd559d510a820d9cccba1f15561_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43711
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic2.zhimg.com/v2-d6ec344f01afbfc2af2bad4a28dafb3d_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 60078
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-ea5b4e1e0c9a96b2e00b864daec7007f_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1036672
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:38.632Z"
+}

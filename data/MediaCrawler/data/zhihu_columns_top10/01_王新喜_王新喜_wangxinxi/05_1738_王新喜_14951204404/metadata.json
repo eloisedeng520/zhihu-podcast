@@ -1,0 +1,127 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 5,
+  "ranking_metric": "voteup_count",
+  "article_id": "14951204404",
+  "article_url": "https://zhuanlan.zhihu.com/p/14951204404",
+  "title": "老外评价中国女孩像巴西牛排，俞敏洪含金量在上升，教育出了问题",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 1738,
+  "comment_count": 802,
+  "created": 1735263733,
+  "updated": 1735263733,
+  "image_count": 13,
+  "downloaded_image_count": 13,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/v2-5015e42b420b98373283d2fcdca75194_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 17777
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/v2-4ad2c278f30acfb5ac0be438b86ee5c9_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 74494
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-d9da089a27d0c1350317d6694bef39e4_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 33251
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-7b8620eab664a1950d67bccbb5929fdc_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 9200
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-0b2cb46e529927216de9399b9c543979_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10085
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic3.zhimg.com/v2-7258e1814983a24c65bc5ee26a09eb64_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69522
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic2.zhimg.com/v2-393ad3862dcdc18d105e61571e4c3379_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 68516
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic4.zhimg.com/v2-8de2f8e87db4231c50267751f837a9c1_r.jpg",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 26486
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic3.zhimg.com/v2-ea56a2a4473575471c117da8237a89fe_r.jpg",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 54830
+    },
+    {
+      "index": 10,
+      "original_url": "https://picx.zhimg.com/v2-b3c157d1ccb15fd2db9b6e6c14d2f4c5_r.jpg",
+      "status": "downloaded",
+      "local_file": "010.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69295
+    },
+    {
+      "index": 11,
+      "original_url": "https://pic4.zhimg.com/v2-484224eaa2515f0a4e197455e8382e7b_r.jpg",
+      "status": "downloaded",
+      "local_file": "011.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 91563
+    },
+    {
+      "index": 12,
+      "original_url": "https://picx.zhimg.com/v2-fa49003c6c9a25ec7cbf8f6c5221169f_r.jpg",
+      "status": "downloaded",
+      "local_file": "012.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 64991
+    },
+    {
+      "index": 13,
+      "original_url": "https://pic2.zhimg.com/v2-5a5be03a70c973a7fc1f491d46a055bd_r.jpg",
+      "status": "downloaded",
+      "local_file": "013.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48617
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

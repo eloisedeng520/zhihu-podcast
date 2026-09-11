@@ -1,0 +1,56 @@
+{
+  "circle_id": "1938913447627700081",
+  "circle_name": "艺术美学探索营",
+  "circle_url": "https://www.zhihu.com/ring/host/1938913447627700081",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1957354346250507204",
+  "post_url": "https://www.zhihu.com/pin/1957354346250507204?native=0",
+  "title": "艺术雕塑赏析：形态与生命的对话\n一起来欣赏艺术之美。\n\n第一张人体雕塑，惟妙惟肖的形态之美，把人体的动态形体灵活柔美表现的淋漓尽致。生动有趣，美感十足。\n\n第二",
+  "author": "爱因思谈",
+  "author_id": "c7f4e5893faeda466237dcfdccc45cfd",
+  "favorite_count": 4,
+  "like_count": 17,
+  "comment_count": 2,
+  "created": 1759451368,
+  "updated": 1759451470,
+  "is_essence": true,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-e3ae8b1d20ad1fc88bbada55e9f2c19a_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 1027836
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-1d39a0651f436b54bf28a79cbd4ac35c_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 62242
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-793b20724ee9e63bc9547ae99cf5e715_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 865425
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic4.zhimg.com/50/v2-67f6aeed459036fc075f457905cbc15d_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 575160
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:31.199Z"
+}

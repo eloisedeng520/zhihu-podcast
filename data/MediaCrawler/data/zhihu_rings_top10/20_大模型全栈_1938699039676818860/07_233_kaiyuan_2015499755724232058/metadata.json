@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938699039676818860",
+  "circle_name": "大模型全栈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938699039676818860",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2015499755724232058",
+  "post_url": "https://www.zhihu.com/pin/2015499755724232058?native=0",
+  "title": "GLM 5架构图\n链接 GLM5把GLM4.x的GQA替换成了DSA，整体与DSV3.2相似。把参数标注到了架构图上，方便阅读。需要的同学到InfraTech库",
+  "author": "kaiyuan",
+  "author_id": "da4e6b50eb50d6f120b604f6cf15b33e",
+  "favorite_count": 233,
+  "like_count": 88,
+  "comment_count": 1,
+  "created": 1773313187,
+  "updated": 1773313187,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-2eac5414a790c4b3ed8512eb681904b7.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 354127
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-da06b8862c0cf99727b523a9f0d08028.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 262083
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-3127b5642a9f8e306f7f142cf07cc09a.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 150599
+    }
+  ],
+  "fetched_at": "2026-09-10T18:27:09.359Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2060497226405828524",
+  "post_url": "https://www.zhihu.com/pin/2060497226405828524?native=0",
+  "title": "人脉更重要还是个人能力更重要？\n在如今这个社会，简单粗暴地认为人脉更重要或者个人能力更重要，都是片面且肤浅的。\n\n人生的不同阶段，个人能力和人脉的权重，从来都不",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 10,
+  "like_count": 10,
+  "comment_count": 1,
+  "created": 1784041676,
+  "updated": 1784041676,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-f1f27aa28bf92e8bfb8613646041cbc3.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.webp",
+      "content_type": "image/webp",
+      "size_bytes": 42190
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

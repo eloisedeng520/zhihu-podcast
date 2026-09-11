@@ -1,0 +1,48 @@
+{
+  "circle_id": "1890449849608040806",
+  "circle_name": "悬疑故事馆",
+  "circle_url": "https://www.zhihu.com/ring/host/1890449849608040806",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1910464282832900846",
+  "post_url": "https://www.zhihu.com/pin/1910464282832900846?native=0",
+  "title": "最近读了核熔炉老师的作品，还听了她的直播受益匪浅\n第一篇是（替罪羊），我是边开车边听的，一边听一边思考主人公讲的这个故事，到底是他自己的亲身经历？还是他创作的故",
+  "author": "羡羡",
+  "author_id": "2a7aa785e027a47d9f737205162ed581",
+  "favorite_count": 7,
+  "like_count": 32,
+  "comment_count": 0,
+  "created": 1748275993,
+  "updated": 1748275993,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-a7d94c8f99b6a3ff2c19aab644f58d76_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 171776
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-113a60d8b36470f2d5998e1f0dcee31e_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1273114
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/50/v2-a77aa23e3b34bd08fb5284af946a97e3_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 89070
+    }
+  ],
+  "fetched_at": "2026-09-10T18:10:51.355Z"
+}

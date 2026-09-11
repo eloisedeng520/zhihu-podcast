@@ -1,0 +1,71 @@
+{
+  "column_rank": 5,
+  "column_name": "历史的天空",
+  "column_slug": "c_1967251563912357179",
+  "column_url": "https://www.zhihu.com/column/c_1967251563912357179",
+  "article_rank": 9,
+  "ranking_metric": "voteup_count",
+  "article_id": "1991493856278097930",
+  "article_url": "https://zhuanlan.zhihu.com/p/1991493856278097930",
+  "title": "",
+  "author": "北泽无人",
+  "author_id": "f110716ca0d020b95620f571ea5aa836",
+  "author_url_token": "bei-ze-wu-ren",
+  "voteup_count": 2039,
+  "comment_count": 415,
+  "created": null,
+  "updated": 0,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-f227fec73f776cccccdcc480fb99525f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 107521
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-88e7fc455e3563a92d623ce7c60ef790_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 105316
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-f08b6c02a21eb24f5873ecbdf8f42c72_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 262239
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-5b1af902aba05a4b5ad562c287b96dd7_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 139840
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-3d2b185d1ca3d2376e04cdeee50eb58a_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 74053
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-d9978cefa3eb31a67023d65e850920ff_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 121971
+    }
+  ],
+  "fetched_at": "2026-09-11T03:09:21.630Z"
+}

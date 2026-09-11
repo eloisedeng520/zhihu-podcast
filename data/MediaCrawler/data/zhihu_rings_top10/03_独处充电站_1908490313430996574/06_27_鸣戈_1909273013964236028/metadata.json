@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1909273013964236028",
+  "post_url": "https://www.zhihu.com/pin/1909273013964236028?native=0",
+  "title": "什么时候独处最舒服？找到你的“甜点时间”\n各位独享家们，今天我们探讨一个关键问题：什么时候独处效果最好？虽然会涉及一些理论和专有名词，但保证通俗易懂。\n\n一、独",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 27,
+  "like_count": 32,
+  "comment_count": 8,
+  "created": 1747988382,
+  "updated": 1749112158,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-4ec76379b2b2b25c9268d5a7742b0686_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 196972
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

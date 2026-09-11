@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911058658416138000",
+  "circle_name": "力训与摔柔研究",
+  "circle_url": "https://www.zhihu.com/ring/host/1911058658416138000",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1941548790214558830",
+  "post_url": "https://www.zhihu.com/pin/1941548790214558830?native=0",
+  "title": "健身坚持不下来的原因是什么？\n健身难坚持的原因在于：1. 把“坚持”当成“必须完成的任务”，导致身体产生抵触；2. 把“中断”视为“彻底失败”，害怕暂停后不再开",
+  "author": "徒手囧囧",
+  "author_id": "d26af408eaee4957eb6d6d8afc9eb9c9",
+  "favorite_count": 62,
+  "like_count": 55,
+  "comment_count": 9,
+  "created": 1755681350,
+  "updated": 1755681350,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-065c4a6fe9d0667a099512214e7bdbf8_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 94127
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-aaeb7065667b8f67e0e86216b0fda70f_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 866710
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-8cb0d10858b9c5c179c997833f022c6a_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 108610
+    }
+  ],
+  "fetched_at": "2026-09-10T18:28:26.342Z"
+}

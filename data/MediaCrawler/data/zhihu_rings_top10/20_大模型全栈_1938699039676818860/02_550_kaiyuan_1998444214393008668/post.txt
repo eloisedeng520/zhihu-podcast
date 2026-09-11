@@ -1,0 +1,5 @@
+“大模型基础知识”“vLLM/SGLang快速入门”“PyTorch原理”
+把github知识库整理了一把链接，分享出来，还想了一个标语：
+想深耕AI Infra领域？欢迎访问InfraTech代码库链接！内容涵盖大模型基础、PyTorch/vLLM/SGLang框架入门、性能加速等核心方向，配套50+用例链接及适合初学者的notebook练习链接。
+后面继续用心整理，欢迎关注 @kaiyuan 
+#大模型 #​人工智能

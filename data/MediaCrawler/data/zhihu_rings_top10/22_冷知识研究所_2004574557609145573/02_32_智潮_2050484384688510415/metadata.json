@@ -1,0 +1,72 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2050484384688510415",
+  "post_url": "https://www.zhihu.com/pin/2050484384688510415?native=0",
+  "title": "一个冷知识，其实没有任何一种植物的叶子叫粽叶，只有被用来包粽子时，临时叫包粽子的叶子，简称粽叶。粽叶一般选叶片大的，好包，然后就是带有一定清香，为粽子带来独特味",
+  "author": "智潮",
+  "author_id": "664ec783964684b80cdeaabb41caa3dd",
+  "favorite_count": 32,
+  "like_count": 85,
+  "comment_count": 82,
+  "created": 1781653620,
+  "updated": 1781653620,
+  "is_essence": false,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-6deac874d4f5ff6193b3d8e35c0ee04b.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 119560
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-c67a4a93642e652912107597c7574fc9.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.webp",
+      "content_type": "image/webp",
+      "size_bytes": 58150
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-e53d6bad3211ec07064a7d576133a0c7.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.webp",
+      "content_type": "image/webp",
+      "size_bytes": 43694
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-fbf941039fd19b839089cc4afb4491d7.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.webp",
+      "content_type": "image/webp",
+      "size_bytes": 31442
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-9f99bf50cf9c29fca6e3c038bb4f7422.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.webp",
+      "content_type": "image/webp",
+      "size_bytes": 38368
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-ecf52781aa4b2a6c2cd6058bcb05eedb.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.webp",
+      "content_type": "image/webp",
+      "size_bytes": 95604
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

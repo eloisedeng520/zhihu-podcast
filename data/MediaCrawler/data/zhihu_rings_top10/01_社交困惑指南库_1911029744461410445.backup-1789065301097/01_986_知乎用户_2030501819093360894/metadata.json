@@ -1,0 +1,88 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2030501819093360894",
+  "post_url": "https://www.zhihu.com/pin/2030501819093360894?native=0",
+  "title": "奶奶给人看了一辈子风水，临走前跟我交了底\n1. 吃家常饭，就说饭菜香\n\n2. 穿普通衣，就说衣服暖\n\n3. 走平凡路，就说沿途美\n\n4. 遇见笑脸，就说人心善\n",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 986,
+  "like_count": 672,
+  "comment_count": 43,
+  "created": 1776890030,
+  "updated": 1776890030,
+  "is_essence": false,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-9db8809dbfb9423124dcdc154a8992ef.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 109831
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-5ac96f32a9a08852367ad7f83992ecd3.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 93140
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-ab6a0deb0f669b60d596936dc2a063d6.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 63238
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-d24b0dbe4262801d40120a9d7f8cd256.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 77610
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/v2-94386cbcf29dfbf516f10b89b86338a2.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 126160
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-1c287c7fe4c9fcd0ee855305f2b62af0.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 107361
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-b2ca86bfef48c0a5c8fa4da62e61cf78.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 92129
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-c51842cc9b98e6a1507b8423da152cad.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 111252
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

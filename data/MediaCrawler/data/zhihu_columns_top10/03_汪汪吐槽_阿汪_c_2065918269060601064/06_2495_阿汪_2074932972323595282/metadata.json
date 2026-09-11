@@ -1,0 +1,103 @@
+{
+  "column_rank": 3,
+  "column_name": "汪汪吐槽",
+  "column_slug": "c_2065918269060601064",
+  "column_url": "https://www.zhihu.com/column/c_2065918269060601064",
+  "article_rank": 6,
+  "ranking_metric": "voteup_count",
+  "article_id": "2074932972323595282",
+  "article_url": "https://zhuanlan.zhihu.com/p/2074932972323595282",
+  "title": "",
+  "author": "阿汪",
+  "author_id": "0e696ebd1c21874b71221d2dc5fd5353",
+  "author_url_token": "yang-yue-37-9",
+  "voteup_count": 2495,
+  "comment_count": 285,
+  "created": null,
+  "updated": 0,
+  "image_count": 10,
+  "downloaded_image_count": 10,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-8f1ba0c6d46fbd78c936f764b4de1179_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 102527
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-ab87b53cb8ebd21e620668ec9c46eddc_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21763
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-b04f84043b62a618b440f21762d9e913_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 95485
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-279aa33b451894d634d464ea9df8f538_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 51269
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-14203f4f3c66d97c9a8a740c9bab4025_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 92282
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-e48fd7eabcad30cbd2b4d2d9bcf0adc0_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 51911
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/v2-27be82ff288d7fc7eedefecda2ea00f9_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 70337
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-17a3eb5deba9e348869b1c98cc464a2d_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 67333
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-9137ea8ef0d06afda215939ee8311430_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 53505
+    },
+    {
+      "index": 10,
+      "original_url": "https://picx.zhimg.com/v2-1c9ac36b222bbc76186a623f5b9437e4_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "010.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 86177
+    }
+  ],
+  "fetched_at": "2026-09-11T03:08:37.628Z"
+}

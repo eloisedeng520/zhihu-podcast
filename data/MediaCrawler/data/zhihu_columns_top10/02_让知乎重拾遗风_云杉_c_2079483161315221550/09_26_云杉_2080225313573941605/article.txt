@@ -1,0 +1,81 @@
+干货预警！
+这篇回答解释了包括“冬天摸金属更冷”“舔栏杆更容易冻住”“木房子比纯混凝土房更保暖”“羽绒服为什么保暖”等一系列日常现象。
+冬天舔栏杆会冻住舌头，但舔木头没那么危险，道理是一样的。
+你皮肤感受到的，不是物体有多少度，而是皮肤降温到底有多快。
+哪怕ID叫“小手冰凉” 的人，在冬天，手也有个二十来度。
+（话说起这种ID的人现在多大了）
+而木头和金属表面呢，温度就低多了。
+当我们的手接触这些物品的时候，热量就会从更高的手，自然流向更低的物体。
+我们把这叫做「热量交换」。
+关键问题就在热量交换上。
+不同导热性能的物体，从你身上抢走热量的速度，是天差地别的。
+我们衡量一个物体的导热性能的强弱，一般用导热系数（ W/(m·K)）。
+干燥的木材，导热系数是0.15
+而金属呢？
+304不锈钢是14.4，碳钢是54，黄铜是111，纯铜是401。
+少则是木头的96倍，多则2670倍。
+
+你可以简单理解成，常见金属从你身体里夺走热量的能力，是常见木头的几十倍甚至几千倍。
+知道这一点，再脑补一下大冬天你把手放在金属上。
+你的手刚接触金属，最表面的一层金属会立刻被你的手加热，然后迅速导向更远、更深的金属区域。
+而和你手掌接触的那部分呢，因为热量被送走了，怎么也捂不热。
+这个时候，你就像个源源不断产热的暖炉，手掌与金属接触的部分就是热量的传送带。
+身体疯狂输出热量，金属疯狂吸收热量。
+此时的大脑：
+啥玩意儿啊，我皮肤降温那么快，冻死我算求。
+2006年的时候，就有学者组织了40名志愿者，用指尖接触不同材质、不同温度的物体。
+他们做了1655次实验，结果发现，材料的热学性质会显著影响皮肤降温速度，低温条件下金属的降温远高于非金属材料。
+
+冬天舔栏杆容易冻住也是这个道理。
+舌头碰到很冷的金属后，金属会迅速吸走唾液和舌头的热量，让唾液结冰，形成一座金属与舌头间的“冰桥”。
+于是乎，就有了冬季限定景点：
+
+哦对，还真有人用切下来的猪舌头测试舔金属，发了篇论文出来。
+舌头们冻伤很明显，当事猪没有意见：
+
+跑题了，说回木头。
+木头就不一样了诶，导热性差得一批。
+木材内部有大量的微小孔隙，里面包着空气。
+空气的导热性很差，木头的导热性也很差，弱弱联合，热量流失就慢多了。
+我们的羽绒服之所以保暖，也是这个原理。
+蓬松的结构存储了大量的空气，极大程度阻止了身体与外界进行热量交换。
+
+顺带一提，有个反直觉的点，木材导热系数只有钢筋混凝土的5%。
+如果真的建两个房子，一个房子用20 cm木材的实心墙，一个房子用20 cm的钢筋混凝土。
+木屋要比钢筋混凝土屋保温地多。
+所以现实中的钢筋混凝土建筑，要用岩棉、EPS、XPS、聚氨酯等导热系数极低的材料做保温层，才能达到理想的保温效果。
+南方的部分小区，当年建的时候图省钱，保温做的一般。
+这几年气候异常，南方冬天有时候也冷得厉害。
+哪家开发商良心哪家黑心，看室内温度就能感知一二。
+好的房子因为保温做得好，是相对可以冬暖夏凉的。
+
+相同的原理，除了解释舔栏杆外，还可以发散到很多日常选项里。
+比如冬天坐在石凳上，比坐木凳冷得多。
+瓷砖地板通常比木地板冻脚。
+厨房里的不锈钢台面比木制案板更凉。
+它们并不一定温度低，只是更擅长从你身上把热拿走。
+其实，从更严格的物理学角度来说，影响这种触感的不只是我上面说的导热系数。
+还有一个非常重要但大众很少听说的量：
+热感受率，或者热逸度（Thermal effusivity）。
+你可以粗略理解成，一个材料刚和你接触时，究竟有多大本事从你的皮肤中吸收热量。
+一句话秒杀这个问题的话——
+金属热逸度＞＞木头，就这么简单。
+以上
+参考内容：
+研究者让40名受试者指尖接触不同温度、不同材料的物体，不同材料从手上带走热量的速度不同：
+GENG Q, HOLMÉR I, HARTOG E A D, et al. Temperature limit values for touching cold surfaces with the fingertip[J]. Annals of Occupational Hygiene, 2006, 50(8): 851-862. DOI:10.1093/annhyg/mel030.
+指尖接触温度以及人的冷感、痛感：
+GENG Q, HOLMÉR I. Change in contact temperature of finger touching on cold surfaces[J]. International Journal of Industrial Ergonomics, 2001, 27(6): 387-391. DOI:10.1016/S0169-8141(01)00005-1.
+材料物理性质与人的触摸感受之间的关系：
+WONGSRIRUKSA S, HOWES P, CONREEN M, et al. The use of physical property data to predict the touch perception of materials[J]. Materials & Design, 2012, 42: 238-244. DOI:10.1016/j.matdes.2012.05.054.
+木质材料的热逸度普遍较低：
+PODREKAR LOREDAN N, LIPOVAC D, JORDAN S, et al. Thermal effusivity of different tabletop materials in relation to users' perception[J]. Applied Ergonomics, 2022, 100: 103664. DOI:10.1016/j.apergo.2021.103664.
+猪舌头舔栏杆：
+JARMUND A H, JARMUND S H, TOLLEFSEN S E, et al. The trauma of the tundra tongue: an experimental and computational study of lingual tissue damage following adhesion to a cold metal lamp post[J]. Head & Face Medicine, 2026, 22(1): 12. DOI:10.1186/s13005-025-00581-y.
+美国农业部《木材手册》，干燥木材导热系数约0.15 W/(m·K)：
+GLASS S V, ZELINKA S L. Moisture relations and physical properties of wood[M]//FOREST PRODUCTS LABORATORY. Wood handbook—wood as an engineering material. Madison: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory, 2021.
+金属导热率参考：
+POWELL R W, HO C Y, LILEY P E. Thermal conductivity of selected materials[R]. Washington, DC: National Bureau of Standards, 1966. DOI:10.6028/NBS.NSRDS.8. 
+TOULOUKIAN Y S, POWELL R W, HO C Y, et al. Thermophysical properties of matter: Vol. 1. Thermal conductivity—metallic elements and alloys[M]. New York: IFI/Plenum Press, 1970.
+羽绒服为什么保暖：
+GAO J, YU W, PAN N. Structures and properties of the goose down as a material for thermal insulation[J]. Textile Research Journal, 2007, 77(8): 617-626. DOI:10.1177/0040517507079408.

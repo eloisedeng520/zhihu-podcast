@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2057753346816184903",
+  "post_url": "https://www.zhihu.com/pin/2057753346816184903?native=0",
+  "title": "为什么有些人喜欢跟身旁的人评价在场的另一个人，却意识不到这是一种冒犯？\n有时候几个人聊天，会出现这样一种场景。\n\n当事人明明就在旁边，有人却转头对身边的人说：\n",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 145,
+  "like_count": 105,
+  "comment_count": 11,
+  "created": 1783387565,
+  "updated": 1783387565,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-1445fe49dc721ac8b9c2d6f562b224a8.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97116
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1910401280356124237",
+  "circle_name": "宏观财经交流圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1910401280356124237",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2039281589939593933",
+  "post_url": "https://www.zhihu.com/pin/2039281589939593933?native=0",
+  "title": "生育率集体跳水，都赖乔布斯？\n全文分析如下： 生育率下降，有人赖乔布斯\n简要版本如下：\n从全球多国生育率的长期数据中，能观察到一个共性的现象：在智能手机普及的关",
+  "author": "YULI宏观ECO",
+  "author_id": "f6ea64e075db97c210256802161e674f",
+  "favorite_count": 21,
+  "like_count": 26,
+  "comment_count": 32,
+  "created": 1778982760,
+  "updated": 1781064619,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-11fc74d583117385c319b67f1b64f795.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 67942
+    }
+  ],
+  "fetched_at": "2026-09-10T17:32:15.190Z"
+}

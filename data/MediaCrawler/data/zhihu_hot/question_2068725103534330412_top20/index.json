@@ -1,0 +1,177 @@
+{
+  "question_id": "2068725103534330412",
+  "question_url": "https://www.zhihu.com/question/2068725103534330412",
+  "question_title": "白人饭的魅力主要是省时还是健康？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 94,
+  "fetched_pages": {
+    "default": 5,
+    "updated": 5
+  },
+  "fetched_at": "2026-09-10T12:54:33.169Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_447_潘森_2077848263823249972",
+      "rank": 1,
+      "author": "潘森",
+      "voteup_count": 447,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "02_60_漆黑的游击士_2081177419168346529",
+      "rank": 2,
+      "author": "漆黑的游击士",
+      "voteup_count": 60,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "03_42_天堂里的烤鸭_2080245868154852928",
+      "rank": 3,
+      "author": "天堂里的烤鸭",
+      "voteup_count": 42,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "04_29_Eureka_2080962756887557203",
+      "rank": 4,
+      "author": "Eureka",
+      "voteup_count": 29,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "05_21_紫霞狼_2081416246365511689",
+      "rank": 5,
+      "author": "紫霞狼",
+      "voteup_count": 21,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "06_19_我爱我的祖国_2081432311711769160",
+      "rank": 6,
+      "author": "我爱我的祖国",
+      "voteup_count": 19,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_15_就包括我_2081000162839811964",
+      "rank": 7,
+      "author": "就包括我",
+      "voteup_count": 15,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "08_11_巴山夜雨_2080666617965450376",
+      "rank": 8,
+      "author": "巴山夜雨",
+      "voteup_count": 11,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "09_11_第一句话_2081440760663105660",
+      "rank": 9,
+      "author": "第一句话",
+      "voteup_count": 11,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "10_11_夏非冬_2081447331464065763",
+      "rank": 10,
+      "author": "夏非冬",
+      "voteup_count": 11,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "11_9_麻衣卿相_2081453839987782308",
+      "rank": 11,
+      "author": "麻衣卿相",
+      "voteup_count": 9,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "12_7_刷瓦滴卡_2069424509086651795",
+      "rank": 12,
+      "author": "刷瓦滴卡",
+      "voteup_count": 7,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "13_6_周公子别墅这边走_2078551106507092635",
+      "rank": 13,
+      "author": "周公子别墅这边走",
+      "voteup_count": 6,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "14_4_陈武敏_2080937592657396227",
+      "rank": 14,
+      "author": "陈武敏",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_4_东亚首席经济学家_2081126545721237611",
+      "rank": 15,
+      "author": "东亚首席经济学家",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_4_岚光破崖绿_2081446537411011644",
+      "rank": 16,
+      "author": "岚光破崖绿",
+      "voteup_count": 4,
+      "images": 4,
+      "downloaded": 4
+    },
+    {
+      "folder": "17_3_Quint_2081123010233243090",
+      "rank": 17,
+      "author": "Quint",
+      "voteup_count": 3,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "18_3_benbo_2081432550078166319",
+      "rank": 18,
+      "author": "benbo",
+      "voteup_count": 3,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "19_3_卡拉迪亚流浪者_2081436171998065023",
+      "rank": 19,
+      "author": "卡拉迪亚流浪者",
+      "voteup_count": 3,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_3_楚虽三户_2081473160889874357",
+      "rank": 20,
+      "author": "楚虽三户",
+      "voteup_count": 3,
+      "images": 0,
+      "downloaded": 0
+    }
+  ],
+  "image_errors": []
+}

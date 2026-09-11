@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938621827502049071",
+  "circle_name": "迦文聊写作",
+  "circle_url": "https://www.zhihu.com/ring/host/1938621827502049071",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1994113632192194266",
+  "post_url": "https://www.zhihu.com/pin/1994113632192194266?native=0",
+  "title": "重返知乎，这次心态不一样了\n#知乎15周年 \n回忆第一次用知乎还是16年，那时候想学写东西，第一次认识知乎，也在上面找到了很好的答案解读，收藏了很多大神的优秀作",
+  "author": "橘子皮",
+  "author_id": "7740f814cb515ffdcddc8dc0b8940dcb",
+  "favorite_count": 0,
+  "like_count": 8,
+  "comment_count": 0,
+  "created": 1768214179,
+  "updated": 1768214179,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-68790392c25352f5d08c484f85fcd814.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 78536
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:40.327Z"
+}

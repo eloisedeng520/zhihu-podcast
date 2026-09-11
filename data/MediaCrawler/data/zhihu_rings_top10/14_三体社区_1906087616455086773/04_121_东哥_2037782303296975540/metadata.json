@@ -1,0 +1,32 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2037782303296975540",
+  "post_url": "https://www.zhihu.com/pin/2037782303296975540?native=0",
+  "title": "太阳每秒烧掉420万吨物质，烧了46亿年，余额还剩99.97%\n你有没有想过一个问题：你每天抬头看到的太阳，其实是一个正在连续不断爆炸的超级氢弹。\n它每秒要烧掉",
+  "author": "东哥",
+  "author_id": "48c721ac140abed7bd149aeb74aaa823",
+  "favorite_count": 121,
+  "like_count": 411,
+  "comment_count": 91,
+  "created": 1778625236,
+  "updated": 1778625243,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-2322b96844834760a5fe99153e99c849.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38482
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

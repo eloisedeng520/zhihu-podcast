@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1993213218131301606",
+  "post_url": "https://www.zhihu.com/pin/1993213218131301606?native=0",
+  "title": "什么叫人情世故？\n1去看望生病的亲戚，直接给钱。\n2亲戚来访怎么接待：穷亲戚，去外面高档餐厅吃饭；富亲戚，亲自下厨做饭。\n3组局，就要买单，别人抢着买单，那只是",
+  "author": "提笔忆江湖",
+  "author_id": "f7d80248118ac7b708c9db40ca605c9e",
+  "favorite_count": 6167,
+  "like_count": 4158,
+  "comment_count": 428,
+  "created": 1767999164,
+  "updated": 1767999164,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-484a0d59394a6a9793989be1be277e11.jpeg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 270615
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-91a8b320fc911a2bca52d15995ec312f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 183243
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-b0c56ecc8999e471168277c812b9625e.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 721539
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

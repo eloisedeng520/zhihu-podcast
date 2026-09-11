@@ -1,0 +1,28 @@
+{
+  "question_id": "2081074229856974140",
+  "question_url": "https://www.zhihu.com/question/2081074229856974140",
+  "question_title": "有媒体报道称 DeepSeek 备战科创板 IPO，中信证券已入场尽调，哪些信息值得关注？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081397800433202756",
+  "answer_url": "https://www.zhihu.com/question/2081074229856974140/answer/2081397800433202756",
+  "author": "曹多鱼",
+  "voteup_count": 125,
+  "comment_count": 28,
+  "created_time": 1789023906,
+  "updated_time": 1789023906,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-0a5b61aba60e96a5c643d9b8c6755027_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 48590
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:10.080Z"
+}

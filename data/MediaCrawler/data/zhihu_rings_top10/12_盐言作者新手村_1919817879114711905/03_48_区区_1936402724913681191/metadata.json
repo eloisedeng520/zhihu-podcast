@@ -1,0 +1,48 @@
+{
+  "circle_id": "1919817879114711905",
+  "circle_name": "盐言作者新手村",
+  "circle_url": "https://www.zhihu.com/ring/host/1919817879114711905",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1936402724913681191",
+  "post_url": "https://www.zhihu.com/pin/1936402724913681191?native=0",
+  "title": "盐选新人过稿干货分享\n　　1，制作人存在导语杀，所以在导语上一定符合社区规则。\n　　第一句，快准狠的点出背景和主角目的。（见图一例子）\n　　第二句，根据背景目的",
+  "author": "区区",
+  "author_id": "5325a184fa7146b7bc370937f0a5178d",
+  "favorite_count": 48,
+  "like_count": 68,
+  "comment_count": 9,
+  "created": 1754454570,
+  "updated": 1754454570,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-6e6774fb805dfd3d190233a6166d2f21_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 145414
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-e2f50033710622b545672a6bf16bfb87_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 137169
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-2ecd22976e2f9f494f153ba34e3e36bb_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 82653
+    }
+  ],
+  "fetched_at": "2026-09-10T18:11:09.333Z"
+}

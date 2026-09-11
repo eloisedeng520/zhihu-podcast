@@ -1,0 +1,32 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2060364426734203374",
+  "post_url": "https://www.zhihu.com/pin/2060364426734203374?native=0",
+  "title": "兄弟们，GitHub冒出来的这个怪物项目，直接狂砍22万星，可能大家都听说过了？\n它直接把Claude和Cursor逼成了全自动打工机，这波操作属实有点狠。\n\n",
+  "author": "深杯酒满",
+  "author_id": "e8b9070fe801241bb2cc3e5e8556e6bf",
+  "favorite_count": 528,
+  "like_count": 129,
+  "comment_count": 7,
+  "created": 1784009186,
+  "updated": 1784009186,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-beae144062d3b9bd255f675a1a8cc770_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 105262
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

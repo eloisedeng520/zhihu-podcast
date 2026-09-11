@@ -1,0 +1,60 @@
+{
+  "question_id": "351651719",
+  "question_url": "https://www.zhihu.com/question/351651719",
+  "question_title": "酒店为什么会有三小时钟点房？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "1910655398526063903",
+  "answer_url": "https://www.zhihu.com/question/351651719/answer/1910655398526063903",
+  "author": "小舞",
+  "voteup_count": 31289,
+  "comment_count": 1584,
+  "created_time": 1748315745,
+  "updated_time": 1787315289,
+  "is_collapsed": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-4cbbcf41fa839e49d2015a0abcb39016_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 115274
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-0c5d4ee5c44a4e6f7839cebb1420784d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 128300
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-bee06b0d447f7dc2199844a7fe38842e_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 144462
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-ae9632c86667e4c378607c2bb97c5a26_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 384046
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/v2-b213bdac84a92f985998f40dca41877c_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 332332
+    }
+  ],
+  "fetched_at": "2026-09-10T12:47:59.833Z"
+}

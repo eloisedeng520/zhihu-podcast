@@ -1,0 +1,96 @@
+{
+  "circle_id": "1915870370705150307",
+  "circle_name": "书法雅集",
+  "circle_url": "https://www.zhihu.com/ring/host/1915870370705150307",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2029126168620672548",
+  "post_url": "https://www.zhihu.com/pin/2029126168620672548?native=0",
+  "title": "武则天“御用抄经生”程待宾小楷水平超越灵飞经了吗\n唐代武则天时期的“御用抄经生”程待宾，被誉为“国之圣手”。他唯一传世的小楷真迹《金刚般若波罗蜜经》法度谨严，笔",
+  "author": "亦木",
+  "author_id": "959f79534727e00048c2e5bde4c8cd30",
+  "favorite_count": 75,
+  "like_count": 41,
+  "comment_count": 7,
+  "created": 1776561807,
+  "updated": 1776561807,
+  "is_essence": false,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-56aa2be703a812a2d986b5ecae64f8d3.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 137497
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-20eda9730051dce82ca9cad514350a8d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 124269
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-ad4a0708a21f25851bab3ca8f65bab4c.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 123201
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-564996e5e1d9e4166147c49fedf3fcc8.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 115679
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-e48445cd6b2db53b0caa4a8c2c730b2b.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 130416
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-e4659c77ce2db438f315015fd5c03f9f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 121147
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-cd5713f622fa58498184bb3d6f998a09.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 129921
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-8532f73aef34b7d53a29f18e1df1bc41.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 147954
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-d021fd37f87a95302169ec8d965e0974.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 123474
+    }
+  ],
+  "fetched_at": "2026-09-10T18:06:48.349Z"
+}

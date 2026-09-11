@@ -1,0 +1,5 @@
+规划 astra high 及以上。
+第一版执行 Astra middle。
+修改，Astra low，改不好，切高档位。
+粗活统一，luna max。
+机械活，就用 5.3 的单独池子。

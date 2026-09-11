@@ -1,0 +1,130 @@
+{
+  "column_rank": 7,
+  "column_name": "关于时政区的唯我评价",
+  "listed_author": "臭打游戏的",
+  "column_slug": "c_1996542723679884372",
+  "column_url": "https://www.zhihu.com/column/c_1996542723679884372",
+  "source_page": "https://www.zhihu.com/column-square",
+  "requested_count": 10,
+  "selection_rule": "遍历专栏全部文章，按单篇 voteup_count（赞同数）降序取前十",
+  "scanned_article_count": 86,
+  "api_total": 88,
+  "pages": 1,
+  "selected_count": 10,
+  "shortage": 0,
+  "image_errors": [],
+  "fetched_at": "2026-09-11T03:10:57.628Z",
+  "complete": true,
+  "articles": [
+    {
+      "folder": "01_17838_臭打游戏的_2035755491490535219",
+      "rank": 1,
+      "article_id": "2035755491490535219",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 17838,
+      "comment_count": 1510,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "02_11869_臭打游戏的_2065335318811764384",
+      "rank": 2,
+      "article_id": "2065335318811764384",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 11869,
+      "comment_count": 522,
+      "images": 16,
+      "downloaded": 16
+    },
+    {
+      "folder": "03_10683_臭打游戏的_2074128661834483620",
+      "rank": 3,
+      "article_id": "2074128661834483620",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 10683,
+      "comment_count": 774,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "04_9960_臭打游戏的_2050072780444538068",
+      "rank": 4,
+      "article_id": "2050072780444538068",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 9960,
+      "comment_count": 1560,
+      "images": 8,
+      "downloaded": 8
+    },
+    {
+      "folder": "05_8126_臭打游戏的_2075883851545628676",
+      "rank": 5,
+      "article_id": "2075883851545628676",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 8126,
+      "comment_count": 628,
+      "images": 12,
+      "downloaded": 12
+    },
+    {
+      "folder": "06_7638_臭打游戏的_2065733026001293548",
+      "rank": 6,
+      "article_id": "2065733026001293548",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 7638,
+      "comment_count": 549,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "07_7269_臭打游戏的_2071253694109193116",
+      "rank": 7,
+      "article_id": "2071253694109193116",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 7269,
+      "comment_count": 430,
+      "images": 14,
+      "downloaded": 14
+    },
+    {
+      "folder": "08_7257_臭打游戏的_2067510561798202906",
+      "rank": 8,
+      "article_id": "2067510561798202906",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 7257,
+      "comment_count": 518,
+      "images": 41,
+      "downloaded": 41
+    },
+    {
+      "folder": "09_7053_臭打游戏的_1994059022609977964",
+      "rank": 9,
+      "article_id": "1994059022609977964",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 7053,
+      "comment_count": 733,
+      "images": 5,
+      "downloaded": 5
+    },
+    {
+      "folder": "10_6093_臭打游戏的_2074865616486405416",
+      "rank": 10,
+      "article_id": "2074865616486405416",
+      "title": "",
+      "author": "臭打游戏的",
+      "voteup_count": 6093,
+      "comment_count": 380,
+      "images": 1,
+      "downloaded": 1
+    }
+  ]
+}

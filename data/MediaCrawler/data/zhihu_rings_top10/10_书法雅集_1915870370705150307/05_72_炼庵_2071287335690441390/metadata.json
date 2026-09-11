@@ -1,0 +1,168 @@
+{
+  "circle_id": "1915870370705150307",
+  "circle_name": "书法雅集",
+  "circle_url": "https://www.zhihu.com/ring/host/1915870370705150307",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2071287335690441390",
+  "post_url": "https://www.zhihu.com/pin/2071287335690441390?native=0",
+  "title": "《笔法全览》（附百图详解）\n凡学书者，总绕不开“笔法”二字。自魏晋以降，“二王一脉”几成笔法代称，然有清一代，碑学崛起，笔法裂变为帖以韵胜、碑以势雄之双流并峙。",
+  "author": "炼庵",
+  "author_id": "3efe8b0765307a2e2c87206c3c30e97b",
+  "favorite_count": 72,
+  "like_count": 9,
+  "comment_count": 0,
+  "created": 1786613680,
+  "updated": 1786613680,
+  "is_essence": false,
+  "image_count": 18,
+  "downloaded_image_count": 18,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-be74c10b05b161aecd78d9f1ba151d67.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 2988435
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-684ca435538ae3269b1f2434e9d7a391.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 122488
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-1be71ba86227c5f35455048ebe07e823.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 166926
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-c6a360c06551eaa6b2ff912b701a599d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 250796
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-ee57e1ad315e781fed355905a7d95d22.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 1207760
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-1805664e1d5086bc2a60823b47de4444.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 1543902
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-3e95edfa67f8cbddf1793c63e09eea49.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 1181136
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-626e03ac2a2009f38d799ec41ef22beb.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.png",
+      "content_type": "image/png",
+      "size_bytes": 1078436
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-17b44ffd344a9a6994661880ea65ba89.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 375187
+    },
+    {
+      "index": 10,
+      "original_url": "https://picx.zhimg.com/v2-71ee619ab00bf580b03a2f5c3f827ed3.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "010.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 334099
+    },
+    {
+      "index": 11,
+      "original_url": "https://pic1.zhimg.com/v2-7253068ceb2e3138a2df28f7969b26e1.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "011.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 278837
+    },
+    {
+      "index": 12,
+      "original_url": "https://picx.zhimg.com/v2-732d9e2e685e5bb249664a9db399e568.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "012.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 149486
+    },
+    {
+      "index": 13,
+      "original_url": "https://picx.zhimg.com/v2-3ea46a2d3b21fc620b3d3203480f95b4.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "013.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 189481
+    },
+    {
+      "index": 14,
+      "original_url": "https://picx.zhimg.com/v2-a1f8d0d33df7c9890cff474d694d00d3.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "014.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 361129
+    },
+    {
+      "index": 15,
+      "original_url": "https://pic1.zhimg.com/v2-de74ca15e1d984893a6a502535bdfede.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "015.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 517732
+    },
+    {
+      "index": 16,
+      "original_url": "https://picx.zhimg.com/v2-4c5afbb5fa20105ae109a8a5561faf8c.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "016.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 565735
+    },
+    {
+      "index": 17,
+      "original_url": "https://picx.zhimg.com/v2-601e016de053a3213e29f5bce4973e6a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "017.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 308707
+    },
+    {
+      "index": 18,
+      "original_url": "https://picx.zhimg.com/v2-b7c653d363f397a4e2cb650a6e4b8c2a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "018.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 356313
+    }
+  ],
+  "fetched_at": "2026-09-10T18:06:48.349Z"
+}

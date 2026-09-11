@@ -1,0 +1,96 @@
+{
+  "circle_id": "1915870370705150307",
+  "circle_name": "书法雅集",
+  "circle_url": "https://www.zhihu.com/ring/host/1915870370705150307",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2031670999016526584",
+  "post_url": "https://www.zhihu.com/pin/2031670999016526584?native=0",
+  "title": "这字既有赵孟頫的遒美又有董其昌的疏淡\n     明末僧人书法家释明纲行书《春江花月夜》被认为是融诗意、禅境与精湛书艺于一体的精品，笔法融晋唐精髓，具“二王”风韵",
+  "author": "亦木",
+  "author_id": "959f79534727e00048c2e5bde4c8cd30",
+  "favorite_count": 95,
+  "like_count": 54,
+  "comment_count": 5,
+  "created": 1777168208,
+  "updated": 1777168208,
+  "is_essence": false,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-cf26fc397bcd018896f644a0f36bb938.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 288108
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-004a4507626a08793ae6836c3754956a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 281658
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-444e92720a37e6895a58be350498f66d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 263729
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-f3281be1f1027a86357acb4fbc14bae6.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 132074
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-bbc7c81de4d6402aa1193bd8d3a7ff5c.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 128175
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-b59f3f91db973076e5a7e436a77300c9.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 133469
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-3a32f1323c18108f2c9288641592ad67.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 120673
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic1.zhimg.com/v2-fc07afcea6d073f50292b10e58506910.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 131390
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-2921db9d2d16b0a1c6079f1f494d012f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 131254
+    }
+  ],
+  "fetched_at": "2026-09-10T18:06:48.349Z"
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "2076745267311638363",
+  "question_url": "https://www.zhihu.com/question/2076745267311638363",
+  "question_title": "成为老师以后，你发现这份工作和入行前想象中最不一样的地方是什么？",
+  "rank": 6,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2077453303655437994",
+  "answer_url": "https://www.zhihu.com/question/2076745267311638363/answer/2077453303655437994",
+  "author": "夕瓜",
+  "voteup_count": 156,
+  "comment_count": 18,
+  "created_time": 1788083464,
+  "updated_time": 1789002286,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-cc0f4f0117aefbb33717a16d2a6777a8_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 159130
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:47.410Z"
+}

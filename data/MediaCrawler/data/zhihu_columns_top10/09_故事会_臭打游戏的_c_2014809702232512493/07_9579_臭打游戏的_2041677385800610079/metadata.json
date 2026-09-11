@@ -1,0 +1,95 @@
+{
+  "column_rank": 9,
+  "column_name": "故事会",
+  "column_slug": "c_2014809702232512493",
+  "column_url": "https://www.zhihu.com/column/c_2014809702232512493",
+  "article_rank": 7,
+  "ranking_metric": "voteup_count",
+  "article_id": "2041677385800610079",
+  "article_url": "https://zhuanlan.zhihu.com/p/2041677385800610079",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 9579,
+  "comment_count": 446,
+  "created": null,
+  "updated": 0,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-439103dbd968d44f8d8705f0f53e2049_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 64466
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-3f4af301f73db932a2546eca6bbafcd7_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 104585
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-fb4ec54a0056c10d6b7b9d1e4104cd92_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 109917
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-f7fc84b4966592f8d1680c4dae55d597_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 122033
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-54ca8735ed8c3d382a21155338748160_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 145487
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-29a76929bdfd5128002463e5d5ca6c41_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 103543
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/v2-3a58281a194c48941e3970e55e44d4c2_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 126463
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-77082fd953a7f008afd7cb73730d678a_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 164923
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-1c01ee2952c6f03c7c57ec045ecfeb54_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 113212
+    }
+  ],
+  "fetched_at": "2026-09-11T03:11:51.626Z"
+}

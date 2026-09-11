@@ -1,0 +1,144 @@
+{
+  "circle_id": "1915870370705150307",
+  "circle_name": "书法雅集",
+  "circle_url": "https://www.zhihu.com/ring/host/1915870370705150307",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2055174398886294034",
+  "post_url": "https://www.zhihu.com/pin/2055174398886294034?native=0",
+  "title": "明明是温润君子，却写出最“痛快”的《琵琶行》\n　　文徵明八十八岁所作行草长卷《琵琶行》，用笔秀丽而劲健，既点画圆融、使转利落，又沉著痛快。结字成熟稳健，但通过字",
+  "author": "亦木",
+  "author_id": "959f79534727e00048c2e5bde4c8cd30",
+  "favorite_count": 90,
+  "like_count": 63,
+  "comment_count": 3,
+  "created": 1782771822,
+  "updated": 1782771822,
+  "is_essence": false,
+  "image_count": 15,
+  "downloaded_image_count": 15,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-c1cd2d697461c6269e4d8a90291dc6bc.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 2290918
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-95d4a146303505cf16db0e5a764e2c37.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 2159344
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-0a12b6633ed83fd27da122f33efa3f8d.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 2106505
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-71febf79338368945e51315480224346.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 2140411
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-e955cf020ce009e366d527a561974990.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 2172740
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-90070f9e84526282b8ad590bd20af7a8.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 2004960
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-98244741ff4714945d7b3926af496c1d.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 2135646
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-a67b91e6c0fff179e4320b77203051f7.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.png",
+      "content_type": "image/png",
+      "size_bytes": 1885414
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-7165680b096dd86f8346e2ded031d3fa.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "009.png",
+      "content_type": "image/png",
+      "size_bytes": 2023163
+    },
+    {
+      "index": 10,
+      "original_url": "https://pica.zhimg.com/v2-b5f52090680a2751e802486fd4e50ca7.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "010.png",
+      "content_type": "image/png",
+      "size_bytes": 2139771
+    },
+    {
+      "index": 11,
+      "original_url": "https://picx.zhimg.com/v2-2abff5bdf70fb7f4fed5bd4b33b79762.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "011.png",
+      "content_type": "image/png",
+      "size_bytes": 1972330
+    },
+    {
+      "index": 12,
+      "original_url": "https://pica.zhimg.com/v2-8b609e047caa3ce5868c42b132c2f845.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "012.png",
+      "content_type": "image/png",
+      "size_bytes": 2121896
+    },
+    {
+      "index": 13,
+      "original_url": "https://picx.zhimg.com/v2-a4ca5d0eeb9b7543867a9e5aa72d8def.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "013.png",
+      "content_type": "image/png",
+      "size_bytes": 1967389
+    },
+    {
+      "index": 14,
+      "original_url": "https://pic1.zhimg.com/v2-e283e5eea1a7c8ea6560baa9515ed475.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "014.png",
+      "content_type": "image/png",
+      "size_bytes": 2086638
+    },
+    {
+      "index": 15,
+      "original_url": "https://picx.zhimg.com/v2-e490ba86fd74aa8f5476dee54128db50.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "015.png",
+      "content_type": "image/png",
+      "size_bytes": 1835101
+    }
+  ],
+  "fetched_at": "2026-09-10T18:06:48.349Z"
+}

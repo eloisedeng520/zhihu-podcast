@@ -1,0 +1,17 @@
+3.6万星免费 API 宝库，独立开发者的瑞士军刀
+36.1k⭐、37900 Fork，public-apis 把全球免费 API 一网打尽，Python+Shell 脚本自动校验，持续 7 年社区维护。  
+
+适用人群：独立开发者、原型验证党、学生党、数据可视化爱好者。  
+
+仓库结构极简：根目录 README 即索引，scripts/validate 自动跑链接健康检查，issue 模板直接给提报格式，零门槛 PR。  
+
+使用场景：  
+1. 做 MVP 缺数据？直接抄 Animals/Weather/Finance 分类，一行 curl 就能跑。  
+2. 写爬虫怕被反爬？用官方公开接口，合法合规。  
+3. 做教学 Demo？按目录挑 3-5 个接口，10 分钟拼出展示页。  
+
+上手：git clone 后看 README，Ctrl+F 搜关键词，复制示例 URL 到 Postman，完事。想贡献？跑 scripts/tests 通过即可提 PR，社区秒回。  
+
+一句话总结：把它当字典放桌面，灵感来了随时翻，独立开发效率翻倍。
+
+ #独立开发 #免费API #开源项目精选

@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938717609475413489",
+  "circle_name": "故事创作交流大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1938717609475413489",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1950489503589462346",
+  "post_url": "https://www.zhihu.com/pin/1950489503589462346?native=0",
+  "title": "创作笔记11：雷米大神教你如何写好悬疑推理文\n以下的笔记是中国“犯罪心理小说教父”雷米的授课总结，我觉得对悬疑推理故事的创作很有启发，有兴趣的亲可以先收藏，以备",
+  "author": "盒子老师",
+  "author_id": "81e792bdb2c23c94ec212e6fc04f3fed",
+  "favorite_count": 66,
+  "like_count": 37,
+  "comment_count": 27,
+  "created": 1757812936,
+  "updated": 1757812936,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-45f687926f5d3246bbdc6d3be29f4952_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 690890
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-b148db3190e64b10e135ed2096b0b154_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 626192
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/50/v2-796e760db5f3df28c760e05e76beade7_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 611045
+    }
+  ],
+  "fetched_at": "2026-09-10T18:23:03.357Z"
+}

@@ -1,0 +1,28 @@
+{
+  "question_id": "2068725103534330412",
+  "question_url": "https://www.zhihu.com/question/2068725103534330412",
+  "question_title": "白人饭的魅力主要是省时还是健康？",
+  "rank": 7,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081000162839811964",
+  "answer_url": "https://www.zhihu.com/question/2068725103534330412/answer/2081000162839811964",
+  "author": "就包括我",
+  "voteup_count": 15,
+  "comment_count": 23,
+  "created_time": 1788929101,
+  "updated_time": 1788941659,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-9e6db67f5e0cccc21c90eff4b56d9cca_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1166171
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:33.169Z"
+}

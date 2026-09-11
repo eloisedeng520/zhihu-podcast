@@ -1,0 +1,32 @@
+{
+  "circle_id": "1910401280356124237",
+  "circle_name": "宏观财经交流圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1910401280356124237",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1982559349923665698",
+  "post_url": "https://www.zhihu.com/pin/1982559349923665698?native=0",
+  "title": "中国版少子化对策呼之欲出？\n今天的表述里，有一条相对不那么起眼的内容是：\n\n倡导积极婚育观，努力稳定新出生人口规模。 \n\n其实从人口年龄结构来看，长期而言出生人",
+  "author": "古都闲云",
+  "author_id": "8371bdb66636dfd67cf1aa178c3768e6",
+  "favorite_count": 132,
+  "like_count": 234,
+  "comment_count": 546,
+  "created": 1765459320,
+  "updated": 1765459320,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-78da71880a6effa8bda9e0d7adf1386c_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 29892
+    }
+  ],
+  "fetched_at": "2026-09-10T17:32:15.190Z"
+}

@@ -1,0 +1,87 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "article_rank": 8,
+  "ranking_metric": "voteup_count",
+  "article_id": "2078769405324949183",
+  "article_url": "https://zhuanlan.zhihu.com/p/2078769405324949183",
+  "title": "今天，回望毛、邓的对美判断，还是毛主席看得更为深邃",
+  "author": "上官茂华",
+  "author_id": "656c0f28a7f3f7e12aca289596d11789",
+  "author_url_token": "fo-lan-ci-xiao-qu",
+  "voteup_count": 942,
+  "comment_count": 157,
+  "created": 1788397294,
+  "updated": 1788397294,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/v2-1bffb15bbdb18867010263c5e34dd49d_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 49943
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/v2-57b515e99df9b55c698eaaf50cd9cfdb_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43739
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-de843f5e60bbb754b669655734eb6446_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 77485
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic3.zhimg.com/v2-6aa2c548072bcf9d18844dc014aa7b94_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 812158
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-313951d45a2d056c5007310a99fdeec4_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 103846
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic2.zhimg.com/v2-e8de8c267221ca61dfdbc617c8b789f7_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 191663
+    },
+    {
+      "index": 7,
+      "original_url": "https://pica.zhimg.com/v2-cf2b2d13c21c8e716ae7ca03f643a09c_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 72774
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-f86c10e1575306473f88d6be5044617b_r.jpg",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69711
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:38.632Z"
+}

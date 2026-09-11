@@ -1,0 +1,3 @@
+启用多agent模式，让Codex通过Luna监视调用多个Deeseek-V4-flash，这个是用来读结构化输出的。
+Astra负责编排任务，分拆任务，读取难度代码，GLM5.3-flash读取简单的代码还有msg，配置文件和.h文件即可。
+最后Astra通过监视子agent卡片的方式，节约token，这是我的用法。还有，Qwen生图是真的垃圾，我特么服了。

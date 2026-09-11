@@ -1,0 +1,1 @@
+Open AI 的模型只有Astra和其他。如果你是Plus，用Astra Low。如果你是Pro，用Astra High以上。用其他的模型不如去用OpencodeGo里面的muse1.3。只要你不在意训练，那个模型就基本上是免费的。

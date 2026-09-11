@@ -1,0 +1,28 @@
+{
+  "question_id": "2081213028393908212",
+  "question_url": "https://www.zhihu.com/question/2081213028393908212",
+  "question_title": "iPhone 18 Pro 系列 9999 元起，最高售价 20499 元，此次升级能撑起这次涨价吗？",
+  "rank": 19,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081334541164213795",
+  "answer_url": "https://www.zhihu.com/question/2081213028393908212/answer/2081334541164213795",
+  "author": "见贤思齐",
+  "voteup_count": 6,
+  "comment_count": 0,
+  "created_time": 1789008823,
+  "updated_time": 1789008823,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-9878d0496e031966cfd7430b18519ac2_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 923159
+    }
+  ],
+  "fetched_at": "2026-09-10T12:53:35.504Z"
+}

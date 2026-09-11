@@ -1,0 +1,48 @@
+{
+  "circle_id": "1923428057244480643",
+  "circle_name": "高校青椒圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1923428057244480643",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1923651078198629524",
+  "post_url": "https://www.zhihu.com/pin/1923651078198629524?native=0",
+  "title": "感谢文沫老师邀请\n以前写回答比较多，写想法比较少，现在加入青椒圈，我一定好好表现。高校这所围城，外人看了都说前途大好，现在青椒看了也只能摇头叹息。看看即将毕业的",
+  "author": "clausius",
+  "author_id": "75642e5dea56956b66ac840652e63d5a",
+  "favorite_count": 4,
+  "like_count": 42,
+  "comment_count": 21,
+  "created": 1751414661,
+  "updated": 1751414661,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-a3fb61f981d5127c7e59ea25f732d902_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 127904
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-544ca3c50b716d32c68cc09f9c467336_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 256044
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-d09e27fd76bb461fe8103423b6bdf82c_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 846691
+    }
+  ],
+  "fetched_at": "2026-09-10T17:34:40.179Z"
+}

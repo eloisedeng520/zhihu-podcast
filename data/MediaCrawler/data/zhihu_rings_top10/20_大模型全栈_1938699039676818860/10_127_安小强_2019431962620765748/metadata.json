@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938699039676818860",
+  "circle_name": "大模型全栈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938699039676818860",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2019431962620765748",
+  "post_url": "https://www.zhihu.com/pin/2019431962620765748?native=0",
+  "title": "做 LLM 应用的同学，评测可以看看看看 DeepEval\ndeepeval，14.2k star：给 LLM 应用提供系统化的评测能力，30+ 内置指标，直接",
+  "author": "安小强",
+  "author_id": "12f467db6e420803a16c32e873bcdc8d",
+  "favorite_count": 127,
+  "like_count": 27,
+  "comment_count": 0,
+  "created": 1774250276,
+  "updated": 1774250276,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-d5f23da4ce4504e8d12bcc51ed57bb62.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 174508
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-6fbedc357ebf917873e05ea102a64c59.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 138874
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-1c849f3b059c08ce33a413ed4e90ccc1.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 134349
+    }
+  ],
+  "fetched_at": "2026-09-10T18:27:09.359Z"
+}

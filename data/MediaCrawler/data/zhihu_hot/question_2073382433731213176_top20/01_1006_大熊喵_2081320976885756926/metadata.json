@@ -1,0 +1,28 @@
+{
+  "question_id": "2073382433731213176",
+  "question_url": "https://www.zhihu.com/question/2073382433731213176",
+  "question_title": "荷马《奥德赛》中 12 名女奴被处死的情节，为什么被诺兰删掉了？这一改编有什么用意？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081320976885756926",
+  "answer_url": "https://www.zhihu.com/question/2073382433731213176/answer/2081320976885756926",
+  "author": "大熊喵",
+  "voteup_count": 1006,
+  "comment_count": 106,
+  "created_time": 1789005589,
+  "updated_time": 1789005795,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-86c80e34479fe2a38af3af1572532263_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 132925
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:15.454Z"
+}

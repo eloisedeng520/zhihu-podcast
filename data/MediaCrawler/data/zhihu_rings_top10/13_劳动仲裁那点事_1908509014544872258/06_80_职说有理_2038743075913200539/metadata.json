@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908509014544872258",
+  "circle_name": "劳动仲裁那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1908509014544872258",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2038743075913200539",
+  "post_url": "https://www.zhihu.com/pin/2038743075913200539?native=0",
+  "title": "靴子落地：社保基数强制执行，费用该谁承担\n靴子落地，山东各地已然执行。强制社保缴费基数，费用该谁承担？\n当企业无力承担高额的社保费用，就会转嫁给劳动者。青岛某企",
+  "author": "职说有理",
+  "author_id": "d918427884d31624cc5da34bc2d24236",
+  "favorite_count": 80,
+  "like_count": 247,
+  "comment_count": 379,
+  "created": 1778854768,
+  "updated": 1778986223,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-679607be13598554ce5f2d68a85c8396.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 104940
+    }
+  ],
+  "fetched_at": "2026-09-10T18:14:55.384Z"
+}

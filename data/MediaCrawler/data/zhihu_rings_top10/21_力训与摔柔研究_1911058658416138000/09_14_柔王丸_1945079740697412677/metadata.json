@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911058658416138000",
+  "circle_name": "力训与摔柔研究",
+  "circle_url": "https://www.zhihu.com/ring/host/1911058658416138000",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1945079740697412677",
+  "post_url": "https://www.zhihu.com/pin/1945079740697412677?native=0",
+  "title": "我被人做成手办了！！！",
+  "author": "柔王丸",
+  "author_id": "4719effbbe11dfaa29bc4ad5659462aa",
+  "favorite_count": 14,
+  "like_count": 108,
+  "comment_count": 31,
+  "created": 1756523178,
+  "updated": 1756523178,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-f487a10b2c7775c7918fbe4a8feb9608_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 81290
+    }
+  ],
+  "fetched_at": "2026-09-10T18:28:26.342Z"
+}

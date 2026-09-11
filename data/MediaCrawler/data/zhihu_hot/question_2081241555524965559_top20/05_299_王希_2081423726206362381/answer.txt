@@ -1,0 +1,2 @@
+测评一下GPT最新的Astra模型和image2.5生图模型。
+以下为Astra自己生成提示词，image2.5生成的图片。

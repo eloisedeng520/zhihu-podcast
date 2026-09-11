@@ -1,0 +1,48 @@
+{
+  "circle_id": "1920561090632323706",
+  "circle_name": "从文学到投稿",
+  "circle_url": "https://www.zhihu.com/ring/host/1920561090632323706",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2024221369005548194",
+  "post_url": "https://www.zhihu.com/pin/2024221369005548194?native=0",
+  "title": "数理释天道十七（上）宇宙的第一性原理\n\n开篇：你身体里的宇宙密码\n你有没有过这样的经历：\n当你看龙卷风的新闻时，觉得它转圈的样子很眼熟？\n当你看银河系的图片时，",
+  "author": "河洛伊人",
+  "author_id": "79e0b1d6953d645efda4ca0202f08e83",
+  "favorite_count": 9,
+  "like_count": 4,
+  "comment_count": 0,
+  "created": 1775419239,
+  "updated": 1775430539,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-7852065fff45162f7fc0361f47ef8e72.jpeg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 85292
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-b0780e5e19b6bdacc21c30da6601ee2d.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 2730594
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-3067a42ee8a9884ff1e5daa7dbf40aac.jpeg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 127672
+    }
+  ],
+  "fetched_at": "2026-09-10T18:22:24.363Z"
+}

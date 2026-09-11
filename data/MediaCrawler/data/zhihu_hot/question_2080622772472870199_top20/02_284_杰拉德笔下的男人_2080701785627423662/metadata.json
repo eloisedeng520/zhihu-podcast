@@ -1,0 +1,28 @@
+{
+  "question_id": "2080622772472870199",
+  "question_url": "https://www.zhihu.com/question/2080622772472870199",
+  "question_title": "霸王茶姬在上海试卖茶叶蛋，单价 5 元，搭配奶茶半价，为何瞄准早餐市场？你愿意下单吗？",
+  "rank": 2,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2080701785627423662",
+  "answer_url": "https://www.zhihu.com/question/2080622772472870199/answer/2080701785627423662",
+  "author": "杰拉德笔下的男人",
+  "voteup_count": 284,
+  "comment_count": 71,
+  "created_time": 1788857963,
+  "updated_time": 1788857963,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-e166a1ed4b5d2a9fc77370ab17f02cdb_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 102674
+    }
+  ],
+  "fetched_at": "2026-09-10T12:50:15.838Z"
+}

@@ -1,0 +1,44 @@
+{
+  "question_id": "2076745267311638363",
+  "question_url": "https://www.zhihu.com/question/2076745267311638363",
+  "question_title": "成为老师以后，你发现这份工作和入行前想象中最不一样的地方是什么？",
+  "rank": 14,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2079607282439137121",
+  "answer_url": "https://www.zhihu.com/question/2076745267311638363/answer/2079607282439137121",
+  "author": "发光中",
+  "voteup_count": 78,
+  "comment_count": 48,
+  "created_time": 1788597013,
+  "updated_time": 1788597013,
+  "is_collapsed": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-d4dedf0573cd68501004df8eb6fc009d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 167019
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-ae772f49314810a2b6da4800ca0fa492_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 413496
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-18bdbde13ecfaf23eff48ba91f3acd7a_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1635200
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:47.410Z"
+}

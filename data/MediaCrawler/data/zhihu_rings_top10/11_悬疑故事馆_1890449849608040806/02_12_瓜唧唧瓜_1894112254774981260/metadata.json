@@ -1,0 +1,48 @@
+{
+  "circle_id": "1890449849608040806",
+  "circle_name": "悬疑故事馆",
+  "circle_url": "https://www.zhihu.com/ring/host/1890449849608040806",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1894112254774981260",
+  "post_url": "https://www.zhihu.com/pin/1894112254774981260?native=0",
+  "title": "悬疑推理📖活在真空里\n如果杀人是为了正义，那么凶手还能叫做罪犯吗？\n\n👁️这是一个预告杀人案，你所看到的真相，都只是凶手想让你看到的而已\n\n🏗️八年前，学",
+  "author": "瓜唧唧瓜",
+  "author_id": "bcc32011afabfac58d0db508159507df",
+  "favorite_count": 12,
+  "like_count": 53,
+  "comment_count": 16,
+  "created": 1744372315,
+  "updated": 1744379651,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-d6ebbc0d6fb4b215f8b2e8c8b613aed5_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 66290
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-75903dfa108f4c282a98fb3db2048ea7_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 89630
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/50/v2-4f72e23397d5922c348d94357750c3fd_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 125751
+    }
+  ],
+  "fetched_at": "2026-09-10T18:10:51.355Z"
+}

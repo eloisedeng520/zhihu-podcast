@@ -1,0 +1,48 @@
+{
+  "circle_id": "1923428057244480643",
+  "circle_name": "高校青椒圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1923428057244480643",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1940441630705447646",
+  "post_url": "https://www.zhihu.com/pin/1940441630705447646?native=0",
+  "title": "适合大一阅读的10本英文原版小说\n#书籍推荐  #英文原版书籍 \n【注】昨天朋友圈里发了一本刚刚读完的英文书，几个家长问我能不能给他们要读大一的孩子们推荐一些英",
+  "author": "罗一蝶Inno",
+  "author_id": "6feaaad20bf7ea1dd01c4af191b19ce5",
+  "favorite_count": 4,
+  "like_count": 7,
+  "comment_count": 0,
+  "created": 1755417336,
+  "updated": 1755417336,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-d384a23399fb88c504d1d68bd8c12923_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 637078
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-bdb4b33faaed3d569d6ff60f9c5714e2_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 657234
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/50/v2-32f99c70828d25e5375f4bc2cf05a4bc_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 47545
+    }
+  ],
+  "fetched_at": "2026-09-10T17:34:40.179Z"
+}

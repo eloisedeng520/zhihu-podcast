@@ -1,0 +1,14 @@
+做 LLM 应用的同学，评测可以看看看看 DeepEval
+deepeval，14.2k star：给 LLM 应用提供系统化的评测能力，30+ 内置指标，直接用 pytest 跑。
+
+核心设计很实在。每个评测指标都是独立的类，G-Eval（通用质量）、Hallucination（幻觉检测）、Answer Relevancy（回答相关性）、Task Completion（任务完成度）等，直接实例化然后 assert，写法和单元测试一模一样。
+
+注意它的 @observe 装饰器，这个设计特别好。给 Agent 的每个组件（检索器、生成器、工具调用）加上 @observe，就能做组件级别的评测，不只是看最终输出好不好，而是看哪个环节出了问题。对 RAG 应用来说，能精确定位是检索召回差还是生成质量差。
+
+支持的框架：OpenAI、LangChain、CrewAI、Anthropic、LlamaIndex，基本主流的都覆盖了。也可以单独用，不依赖任何框架，在 notebook 里直接调单个 metric。
+
+适合所有在生产环境跑 LLM 应用的团队，以及需要量化对比不同 prompt/模型效果的工程师。不用再手动翻 100 条 case 打分了。
+
+开源地址：链接
+
+#AI-Agent #LLM（大型语言模型） #大模型评估 #开源项目

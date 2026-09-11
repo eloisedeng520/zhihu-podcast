@@ -1,0 +1,31 @@
+DeepSeek V4.1 Flash 正式发布，同时DeepSeek Harness v0.1.5 版本已发布。新版本与 DeepSeek V4.1 Flash 模型训练深度结合，模型在 DeepSeek Harness 的不同配置中都进行了专项训练和优化。
+V4.1 Flash 是一个 552B 参数的 MoE 模型，采用全新的非对称架构，输入只激活 8B，输出激活 16B，重点就是更快、更省、更适合 Agent 场景。
+官方说法：这是我们全新模型结构系列中的最小尺寸的模型，具备原生多模态视觉理解能力。新模型结构的设计初衷是：能力上限更高、推理速度更快、吞吐更大、可扩展到更大参数模型。
+从官方 Benchmark 看，它在 Coding、Agent、工具调用上的提升很明显。
+比如：
+DeepSWE v1.1：74.2
+CyberGym：88.1
+Automation-Bench：54.8
+Agents' Last Exam：31.8
+
+其中部分成绩已经超过 GPT-5.6 Sol、Claude Opus 5、GLM 5.3 和 Kimi K3。
+V4.1 Flash 的 KV Cache 降到了 890 Bytes/Token，相比上一代 V4 Flash 又缩小了接近 4 倍；如果和 DeepSeek V1 相比，已经缩小了约 437 倍。
+
+这对长上下文、Coding Agent、多 Agent 场景非常重要，意味着成本和显存压力降低，所以价格也接近之前的低价区了。
+
+官方说法：
+API 变更
+DeepSeek V4.1 Flash 已同步上线 DeepSeek API，原生支持多模态，将模型名称更改为 deepseek-flash 即可调用最新的 V4.1 Flash 模型。旧版本模型 V4 Flash 与 V4 Flash Vision Exp 现已下线，出于兼容考虑，模型名 deepseek-v4-flash、deepseek-v4-flash-vision-exp 将被暂时路由到 V4.1 Flash。
+同时，经多方测试，V4.1 Flash 在性能、费用、速度、总用时等各项指标上已全面超越 DeepSeek V4 Pro，因此我们计划有序下线 V4 Pro 模型。北京时间 2026 年 9 月 14 日 12:00 之后，至未来 V4.1 Pro 上线之前，用户访问 deepseek-v4-pro 的请求将全部路由到 V4.1 Flash，并按 V4.1 Flash 单价计费。
+
+我的理解里，
+Flash 已经不只是“便宜版”了，而是可以算是主力旗舰了，当然你也可以说pro炼废了。
+
+价格方面，还是有梁文峰和梁文谷。
+梁文谷的价格已经接近几个月前的低价，只是输出从2元涨到4元，大体上可以理解为涨了25-30%，也就是之前10块钱，现在12.8左右。
+梁文峰的价格，比之前涨了150%，也就是之前10块钱，现在25左右。
+
+还有就是WorkBuddy 国内版已经第一时间全面接入DeepSeek V4.1 Flash，并提供为期两周的限时折扣优惠。
+我看了下，0.03X的扣费系数。
+
+opencode也有4倍用量，据说只有72小时？

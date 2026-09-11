@@ -1,0 +1,15 @@
+独立开发者的云自由来了：8.1k⭐ 开源 AWS 平替，自建一个云服务！
+Ubicloud 8.1k star，Ruby 主栈，单仓库搞定 IaaS：弹性计算、块存储、防火墙、负载均衡、托管 Postgres、K8s、AI 推理、IAM 全套。  
+
+架构极简：控制平面 Ruby+Roda+Sequel，数据平面裸金属+Cloud Hypervisor+IPsec+SPDK，十分钟 docker-compose 拉起本地云。  
+
+适合三类人：  
+1. 想省 70% 云账单的 CI/CD 团队；  
+2. 手里有裸金属想自建云的独立开发者；  
+3. 需要可移植 Kamal 后端的 Rails 党。  
+
+上手：git clone → ./demo/generate_env → docker-compose up，浏览器开 localhost:3000 就能点 VM。Hetzner/Leaseweb/AWS Bare Metal 一键 cloudify，IPv6 直通，IPv4 可租。  
+
+下一步官方要加托管 K8s 和监控，社区论坛已开，欢迎一起 hack。
+
+ #开源项目 #独立开发 #AWS #IaaS

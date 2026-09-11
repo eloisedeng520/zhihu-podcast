@@ -1,0 +1,48 @@
+{
+  "circle_id": "1871221081496494082",
+  "circle_name": "轨道交通分享大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1871221081496494082",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1916409514644726400",
+  "post_url": "https://www.zhihu.com/pin/1916409514644726400?native=0",
+  "title": "你这真的是“摄”的吗\n谁家火车跑铁轨外了",
+  "author": "KingJulien",
+  "author_id": "ef66c39d4dab623dfb89165ca969a38c",
+  "favorite_count": 108,
+  "like_count": 750,
+  "comment_count": 99,
+  "created": 1749687650,
+  "updated": 1749687650,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-77fee3b8306a39d20e34a693e70473e6_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 198437
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-69c044664e3b2e41c7967f391f640345_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 202041
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-ab54d6d86de5c56710780b74b58ab452_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 105805
+    }
+  ],
+  "fetched_at": "2026-09-10T18:03:10.340Z"
+}

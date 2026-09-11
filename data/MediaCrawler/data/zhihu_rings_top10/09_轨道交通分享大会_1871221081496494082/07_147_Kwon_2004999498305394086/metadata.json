@@ -1,0 +1,32 @@
+{
+  "circle_id": "1871221081496494082",
+  "circle_name": "轨道交通分享大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1871221081496494082",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2004999498305394086",
+  "post_url": "https://www.zhihu.com/pin/2004999498305394086?native=0",
+  "title": "帖子 2004999498305394086",
+  "author": "Kwon",
+  "author_id": "60170eaa858e21ed495511b2b5fecb7f",
+  "favorite_count": 147,
+  "like_count": 472,
+  "comment_count": 32,
+  "created": 1770809131,
+  "updated": 1770809131,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-aad0ae935e6bf30cc40d5bc69323cd98.png",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 530813
+    }
+  ],
+  "fetched_at": "2026-09-10T18:03:10.340Z"
+}

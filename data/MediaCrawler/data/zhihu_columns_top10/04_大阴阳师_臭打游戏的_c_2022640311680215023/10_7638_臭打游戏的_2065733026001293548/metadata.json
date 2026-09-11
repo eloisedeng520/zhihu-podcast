@@ -1,0 +1,79 @@
+{
+  "column_rank": 4,
+  "column_name": "大阴阳师",
+  "column_slug": "c_2022640311680215023",
+  "column_url": "https://www.zhihu.com/column/c_2022640311680215023",
+  "article_rank": 10,
+  "ranking_metric": "voteup_count",
+  "article_id": "2065733026001293548",
+  "article_url": "https://zhuanlan.zhihu.com/p/2065733026001293548",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 7638,
+  "comment_count": 549,
+  "created": null,
+  "updated": 0,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-53d37e880ef2e932d0b785ecf882665f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 153378
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-bb30a4a2fe7eeb71edefb040ad704c4d_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 195811
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-3c40855f89820ef9bdae10d7a75da858_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 56908
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-db84ee2386b3a81d100b70a84ee7a335_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 62446
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-d79ffdeae62c0e46d0210edcd8adda64_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 81962
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-f176286daefaa16763759da78a099956_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 70451
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-0051b357f9b3daa97a5291f333a5ddb8_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 115512
+    }
+  ],
+  "fetched_at": "2026-09-11T03:09:03.627Z"
+}

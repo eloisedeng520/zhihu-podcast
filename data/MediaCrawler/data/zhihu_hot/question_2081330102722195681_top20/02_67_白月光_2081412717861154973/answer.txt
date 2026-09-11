@@ -1,0 +1,77 @@
+人类文明本来就是一个运行了几万年的、缓慢而分布式的 RSI（递归自改进）系统。
+几十亿人同时在科研、商业、战争、艺术和制度里并行 rollout。现实负责验证，社会只选择极少数结果，把它们压缩成书、法律、工具和代码，再拿这些东西初始化下一代。
+但这个系统一直有一个极其残酷的 loss rate（损失率）：
+10^10 human trajectories（人类行为轨迹） ↓ 10^4 remembered trajectories（被记住的轨迹）
+绝大多数尝试都会消失。我们保留了定理，却没有保留失败的证明；保留了成功的公司，却没有保留它放弃的一千条路线；保留了胜出的制度，却很少知道当时还有哪些看起来同样合理的方案。
+AI 对文明最大的改变，也许不只是增加 intelligence，而是第一次改变这个 loss rate。
+一、文明不是“共享权重”
+这个类比首先要修正一个地方。
+书籍、制度和代码并不是直接进入每个人脑中的 shared weights。它们更像文明的 external checkpoint、training data 和 prior。
+只有经过教育、模仿、语言和制度参与，其中一部分才会变成新一代人的初始化权重。
+大致可以这样对应：
+每一个人 → 一个 agent / policy instance
+一个人的一生 → 一条 long-horizon trajectory
+同时代几十亿人的活动 → massively parallel rollouts
+科研、创业、战争、艺术与制度创新 → exploration
+现实、市场、实验、同行评价与政治竞争 → verifier / environment feedback
+论文、书籍、法律、机器和代码 → persistent memory / replay buffer
+教科书 → distilled dataset
+大学、实验室和学徒制 → pretraining / fine-tuning pipeline
+语言和文化 → shared latent representation
+制度和工程规范 → compiled policy / cached solution
+新一代儿童 → new model initialization
+教育 → imitation learning
+历史 → trajectory selection + compression
+这个系统没有中央 optimizer。每个 agent 的目标不同，掌握的信息不同，reward function 也不同。它们竞争、合作，还会互相模仿。
+所以文明并不像普通强化学习（RL），更像一个跨越几百年的 Population-Based Training + Evolution + Offline RL。
+二、文明真正优化的是搜索分布
+牛顿的价值，不只是他找到了一个有用的 answer。
+更重要的是牛顿之后，未来几百万人不必再从亚里士多德物理学附近开始随机搜索，而可以从牛顿力学附近继续向前。
+一次突破改变了后代的 prior：
+p_{t+1}(θ) ≠ p_t(θ)
+一个真正伟大的科学家，不只是贡献了一个答案，而是改变了未来几百万人从哪里开始搜索。这更像一次 gradient update，而不只是一次高 reward 事件。
+所以突破的价值可以粗略写成：
+Breakthrough Value ≈ Reward × Downstream Search Redistribution （突破价值 ≈ 单点收益 × 下游搜索空间的重新分布）
+微积分、电磁学、晶体管、DNA、互联网和 Transformer，不只是命中了几个高 reward 的点。它们改变了周围整个 search space 的 topology。
+“天才”最重要的能力，也许不是拿到高 reward，而是制造一个高信息量的 gradient。
+三、文明靠压缩实现复利
+今天一个物理学本科生，在大学毕业前就可以掌握牛顿、麦克斯韦、热力学和量子力学的基础成果。他不需要重新 rollout 牛顿的一生。
+文明把几万甚至几十万小时的探索，压缩成几十小时的传递：
+100,000 hours search → 10 hours learning
+这可能才是文明增长真正的发动机。每一代人都从一个更大的 cached state 开始，因此可以把有限的一生用在上一代边界之外。
+整个循环可以压缩成五步闭环：
+Explore（探索）→ Evaluate（评估）→ Select（筛选）→ Distill（蒸馏）→ Reinitialize（重初始化）
+大量人并行探索；现实负责评估；社会选择少数结果；论文、产品、法律和制度负责蒸馏；下一代直接从这些成果重新初始化。
+然后继续搜索。
+四、历史是一个极度有损的 Replay Buffer
+压缩让文明成为可能，也同时摧毁了大量信息。
+几百亿人活过，但我们学习数学时只看到欧几里得、牛顿、莱布尼茨、欧拉、高斯、黎曼……文明只保存了全部 rollout 中极少的一部分 Top-K：
+D_civilization = Selected Trajectories
+这会制造巨大的 幸存者偏差（survivorship bias）。
+我们知道哪些路线成功，却不知道当时还有多少路线看起来同样合理，最终又为什么失败。失败的实验、中间假设、局部证据和停止探索的真实条件，大部分都消失了。
+用机器学习的话说：文明丢掉了绝大多数 negative trajectories。
+而失败有时比一个被整理得很漂亮的成功结果，更能说明 search landscape。最终论文告诉你作者到了哪里，却很少保存完整的搜索树：试过什么、否掉什么、中间又学到了什么。
+五、文明其实有三种“权重”
+第一层是生物权重（W_genetic）：它在几万年甚至更长的尺度上被自然选择更新。
+第二层是个人权重（W_individual）：每个人用几十年的生活经历去更新它。
+第三层才是文明权重（W_civilization）：它并不真正存在于某一个大脑里，而是被 externalize 到语言、学校、科学理论、法律、机器、数据库、代码、组织流程和文化规范里。
+现代医院就是一个很好的例子。没有任何医生需要重新发现抗生素。医院本身就是一块被几百年医学探索训练出来、部分冻结在流程、设备和角色里的 cognition。
+制度其实是 compiled policy。
+发生合同纠纷以后，我们不需要每个社区重新发明一种解决办法。历史留下的 cached action prior 是：去法院。专利、公司、大学、同行评审、资本市场和工程规范，都是人类曾经付出巨大代价探索以后，被固化下来的不完美 policy。
+六、AI 改变的是经验损失率
+人类文明的瓶颈从来不只是 intelligence，还有多少经验可以被保存和传递。
+Agent system 有机会保存的不只是最终成功，还包括：
+失败原因
+中间假设
+反事实
+代码和 tool traces
+证据
+eval 结果
+search tree 的分支
+中断之后如何恢复
+于是经验第一次可能进入另一条全新的 pipeline：
+Experience（经验）→ Machine-readable Trajectory（机器可读轨迹）→ Shared Memory（共享记忆）
+文明也许第一次不只从少数 winners 身上学习，而可以学习整个 search process。
+这就是 long-horizon agent infra（长周期智能体基建） 为什么重要。Memory、verifier、durable state、recovery 和 trajectory compression，并不是围绕一个更聪明模型的附属功能。它们决定了一次运行的经验，能不能变成下一次运行的 prior。
+当经验不再随着产生它的 agent 一起消失，self-improvement（自我进化）才真正开始加速。
+哲人说过“人类从历史中学到的唯一教训 就是人类没有从历史中吸取任何教训。” 真正的瓶颈，也许不只是制造更多 rollout，而是让经验可以被继承。 。

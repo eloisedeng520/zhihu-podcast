@@ -1,0 +1,177 @@
+{
+  "question_id": "2081380378493961583",
+  "question_url": "https://www.zhihu.com/question/2081380378493961583",
+  "question_title": "如何评价正式发布的 DeepSeek V4.1 Flash？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 145,
+  "fetched_pages": {
+    "default": 8,
+    "updated": 8
+  },
+  "fetched_at": "2026-09-10T12:50:28.116Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_336_恋猫_2081393892998625257",
+      "rank": 1,
+      "author": "恋猫",
+      "voteup_count": 336,
+      "images": 5,
+      "downloaded": 5
+    },
+    {
+      "folder": "02_333_还是不注名好_2081386171452613231",
+      "rank": 2,
+      "author": "还是不注名好",
+      "voteup_count": 333,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "03_241_小小将_2081380487994545287",
+      "rank": 3,
+      "author": "小小将",
+      "voteup_count": 241,
+      "images": 15,
+      "downloaded": 15
+    },
+    {
+      "folder": "04_198_为其名_2081391663289741845",
+      "rank": 4,
+      "author": "为其名",
+      "voteup_count": 198,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "05_184_waterwu_2081403181284726713",
+      "rank": 5,
+      "author": "waterwu",
+      "voteup_count": 184,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "06_181_TestCode_2081383229483964193",
+      "rank": 6,
+      "author": "TestCode",
+      "voteup_count": 181,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_171_翔宇情_2081384235072492749",
+      "rank": 7,
+      "author": "翔宇情",
+      "voteup_count": 171,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "08_131_刘延_2081395475962402310",
+      "rank": 8,
+      "author": "刘延",
+      "voteup_count": 131,
+      "images": 4,
+      "downloaded": 4
+    },
+    {
+      "folder": "09_129_偶尔怀念夏天_2081391720521123440",
+      "rank": 9,
+      "author": "偶尔怀念夏天",
+      "voteup_count": 129,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "10_117_薛晨旭路易威登_2081393904553874701",
+      "rank": 10,
+      "author": "薛晨旭路易威登",
+      "voteup_count": 117,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "11_104_乡道十九路_2081392353424810054",
+      "rank": 11,
+      "author": "乡道十九路",
+      "voteup_count": 104,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "12_104_pansz_2081421443842171181",
+      "rank": 12,
+      "author": "pansz",
+      "voteup_count": 104,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "13_96_猫骑士_2081395719211111058",
+      "rank": 13,
+      "author": "猫骑士",
+      "voteup_count": 96,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "14_96_华宁_2081404705444475206",
+      "rank": 14,
+      "author": "华宁",
+      "voteup_count": 96,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_89_deep-green_2081397832196670059",
+      "rank": 15,
+      "author": "deep-green",
+      "voteup_count": 89,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_74_windyh_2081387432763831125",
+      "rank": 16,
+      "author": "windyh",
+      "voteup_count": 74,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "17_74_我不是33_2081408027933013878",
+      "rank": 17,
+      "author": "我不是33",
+      "voteup_count": 74,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "18_72_Tokoyami_2081405595035476648",
+      "rank": 18,
+      "author": "Tokoyami",
+      "voteup_count": 72,
+      "images": 5,
+      "downloaded": 5
+    },
+    {
+      "folder": "19_67_peter.z_2081391478241223137",
+      "rank": 19,
+      "author": "peter.z",
+      "voteup_count": 67,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "20_66_soap_2081388116309456453",
+      "rank": 20,
+      "author": "soap",
+      "voteup_count": 66,
+      "images": 1,
+      "downloaded": 1
+    }
+  ],
+  "image_errors": []
+}

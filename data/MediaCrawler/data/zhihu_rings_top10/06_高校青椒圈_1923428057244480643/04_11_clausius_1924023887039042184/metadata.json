@@ -1,0 +1,48 @@
+{
+  "circle_id": "1923428057244480643",
+  "circle_name": "高校青椒圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1923428057244480643",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1924023887039042184",
+  "post_url": "https://www.zhihu.com/pin/1924023887039042184?native=0",
+  "title": "2025 年国内博士就业形势如何？\n今年国内博士就业形势严峻，新疆地区，教职岗位考核要求也越来越高，普通博士大多难以完成。高校编制岗位收缩，“非升即走”政策加剧",
+  "author": "clausius",
+  "author_id": "75642e5dea56956b66ac840652e63d5a",
+  "favorite_count": 11,
+  "like_count": 31,
+  "comment_count": 7,
+  "created": 1751503179,
+  "updated": 1751503179,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-3a78f81b9c3f9f3528a467a23f42f0cd_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 130686
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-01172a7538ba8a534f54ccf0992e3153_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 71774
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-ae481a51e13493002f992596cb630e18_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 215439
+    }
+  ],
+  "fetched_at": "2026-09-10T17:34:40.179Z"
+}

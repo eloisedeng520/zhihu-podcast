@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1910711545249391610",
+  "post_url": "https://www.zhihu.com/pin/1910711545249391610?native=0",
+  "title": "独处新手的&#34;自由恐慌&#34;——当没人管的时候，我们为什么反而不知所措\n这两天有些勇敢的读者开始尝试放下手机独处。但有人说，真要自由决定做什么时，心里",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 41,
+  "like_count": 35,
+  "comment_count": 2,
+  "created": 1748329131,
+  "updated": 1749112062,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-315ce7442578382803960f547231eed5_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 730393
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

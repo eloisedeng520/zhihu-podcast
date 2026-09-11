@@ -1,0 +1,48 @@
+{
+  "circle_id": "1908509014544872258",
+  "circle_name": "劳动仲裁那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1908509014544872258",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2076570530812008400",
+  "post_url": "https://www.zhihu.com/pin/2076570530812008400?native=0",
+  "title": "工会缺位让年轻人只能海外维权，我们的工会呢？有没有\n星宇股份维权事件：员工不去找工会，转而投诉欧盟与港交所，背后暴露了什么现实困境？\n星宇股份劝退百余名应届生事",
+  "author": "李彦",
+  "author_id": "5cfc069f5475aa389989a10c1dd790b1",
+  "favorite_count": 40,
+  "like_count": 272,
+  "comment_count": 133,
+  "created": 1787873126,
+  "updated": 1787873126,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-d114458c672cfd557c58cc5c418340d6.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 203644
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-1a25cc73000f1d1df5d1275628a480f3.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 781592
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-e083779889c7e717fb403371dd76171d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 74231
+    }
+  ],
+  "fetched_at": "2026-09-10T18:14:55.384Z"
+}

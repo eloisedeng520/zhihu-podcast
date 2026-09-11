@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938751952545644712",
+  "circle_name": "女生情感研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1938751952545644712",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2029260671481574046",
+  "post_url": "https://www.zhihu.com/pin/2029260671481574046?native=0",
+  "title": "被男朋友家暴两次，哭着，跪着求原谅他…写保证不会再有下一次了，能相信他吗？\n家暴男从本质上改不了，两次动手已说明他缺乏尊重与边界感，情绪控制能力极差。他卑微求饶",
+  "author": "含章",
+  "author_id": "e3cbee6603fd4dcc3773ea1728057681",
+  "favorite_count": 0,
+  "like_count": 3,
+  "comment_count": 14,
+  "created": 1776593489,
+  "updated": 1776593528,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-0b445813bfc10d19b40080765a065cbc.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 351370
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:30.357Z"
+}

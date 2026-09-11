@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1941948865415717966",
+  "post_url": "https://www.zhihu.com/pin/1941948865415717966?native=0",
+  "title": "成年人必须懂的人性潜规则！\n1、别人发来信息，不要秒回。\n2、在别人家，如果他的另一半，躲在房间里不出来，说明不欢迎你，找个理由，赶紧走。\n3、去亲戚家里，尽量",
+  "author": "叔青山",
+  "author_id": "4f33fdada66c373673b4befde4699962",
+  "favorite_count": 6304,
+  "like_count": 5599,
+  "comment_count": 292,
+  "created": 1755776768,
+  "updated": 1755776768,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-8fd6b590a0261952f86bfebee27b5f10_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 40000
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

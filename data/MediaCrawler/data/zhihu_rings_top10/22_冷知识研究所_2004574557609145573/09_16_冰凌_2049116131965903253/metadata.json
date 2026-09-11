@@ -1,0 +1,48 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2049116131965903253",
+  "post_url": "https://www.zhihu.com/pin/2049116131965903253?native=0",
+  "title": "长得像外星生物的海货\n最近新认识了一位海边“小黑朋友”：海蛇尾。通体黑黢黢，五条细长扭动的腕尾，外形辨识度拉满。\n\n它并不是海星，和海星属于近亲，但分属不同纲目",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 16,
+  "like_count": 71,
+  "comment_count": 26,
+  "created": 1781658375,
+  "updated": 1781658375,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-a61fc9a2ace8dd5f5d6c94cb4de60680.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 309488
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-3e17a4bb8684e63221af8521d552a8d9.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 310026
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-c27335f7f81081929622851b3befcae8.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 278445
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

@@ -1,0 +1,177 @@
+{
+  "question_id": "2080622772472870199",
+  "question_url": "https://www.zhihu.com/question/2080622772472870199",
+  "question_title": "霸王茶姬在上海试卖茶叶蛋，单价 5 元，搭配奶茶半价，为何瞄准早餐市场？你愿意下单吗？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 115,
+  "fetched_pages": {
+    "default": 6,
+    "updated": 6
+  },
+  "fetched_at": "2026-09-10T12:50:15.838Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_325_半佛仙人_2081099662573028199",
+      "rank": 1,
+      "author": "半佛仙人",
+      "voteup_count": 325,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "02_284_杰拉德笔下的男人_2080701785627423662",
+      "rank": 2,
+      "author": "杰拉德笔下的男人",
+      "voteup_count": 284,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "03_117_菠萝菠萝蜜_2080633044684358691",
+      "rank": 3,
+      "author": "菠萝菠萝蜜",
+      "voteup_count": 117,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "04_57_宁一_2080697146794424155",
+      "rank": 4,
+      "author": "宁一",
+      "voteup_count": 57,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "05_33_不入流经理人_2080658958881132901",
+      "rank": 5,
+      "author": "不入流经理人",
+      "voteup_count": 33,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "06_33_飞跃本屯_2080948765326889124",
+      "rank": 6,
+      "author": "飞跃本屯",
+      "voteup_count": 33,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_23_一个树一_2080654003457745256",
+      "rank": 7,
+      "author": "一个树一",
+      "voteup_count": 23,
+      "images": 4,
+      "downloaded": 4
+    },
+    {
+      "folder": "08_22_35号庇护所_2080665683831145088",
+      "rank": 8,
+      "author": "35号庇护所",
+      "voteup_count": 22,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "09_13_HR凯蒂_2080836770632033079",
+      "rank": 9,
+      "author": "HR凯蒂",
+      "voteup_count": 13,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "10_13_王汉_2081068839631057168",
+      "rank": 10,
+      "author": "王汉",
+      "voteup_count": 13,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "11_12_颐雪烁_2080969941965186350",
+      "rank": 11,
+      "author": "颐雪烁",
+      "voteup_count": 12,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "12_10_无神论_2081317251777668118",
+      "rank": 12,
+      "author": "无神论",
+      "voteup_count": 10,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "13_8_小王小王_2081188982495371450",
+      "rank": 13,
+      "author": "小王小王",
+      "voteup_count": 8,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "14_7_Johnson_2080714714510783167",
+      "rank": 14,
+      "author": "Johnson",
+      "voteup_count": 7,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_6_刀片子_2081003245384775226",
+      "rank": 15,
+      "author": "刀片子",
+      "voteup_count": 6,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_6_拾光散记_2081345067155984832",
+      "rank": 16,
+      "author": "拾光散记",
+      "voteup_count": 6,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "17_5_summer wang_2080782841911173362",
+      "rank": 17,
+      "author": "summer wang",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "18_4_泰波_2081349344268177632",
+      "rank": 18,
+      "author": "泰波",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "19_3_败给了时间_2080628120458106201",
+      "rank": 19,
+      "author": "败给了时间",
+      "voteup_count": 3,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_3_狸花煮鱼_2081022714895251360",
+      "rank": 20,
+      "author": "狸花煮鱼",
+      "voteup_count": 3,
+      "images": 0,
+      "downloaded": 0
+    }
+  ],
+  "image_errors": []
+}

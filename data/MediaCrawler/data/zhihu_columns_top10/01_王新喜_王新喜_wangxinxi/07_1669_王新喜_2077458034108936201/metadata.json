@@ -1,0 +1,71 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 7,
+  "ranking_metric": "voteup_count",
+  "article_id": "2077458034108936201",
+  "article_url": "https://zhuanlan.zhihu.com/p/2077458034108936201",
+  "title": "奔驰回应星宇股份事件，已受理举报开了案号，若查实或终止合作",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 1669,
+  "comment_count": 944,
+  "created": 1788084636,
+  "updated": 1788084692,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-946d6b6c312ea974013030e4a6e01644_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 249328
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-a63bab3e870517a8c680e3cc9a6a0d09_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 106411
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/v2-4dbe5dab56f49dee81164d6c4e4f8d8d_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 334261
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-8881caadd4582ef6168fc18e60cb62e5_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 71367
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-ad6034b1e206e4da525c6613a71d7e9d_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 52329
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-326c586ef696dfba236e75a1eb6a4b54_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 162816
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

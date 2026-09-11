@@ -1,0 +1,21 @@
+1、开源模型中第一个PD不对称架构？减少输入所需算力
+毕竟Agent年代后，主要算力需求在Prefill阶段，拿我今天随便蹬蹬的情况来看，输入：输出差不多有100:1，降低输入的算力需求，就是节约成本。
+
+采用了全新的 Causal-Encoder-Decoder 结构，输入和输出不对称，输入激活只有 8B，输出激活 16B，成本显著低于已知的同尺寸模型
+2、Engram，196B
+最早是Deepseek论文中提出来的，但在众望所归的Deepseek V4模型中没用上。
+最先用上的开源大模型应该是阿里Qwen Next 3.8，不过阿里的Engram没这么大。
+跑到300+TPS应该也有疯狂查表的功劳，毕竟查表所需算力远低于计算。
+当然，还有Dspark做投机解码。太快了。
+3、原生多模态和Deepseek ViT
+论文说了，多模态数据增加智商。
+支持最高约 1344×1344；
+多模态数据包括 image-text pairs、交错图文、OCR、图表、image-code pairs、computer-use 轨迹。
+
+4、丧心病狂的KV Cache优化
+单Token的KV Cache占用降到了Deepseek V4 Flash的差不多1/4，真贵的SSD和NAND Flash又能省下来了。
+
+5、2026年2月的知识库截止时间
+
+扔掉丑陋的知识库还停留在2024年的Gemini，拥抱2026年2月更新知识库的Deepseek Flash V4.1吧！
+就这些吧，希望其他大佬接着多聊点

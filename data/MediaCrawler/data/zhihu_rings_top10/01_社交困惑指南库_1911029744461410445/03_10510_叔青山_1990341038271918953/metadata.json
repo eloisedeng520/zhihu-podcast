@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1990341038271918953",
+  "post_url": "https://www.zhihu.com/pin/1990341038271918953?native=0",
+  "title": "吃透人性规则，活得清醒又从容！\n1.没事不要讲话，讲话只有三个目的：一、让别人高兴，否则就保持沉默；二、能传递价值，推动他人干活；三、带来利益，否则干脆保持沉默",
+  "author": "叔青山",
+  "author_id": "4f33fdada66c373673b4befde4699962",
+  "favorite_count": 10510,
+  "like_count": 4366,
+  "comment_count": 190,
+  "created": 1767314322,
+  "updated": 1767314322,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-34bb1eee5e6847f520e13f4b31fa9b9c_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 221061
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

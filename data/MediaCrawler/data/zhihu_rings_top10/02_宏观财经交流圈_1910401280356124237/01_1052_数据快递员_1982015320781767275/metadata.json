@@ -1,0 +1,32 @@
+{
+  "circle_id": "1910401280356124237",
+  "circle_name": "宏观财经交流圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1910401280356124237",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1982015320781767275",
+  "post_url": "https://www.zhihu.com/pin/1982015320781767275?native=0",
+  "title": "麦肯锡预测：18个万亿级增长领域\n麦肯锡展示了未来18个具有巨大增长潜力的领域。\n\n这些领域预计到2040年，将共同创造29万亿至48万亿美元的总收入，以及2万",
+  "author": "数据快递员",
+  "author_id": "cb2685ab05f8accb1ad81f8acc7d1e3d",
+  "favorite_count": 1052,
+  "like_count": 306,
+  "comment_count": 25,
+  "created": 1765329361,
+  "updated": 1765329361,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-2610dfa57ee577d2febcb2619c7a43fe_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 493444
+    }
+  ],
+  "fetched_at": "2026-09-10T17:32:15.190Z"
+}

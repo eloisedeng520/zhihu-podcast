@@ -1,0 +1,28 @@
+{
+  "question_id": "2080257034830739049",
+  "question_url": "https://www.zhihu.com/question/2080257034830739049",
+  "question_title": "为什么成龙的 8 分动作片有 12 亿票房，而周星驰的 6 分喜剧片却有 23 亿票房？是喜剧片市场远大于动作片吗？",
+  "rank": 2,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081010532648227676",
+  "answer_url": "https://www.zhihu.com/question/2080257034830739049/answer/2081010532648227676",
+  "author": "不怕困难的王导演",
+  "voteup_count": 47,
+  "comment_count": 10,
+  "created_time": 1788931574,
+  "updated_time": 1788931574,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-5e855ead5ebfc78404fdfde5642034df_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 203281
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:19.868Z"
+}

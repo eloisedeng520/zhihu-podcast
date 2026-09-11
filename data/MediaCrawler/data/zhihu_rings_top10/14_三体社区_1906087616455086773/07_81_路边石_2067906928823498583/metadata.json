@@ -1,0 +1,96 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2067906928823498583",
+  "post_url": "https://www.zhihu.com/pin/2067906928823498583?native=0",
+  "title": "科幻除了走向星际还有其他新的方向设定吗？\n当下狭隘的科幻设定，为未来留下了足够的空间。科幻不止星辰大海，其核心从来不是“走多远”，而是“想多深”。为什么我们一谈",
+  "author": "路边石",
+  "author_id": "ce6447e859c462aca99979dc740c9db6",
+  "favorite_count": 81,
+  "like_count": 56,
+  "comment_count": 12,
+  "created": 1785807441,
+  "updated": 1785807441,
+  "is_essence": false,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-166e64442521401e33cb14c390a79cf1.jpg?6d2a845c08de4a6a9302cfcb9aaed772",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 415775
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-0f1d3c9631d86c1004816899a1c08490.jpg?0552ea4808df4d17ad6098466393f18b",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 173943
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-381b5d5ab03a5098743777069fd24328.jpg?f6f6ab822f8a4e6ca2a44d188793e0a7",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 121425
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-414fbd184e5cc0a4747c1eb660b46620.jpg?47992aecb6b74fa8a87b0e3d466c8006",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 175033
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic2.zhimg.com/v2-b42cdf1e41128df0e818ffd28581be3b.jpg?7091d2bb4d0f42a5ba323dfcc216913a",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 325521
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-b691a421c7f3a96b8b966ad5bb3af620.jpg?a2c18b36ebf34697a697372b9661cd93",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 362647
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-51bf4d3270a8dff81e632b8fe4309cbf.jpg?90ebba243b7b4d5ca6005a45286bf571",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 352805
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic3.zhimg.com/v2-29ca6e48fd7a799f9ff941cd14e7683e.jpg?e1cf8177d824416dadded751f9e1fc85",
+      "status": "downloaded",
+      "local_file": "008.png",
+      "content_type": "image/png",
+      "size_bytes": 323073
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-6cf1f00ae7362dbf5b556f0fc0d4416b.jpg?435648effb60478995fe92cdf949596f",
+      "status": "downloaded",
+      "local_file": "009.png",
+      "content_type": "image/png",
+      "size_bytes": 355206
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

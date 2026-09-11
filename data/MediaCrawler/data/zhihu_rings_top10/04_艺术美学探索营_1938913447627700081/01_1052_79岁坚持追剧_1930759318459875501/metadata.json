@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938913447627700081",
+  "circle_name": "艺术美学探索营",
+  "circle_url": "https://www.zhihu.com/ring/host/1938913447627700081",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1930759318459875501",
+  "post_url": "https://www.zhihu.com/pin/1930759318459875501?native=0",
+  "title": "这幅画看着就很夏天很凉爽，看着这幅画有身临其境的感觉！！！\n这幅画的作者是 阿列克谢·扎伊采夫（Alexi Zaitsev），他是俄罗斯当代印象派画家，以 厚涂",
+  "author": "79岁坚持追剧",
+  "author_id": "0c8632808b6f6991a84a21fc9ee675c3",
+  "favorite_count": 1052,
+  "like_count": 2131,
+  "comment_count": 197,
+  "created": 1753155784,
+  "updated": 1755445274,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-8af11b0220c20ddca581924461606719_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 104784
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-490e02fd0aff463c2f9b6da7820353de_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 78669
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/50/v2-9c2c011f102c1eee9d82fa7153bb4622_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 231496
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:31.199Z"
+}

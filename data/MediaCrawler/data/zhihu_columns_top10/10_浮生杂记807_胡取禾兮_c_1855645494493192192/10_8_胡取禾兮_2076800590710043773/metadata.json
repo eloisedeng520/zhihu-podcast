@@ -1,0 +1,31 @@
+{
+  "column_rank": 10,
+  "column_name": "浮生杂记807",
+  "column_slug": "c_1855645494493192192",
+  "column_url": "https://www.zhihu.com/column/c_1855645494493192192",
+  "article_rank": 10,
+  "ranking_metric": "voteup_count",
+  "article_id": "2076800590710043773",
+  "article_url": "https://zhuanlan.zhihu.com/p/2076800590710043773",
+  "title": "遍地精英，奈何不了一棵大白菜",
+  "author": "胡取禾兮",
+  "author_id": "7ef6a461bbc2905e8938de602340cd36",
+  "author_url_token": "deshi",
+  "voteup_count": 8,
+  "comment_count": 2,
+  "created": 1787927999,
+  "updated": 1787927999,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-1498abc0f1da46674337ca77d15acbe4_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 45392
+    }
+  ],
+  "fetched_at": "2026-09-11T03:12:12.628Z"
+}

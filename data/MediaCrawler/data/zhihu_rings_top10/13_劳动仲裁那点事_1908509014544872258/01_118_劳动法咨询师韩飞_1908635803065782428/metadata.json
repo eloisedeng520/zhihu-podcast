@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908509014544872258",
+  "circle_name": "劳动仲裁那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1908509014544872258",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1908635803065782428",
+  "post_url": "https://www.zhihu.com/pin/1908635803065782428?native=0",
+  "title": "世上最简答辩状\n#劳动仲裁",
+  "author": "劳动法咨询师韩飞",
+  "author_id": "138f6191c5b887ba07b5dd997025a0d3",
+  "favorite_count": 118,
+  "like_count": 6913,
+  "comment_count": 292,
+  "created": 1747834274,
+  "updated": 1747834274,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-e0486517cd1f65490a9a9ffcdd5d8ad5_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 37205
+    }
+  ],
+  "fetched_at": "2026-09-10T18:14:55.384Z"
+}

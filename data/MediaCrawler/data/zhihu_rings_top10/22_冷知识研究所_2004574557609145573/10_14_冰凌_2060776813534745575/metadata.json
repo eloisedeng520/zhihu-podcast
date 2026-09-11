@@ -1,0 +1,56 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2060776813534745575",
+  "post_url": "https://www.zhihu.com/pin/2060776813534745575?native=0",
+  "title": "从呆鸡到华丽神兽@黄腹角雉🐦\n刷到黄腹角雉求偶过程的形态变化，感觉不是一种鸟🤭\n\n1. 图4：日常普通状态\n平时走在山林里的黄腹角雉就是这副朴素模样，头顶标",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 14,
+  "like_count": 77,
+  "comment_count": 27,
+  "created": 1784107964,
+  "updated": 1784107964,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-745d48ec72d84dcdfe1819a7572d53d8.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 169944
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-d4e6eeba0a35651ecc3cabb841376e15.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 158467
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-fd2f12a3c5078d22581abc5dfef8fe0e.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 176061
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-86b7cba929108e8457289d9fef1f336b.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 181564
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

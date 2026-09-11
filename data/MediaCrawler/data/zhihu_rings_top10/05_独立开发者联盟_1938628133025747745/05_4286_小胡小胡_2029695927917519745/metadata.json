@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2029695927917519745",
+  "post_url": "https://www.zhihu.com/pin/2029695927917519745?native=0",
+  "title": "一个开源工具搞定11个平台热点追踪\n最近被小红书、知乎、B 站、微博同时轰炸到头大，翻 GitHub 意外捡到一个国人做的宝藏 TrendRadar，52.8k",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 4286,
+  "like_count": 1040,
+  "comment_count": 19,
+  "created": 1776697411,
+  "updated": 1776697411,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-88b968fe0604e43bb971635837e921a1.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 235973
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-38b4eff2ad2ef8ba9c1a757f0a4b8b30.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 292496
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-27fa74a2e7c9dd2012f628c6bb45f34c.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 174388
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:15.194Z"
+}

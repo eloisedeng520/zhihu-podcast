@@ -1,0 +1,48 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2075901200835397450",
+  "post_url": "https://www.zhihu.com/pin/2075901200835397450?native=0",
+  "title": "你读不懂黎曼几何，可能不是智商问题，是没人告诉你旧语言早就失效了\n你读不懂黎曼几何，可能不是智商问题，是没人告诉你旧语言早就失效了\n\n翻开黎曼几何教材，很多人会",
+  "author": "南方",
+  "author_id": "52dafcbf0a589ea138aa0728b724a401",
+  "favorite_count": 106,
+  "like_count": 38,
+  "comment_count": 0,
+  "created": 1787713569,
+  "updated": 1787713574,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-3f9d5a5ec0b1659bfa71147290dcb376.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 33596
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-fd86c40d3f3f5c044d28d185e8362e04.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1731352
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-cd436ed46660b3ae15cf0cdc7fcc2b5d.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 206189
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

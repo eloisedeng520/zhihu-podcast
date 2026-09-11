@@ -1,0 +1,80 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2013018873121747202",
+  "post_url": "https://www.zhihu.com/pin/2013018873121747202?native=0",
+  "title": "每次走进理发店，都像一场豪赌。\n很多姐妹进理发店，只会说三句话：“稍微修一下”、“看着剪吧”、“我相信你”。\n结果呢？托尼老师一“自由发挥”，你就知道什么叫“相",
+  "author": "北落师门",
+  "author_id": "811613bf6973d198b45013a12eaa7230",
+  "favorite_count": 7,
+  "like_count": 26,
+  "comment_count": 19,
+  "created": 1772721544,
+  "updated": 1772721544,
+  "is_essence": true,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/v2-b0a689d43c119c4ee90d6ae64a771d6e.jpg?3324d3932a5c4371992ba952ad6e98e3",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 252670
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-f910635567cf5df85ebd5c5fc2a62a3c.jpg?51451fd80afe47f38568225e783f036c",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 478526
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/v2-e6e54ead4a1ccf80d70078cd01cdc963.jpg?579414747ca941bd88e2ed658039e97b",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 1471198
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-6a4acd7c9574ef1a033596010bf5f7b8.jpg?7d64943552254e42aafb223471e9258d",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 804381
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic4.zhimg.com/v2-082388101551f97ba2396518ed548ab9.jpg?6bd9679c6d254fb7acf130f76133168d",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 103448
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-3b104ca017d6584c950d85b931bb6800.jpg?e47df6abf0b643e582c49eb6af877a00",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 2052578
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic2.zhimg.com/v2-0256a785522f99f092c4a89d20aa533d.jpg?0f26b6496b7b432287de1b2a87d92c11",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 346921
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}

@@ -1,0 +1,48 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2051224609182299049",
+  "post_url": "https://www.zhihu.com/pin/2051224609182299049?native=0",
+  "title": "再能蹦的鱼，也躲不开鹈鹕（tí hú）的口袋\n刷到这张图瞬间感慨：小鱼拼尽全力蹦跳，却还是逃不开鹈鹕撑开的巨型红喉囊，看得人五味杂陈。\n\n很多人只觉得鹈鹕的嘴滑",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 18,
+  "like_count": 79,
+  "comment_count": 26,
+  "created": 1782359136,
+  "updated": 1782359136,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-66ac071306c4be54be09c18c865296c6.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 158201
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-238da1dce5d9b0175538795140d27881.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 121642
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-b0fa5d17412222ceca048a8130893ba0.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 104702
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

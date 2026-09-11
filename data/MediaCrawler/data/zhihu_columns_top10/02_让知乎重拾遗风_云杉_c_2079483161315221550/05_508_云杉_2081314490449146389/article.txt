@@ -1,0 +1,145 @@
+几乎所有哺乳动物的颈椎都是7枚，人类、老鼠、长颈鹿、蓝鲸，都一样。
+而且统一用C1-C7标注。
+先挨个看看，再讲讲原因，这个故事长达数亿年。
+人的，7枚：
+
+咱们的不同颈椎骨，还会各种各样的“笑”。
+哪天要是有什么吃人的外星人入侵地球，能看到各种各样的表情包：
+
+混进来的第一胸椎，你多少有点奶蛙了：
+
+蓝鲸，成年25-30米，一百多吨，也是7枚：
+
+长颈鹿，光脖子就2米多，依旧7枚：
+
+大象大象，鼻子很长，但颈椎还是7枚：
+
+狗，从几厘米的茶杯吉娃娃到一米多的拉布拉多，7枚：
+
+哈基米（猫）的，7枚：
+
+大号哈基米，狮子，7枚：
+
+哈基米的食物，老鼠，还是7枚：
+
+海豚，7枚：
+
+黑猩猩，77777：
+
+看了这么多7，有没有比较特立独行的哺乳动物呢？
+有的朋友，有的。
+美人鱼的原型之一，海牛。
+美人鱼长这样：
+
+它的颈椎只有6枚，标注为V7的第七枚椎骨具有完整肋骨，所以算胸椎。
+
+再就是树獭，不同树獭不一样。
+二趾树懒有的是5枚，有的是6枚。
+三趾树懒则比其他哺乳动物多，8枚或者9枚。
+下图A和B为二趾树獭，6枚，D和E为三趾，8枚：
+
+所以，为什么绝大多数哺乳动物的颈椎是7枚，而海牛、树獭等是个例呢？
+答案当然不是“上帝是EDG粉丝”“7是宇宙终极答案”这类鬼话。
+而是数亿年前共同祖先就写好的底层代码。
+来，今天带大家体验一下大学的《组织与胚胎学》，顺便聊聊数亿年尺度的生物演化。
+无论是蓝鲸、老鼠、人类，胚胎都是从一个受精卵慢慢发育来的：
+
+这其中，有一个大家都必经的过程，就是从一团细胞变成一个“三层麻薯”。
+我们叫它「原肠胚」：
+
+原肠胚呢，分为三层。
+外胚层，主要形成皮肤表皮和神经系统； 
+内胚层，主要形成消化道、呼吸道等器官的内衬； 
+中胚层，形成骨骼、肌肉、血液、心脏和泌尿生殖系统等。
+随后，胚胎中央形成一条纵向结构，我们叫他「脊索」。
+
+脊索就像施工现场的中轴基准线，以此为准开始画施工的分区：
+哪里是头、哪里是尾，左右两侧应该怎样这样展开。
+它的上方，形成神经管，未来发育成脑和脊髓。
+两侧呢，形成两条纵向的轴旁中胚层，像两条连续延伸的面团，随着胚胎向尾端生长。
+再然后，这两条面团，就会变成一对对「体节」，相当于身体的毛坯房。
+
+体节接下来又分为几个区域：
+生骨节，形成椎骨和部分肋骨； 
+生肌节，形成背部、躯干和四肢的许多骨骼肌； 
+生皮节，参与形成背部真皮。
+这里有个非常精妙的设计：
+每个生骨节会分成前后两半。
+一枚椎骨，是由前一体节的后半部分，与后一体节的前半部分重新组合而成。
+我们把这个过程，叫做「再分节」。
+
+这样一来，肌肉就能跨过相邻椎骨之间的关节，牵动一整条椎骨产生多变的运动。
+脊神经也可以从椎骨之间穿出，而不是被一节一块的骨头给堵住。
+古早的脊索动物，虽然还没形成脊椎，但靠分节就能在水里更快、更敏捷地游动。
+比如5.18亿年前的昆明鱼，没有我们现在矿化坚硬的脊椎，但已经有了贯穿身体的脊索和分节的肌肉，帮助它们在水中快速游动。
+它与我们共享一个更加古老的共同祖先：
+
+没错，人类的演化路线，可以极简地形容成这样：
+早期脊索动物 → 早期脊椎动物 → 有颌脊椎动物 → 硬骨鱼类 → 肉鳍鱼类 → 四足动物 → 羊膜动物 → 哺乳动物 → 灵长类 → 人类
+
+所有哺乳动物（人、鲸鱼、蝙蝠、长颈鹿、猪）共有遥远的祖先，共用体节系统这个蓝图。
+椎骨、椎间盘、肌肉、脊神经、肋骨、血管、真皮...一起慢慢成型。
+祖传程序说是。
+
+至于切出来的每一节，究竟要成为身体的哪一部分，主要由以Hox基因为核心的调控网络指定。
+前面的体节，去形成枕部和颈部结构。
+往后一点的，形成胸椎和肋骨。
+后面的，依次形成腰椎、骶椎和尾椎。
+到这里，“身体分多少节”和“其中多少节算颈椎”就成了两个不同问题。
+我们虽然跟鸟类、爬行类共用一套祖传的体节系统，但不同祖先分配体节的方式不同。
+鸟类拥有了更多的颈椎，蛇类直接把大量椎骨改成带肋骨的躯干椎。
+而哺乳动物祖先，则把颈椎稳定在了7。
+如果以后地球文明冲出银河系，我建议用7来做圣数。
+当然，冲出地球的是鸟类而非人类的话，圣数另算。
+
+明白了吧。
+哺乳动物的体节系统，牵连太广了。
+它不仅关系到椎骨，还牵连着周围的肌肉、血管、神经、真皮等一堆玩意儿是如何排列的。
+属于是大家的底层代码。
+你想多一块或者少一块颈椎，不是说复制、剪切一下就行。
+而是要重塑整个身体，是颠覆祖训的大工程。
+老祖宗给你盖好一个大框架的房子，可不是让你随便拆承重墙啊，万一塌了呢。
+有人会说，诶，不是有基因突变吗？
+我就不信没有Hox基因突变的存在。
+有的朋友，有的。
+颈椎数量发生异常的那些，不是严重先天畸形，就是直接死胎，或者幼年期就产生肿瘤...
+说白了，牵一发动全身，多一节少一节都会产生巨大的副作用，然后早早夭亡。
+
+偶尔出现颈椎数量变化的胚胎，还没来得及把这种特征传给下一代，就因为不适生存被淘汰了。
+自然选择更愿意保留这个已经运行了数亿年的底层代码。
+允许大家在这个基础上改改参数，但不能改底层代码。
+对咯，改参数。
+你不让我改数量，那我就来改形状。
+长颈鹿依旧7节，但把每节都颈椎都拉得很长，以至于脖子长达两米，能够到更高的树叶。
+鲸鱼和海豚呢，则变短，甚至产生骨融合，来形成适合游泳的流线型身体：
+
+至于为什么海牛和树懒能跳出这个基因锁呢？
+科学家目前的解释，也挺令人忍俊不禁的。
+慢，太慢了。
+此为动图
+海牛和树懒的代谢率与活动水平很低。
+一些轻微的神经、血管或骨骼异常，对它们生存造成的影响非常有限。
+容错率也是一种天赋。
+总而言之——
+在我们拥有头颅、四肢、毛发和乳腺之前。
+祖先首先学会的事情之一，就是把身体分成一节一节，然后有节奏地摆动起来。
+体节讲述的，是比脊椎更古老的游泳史。
+我们的身上，仍有鱼的影子。
+我们是怎么说到这里的？
+77777777777777777777777777777777777...
+
+以上
+参考内容：
+七颈椎之谜： GALIS F. Why do almost all mammals have seven cervical vertebrae? Developmental constraints, Hox genes, and cancer[J]. Journal of Experimental Zoology, 1999, 285(1): 19-26. 
+椎骨数量约束： NARITA Y, KURATANI S. Evolution of the vertebral formulae in mammals: A perspective on developmental constraints[J]. Journal of Experimental Zoology Part B: Molecular and Developmental Evolution, 2005, 304B(2): 91-106. 
+哺乳脊柱变异： ASHER R J, LIN K H, KARDJILOV N, et al. Variability and constraint in the mammalian vertebral column[J]. Journal of Evolutionary Biology, 2011, 24(5): 1080-1090. 
+人类胚胎发育： TORCHIA M G, PERSAUD T V N. The Developing Human: Clinically Oriented Embryology[M]. 12th ed. Philadelphia: Elsevier, 2025. 
+体节发育去向： CHRIST B, HUANG R, SCAAL M. Amniote somite derivatives[J]. Developmental Dynamics, 2007, 236(9): 2382-2396. 
+椎骨重新分节： WARD L, EVANS S E, STERN C D. A resegmentation-shift model for vertebral patterning[J]. Journal of Anatomy, 2017, 230(2): 290-296. 
+Hox轴向定位： BURKE A C, NELSON C E, MORGAN B A, et al. Hox genes and the evolution of vertebrate axial morphology[J]. Development, 1995, 121(2): 333-346. 
+颈椎变异代价： GALIS F, VAN DOOREN T J M, FEUTH J D, et al. Extreme selection in humans against homeotic transformations of cervical vertebrae[J]. Evolution, 2006, 60(12): 2643-2654. 
+海牛树懒例外： VARELA-LASHERAS I, BAKKER A J, VAN DER MIJE S D, et al. Breaking evolutionary and pleiotropic constraints in mammals: On sloths, manatees and homeotic mutations[J]. EvoDevo, 2011, 2: 11. 
+树懒椎骨发育： HAUTIER L, WEISBECKER V, SÁNCHEZ-VILLAGRA M R, et al. Skeletal development in sloths and the evolution of mammalian vertebral patterning[J]. Proceedings of the National Academy of Sciences of the United States of America, 2010, 107(44): 18903-18908. 
+昆明鱼的证据： SHU D G, LUO H L, CONWAY MORRIS S, et al. Lower Cambrian vertebrates from south China[J]. Nature, 1999, 402(6757): 42-46. 
+长颈鹿的七节： BADLANGANA N L, ADAMS J W, MANGER P R. The giraffe cervical vertebral column: A heuristic example in understanding evolutionary processes?[J]. Zoological Journal of the Linnean Society, 2009, 155(3): 736-757. 
+鲸类脊柱演化： BUCHHOLTZ E A. Vertebral osteology and swimming style in living and fossil whales (Order: Cetacea)[J]. Journal of Zoology, 2001, 253(2): 175-190.

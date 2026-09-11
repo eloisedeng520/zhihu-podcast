@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938699039676818860",
+  "circle_name": "大模型全栈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938699039676818860",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1992875388255347485",
+  "post_url": "https://www.zhihu.com/pin/1992875388255347485?native=0",
+  "title": "大模型发展的真是日新月异",
+  "author": "北方的郎",
+  "author_id": "7af62e4119791a452e88718cb5ccc0be",
+  "favorite_count": 145,
+  "like_count": 592,
+  "comment_count": 90,
+  "created": 1767918556,
+  "updated": 1767918556,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-fae77d3fc3d03ff4aab238ce16aa4586.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 168116
+    }
+  ],
+  "fetched_at": "2026-09-10T18:27:09.359Z"
+}

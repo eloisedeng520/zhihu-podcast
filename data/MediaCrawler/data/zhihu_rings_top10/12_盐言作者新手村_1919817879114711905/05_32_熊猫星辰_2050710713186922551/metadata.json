@@ -1,0 +1,48 @@
+{
+  "circle_id": "1919817879114711905",
+  "circle_name": "盐言作者新手村",
+  "circle_url": "https://www.zhihu.com/ring/host/1919817879114711905",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2050710713186922551",
+  "post_url": "https://www.zhihu.com/pin/2050710713186922551?native=0",
+  "title": "怎么才能加上乎子制作人的微\n之前发了关于流量券的帖子，总有人问怎么能加到制作人的微。\n我自己是第10本上架的时候加到的制作人v的，我的制作人是慢女，而且只有模板",
+  "author": "熊猫星辰",
+  "author_id": "1d13b7292e9a9fe066a94a2e3b1804ef",
+  "favorite_count": 32,
+  "like_count": 79,
+  "comment_count": 33,
+  "created": 1781711763,
+  "updated": 1781877634,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-011c86644ac2c89f8930536b0fe6015b.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97339
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-b684b41c75feb0c13e9eb912bcf1ff08.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 177210
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-6adfe26fac71fc0f87bad64f338a7c36.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 245127
+    }
+  ],
+  "fetched_at": "2026-09-10T18:11:09.333Z"
+}

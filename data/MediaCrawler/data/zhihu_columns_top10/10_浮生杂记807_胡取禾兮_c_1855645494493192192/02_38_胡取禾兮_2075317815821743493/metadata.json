@@ -1,0 +1,39 @@
+{
+  "column_rank": 10,
+  "column_name": "浮生杂记807",
+  "column_slug": "c_1855645494493192192",
+  "column_url": "https://www.zhihu.com/column/c_1855645494493192192",
+  "article_rank": 2,
+  "ranking_metric": "voteup_count",
+  "article_id": "2075317815821743493",
+  "article_url": "https://zhuanlan.zhihu.com/p/2075317815821743493",
+  "title": "“扶老人赔1.9万”：我们怕的不是讹诈，而是看不见真相",
+  "author": "胡取禾兮",
+  "author_id": "7ef6a461bbc2905e8938de602340cd36",
+  "author_url_token": "deshi",
+  "voteup_count": 38,
+  "comment_count": 27,
+  "created": 1787574485,
+  "updated": 1787574485,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/v2-9a859cf27179e8461b58541fd7f16dde_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 60695
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/v2-be2fe47588f0062973a698ac7d447301_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 63139
+    }
+  ],
+  "fetched_at": "2026-09-11T03:12:12.628Z"
+}

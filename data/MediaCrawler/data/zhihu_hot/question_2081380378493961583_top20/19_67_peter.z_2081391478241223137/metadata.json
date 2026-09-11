@@ -1,0 +1,36 @@
+{
+  "question_id": "2081380378493961583",
+  "question_url": "https://www.zhihu.com/question/2081380378493961583",
+  "question_title": "如何评价正式发布的 DeepSeek V4.1 Flash？",
+  "rank": 19,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081391478241223137",
+  "answer_url": "https://www.zhihu.com/question/2081380378493961583/answer/2081391478241223137",
+  "author": "peter.z",
+  "voteup_count": 67,
+  "comment_count": 18,
+  "created_time": 1789022398,
+  "updated_time": 1789029186,
+  "is_collapsed": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-3117c1f2453d6685283d308750a9fc59_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 41476
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-d12092403b44de75862ac9bce55290d3_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 41919
+    }
+  ],
+  "fetched_at": "2026-09-10T12:50:28.116Z"
+}

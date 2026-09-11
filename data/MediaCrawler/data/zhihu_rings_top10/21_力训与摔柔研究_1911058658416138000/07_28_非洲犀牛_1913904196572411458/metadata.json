@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911058658416138000",
+  "circle_name": "力训与摔柔研究",
+  "circle_url": "https://www.zhihu.com/ring/host/1911058658416138000",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1913904196572411458",
+  "post_url": "https://www.zhihu.com/pin/1913904196572411458?native=0",
+  "title": "关于身体素质提升和专业技术提升。\n我自己的感觉是无论身体素质还是专业技术，都是适用于用进废退的规律的\n\n但“废退”的程度不同\n\n身体素质运动表现包括1力量（绝对",
+  "author": "非洲犀牛",
+  "author_id": "e0fdba6938516361f00a4411965a6fb0",
+  "favorite_count": 28,
+  "like_count": 10,
+  "comment_count": 3,
+  "created": 1749091324,
+  "updated": 1750211130,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-3f62d0cdc167964d9abbe165c20136b5_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 207376
+    }
+  ],
+  "fetched_at": "2026-09-10T18:28:26.342Z"
+}

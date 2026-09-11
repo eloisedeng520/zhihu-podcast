@@ -1,0 +1,88 @@
+{
+  "circle_id": "1938751952545644712",
+  "circle_name": "女生情感研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1938751952545644712",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2057391290107553442",
+  "post_url": "https://www.zhihu.com/pin/2057391290107553442?native=0",
+  "title": "喝黑豆水养出干净冷白皮\n#女性 中醫黑豆水女生喝益处多\n面有黄气素颜暗沉气色差夏天喝黑豆内调养出底子\n八款黑豆搭配日常轮换喝提亮通透养出干净冷白感\n90％的人都",
+  "author": "自然养身和蜂蜜",
+  "author_id": "846eef36f16abd577acc7fcd13acc07b",
+  "favorite_count": 344,
+  "like_count": 63,
+  "comment_count": 4,
+  "created": 1783300341,
+  "updated": 1783300341,
+  "is_essence": false,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-626f61d721dfd6213973e72c44cc54a8_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 119938
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-e5a02deae7b38059f5889c393824477b_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 118942
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-52a16c71e4ce2c25b38ba6ab85027734_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 121064
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic4.zhimg.com/50/v2-4589ca04a07971d4190e177f439ff15f_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 113866
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/50/v2-3fa6161716993ce88600ace943658012_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 118269
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/50/v2-5ca8f3fb038aab8bfa42e405b7a4e376_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 116960
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/50/v2-ca88a825742e557e51b1d782a347f350_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 117759
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/50/v2-e907729dae02da2e30057e92b565c4bf_r.jpg",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 134390
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:30.357Z"
+}

@@ -1,10 +1,11 @@
 import assert from 'node:assert/strict';
 import {test} from 'node:test';
 import {DatabaseSync} from 'node:sqlite';
+import {existsSync} from 'node:fs';
 import {normalizeAnswer,plainText,validateScript,validateReview,wavInfo,joinWav} from '../server/core.ts';
 import {handleApi} from '../server/api.ts';
 import {providerStatus,fetchAnswer} from '../server/providers.ts';
-import {filterKnowledgeItems,filterKnowledgeCategory} from '../lib/podcast.ts';
+import {filterKnowledgeItems,filterKnowledgeCategory,groupKnowledgeCollections} from '../lib/podcast.ts';
 import {localKnowledgeItems,localAnswer} from '../server/local-knowledge.ts';
 import * as podcast from '../lib/podcast.ts';
 
@@ -60,6 +61,51 @@ test('本地内容可以通过列表 ID 读取完整正文',()=>{
   assert.ok(answer.paragraphs.length>0);
   assert.ok(answer.paragraphs.every((paragraph,index)=>paragraph.id===`p${index+1}`&&paragraph.text.trim()));
 });
+test('圈子快照保留圈子 ID、圈子名和帖子自身标题',()=>{
+  const rings=localKnowledgeItems().filter(item=>item.category==='rings');
+  assert.ok(rings.length>0);
+  assert.ok(rings.every(item=>item.collectionId&&item.sourceName));
+  assert.ok(rings.some(item=>item.title!==item.sourceName));
+});
+test('圈子按 circle_id 聚合成两级内容结构',()=>{
+  const items=[
+    {id:'p1',title:'文章一',description:'',labels:[],category:'rings',collectionId:'c2',sourceName:'圈子二',collectionRank:2},
+    {id:'p2',title:'文章二',description:'',labels:[],category:'rings',collectionId:'c1',sourceName:'圈子一',collectionRank:1},
+    {id:'p3',title:'文章三',description:'',labels:[],category:'rings',collectionId:'c1',sourceName:'圈子一',collectionRank:1},
+    {id:'a1',title:'专栏',description:'',labels:[],category:'columns'},
+  ];
+  const groups=groupKnowledgeCollections(items);
+  assert.deepEqual(groups.map(group=>[group.id,group.name,group.items.map(item=>item.id)]),[
+    ['c1','圈子一',['p2','p3']],
+    ['c2','圈子二',['p1']],
+  ]);
+});
+test('专栏按专栏名称聚合成与圈子一致的两级内容结构',()=>{
+  const items=[
+    {id:'a1',title:'文章一',description:'',labels:[],category:'columns',sourceName:'专栏甲',collectionRank:2},
+    {id:'a2',title:'文章二',description:'',labels:[],category:'columns',sourceName:'专栏乙',collectionRank:1},
+    {id:'a3',title:'文章三',description:'',labels:[],category:'columns',sourceName:'专栏甲',collectionRank:2},
+    {id:'p1',title:'圈子文章',description:'',labels:[],category:'rings',sourceName:'圈子甲'},
+  ];
+  const groups=groupKnowledgeCollections(items,'columns');
+  assert.deepEqual(groups.map(group=>[group.name,group.items.map(item=>item.id)]),[
+    ['专栏乙',['a2']],
+    ['专栏甲',['a1','a3']],
+  ]);
+});
+test('24 个圈子均使用 demo 内部的真实图标',()=>{
+  const groups=groupKnowledgeCollections(localKnowledgeItems());
+  assert.equal(groups.length,24);
+  assert.ok(groups.every(group=>group.iconPath?.startsWith('/data/ring-icons/')));
+  assert.ok(groups.every(group=>existsSync(new URL(`../public${group.iconPath}`,import.meta.url))));
+});
+test('10 个专栏的文章均映射到 demo 内部的专栏图标',()=>{
+  const columns=localKnowledgeItems().filter(item=>item.category==='columns');
+  const icons=new Set(columns.map(item=>item.iconPath));
+  assert.equal(icons.size,10);
+  assert.ok(columns.every(item=>item.iconPath?.startsWith('/data/column-icons/')));
+  assert.ok(columns.every(item=>existsSync(new URL(`../public${item.iconPath}`,import.meta.url))));
+});
 test('本地内容不接受列表之外的 ID',()=>assert.throws(()=>localAnswer('local_missing'),/没有找到/));
 test('知乎上游不可用时仍然返回三个本地内容频道',async t=>{
   t.mock.method(globalThis,'fetch',async()=>{throw new TypeError('offline');});
@@ -112,6 +158,7 @@ test('完整流程：知乎正文→AI结构与脚本→独立核对→真实音
 });
 test('独立核对失败时没有任何TTS调用',async t=>{const calls=mockProviders(t,{badReview:true}),env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<4;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.status,'failed');assert.equal(e.stage,'reviewing');assert.equal(calls(),0);assert.equal(e.review.passed,false);});
 test('TTS失败保留已成功音频，重试仅继续未完成片段',async t=>{const calls=mockProviders(t,{failAudio:true}),env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<6;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.status,'failed');assert.equal(e.completedAudio,1);e=await (await handleApi(req(`/api/episodes/${e.id}/retry`,'POST'),env)).json();assert.equal(e.completedAudio,2);assert.equal(calls(),3);});
+test('首段合成后即可单独读取，无需等待整期完成',async t=>{mockProviders(t);const env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<5;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.stage,'synthesizing');assert.equal(e.segments[0].audioReady,true);const audio=await handleApi(req(`/api/episodes/${e.id}/audio?segment=${e.segments[0].id}`),env);assert.equal(audio.status,200);assert.equal(audio.headers.get('Content-Type'),'audio/wav');assert.ok((await audio.arrayBuffer()).byteLength>44);});
 test('没有模型配置时真实返回503，不创建假节目',async()=>{const env=envFixture();delete env.LLM_API_KEY;const r=await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env);assert.equal(r.status,503);const rows=await (await handleApi(req('/api/episodes'),env)).json();assert.equal(rows.episodes.length,0);});
 test('跨站写请求被拒绝',async()=>{const r=await handleApi(new Request('https://tingjian.test/api/episodes',{method:'POST',headers:{Origin:'https://evil.test','Content-Type':'application/json'},body:'{}'}),envFixture());assert.equal(r.status,403);});
 test('知识正文只接受官方列表返回的ID，不能把任意回答ID当work_id',async t=>{mockProviders(t);await assert.rejects(()=>fetchAnswer({},'999'),/不支持任意回答/);});

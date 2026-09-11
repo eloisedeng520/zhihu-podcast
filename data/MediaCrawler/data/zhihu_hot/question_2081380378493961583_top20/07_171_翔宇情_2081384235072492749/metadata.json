@@ -1,0 +1,76 @@
+{
+  "question_id": "2081380378493961583",
+  "question_url": "https://www.zhihu.com/question/2081380378493961583",
+  "question_title": "如何评价正式发布的 DeepSeek V4.1 Flash？",
+  "rank": 7,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081384235072492749",
+  "answer_url": "https://www.zhihu.com/question/2081380378493961583/answer/2081384235072492749",
+  "author": "翔宇情",
+  "voteup_count": 171,
+  "comment_count": 43,
+  "created_time": 1789020671,
+  "updated_time": 1789022439,
+  "is_collapsed": false,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-a5731c7403673b8847293178ac1432dd_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 320398
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-223e08d0dbe81c0b5afa886f638e4f36_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 45590
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-fb192ccd4309b887f513704b66ecd889_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 85703
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-f56fea35bed4634f39df43fa7bb4e5ad_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 64260
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-9d1dcb2dc99e974743126cc50403cfb9_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 141485
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-d7a02c048114344e121f11c0df7ea6df_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 1337825
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-fa98ce4b1d7f8d50c23c8edaa67f1a0b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 95745
+    }
+  ],
+  "fetched_at": "2026-09-10T12:50:28.116Z"
+}

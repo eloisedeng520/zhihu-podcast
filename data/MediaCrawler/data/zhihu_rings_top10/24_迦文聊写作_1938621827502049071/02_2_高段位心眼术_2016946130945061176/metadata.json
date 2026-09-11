@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938621827502049071",
+  "circle_name": "迦文聊写作",
+  "circle_url": "https://www.zhihu.com/ring/host/1938621827502049071",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2016946130945061176",
+  "post_url": "https://www.zhihu.com/pin/2016946130945061176?native=0",
+  "title": "知乎爆款文的秘密武器\n知乎爆款文写作技巧：3个公式，让你写啥都有人看\n \n1. 开头3秒抓眼球\n用痛点、冲突、反转开场，别铺垫。比如“我熬3夜做的方案，被同事5",
+  "author": "高段位心眼术",
+  "author_id": "bfcb006fcac9f7adab29fd592cdc5f72",
+  "favorite_count": 2,
+  "like_count": 12,
+  "comment_count": 2,
+  "created": 1773657540,
+  "updated": 1773657540,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-33574836ac393b2c17350dc769c5df50.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 740237
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:40.327Z"
+}

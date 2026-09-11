@@ -1,0 +1,56 @@
+{
+  "circle_id": "1911058658416138000",
+  "circle_name": "力训与摔柔研究",
+  "circle_url": "https://www.zhihu.com/ring/host/1911058658416138000",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1930628463343179166",
+  "post_url": "https://www.zhihu.com/pin/1930628463343179166?native=0",
+  "title": "你一直坚持锻炼是为了什么？\n从2008年因病休学开始，我养成了锻炼的习惯，体验到了身体的正向反馈。大学期间，参加散打社团，系统训练打下了力量与柔韧的基础。工作后",
+  "author": "徒手囧囧",
+  "author_id": "d26af408eaee4957eb6d6d8afc9eb9c9",
+  "favorite_count": 14,
+  "like_count": 41,
+  "comment_count": 4,
+  "created": 1753077782,
+  "updated": 1753077782,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-8ffd37e1137b03ce318bf580bd77fa78_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 135297
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-aaeb7065667b8f67e0e86216b0fda70f_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 866710
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-c8dc63d72516ed09a3c3a21c54b553cb_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 2551521
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic3.zhimg.com/50/v2-23ebef09149c057c18a8b85b49550954_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 2443026
+    }
+  ],
+  "fetched_at": "2026-09-10T18:28:26.342Z"
+}

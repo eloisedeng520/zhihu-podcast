@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2037491597894473201",
+  "post_url": "https://www.zhihu.com/pin/2037491597894473201?native=0",
+  "title": "17k 星的开源项目，能把任意一个学习主题自动做成互动课程\n最近想学个新方向，找了一圈课程要么太老要么太长，一周末刷完一门感觉啥都没记住。\n\nGitHub 上挖",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 1564,
+  "like_count": 302,
+  "comment_count": 7,
+  "created": 1778556029,
+  "updated": 1778556029,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-56ce3e27118dffbc70518cb57824644f.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 152682
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-bb2d900414bdf251de07d41992c74c5c.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 248897
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-16ff94604bfb817bdb850df843f72377.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 286404
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:15.194Z"
+}

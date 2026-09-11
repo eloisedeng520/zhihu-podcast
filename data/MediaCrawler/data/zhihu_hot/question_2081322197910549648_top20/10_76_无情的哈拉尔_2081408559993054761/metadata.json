@@ -1,0 +1,36 @@
+{
+  "question_id": "2081322197910549648",
+  "question_url": "https://www.zhihu.com/question/2081322197910549648",
+  "question_title": "云南昆明警方通报「因工资低往鲜花饼里吐痰」，造谣者已被行拘，这类为博流量编造谣言的现象为何屡屡发生？",
+  "rank": 10,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081408559993054761",
+  "answer_url": "https://www.zhihu.com/question/2081322197910549648/answer/2081408559993054761",
+  "author": "无情的哈拉尔",
+  "voteup_count": 76,
+  "comment_count": 0,
+  "created_time": 1789026471,
+  "updated_time": 1789026471,
+  "is_collapsed": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-ed1b25971aa83f6c94099285cb8d70a4_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 30779
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-f9f731b6d04e4756a5999413e8820013_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 624583
+    }
+  ],
+  "fetched_at": "2026-09-10T12:51:51.066Z"
+}

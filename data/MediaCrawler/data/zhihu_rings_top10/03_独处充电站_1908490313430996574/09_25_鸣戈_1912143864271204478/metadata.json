@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1912143864271204478",
+  "post_url": "https://www.zhihu.com/pin/1912143864271204478?native=0",
+  "title": "你的独处哲学（下）：构建自己的独处价值观\n各位独享家，接着上期的话题继续。最后这期要进入更核心的部分——如何构建属于你自己的独处哲学，以及让独处成为人生助力的方",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 25,
+  "like_count": 24,
+  "comment_count": 10,
+  "created": 1748670623,
+  "updated": 1749119522,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-179ec08c4a40464bbe2d26914902f59c_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 198960
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

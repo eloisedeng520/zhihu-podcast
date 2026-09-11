@@ -1,0 +1,56 @@
+{
+  "circle_id": "1938005292467069465",
+  "circle_name": "AI副业圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938005292467069465",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1939811187220000858",
+  "post_url": "https://www.zhihu.com/pin/1939811187220000858?native=0",
+  "title": "副业神器：七站同步发视频开源工具\n开源的 social-auto-upload 已经飙到 5.8k⭐，支持抖音、B站、小红书、快手、视频号、百家号、TikTok",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 413,
+  "like_count": 77,
+  "comment_count": 7,
+  "created": 1755267242,
+  "updated": 1755267242,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-2469b0736af7a54e3629a621c8925fbb_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 232262
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-9a1408e612f8aec73588b1ad50e73ebe_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 286544
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-b5d713df5d316174c1579596192a149e_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 170059
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/50/v2-a08d51fa05f3fdf0b75ee31ef50e1089_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 288374
+    }
+  ],
+  "fetched_at": "2026-09-10T15:47:13.561Z"
+}

@@ -1,0 +1,64 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2049133880075096324",
+  "post_url": "https://www.zhihu.com/pin/2049133880075096324?native=0",
+  "title": "在几千米深海失去了脸，是生物最无奈的进化选择\n你第一眼看到这条鱼，是不是会觉得它天生就没有脸？光滑圆钝的脑袋，找不到眼睛，嘴巴也不知所踪，看起来像外星生物。\n\n",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 46,
+  "like_count": 135,
+  "comment_count": 45,
+  "created": 1781394187,
+  "updated": 1781394371,
+  "is_essence": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-17de5c18266018b60fffdce4150cc192.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 100425
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-d1b7fed190696e5c8cee3f0be39bdfc7.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 139349
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-bc1c561f321df1bd6a23271797bfa489.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 113403
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-03e8d50e1291965433e1e78455446a50.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 79329
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-70a822da5ba60cb1938f2b2c43f4201f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 195983
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

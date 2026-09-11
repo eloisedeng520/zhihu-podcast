@@ -1,0 +1,40 @@
+{
+  "circle_id": "1908509014544872258",
+  "circle_name": "劳动仲裁那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1908509014544872258",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2053426284521338118",
+  "post_url": "https://www.zhihu.com/pin/2053426284521338118?native=0",
+  "title": "劳动仲裁真的很难吗？按这5步走，一点都不难\n在职场被霸凌如何维权？（2）——建议收藏备用 \n工作中，遇到需要仲裁的情况不要头大，按下面5步走。\n第一步：申请前准",
+  "author": "南风知晚",
+  "author_id": "071587a3b869aeea32bab67df471e281",
+  "favorite_count": 18,
+  "like_count": 14,
+  "comment_count": 5,
+  "created": 1782355919,
+  "updated": 1782393468,
+  "is_essence": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-fd80d885feeded1793b17cf42901b4fa.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 68129
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-23f8d09b7650a8d90c17346f9a7e6af1.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 31399
+    }
+  ],
+  "fetched_at": "2026-09-10T18:14:55.384Z"
+}

@@ -1,0 +1,56 @@
+{
+  "circle_id": "1938699039676818860",
+  "circle_name": "大模型全栈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938699039676818860",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1980666708202120065",
+  "post_url": "https://www.zhihu.com/pin/1980666708202120065?native=0",
+  "title": "OpenRouter一篇报告总结了大模型使用现状\nOpenRouter根据通过他们平台100T的Token总结了2025年大模型使用的现状：链接\n\n整篇报告34",
+  "author": "wangleineo",
+  "author_id": "d9e78b550f018b9dd758fdc3a590fcc3",
+  "favorite_count": 34,
+  "like_count": 18,
+  "comment_count": 1,
+  "created": 1765009913,
+  "updated": 1765009913,
+  "is_essence": true,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-584fefaf3d485cb57498cb65700b3a3d_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 23015
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-fbb571caef074367b0a81f98b6fb6c18_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28659
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/50/v2-f459c23c2a053e31a7e8f66ab6232155_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 25842
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/50/v2-1503990ffbd6aa30afd0d9c6c61bd7c1_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 38075
+    }
+  ],
+  "fetched_at": "2026-09-10T18:27:09.359Z"
+}

@@ -1,0 +1,96 @@
+{
+  "circle_id": "1938913447627700081",
+  "circle_name": "艺术美学探索营",
+  "circle_url": "https://www.zhihu.com/ring/host/1938913447627700081",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1952448847851794803",
+  "post_url": "https://www.zhihu.com/pin/1952448847851794803?native=0",
+  "title": "关于冬天的一切\n日本插画家Ryo Takemasa（竹政 亮）作品，以自然主题闻名，通过极简主义绘画手法表达，利用自然冷暖色调对比平衡画面，构建静谧清冷艺术氛围",
+  "author": "没又鱼丸",
+  "author_id": "132bbc0d2143178bdd4a2e070d2a7e7a",
+  "favorite_count": 17,
+  "like_count": 19,
+  "comment_count": 2,
+  "created": 1758280345,
+  "updated": 1758280345,
+  "is_essence": true,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-3c24f9f13a48ae7c0efc5628a26df30e_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 3289574
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-2d16129e63a6d61ce8fbf7519416cfd6_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 2543527
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/50/v2-ab514692ba64a7575f9373220524e220_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 2169752
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic4.zhimg.com/50/v2-1cb5412b927684fe689db161e15d8819_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 3447187
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic4.zhimg.com/50/v2-72de1f8b7ea362c21e304fa09a5b2425_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 3289493
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic2.zhimg.com/50/v2-89612adea033eaf9dd07dd83d6a4ccf9_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 2671263
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic3.zhimg.com/50/v2-f773443ed9f150bf715a128963fb854a_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 2314544
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic3.zhimg.com/50/v2-546fc79be94f66d6fb81677b414f948e_r.jpg",
+      "status": "downloaded",
+      "local_file": "008.png",
+      "content_type": "image/png",
+      "size_bytes": 3033232
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic2.zhimg.com/50/v2-fae3b12bb178aa18306183ee06df55e1_r.jpg",
+      "status": "downloaded",
+      "local_file": "009.png",
+      "content_type": "image/png",
+      "size_bytes": 1352434
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:31.199Z"
+}

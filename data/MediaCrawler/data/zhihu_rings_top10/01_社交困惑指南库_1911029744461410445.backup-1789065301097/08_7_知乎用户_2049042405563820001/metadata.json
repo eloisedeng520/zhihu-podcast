@@ -1,0 +1,88 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2049042405563820001",
+  "post_url": "https://www.zhihu.com/pin/2049042405563820001?native=0",
+  "title": "心理学教你如何避免螃蟹效应\n#职场新人初体验 \n心理学上有个词叫：螃蟹效应。永远要记住，和周围人搞好关系的秘诀就是，不分享喜悦、不炫耀成功、不说三道四、不假装聪",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 7,
+  "like_count": 9,
+  "comment_count": 0,
+  "created": 1781309825,
+  "updated": 1781309825,
+  "is_essence": false,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-a920f92c3bb0ebe7812a34f70771745e.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 171844
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-22821cd14bfec3c6e157e074c28e37ff.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 115790
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-863eab0218517d1e29fcc07c6e331a70.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 138648
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-5c2d77ef7db342f917dbbe1183c764c3.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 243076
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-09fdd7fc72c74a6fd3f68da327eb4a53.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 185879
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic3.zhimg.com/v2-31bbd8f7996e4f5ef8eecb00002477a4.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 177873
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/v2-8ce90ac66e4d7891dee4e2ac77f65e3a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 276892
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic1.zhimg.com/v2-5a47fc3a29897c2b1d9913172be02d11.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 239875
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

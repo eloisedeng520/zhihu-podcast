@@ -1,0 +1,119 @@
+{
+  "column_rank": 2,
+  "column_name": "让知乎重拾遗风",
+  "listed_author": "云杉",
+  "column_slug": "c_2079483161315221550",
+  "column_url": "https://www.zhihu.com/column/c_2079483161315221550",
+  "source_page": "https://www.zhihu.com/column-square",
+  "requested_count": 10,
+  "selection_rule": "遍历专栏全部文章，按单篇 voteup_count（赞同数）降序取前十",
+  "scanned_article_count": 9,
+  "api_total": 9,
+  "pages": 1,
+  "selected_count": 9,
+  "shortage": 1,
+  "image_errors": [],
+  "fetched_at": "2026-09-11T03:08:19.628Z",
+  "complete": false,
+  "articles": [
+    {
+      "folder": "01_11334_云杉_2080393082252554777",
+      "rank": 1,
+      "article_id": "2080393082252554777",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 11334,
+      "comment_count": 1046,
+      "images": 8,
+      "downloaded": 8
+    },
+    {
+      "folder": "02_4484_云杉_2078940529996388342",
+      "rank": 2,
+      "article_id": "2078940529996388342",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 4484,
+      "comment_count": 382,
+      "images": 6,
+      "downloaded": 6
+    },
+    {
+      "folder": "03_1764_云杉_2079599615549222970",
+      "rank": 3,
+      "article_id": "2079599615549222970",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 1764,
+      "comment_count": 130,
+      "images": 9,
+      "downloaded": 9
+    },
+    {
+      "folder": "04_716_云杉_2078091332875244193",
+      "rank": 4,
+      "article_id": "2078091332875244193",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 716,
+      "comment_count": 126,
+      "images": 9,
+      "downloaded": 9
+    },
+    {
+      "folder": "05_508_云杉_2081314490449146389",
+      "rank": 5,
+      "article_id": "2081314490449146389",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 508,
+      "comment_count": 41,
+      "images": 28,
+      "downloaded": 28
+    },
+    {
+      "folder": "06_106_云杉_2079114458404741894",
+      "rank": 6,
+      "article_id": "2079114458404741894",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 106,
+      "comment_count": 8,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "07_95_云杉_2078381406326101737",
+      "rank": 7,
+      "article_id": "2078381406326101737",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 95,
+      "comment_count": 13,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "08_67_云杉_2080979057790009413",
+      "rank": 8,
+      "article_id": "2080979057790009413",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 67,
+      "comment_count": 1,
+      "images": 8,
+      "downloaded": 8
+    },
+    {
+      "folder": "09_26_云杉_2080225313573941605",
+      "rank": 9,
+      "article_id": "2080225313573941605",
+      "title": "",
+      "author": "云杉",
+      "voteup_count": 26,
+      "comment_count": 0,
+      "images": 6,
+      "downloaded": 6
+    }
+  ]
+}

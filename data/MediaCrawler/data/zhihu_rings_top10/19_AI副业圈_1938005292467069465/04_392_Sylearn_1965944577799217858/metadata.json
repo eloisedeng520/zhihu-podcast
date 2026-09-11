@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938005292467069465",
+  "circle_name": "AI副业圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938005292467069465",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1965944577799217858",
+  "post_url": "https://www.zhihu.com/pin/1965944577799217858?native=0",
+  "title": "GitHub项目推荐：AI一键生成教学动画\n🔧 项目名称： Math‑To‑Manim\n📧项目地址： 链接\n \n如果你还在为制作数学、物理教学动画学不会 M",
+  "author": "Sylearn",
+  "author_id": "3cf656ba23a1b458aad7899de48314aa",
+  "favorite_count": 392,
+  "like_count": 81,
+  "comment_count": 1,
+  "created": 1761498020,
+  "updated": 1761498105,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-21119b2e43ff17b9ca7b039698ae1a17_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 263755
+    }
+  ],
+  "fetched_at": "2026-09-10T15:47:13.561Z"
+}

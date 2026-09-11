@@ -1,0 +1,48 @@
+{
+  "circle_id": "1915857047494305789",
+  "circle_name": "三国历史群英会",
+  "circle_url": "https://www.zhihu.com/ring/host/1915857047494305789",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1938018279470925195",
+  "post_url": "https://www.zhihu.com/pin/1938018279470925195?native=0",
+  "title": "曹操赠送诸葛亮鸡舌香，最终目的还是想瓦解“孙刘联盟”\n在孙刘两家结盟期间，曹操派人给诸葛亮送了五斤鸡舌香，还附带了一封信。即曹操《与诸葛亮书》：“今奉鸡舌香五斤",
+  "author": "墨染诗笺",
+  "author_id": "d74021050d8e285f37f034175716ab69",
+  "favorite_count": 9,
+  "like_count": 37,
+  "comment_count": 30,
+  "created": 1754844288,
+  "updated": 1754867644,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-7df4e10c337ce3455f6f9e2de1e1ba4b_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 359877
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-42553ac257d85857e12d3f7b88a0b261_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 35963
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-ae62fd0b5a020e653cf8de6181720913_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 46023
+    }
+  ],
+  "fetched_at": "2026-09-10T17:59:37.181Z"
+}

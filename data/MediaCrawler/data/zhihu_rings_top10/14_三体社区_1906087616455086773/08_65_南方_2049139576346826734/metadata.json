@@ -1,0 +1,56 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2049139576346826734",
+  "post_url": "https://www.zhihu.com/pin/2049139576346826734?native=0",
+  "title": "被高等代数暴击后，你需要的不是另一本教材，而是一盏能照亮地下迷宫的探照灯\n被高等代数暴击后，你需要的不是另一本教材，而是一盏能照亮地下迷宫的探照灯\n这几乎是一种",
+  "author": "南方",
+  "author_id": "52dafcbf0a589ea138aa0728b724a401",
+  "favorite_count": 65,
+  "like_count": 20,
+  "comment_count": 0,
+  "created": 1781333080,
+  "updated": 1781354439,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-5a56933ce59980c3156147d329c9169b.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 11758
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-0d1fbd251d925bade2a3f520631ee965.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 367953
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-faac57e5ff2433222c0fced673bf4107.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 173745
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-4b67b056455d1ea7c8d906b3ce9a9b34.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 33406
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

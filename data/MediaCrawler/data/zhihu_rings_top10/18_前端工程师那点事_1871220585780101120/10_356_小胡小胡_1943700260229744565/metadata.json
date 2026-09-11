@@ -1,0 +1,48 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1943700260229744565",
+  "post_url": "https://www.zhihu.com/pin/1943700260229744565?native=0",
+  "title": "一个超全的开源白板工具 | Drawnix，8.3k⭐\n找到了一个很强的开源白板工具——Drawnix。8.3k⭐，MIT 协议，完全免费开源。它定位是“一体化",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 356,
+  "like_count": 71,
+  "comment_count": 2,
+  "created": 1756194312,
+  "updated": 1756194312,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-83aeaee6d963fa5661d9a5da941143a2_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 184298
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-bd977d64c084a5ff0eaba985b9da3901_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 254747
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-b7edf28e648e6d554f6dd3a3d0fb8664_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 245917
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

@@ -1,0 +1,72 @@
+{
+  "circle_id": "1938621827502049071",
+  "circle_name": "迦文聊写作",
+  "circle_url": "https://www.zhihu.com/ring/host/1938621827502049071",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1999098702707569928",
+  "post_url": "https://www.zhihu.com/pin/1999098702707569928?native=0",
+  "title": "如何写成作品入选致知计划，有没有能来解答一下的\n我的知乎号，已经注册了好多年了吧，但是都没有用过知乎，最近几个月才开始用的，是去年10月26日开始打理知乎号。用",
+  "author": "阿白",
+  "author_id": "62b395e0266f23443ae0d6bf130596b5",
+  "favorite_count": 0,
+  "like_count": 5,
+  "comment_count": 0,
+  "created": 1769402794,
+  "updated": 1769402794,
+  "is_essence": false,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-3a2a17fa2de940706f0363e4ea864b19.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 176436
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-cba098b828f3e1a75f706d87ab49b107.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 139801
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-d87d11330c03d6e05bb1dd37f1ccc7f7.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 122710
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-db07fb496c8c54baad9f390d46f97a44.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 270806
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-2bb7c5bb66e741d03feccc5a7ba085c4.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 272036
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-8e76c73f48a54751179d9072e875aa04.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 275448
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:40.327Z"
+}

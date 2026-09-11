@@ -1,0 +1,71 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "article_rank": 7,
+  "ranking_metric": "voteup_count",
+  "article_id": "560986533",
+  "article_url": "https://zhuanlan.zhihu.com/p/560986533",
+  "title": "把贾浅浅拉进“作协”，把柳传志写进教材，尔等恶势力想要逆天么？",
+  "author": "上官茂华",
+  "author_id": "656c0f28a7f3f7e12aca289596d11789",
+  "author_url_token": "fo-lan-ci-xiao-qu",
+  "voteup_count": 993,
+  "comment_count": 183,
+  "created": 1662213090,
+  "updated": 1662257115,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-c140b84f4de31fa3855ab3d187965aad_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38597
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-c140b84f4de31fa3855ab3d187965aad_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38597
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-b558c9f07f4e580ed29268c1fb85a818_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 209232
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-38462f6282a7607385269f0bed89a8e0_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 36070
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-bf0bde79dc896887fdc6816f7f0cfcb3_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 54264
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-a819853680623e90a7dbd7da2e617534_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 95928
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:38.632Z"
+}

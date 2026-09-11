@@ -1,0 +1,60 @@
+{
+  "question_id": "2081206056877811582",
+  "question_url": "https://www.zhihu.com/question/2081206056877811582",
+  "question_title": "如何评价苹果折叠屏手机 iPhone Duo？国行售价 15999 元起值得入手吗？",
+  "rank": 19,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081253751273406605",
+  "answer_url": "https://www.zhihu.com/question/2081206056877811582/answer/2081253751273406605",
+  "author": "Luv Letter",
+  "voteup_count": 187,
+  "comment_count": 258,
+  "created_time": 1788989562,
+  "updated_time": 1788989562,
+  "is_collapsed": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-06d640fc0165d4360c87659586852674_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 124249
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-24555ee5ad2587747e7fee40c7150770_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 148850
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-d4092839dbda3aa237e6e6cdbbbcb34a_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 138529
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-0b47b0fb56a5013a768e397a2db6f1e4_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 74923
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-e588610dee4dc6183fb106ef493f38d5_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 162042
+    }
+  ],
+  "fetched_at": "2026-09-10T12:43:56.197Z"
+}

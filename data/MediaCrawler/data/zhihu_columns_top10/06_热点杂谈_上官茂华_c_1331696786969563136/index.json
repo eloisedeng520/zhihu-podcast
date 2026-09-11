@@ -1,0 +1,130 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "listed_author": "上官茂华",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "source_page": "https://www.zhihu.com/column-square",
+  "requested_count": 10,
+  "selection_rule": "遍历专栏全部文章，按单篇 voteup_count（赞同数）降序取前十",
+  "scanned_article_count": 1005,
+  "api_total": 1270,
+  "pages": 13,
+  "selected_count": 10,
+  "shortage": 0,
+  "image_errors": [],
+  "fetched_at": "2026-09-11T03:10:38.632Z",
+  "complete": true,
+  "articles": [
+    {
+      "folder": "01_3912_上官茂华_2078771414484640386",
+      "rank": 1,
+      "article_id": "2078771414484640386",
+      "title": "强烈呼吁国家对河南“泌阳事件”一查到底，严惩不贷！",
+      "author": "上官茂华",
+      "voteup_count": 3912,
+      "comment_count": 709,
+      "images": 6,
+      "downloaded": 6
+    },
+    {
+      "folder": "02_2489_上官茂华_850359442",
+      "rank": 2,
+      "article_id": "850359442",
+      "title": "中美之战正在逼近",
+      "author": "上官茂华",
+      "voteup_count": 2489,
+      "comment_count": 242,
+      "images": 14,
+      "downloaded": 14
+    },
+    {
+      "folder": "03_1421_上官茂华_545189886",
+      "rank": 3,
+      "article_id": "545189886",
+      "title": "敢同恶鬼争高下，不向霸王让寸分——毛主席的腰杆子为啥这么硬？",
+      "author": "上官茂华",
+      "voteup_count": 1421,
+      "comment_count": 186,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "04_1114_上官茂华_628113132",
+      "rank": 4,
+      "article_id": "628113132",
+      "title": "为什么有的人爬雪山过草地都行，却不愿意响应毛主席提出的继续革命呢？",
+      "author": "上官茂华",
+      "voteup_count": 1114,
+      "comment_count": 92,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "05_1083_上官茂华_1934930113050443811",
+      "rank": 5,
+      "article_id": "1934930113050443811",
+      "title": "直面今日之现实，想起钱老的临终箴言，我们禁不住潸然泪下……",
+      "author": "上官茂华",
+      "voteup_count": 1083,
+      "comment_count": 208,
+      "images": 4,
+      "downloaded": 4
+    },
+    {
+      "folder": "06_1016_上官茂华_588663941",
+      "rank": 6,
+      "article_id": "588663941",
+      "title": "大疫之下，饱汉要知饿汉饥，否则，你我有没有明天都很难说",
+      "author": "上官茂华",
+      "voteup_count": 1016,
+      "comment_count": 127,
+      "images": 6,
+      "downloaded": 6
+    },
+    {
+      "folder": "07_993_上官茂华_560986533",
+      "rank": 7,
+      "article_id": "560986533",
+      "title": "把贾浅浅拉进“作协”，把柳传志写进教材，尔等恶势力想要逆天么？",
+      "author": "上官茂华",
+      "voteup_count": 993,
+      "comment_count": 183,
+      "images": 6,
+      "downloaded": 6
+    },
+    {
+      "folder": "08_942_上官茂华_2078769405324949183",
+      "rank": 8,
+      "article_id": "2078769405324949183",
+      "title": "今天，回望毛、邓的对美判断，还是毛主席看得更为深邃",
+      "author": "上官茂华",
+      "voteup_count": 942,
+      "comment_count": 157,
+      "images": 8,
+      "downloaded": 8
+    },
+    {
+      "folder": "09_922_上官茂华_2032020975005479949",
+      "rank": 9,
+      "article_id": "2032020975005479949",
+      "title": "日本“下战书”，我们必须果断应战，坚决粉碎其狼子野心",
+      "author": "上官茂华",
+      "voteup_count": 922,
+      "comment_count": 232,
+      "images": 7,
+      "downloaded": 7
+    },
+    {
+      "folder": "10_723_上官茂华_466941315",
+      "rank": 10,
+      "article_id": "466941315",
+      "title": "那两个大骂毛主席的人后来怎么样了？",
+      "author": "上官茂华",
+      "voteup_count": 723,
+      "comment_count": 0,
+      "images": 3,
+      "downloaded": 3
+    }
+  ]
+}

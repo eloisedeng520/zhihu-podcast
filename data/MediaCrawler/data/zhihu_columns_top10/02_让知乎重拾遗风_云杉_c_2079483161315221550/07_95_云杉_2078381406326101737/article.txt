@@ -1,0 +1,74 @@
+思想不能命令DNA突变，但可以创造一个新世界，新世界随后反过来筛选DNA。
+但不是题主想的“想进化成什么，就进化成什么”那种能力。
+现代进化论的基本逻辑一直没变：
+先产生遗传变异，不同的变异导致生存和繁殖差异，再让有利变异逐渐增加。
+比如一群长颈鹿的祖先，它们都很想吃高处的叶子。
+但这种“想”，并不会让它们的脖子伸长，也不会因为一辈子都想伸长脖子，下一代脖子就长了。
+而是基因突变使得下一代出现了脖子更长的个体，更能吃到高处的叶子，所以更有生存优势。
+长脖子个体的子女中更容易出现长脖子的性状，而这些长脖子子女同样更容易活下来，繁衍后代。
+我们把这个过程，叫做「自然选择」。
+持续地自然选择下，长颈鹿就变成了现在的样子。
+
+但是呢，主观也不是完全无关紧要。
+假设某种鸟的雌鸟就是偏爱尾巴特别长、颜色特别鲜艳的雄鸟。
+尾羽长度、颜色等视觉刺激，会进入神经系统，影响奖励、注意和选择行为，你可以把它理解成一种主观意识。
+雌鸟这种偏好，本质上是一种神经系统产生的选择。
+我们叫它「性选择」。
+它不会直接修改雄鸟的DNA，但会让那些长尾巴、颜色鲜艳的雄鸟更容易交配。
+于是乎，控制长尾巴的遗传变异一代代增加，动物喜欢谁，真的可以改变整个物种未来长什么样。
+孔雀就是其中最典型的例子。
+雌雄孔雀
+还有个大家不太熟、但更夸张的案例，长尾织雀：
+
+你会发现一个问题，雄性夸张的尾羽，不仅又重又大，而且极其醒目，明显是不适宜生存的。
+如果尾巴一直夸张下去，雄性可能来不及交配，就被吃完了。
+但它们存活到了现在。
+所以它们一定是找到了生存优势 vs 繁殖优势的平衡点。
+怎么找到的？
+生物学家费希尔提出了一种假想：
+审美，本身也可以进化。
+雌性越来越喜欢某种特征，具有该特征的雄性越来越多，偏好这种特征的雌性也可能越来越多，雄性越长越极端。
+但极端过度了，影响生存率了，生存损耗刚好抵消交配带来的繁殖收益时，失控就会停止，成为现在的样子。
+这就是「费希尔选择失控假说」。
+
+我们人类，其实就是主观影响进化证据最有力的生物。
+就说喝奶这件事吧。
+早期的人类，婴儿时期乳糖酶水平高，成年之后特别低，所以婴儿喝奶没事儿，长大了反而乳糖不耐。
+喝多了奶，得窜。
+但现在呢，很多人成年以后乳糖酶也可以维持在一个高水平，这叫「乳糖酶持续性」，lactase persistence。
+目前的古DNA研究认为，人类是先开始喝奶，然后乳糖酶持续性的基因才大范围扩张。
+六千多年前，欧洲欧洲乳糖酶持续性相关等位基因开始明显增加，随后经历了非常强的正选择。
+乳糖酶持续性迅速普及
+也就是说——
+人类开始饲养牛羊、利用动物乳汁，这是一种文化创新。
+这种行为没有让人的DNA“为了喝奶而主动改变”，却改变了人类所处的选择环境。
+在长期依赖乳制品的人群中，尤其在食物短缺、疾病流行等特殊环境下，成年后仍能高效消化乳糖的人拥有更高的生存和繁殖优势。
+于是，乳糖酶持续性相关遗传变异受到强烈选择，在人群中迅速扩散。
+文化改变了选择压力，选择压力又改变了人群的基因频率。
+这就是经典的「基因—文化共进化」。
+顺带一提，欧洲和非洲分别出现了不同的遗传变异，却都产生了乳糖酶持续性，这是个非常漂亮的「趋同进化」案例。
+趋同进化（Convergent evolution）即源自不同祖先的生物，由于相似的生活方式，整体或部分形态结构向着同一方向改变。
+还有一个更极端的例子，「人工选择」。
+看看我们身边无处不在的宠物狗就知道了。
+狗之所以从狼祖先演化出吉娃娃、哈士奇、藏獒、柯基，并不是大自然需要这些形态。
+而是我们人类的一个主观念头“我需要这样的狗”。
+比如狗群中突然出现了一只毛特别长的，这个性状其实并不见得有利于生存，但人类就是觉得长毛好看。
+于是拿这只狗同它的兄弟姐妹、甚至父母交配，试图把性状固定下来，让长毛的基因在侯代中越来越多...
+一个物种的主观偏好，成为了另一个物种的选择压力。
+
+有一部恐怖科幻主题的设定，叫《所有的明天》。
+里面外星人成了压制人类的物种，出于各种玩乐心态把人类主观选择成了各种各样的样子。
+其实跟我们对狗做的事情，是一样的。
+
+好了，让我们用一句话概括以上这些内容吧：
+思想不能命令DNA突变，但思想可以创造一个世界，而这个世界随后反过来筛选DNA。
+以上
+参考内容：
+Evershed R P, Davey Smith G, Roffet-Salque M, et al. Dairying, diseases and the evolution of lactase persistence in Europe[J]. Nature, 2022, 608(7922): 336-345.
+Tishkoff S A, Reed F A, Ranciaro A, et al. Convergent adaptation of human lactase persistence in Africa and Europe[J]. Nature genetics, 2007, 39(1): 31-40.
+LURIA S E, DELBRÜCK M. Mutations of bacteria from virus sensitivity to virus resistance[J]. Genetics, 1943, 28(6): 491-511. DOI:10.1093/genetics/28.6.491.
+WILKINSON D M, RUXTON G D. Understanding selection for long necks in different taxa[J]. Biological Reviews, 2012, 87(3): 616-630. DOI:10.1111/j.1469-185X.2011.00212.x.
+PETRIE M, HALLIDAY T, SANDERS C. Peahens prefer peacocks with elaborate trains[J]. Animal Behaviour, 1991, 41(2): 323-331. DOI:10.1016/S0003-3472(05)80484-1.
+FISHER R A. The genetical theory of natural selection[M]. Oxford: Clarendon Press, 1930.
+BURGER J, KIRCHNER M, BRAMANTI B, et al. Absence of the lactase-persistence-associated allele in early Neolithic Europeans[J]. Proceedings of the National Academy of Sciences of the United States of America, 2007, 104(10): 3736-3741. DOI:10.1073/pnas.0607187104.
+GERBAULT P, LIEBERT A, ITAN Y, et al. Evolution of lactase persistence: an example of human niche construction[J]. Philosophical Transactions of the Royal Society B: Biological Sciences, 2011, 366(1566): 863-877. DOI:10.1098/rstb.2010.0268.

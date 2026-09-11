@@ -1,0 +1,95 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 4,
+  "ranking_metric": "voteup_count",
+  "article_id": "1933138244876362132",
+  "article_url": "https://zhuanlan.zhihu.com/p/1933138244876362132",
+  "title": "前脚黄仁勋刚走，后脚周鸿祎拆台，中方已不再需要英伟达",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 1835,
+  "comment_count": 441,
+  "created": 1753676136,
+  "updated": 1753927748,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-fae2b48eb1ebd6116f3c2c532deba9a9_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 186724
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-a628781b53ae29d3830786955fbd2b3f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 65708
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-011c2f453c050a3a46022188a3f08464_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 343770
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-afec8b2c880a3958352a8115bb7deaa5_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 86235
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-563b0667c8b5437194a0448f6ae367c7_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 163853
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-bdfaea09938b45981cb7ec45d6907ebe_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 67727
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-9b2579f2ea8cf959f45ace373ca682a7_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 47738
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-cc379aa1bd94e94625cd0841a9a06aa4_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 65539
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-afec8b2c880a3958352a8115bb7deaa5_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 86235
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

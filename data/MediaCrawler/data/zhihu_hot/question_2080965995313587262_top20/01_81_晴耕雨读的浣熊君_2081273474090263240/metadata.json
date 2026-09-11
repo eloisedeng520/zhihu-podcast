@@ -1,0 +1,44 @@
+{
+  "question_id": "2080965995313587262",
+  "question_url": "https://www.zhihu.com/question/2080965995313587262",
+  "question_title": "在古代，盐为什么特别适合征税？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081273474090263240",
+  "answer_url": "https://www.zhihu.com/question/2080965995313587262/answer/2081273474090263240",
+  "author": "晴耕雨读的浣熊君",
+  "voteup_count": 81,
+  "comment_count": 0,
+  "created_time": 1788994264,
+  "updated_time": 1789009090,
+  "is_collapsed": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-d7036d6181717eadcd0bcd1d16e40df5_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 131086
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-3ab1452ad5c5c273aed551162dc0ec8d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 165633
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-fcfa4f02dccddbf9de90d9db7878a97c_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 110479
+    }
+  ],
+  "fetched_at": "2026-09-10T12:52:23.911Z"
+}

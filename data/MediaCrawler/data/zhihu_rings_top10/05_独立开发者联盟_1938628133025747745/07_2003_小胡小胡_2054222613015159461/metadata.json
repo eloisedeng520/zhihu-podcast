@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2054222613015159461",
+  "post_url": "https://www.zhihu.com/pin/2054222613015159461?native=0",
+  "title": "一个人维护爬七大平台的开源爬虫，看着头皮发麻又佩服\n今天刷 GitHub 一眼瞅到 MediaCrawler，52.9k 星，一个国人扛七个平台反爬的开源社媒爬",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 2003,
+  "like_count": 498,
+  "comment_count": 21,
+  "created": 1782544957,
+  "updated": 1782544957,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-a8577b79991f28962749e7cf9f1f7512.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 302900
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-ea872014aa04166351e13dd90369cbca.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 180968
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-2e1f57598e68562f6299c437d46f34ef.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 176273
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:15.194Z"
+}

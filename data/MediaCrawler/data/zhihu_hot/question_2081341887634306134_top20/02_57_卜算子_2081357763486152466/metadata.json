@@ -1,0 +1,60 @@
+{
+  "question_id": "2081341887634306134",
+  "question_url": "https://www.zhihu.com/question/2081341887634306134",
+  "question_title": "吴柳芳退役后陷擦边争议，刘翔受安置抉择困扰，造成这些运动员退役后陷入困局的原因到底是什么？",
+  "rank": 2,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081357763486152466",
+  "answer_url": "https://www.zhihu.com/question/2081341887634306134/answer/2081357763486152466",
+  "author": "卜算子",
+  "voteup_count": 57,
+  "comment_count": 40,
+  "created_time": 1789014360,
+  "updated_time": 1789015216,
+  "is_collapsed": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-dcb2f2330cb94569f6843eafdf6ae1dc_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 47597
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-4de4156a4cc9a021a743f03fc9f9b590_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 10380
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-9a3012bbdb7fd9d38ec6c3a068cb2bcb_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 16297
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-6c202ac48273f617ae17cff3cf0b3b7e_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 263991
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-ffc111763886f3a22d1c67a1ce3c980f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 133561
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:39.637Z"
+}

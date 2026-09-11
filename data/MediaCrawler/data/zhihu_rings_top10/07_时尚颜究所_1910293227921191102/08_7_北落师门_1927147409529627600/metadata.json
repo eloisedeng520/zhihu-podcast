@@ -1,0 +1,96 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1927147409529627600",
+  "post_url": "https://www.zhihu.com/pin/1927147409529627600?native=0",
+  "title": "🌞防晒小知识之——防晒墨镜怎么选？\n❗️防晒墨镜选错＝毁眼！5个硬核标准教你避开“时尚废镜”\n❗️你以为墨镜只是凹造型？错！劣质墨镜比不戴更伤眼！\n✅切记要选",
+  "author": "北落师门",
+  "author_id": "811613bf6973d198b45013a12eaa7230",
+  "favorite_count": 7,
+  "like_count": 28,
+  "comment_count": 15,
+  "created": 1752248286,
+  "updated": 1752248286,
+  "is_essence": true,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-cb936761a7de35742b3804f40fbf922f_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1346283
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-e41d258889c9e392efe53fea468dc352_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 119554
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-f01293a56ddf00adae855e85ea67bc65_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 155970
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/50/v2-bc5cb97a172434da158228f5cab1a18e_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 288992
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/50/v2-0796970da23a30f77564e54cf4b33fae_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 106731
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic4.zhimg.com/50/v2-eac2a26f425605b48a553c6600001767_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 97153
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/50/v2-e6ba810277c961c758ea93b0cf7c6209_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 178079
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic2.zhimg.com/50/v2-88759a05aaa81777ec6ad4ae73a9a7ad_r.jpg",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 64194
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic2.zhimg.com/50/v2-52770e8b7f1cf897fe18ccb32912c077_r.jpg",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 91998
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}

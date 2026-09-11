@@ -1,0 +1,32 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2071354105642202960",
+  "post_url": "https://www.zhihu.com/pin/2071354105642202960?native=0",
+  "title": "写代码的人谁没被文档恶心过？\nLangChain刚开源的OpenWiki，就是来治这个毛病的。\n\n说白了就是让agent帮你自动维护代码库文档。它干的活分三步：",
+  "author": "向云向雾",
+  "author_id": "740b0ab5cb1cbbf7cb99b37f9059312e",
+  "favorite_count": 517,
+  "like_count": 157,
+  "comment_count": 10,
+  "created": 1786629320,
+  "updated": 1786629323,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-0162ea1fdb9dc4ecc20537ed3a45d110.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 133478
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

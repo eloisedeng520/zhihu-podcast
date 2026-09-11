@@ -1,0 +1,72 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1915763527119013586",
+  "post_url": "https://www.zhihu.com/pin/1915763527119013586?native=0",
+  "title": "谁说夏天不能用油？用对了肤质直接UP！\n💬一些碎碎念\n多数人一到夏天望油色变，总觉得“油”是秋冬专属，却不知其实油更亲肤，更速渗，用对了就是面上的隐形战袍，让",
+  "author": "凌暴暴",
+  "author_id": "3caf704ebcc6f17295f0272d4df7c5eb",
+  "favorite_count": 11,
+  "like_count": 33,
+  "comment_count": 7,
+  "created": 1749533784,
+  "updated": 1749533821,
+  "is_essence": true,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-03f5a699b6179618d810e49489c4f74e_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 354603
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-2933c6040c37311436451dfa4771da1e_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 754478
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/50/v2-059550a999e0eac715ac3b3e6212c80c_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 739193
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/50/v2-4a60f3a2cbb8720d352cfc05acd3de72_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1117830
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/50/v2-747597e5315ddaa1f14704cd92971a71_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 533166
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic2.zhimg.com/50/v2-13d3f1cd3ba2e934c7cb00013deead3f_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 441922
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}

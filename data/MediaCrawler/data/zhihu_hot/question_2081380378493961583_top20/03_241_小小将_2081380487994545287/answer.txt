@@ -1,0 +1,32 @@
+刚刚，DeepSeek V4.1 Flash 如期正式发布了。
+
+这次 V4.1 Flash 比我想象的变化大。
+我胖了
+模型总参数提升到了 552B，并采用全新的 Causal-Encoder-Decoder 架构（这里的 Encoder 还是因果的）。输入和输出采用非对称设计：输入激活只有 8B，输出激活 16B（模型稀疏度又增加了）。
+
+由于底层架构发生了较大变化，V4.1 Flash 也重新进行了预训练，和此前 V4 Flash 不是一个基座模型了。
+
+还有就是，这次 V4.1 Flash 终于上了自家的 Engram（可以理解成给 Transformer 外挂了一套超大的、稀疏访问的“记忆表”），这部分参数量是 196B，所以实际上 V4.1 Flash 的总参数量是 552B + 196B = 748B 参数，不过这部分参数几乎不增加推理计算量。
+能力上也有明显提升。从官方公布的 Benchmark 来看，V4.1 Flash 已经超过了 DeepSeek V4 Pro。
+
+其中 DeepSWE v1.1 上的得分是 74.2，和网传的 75.1 比较接近。GPT-6 Astra 和 Claude Opus 5 在 DeepSWE v1.1 上也就是 74 分，这真的说明这个 benchmark 已经接近饱和了。
+
+这次 DeepSeek V4.1 Flash 还有一个特色，就是支持 1–100 整数范围内连续可控的推理强度。
+这个不是简单限制最大输出长度，而是从 RL 训练阶段就把 reasoning effort 作为条件信号喂给模型。effort 越低，推理长度惩罚越强，模型会更快给出结果；effort 越高，惩罚越弱，可以花更多 token 做推理、验证和工具调用。 不过，目前API 提供 low / high / max 三档，分别对应 50 / 75 / 100。
+
+API 价格下调了，空闲时段，输入缓存只有 0.02 元/百万token。
+
+输入缓存价格相比其他 Flash 模型优势很大
+同时，新架构还大幅压缩了 KV Cache。相比上一代，HBM 需求降低到 1/4，SSD 需求降低到 1/8。这对 Agent 场景尤其重要。长上下文、多轮交互和工具调用都会产生大量 KV Cache，缓存进一步压缩后，Agent 的推理和使用成本也会明显下降。
+
+API 这边也有几个变化需要注意：
+V4.1 Flash 的正式模型名是deepseek-flash。
+旧版 V4 Flash 和 V4 Flash Vision Exp 已经下线，不过为了兼容，原模型名暂时都会自动路由到 V4.1 Flash。
+9 月 14 日 12:00 之后，V4 Pro 也将下线并路由到 V4.1 Flash，直到后续 V4.1 Pro 上线。
+DeepSeek Harness v0.1.5 也同步更新，新版本是和 V4.1 Flash 深度绑定的，就是说，DeepSeek V4.1 Flash 模型是针对这套DeepSeek Harness 进行了专门的训练和优化。
+另外，新版 Harness 还加入了文件上传与预览、插件 UI、父子 Agent 双向通信，以及实验性的 Agent Teams 多智能体协作。
+还有就是，DeepSeek Chat 也上线了新模型了。（已经可以识别自家人了）
+
+V4.1 Flash 的模型权重也已经在 HuggingFace 上开源了。
+
+HuggingFace 上也挂了技术报告：https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash/blob/main/DeepSeek_V41_Tech_Report.pdf

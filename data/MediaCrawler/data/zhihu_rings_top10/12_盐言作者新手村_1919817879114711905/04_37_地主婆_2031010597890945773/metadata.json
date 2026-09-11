@@ -1,0 +1,48 @@
+{
+  "circle_id": "1919817879114711905",
+  "circle_name": "盐言作者新手村",
+  "circle_url": "https://www.zhihu.com/ring/host/1919817879114711905",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2031010597890945773",
+  "post_url": "https://www.zhihu.com/pin/2031010597890945773?native=0",
+  "title": "知乎粉丝一天破百，亲测有效（适合想涨粉的普通人）\n前天干了一件事，让我一天内粉丝从个位数到三位数。\n先说结论：这个方法不高端，不炫技，甚至有点“笨”。它适合像我",
+  "author": "地主婆",
+  "author_id": "97c6f4f734b30a700baa97fd71050477",
+  "favorite_count": 37,
+  "like_count": 126,
+  "comment_count": 231,
+  "created": 1777069822,
+  "updated": 1779870548,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-c2e1b95b7d86b89b373c6f411a7abd10.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 443881
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-0aee382c5f7537ccbe8c9cab7788eb3e.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1280904
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-80fcd585fea76c3466da20f66dd64791.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 427484
+    }
+  ],
+  "fetched_at": "2026-09-10T18:11:09.333Z"
+}

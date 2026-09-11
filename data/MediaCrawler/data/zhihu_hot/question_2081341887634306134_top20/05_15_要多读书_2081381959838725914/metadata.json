@@ -1,0 +1,76 @@
+{
+  "question_id": "2081341887634306134",
+  "question_url": "https://www.zhihu.com/question/2081341887634306134",
+  "question_title": "吴柳芳退役后陷擦边争议，刘翔受安置抉择困扰，造成这些运动员退役后陷入困局的原因到底是什么？",
+  "rank": 5,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081381959838725914",
+  "answer_url": "https://www.zhihu.com/question/2081341887634306134/answer/2081381959838725914",
+  "author": "要多读书",
+  "voteup_count": 15,
+  "comment_count": 1,
+  "created_time": 1789020129,
+  "updated_time": 1789020129,
+  "is_collapsed": false,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-52dcfb8d64a7088d07d8c8a6e5c8a55f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 88093
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-7125a42da2a31e7caff8e67f30a1fa1f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 70621
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-1e195dc5422d05c8d87c23c94f3557bc_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 55656
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-7d8c4fbf91fc46a1a4b9feeeda7af43d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 82824
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-699c15d45d6c2e96001a731823345a33_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 132035
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-fcd4c9ea051fd26580cf9a9452952547_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 195578
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-e9c8525f6db0d6035b869c9e7cd8d654_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 57082
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:39.637Z"
+}

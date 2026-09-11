@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938621827502049071",
+  "circle_name": "迦文聊写作",
+  "circle_url": "https://www.zhihu.com/ring/host/1938621827502049071",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1942377034706850799",
+  "post_url": "https://www.zhihu.com/pin/1942377034706850799?native=0",
+  "title": "好妈妈胜过好老师\n今天写了一篇周星驰的《功夫》，再看这里，简直深有体会",
+  "author": "温柔一世",
+  "author_id": "4d08ce7f404b0b9be94040a278012bf3",
+  "favorite_count": 0,
+  "like_count": 15,
+  "comment_count": 0,
+  "created": 1755878842,
+  "updated": 1755878842,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/50/v2-4ecc4a7424c20aeef141afe74f25ecd4_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 280963
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-24ddb593f4aa473610076f3eeac268c7_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 272923
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-635c55581be4e66c6685cf2d63c7ec62_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 276081
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:40.327Z"
+}

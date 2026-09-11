@@ -1,0 +1,32 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2075231141854974328",
+  "post_url": "https://www.zhihu.com/pin/2075231141854974328?native=0",
+  "title": "CLAUDE 可以帮你找工作！\n一位丹麦科学家编程让 Claude 替他找工作，他刚刚公开了这个项目。\n\n发送简历是世界上最荒谬的工作之一：复制、粘贴、调整、个",
+  "author": "格律诗",
+  "author_id": "872e993123e372bbb9f4c3ff740f58d4",
+  "favorite_count": 526,
+  "like_count": 283,
+  "comment_count": 9,
+  "created": 1787553685,
+  "updated": 1787553689,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-36031273ea9997aad85c7f1df739d13d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 116521
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

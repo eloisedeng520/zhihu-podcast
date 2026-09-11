@@ -1,0 +1,44 @@
+{
+  "question_id": "2081192492448404939",
+  "question_url": "https://www.zhihu.com/question/2081192492448404939",
+  "question_title": "《王者荣耀》衍生作《王者万象棋》9 月 10 号全平台公测，你的游玩体验如何？",
+  "rank": 2,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081385005859730846",
+  "answer_url": "https://www.zhihu.com/question/2081192492448404939/answer/2081385005859730846",
+  "author": "框框框子",
+  "voteup_count": 91,
+  "comment_count": 43,
+  "created_time": 1789020855,
+  "updated_time": 1789020942,
+  "is_collapsed": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-71f926109089ae8a4a89e0324b3909f1_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 230335
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-f037eec670020bbd3427b91edae987fa_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 293311
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-fdb5a89c6c9ca3a33a296d320b836f2b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 309626
+    }
+  ],
+  "fetched_at": "2026-09-10T12:52:49.532Z"
+}

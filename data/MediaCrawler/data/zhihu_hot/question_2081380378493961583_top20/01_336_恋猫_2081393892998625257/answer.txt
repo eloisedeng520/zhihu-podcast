@@ -1,0 +1,47 @@
+这次变化还是挺大的，原生多模态加全新框架，参数上来的同时，速度还变快了，基本全面超越了 V4-Pro ：
+Sy模型版本总参数量激活机制类型输入激活参数输出激活参数DeepSeek V4.1 Flash552B /
+196B Engram非对称激活（全新架构）8B16BDeepSeek V4 Flash284B对称激活（传统 MoE）13B（输入/输出相同）13B（输入/输出相同）这里的非对称激活 / 全新架构说的是 CED（Causal Encoder-Decoder），不像是普通 MoE 对称走一遍，按照原报告说的就是：
+CED 下 decode 每 token 激活 16B，prefill 只激活 8B。
+也就是，V4.1 Flash 把网络拆成因果 Encoder–Decoder，不太准确但好理解来说：
+下半层当 Encoder：只在 prefill 里把上下文压成紧凑表示
+上半层当 Decoder：decode 时主要跑这一半，全局 KV 从 Encoder 末层投影过来
+因为 Decoder 各层不需要从自己的 hidden states 构造一套 global KV，可以直接从 Encoder 最后一层 hidden states 投影 global KV，在这种情况下上下文可以变紧凑。
+而出现 8B vs 16B 这种不对称设，在 Agent 这种「读很长、写不那么长」的场景下，prefill 应该是会更便宜一些。
+对比 V4 的多模态，V 4.1 在速度和消耗上都有大幅度提升，特别是 Token 速度，是真的太明显了，接近 3 倍的提升，目前社区大家的测试也是集中在 300～400 tok/s 左右，很多都在 350 tok/s 以上：
+指标V4.1 FlashV4 Flash Vision Exp总耗时18m 49s30m 11s总 Token 使用量11.59M20.31M输出 Token126K154KLLM 时间7m 48s25m 10s生成速度361 Token/s120 Token/sCache Hit99.5%99.7%而且感觉V4.1 Flash 和 DeepSeek Harness 的绑定越来越深，今天发布的 DeepSeek Harness v0.1.5 就提到了：
+V4.1 Flash 的训练和 Harness 深度集成，模型针对 Harness 的不同配置进行了专门训练和优化。
+
+然后这次 Engram 正式进入主模型、V4 的 CSA/HCA 注意力被重新组织成共享 KV 和两级稀疏索引：
+
+这个应该还是今年年初 DeepSeek 和北大提出的 Engram ，核心就是把模型能力拆成两部分：
+需要推理的东西交给 Transformer
+需要大量记忆但计算价值不高的局部模式、实体、固定搭配等内容，通过 N-gram 哈希查表
+也就是类似 Qwen3.8-Flash-Next 那个 51B N-gram Embedding 差不多的东西，所以目前 V4.1 Flash 的配置是：
+V4.1 FlashEngram 插入层第 1、14 层两张 Engram 表384,006,168 + 384,016,682 rows每条 embedding256 维N-gram最高 4-gramHash heads8Hash vocab16M对比一下这两个的核心机制就非常像，Qwen3.8-Flash-Next 也说过是受到 DeepSeek Engram 的启发：
+DeepSeek EngramQwen3.8 N-gram Embedding根据局部 N-gram 计算确定性地址根据局部 N-gram 查 embedding巨大查找表巨大查找表参数很多，但每 Token 只读很少几行同样可以放 Host Memory同样可以放 Host Memory可提前算地址做异步 prefetchQwen 也明确这么做用很少 FLOPs 扩模型容量同样目标不过看起来 DeepSeek 的 Engram 是一套更完整的“Conditional Memory”模块设计，规模也比 Qwen3.8 的 51B N-gram Embedding大得多。
+其实通过公式两个表 也可以算出来  ，官方的config 也确认了 Engram 插在第 1、14 层、max 4-gram、8 hash heads、16M hash vocab。
+所以总结一下 V4.1 的参数增长方式可以理解成：增加大量“存储容量”，少增加“每 Token 动态计算量”。
+这么看，以后大模型参数增长也不一定继续全部买 GPU FLOPs，相当一部分参数可以变成“CPU/DRAM 上的大型可寻址记忆”。
+然后还有 v4  原本那套 CSA + HCA 混合注意力应该也是重构了，V4 Flash 0731 的时候，它的 compress_ratios 基本是 4, 128, 4, 128, 4, 128 ... ， 也就是 CSA 与 HCA 交替。
+也就是之前是 CSA 把若干 Token 压成一个表示，再做稀疏检索，然后HCA 直接做 128 倍压缩，然后在高度压缩后的序列上做 attention。
+但是 V4.1 已经完全不是这组配置了，V4.1 的主干基本变成 2, 2, 2 ... 1, 1, 1 ...，其中 ratio=2 的层是两个 Token 池化成一个 KV，ratio=1 的层甚至不进行时间维压缩，最后再靠 sparse top-k 控制真正参与 attention 的 Token。
+感觉上应该是 V4.1 选择保存更高分辨率的历史信息，然后从另外两个地方省计算：
+跨层共享 KV：通过降低时间维压缩率，提高每份 KV 的信息量，同时降低“每层重复保存、重复搜索历史”的浪费，也就是历史表示保存得更细，但一组层共享同一份长程记忆
+分级检索：完整长上下文结构已经变成「128 Token 本地 Sliding Window」，再加上「远程 compressed KV memory」，然后配合「一级 block candidate retrieval」和「二级 position-level top-512 retrieval」，最后才执行 sparse attention
+共享候选集，但不共享最终 Top-512
+所以整体实现上，V4 的 4× CSA + 128× HCA 交替结构，在 V4.1 中已经变成 1×/2× 高分辨率 KV + 跨层 KV 共享 + 跨层 Index 共享 + 两级候选检索 + top-512 Sparse Attention 的组合。
+这里其实官方的图说的三种模式，就很直观可以看到前面说的远程 Main KV 到底重新算多少：
+模式Main KVIndexer KTop-512工作量Full Mode新生成新生成新搜索最大Reindex Mode复用复用重新搜索中等Reuse Mode复用不跑 Indexer直接复用最小
+把前面两张图连起来，其实就是 V4.1 的完整长上下文策略，比如把它想象成一个人在一百万 Token 的代码仓库里工作：
+第 20 层做一次成本较高的全库搜索：“哪些文件、哪些代码区域大概和当前问题相关？”，先得到 Shared Candidate Pool
+第 24 层获得更深的语义理解之后：“我现在对问题理解更深了，在刚才那批候选代码里重新选 512 个位置。”
+第 25～27 层没有必要重复搜索，直接沿用第 24 层的搜索结果
+到第 28 层再重新评估一次。
+也就是 Main KV 不需要层层重新建立，然后 Indexer K  也不需要层层重新建立，最后 Top-512 也不需要层层重新搜索。
+所以感觉 DeepSeek V4.1 的思路就是：
+需要死记的知识，用大但是便宜的条件存储解决
+需要从百万上下文里找东西，用分级索引解决
+成本高的 Transformer/MoE 计算留给需要动态推理的部分
+这也是为什么快的原因，MoE 负责条件计算，Engram 负责条件记忆，CSA2 负责条件访问长上下文，CED 再把 Prefill 和 Decode 的计算需求拆分，这种情况下自然就更快了：
+模型可以拥有 552B backbone + 196B Engram 的巨大容量，长 Prompt Prefill 只需要激活 8B，百万 Token 历史也不用每层维护、每层重新扫描，可以直接共享 KV、共享索引并逐级缩小候选集。
+环节V4 FlashV4.1 Flash更快Prefill 主干激活13B/token8B/tokenCED 直接把长输入阶段计算量拆分长上下文 KV各层重复构造/维护更多跨层共享 Main KV少算 KV、少写显存、少读显存稀疏索引CSA/HCA 层重复执行Indexer K 跨层共享不用每层重新给百万 Token 建索引Top-K 搜索更多层独立检索Full / Reindex / ReuseReuse 层连 Top-512 都不用重搜长上下文检索每层处理自己的压缩历史先 block candidate，再 position Top-512搜索空间大幅缩小

@@ -1,0 +1,177 @@
+{
+  "question_id": "2081074229856974140",
+  "question_url": "https://www.zhihu.com/question/2081074229856974140",
+  "question_title": "有媒体报道称 DeepSeek 备战科创板 IPO，中信证券已入场尽调，哪些信息值得关注？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 27,
+  "fetched_pages": {
+    "default": 2,
+    "updated": 1
+  },
+  "fetched_at": "2026-09-10T12:54:10.080Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_125_曹多鱼_2081397800433202756",
+      "rank": 1,
+      "author": "曹多鱼",
+      "voteup_count": 125,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "02_60_王家CFA_2081149552871134050",
+      "rank": 2,
+      "author": "王家CFA",
+      "voteup_count": 60,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "03_21_闻号说经济_2081143485625791061",
+      "rank": 3,
+      "author": "闻号说经济",
+      "voteup_count": 21,
+      "images": 5,
+      "downloaded": 5
+    },
+    {
+      "folder": "04_16_仰望星空_2081402771220198832",
+      "rank": 4,
+      "author": "仰望星空",
+      "voteup_count": 16,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "05_13_夜神不说话_2081453096908087863",
+      "rank": 5,
+      "author": "夜神不说话",
+      "voteup_count": 13,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "06_9_欧阳鲁_2081294000175179288",
+      "rank": 6,
+      "author": "欧阳鲁",
+      "voteup_count": 9,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_8_岁月静好_2081335638268327324",
+      "rank": 7,
+      "author": "岁月静好",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "08_8_龚亮_2081382011080593425",
+      "rank": 8,
+      "author": "龚亮",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "09_7_Bit Fly_2081091938808345849",
+      "rank": 9,
+      "author": "Bit Fly",
+      "voteup_count": 7,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "10_6_马超_2081276901830743488",
+      "rank": 10,
+      "author": "马超",
+      "voteup_count": 6,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "11_6_vector_2081303724102775228",
+      "rank": 11,
+      "author": "vector",
+      "voteup_count": 6,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "12_5_况玉清_2081367956320272557",
+      "rank": 12,
+      "author": "况玉清",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "13_3_的白_2081154400249189336",
+      "rank": 13,
+      "author": "的白",
+      "voteup_count": 3,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "14_2_IXA4Fes知乎用户_2081389171810293674",
+      "rank": 14,
+      "author": "IXA4Fes知乎用户",
+      "voteup_count": 2,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_2_时先生_2081423134905856756",
+      "rank": 15,
+      "author": "时先生",
+      "voteup_count": 2,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_1_大路观潮_2081294078013132831",
+      "rank": 16,
+      "author": "大路观潮",
+      "voteup_count": 1,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "17_1_abbie123_2081419511777998793",
+      "rank": 17,
+      "author": "abbie123",
+      "voteup_count": 1,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "18_1_无她_2081433992356798865",
+      "rank": 18,
+      "author": "无她",
+      "voteup_count": 1,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "19_1_全场唯一真秦始皇_2081437219181552467",
+      "rank": 19,
+      "author": "全场唯一真秦始皇",
+      "voteup_count": 1,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_1_Stopher_2081445889139270142",
+      "rank": 20,
+      "author": "Stopher",
+      "voteup_count": 1,
+      "images": 1,
+      "downloaded": 1
+    }
+  ],
+  "image_errors": []
+}

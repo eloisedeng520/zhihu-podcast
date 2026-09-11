@@ -1,0 +1,40 @@
+{
+  "circle_id": "1915857047494305789",
+  "circle_name": "三国历史群英会",
+  "circle_url": "https://www.zhihu.com/ring/host/1915857047494305789",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1919386961237505441",
+  "post_url": "https://www.zhihu.com/pin/1919386961237505441?native=0",
+  "title": "何太后还真是风韵犹存，身体都扭成S型了。\n曹老板强抑住内心的那团火焰，要不是有君臣之义，大概会如猛虎扑过去，把何太后啃食干净。\n #三国 #曹操",
+  "author": "九尾龙牙",
+  "author_id": "be9dbe5db4b261c3f3f684f8b1aab692",
+  "favorite_count": 454,
+  "like_count": 1239,
+  "comment_count": 238,
+  "created": 1750397589,
+  "updated": 1750851376,
+  "is_essence": true,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-8257fdd4ebe32bd825a8af4d57fb761f_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 137236
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-c3a9efacdd1ca63446ccee34a30cd9bb_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 124702
+    }
+  ],
+  "fetched_at": "2026-09-10T17:59:37.181Z"
+}

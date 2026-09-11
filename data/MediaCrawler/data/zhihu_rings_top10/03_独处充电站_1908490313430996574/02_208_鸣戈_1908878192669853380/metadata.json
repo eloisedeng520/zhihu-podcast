@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1908878192669853380",
+  "post_url": "https://www.zhihu.com/pin/1908878192669853380?native=0",
+  "title": "独处的四种层次：放空、消遣、专注、创造\n各位独享家们：\n\n作为圈子主理人，我决定写一个关于高质量独处的系列探索笔记，一方面倒逼自己把平时零散的想法梳理清楚，另一",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 208,
+  "like_count": 261,
+  "comment_count": 107,
+  "created": 1747892026,
+  "updated": 1749112197,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-c9a89a78fd44b88d03b2feee5fbbe7bf_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 237928
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

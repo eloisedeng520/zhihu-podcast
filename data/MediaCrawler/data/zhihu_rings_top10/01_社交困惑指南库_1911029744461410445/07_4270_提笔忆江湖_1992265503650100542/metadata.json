@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1992265503650100542",
+  "post_url": "https://www.zhihu.com/pin/1992265503650100542?native=0",
+  "title": "人性铁律\n1.第一：不要去嫖 娼，又脏又丢人\n2. 第二：不要和知己 .上.床，会人财两空。\n3. 第三：不要与同事争功，伤和气\n4.别人吹牛，别拆穿，看破不说",
+  "author": "提笔忆江湖",
+  "author_id": "f7d80248118ac7b708c9db40ca605c9e",
+  "favorite_count": 4270,
+  "like_count": 3222,
+  "comment_count": 521,
+  "created": 1767773240,
+  "updated": 1767773240,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-6d7f1b4cd3bf1f84bc1d50f0544219f7.jpeg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 21078
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-af9bcf8f852b13594b64737d75de1cb9.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1886698
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-ae5825455da4e7d4e37a89af209447c2.jpeg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 66253
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

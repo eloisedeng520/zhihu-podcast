@@ -1,0 +1,55 @@
+{
+  "column_rank": 8,
+  "column_name": "互联网晚报",
+  "column_slug": "c_155611518",
+  "column_url": "https://www.zhihu.com/column/c_155611518",
+  "article_rank": 3,
+  "ranking_metric": "voteup_count",
+  "article_id": "1927843702870640044",
+  "article_url": "https://zhuanlan.zhihu.com/p/1927843702870640044",
+  "title": "",
+  "author": "卢诗翰",
+  "author_id": "7c50fef397641c8dc3ad935326863aa8",
+  "author_url_token": "lu-shi-han-89",
+  "voteup_count": 16516,
+  "comment_count": 1111,
+  "created": null,
+  "updated": 0,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-370c33a13b8305670aad3c9ece769474_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 42097
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-18e140056dbe8e89dbfe7710a177448f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 18490
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-03c1feb190c92bdd36203462e57f6514_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 93134
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-cd6b6c5cad1274b006a73b53ec2478ad_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 55593
+    }
+  ],
+  "fetched_at": "2026-09-11T03:11:28.636Z"
+}

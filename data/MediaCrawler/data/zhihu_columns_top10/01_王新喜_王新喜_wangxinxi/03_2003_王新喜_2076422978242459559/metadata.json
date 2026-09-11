@@ -1,0 +1,87 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 3,
+  "ranking_metric": "voteup_count",
+  "article_id": "2076422978242459559",
+  "article_url": "https://zhuanlan.zhihu.com/p/2076422978242459559",
+  "title": "被辞退的00后把星宇举报到欧盟，星宇股份后悔也来不及了",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 2003,
+  "comment_count": 1297,
+  "created": 1787837926,
+  "updated": 1787837926,
+  "image_count": 8,
+  "downloaded_image_count": 8,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-4b81e83dbb105e1592fa8b547cecab1e_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 106393
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-7d8c6dea166a141a02014df58d5cb50c_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69735
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-35b0c94bd89665aa94a902acfa38dd60_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 24495
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-773be0d9a76e9d5b05f6337659b79c60_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 102830
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic4.zhimg.com/v2-bc0232acf3cb79ec9b7fd9d3d05f3c2d_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 89955
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic4.zhimg.com/v2-bde2611a77a2ee06af015d070ba36663_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 145185
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic4.zhimg.com/v2-78f2240975ab6174db3226709bc27c4b_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 70784
+    },
+    {
+      "index": 8,
+      "original_url": "https://picx.zhimg.com/v2-558708a5c1ae6884a0e6e138ceeecd71_r.jpg",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 165311
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

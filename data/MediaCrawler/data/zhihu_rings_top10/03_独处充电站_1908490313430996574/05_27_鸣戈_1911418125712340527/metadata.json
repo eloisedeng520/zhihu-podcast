@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1911418125712340527",
+  "post_url": "https://www.zhihu.com/pin/1911418125712340527?native=0",
+  "title": "如何让爱你的人理解你的独处需求？\n上一篇聊了为什么再享受独处也不应该做现代隐士。但现实里，很多人即使想做隐士也做不了——我们有家人、有伴侣、有室友，生活在各种共",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 27,
+  "like_count": 34,
+  "comment_count": 5,
+  "created": 1748503588,
+  "updated": 1749119581,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-72900da60289ca8872bccd014d04fc85_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 705630
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

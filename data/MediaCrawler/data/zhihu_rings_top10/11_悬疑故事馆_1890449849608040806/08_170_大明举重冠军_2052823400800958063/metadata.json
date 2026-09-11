@@ -1,0 +1,56 @@
+{
+  "circle_id": "1890449849608040806",
+  "circle_name": "悬疑故事馆",
+  "circle_url": "https://www.zhihu.com/ring/host/1890449849608040806",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2052823400800958063",
+  "post_url": "https://www.zhihu.com/pin/2052823400800958063?native=0",
+  "title": "00年代后，为什么神鬼、灵异之事明显减少了\n之前我们讨论了80，90年代的神鬼，灵异事件逐渐增多。\n主要从以下3个原因，大运流转，社会环境变动，人心无依（感兴趣",
+  "author": "大明举重冠军",
+  "author_id": "10d9bc6105f35d7a0a1666b3e0cf0dda",
+  "favorite_count": 170,
+  "like_count": 175,
+  "comment_count": 48,
+  "created": 1782381962,
+  "updated": 1782381962,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-d1576155770c4888efa37c785a06907a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 76640
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-4f5bde1236fa24447d7fcc3dc6992507.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 57611
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-84e34459d24db346b7c5df17a4ea665f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 42279
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-c445bf59ecdd6b0f189e7e0f7d1e3de1.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 50158
+    }
+  ],
+  "fetched_at": "2026-09-10T18:10:51.355Z"
+}

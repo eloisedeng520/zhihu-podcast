@@ -1,0 +1,177 @@
+{
+  "question_id": "2079625515565060391",
+  "question_url": "https://www.zhihu.com/question/2079625515565060391",
+  "question_title": "Codex 里的 GPT 6 Astra 、 GPT 5.6 Sol 、 Terra 、 Luna 怎么选？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 22,
+  "fetched_pages": {
+    "default": 2,
+    "updated": 2
+  },
+  "fetched_at": "2026-09-10T12:53:38.035Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_494_Dranelie_2080735025037829611",
+      "rank": 1,
+      "author": "Dranelie",
+      "voteup_count": 494,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "02_74_佩特拉守林人_2079770161586951276",
+      "rank": 2,
+      "author": "佩特拉守林人",
+      "voteup_count": 74,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "03_30_momo_2080991656573155206",
+      "rank": 3,
+      "author": "momo",
+      "voteup_count": 30,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "04_22_贞文_2080924237506818374",
+      "rank": 4,
+      "author": "贞文",
+      "voteup_count": 22,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "05_12_厂长L_2080607727164957338",
+      "rank": 5,
+      "author": "厂长L",
+      "voteup_count": 12,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "06_12_时流司祭_2080812257961850870",
+      "rank": 6,
+      "author": "时流司祭",
+      "voteup_count": 12,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_9_一直很懒的小强_2080661306210886172",
+      "rank": 7,
+      "author": "一直很懒的小强",
+      "voteup_count": 9,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "08_8_小美且椰羊_2081079297373164561",
+      "rank": 8,
+      "author": "小美且椰羊",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "09_5_徐致国_2081094844764644935",
+      "rank": 9,
+      "author": "徐致国",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "10_5_444_2081162429409518912",
+      "rank": 10,
+      "author": "444",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "11_4_夌列_2080354094208775865",
+      "rank": 11,
+      "author": "夌列",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "12_4_何老师聊AI_2081082019983972127",
+      "rank": 12,
+      "author": "何老师聊AI",
+      "voteup_count": 4,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "13_2_乡贡进士李道龙_2080822879969718936",
+      "rank": 13,
+      "author": "乡贡进士李道龙",
+      "voteup_count": 2,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "14_2_无名看客_2081138210344801909",
+      "rank": 14,
+      "author": "无名看客",
+      "voteup_count": 2,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_2_吴浩亮_2081436750346569226",
+      "rank": 15,
+      "author": "吴浩亮",
+      "voteup_count": 2,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "16_1_瑭宋元_2081428154850329408",
+      "rank": 16,
+      "author": "瑭宋元",
+      "voteup_count": 1,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "17_0_阿望说AI_2080403685146879779",
+      "rank": 17,
+      "author": "阿望说AI",
+      "voteup_count": 0,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "18_0_鹿迷森乃无心_2080995475663107051",
+      "rank": 18,
+      "author": "鹿迷森乃无心",
+      "voteup_count": 0,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "19_0_归零订阅者_2081016448567326161",
+      "rank": 19,
+      "author": "归零订阅者",
+      "voteup_count": 0,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_0_涵树_2081138368251950746",
+      "rank": 20,
+      "author": "涵树",
+      "voteup_count": 0,
+      "images": 1,
+      "downloaded": 1
+    }
+  ],
+  "image_errors": []
+}

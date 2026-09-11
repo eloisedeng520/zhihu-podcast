@@ -1,0 +1,48 @@
+{
+  "circle_id": "1913603409447203015",
+  "circle_name": "在废纸上书写",
+  "circle_url": "https://www.zhihu.com/ring/host/1913603409447203015",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1922057112768459675",
+  "post_url": "https://www.zhihu.com/pin/1922057112768459675?native=0",
+  "title": "10：1  ，是这儿的清凉油更清凉吗？\n         这个圆圆的小盒子，比一元硬币大点儿厚点儿，里面是清凉油，据说也叫万金油，是风油精的姊妹花，用于蚊虫叮咬",
+  "author": "知乎用户sUpZOH",
+  "author_id": "405ae38b5c5154083d4a425b60f2790a",
+  "favorite_count": 3,
+  "like_count": 41,
+  "comment_count": 27,
+  "created": 1751035415,
+  "updated": 1751037016,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-22935bc7ca4fd2316148487462f94928_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 339293
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-b90a3699b0639bd389a47370781aa9dc_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 485270
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-457134cddd678566e2400cd06ead44f9_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 410402
+    }
+  ],
+  "fetched_at": "2026-09-10T18:19:03.362Z"
+}

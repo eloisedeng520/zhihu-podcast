@@ -1,0 +1,31 @@
+{
+  "column_rank": 4,
+  "column_name": "大阴阳师",
+  "column_slug": "c_2022640311680215023",
+  "column_url": "https://www.zhihu.com/column/c_2022640311680215023",
+  "article_rank": 1,
+  "ranking_metric": "voteup_count",
+  "article_id": "2027341690764043997",
+  "article_url": "https://zhuanlan.zhihu.com/p/2027341690764043997",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 23322,
+  "comment_count": 1711,
+  "created": null,
+  "updated": 0,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-528c5eb5bd957af9032e8949a0afd650_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 53853
+    }
+  ],
+  "fetched_at": "2026-09-11T03:09:03.627Z"
+}

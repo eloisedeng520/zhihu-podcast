@@ -1,0 +1,119 @@
+{
+  "column_rank": 7,
+  "column_name": "关于时政区的唯我评价",
+  "column_slug": "c_1996542723679884372",
+  "column_url": "https://www.zhihu.com/column/c_1996542723679884372",
+  "article_rank": 5,
+  "ranking_metric": "voteup_count",
+  "article_id": "2075883851545628676",
+  "article_url": "https://zhuanlan.zhihu.com/p/2075883851545628676",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 8126,
+  "comment_count": 628,
+  "created": null,
+  "updated": 0,
+  "image_count": 12,
+  "downloaded_image_count": 12,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-932469212fab48794aed7b51e71ec6e5_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 31301
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-41c4342739256f99a9d6c1898c4eed77_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 64666
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-a8927924f2abe6e790906036f3957a0f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 133893
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-3b10d79780dc891b3169b24f7502ea7a_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 75897
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-b4afdcb8fcbfcb11b23e1eab95902e98_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 66807
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-17850501ea4612498a213a2d3bb1bc7e_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 179541
+    },
+    {
+      "index": 7,
+      "original_url": "https://pica.zhimg.com/v2-3c57a675ee6ef14774fc54f36aa3103f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 78215
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic1.zhimg.com/v2-3e02e654b38f3712d281e6314d404ab1_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 51609
+    },
+    {
+      "index": 9,
+      "original_url": "https://picx.zhimg.com/v2-4ce0f6cd5d64d3d07c83dc71d700739c_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 192002
+    },
+    {
+      "index": 10,
+      "original_url": "https://pica.zhimg.com/v2-559a2a93c405f8c6f354ff28b12106ec_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "010.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 76721
+    },
+    {
+      "index": 11,
+      "original_url": "https://pic1.zhimg.com/v2-4ce0f6cd5d64d3d07c83dc71d700739c_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "011.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 192002
+    },
+    {
+      "index": 12,
+      "original_url": "https://picx.zhimg.com/v2-2461cd5219067fad6bf85e87a964ee61_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "012.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 89332
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:57.628Z"
+}

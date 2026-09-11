@@ -1,0 +1,68 @@
+{
+  "question_id": "2081192492448404939",
+  "question_url": "https://www.zhihu.com/question/2081192492448404939",
+  "question_title": "《王者荣耀》衍生作《王者万象棋》9 月 10 号全平台公测，你的游玩体验如何？",
+  "rank": 13,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081394550615164356",
+  "answer_url": "https://www.zhihu.com/question/2081192492448404939/answer/2081394550615164356",
+  "author": "粥里有",
+  "voteup_count": 8,
+  "comment_count": 1,
+  "created_time": 1789023131,
+  "updated_time": 1789023131,
+  "is_collapsed": false,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-7ebb071ade616c3c139d8887cd07a5b4_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 126347
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-49bcf1881246a4a327e3decddbcfdd1b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 175277
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-717eb21f057d8772d151154943db87aa_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 168096
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-05710377c7a6cbaa1a3cd0a484e23cf4_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 170515
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-7a48d7b6869f42c9800c1d0a99cbce71_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 203281
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-fb010859dee884f2fac310e57328266c_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 177736
+    }
+  ],
+  "fetched_at": "2026-09-10T12:52:49.532Z"
+}

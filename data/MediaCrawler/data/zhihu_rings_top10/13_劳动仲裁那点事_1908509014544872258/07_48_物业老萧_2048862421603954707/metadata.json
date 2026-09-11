@@ -1,0 +1,56 @@
+{
+  "circle_id": "1908509014544872258",
+  "circle_name": "劳动仲裁那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1908509014544872258",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2048862421603954707",
+  "post_url": "https://www.zhihu.com/pin/2048862421603954707?native=0",
+  "title": "入职两天拒绝加班被辞退的小伙\n北京一个小伙，入职两天，公司让他周末加班。他拒绝了，公司直接把他辞退。换作大多数人，可能就算了。入职才两天，犯不着撕破脸。但他没有",
+  "author": "物业老萧",
+  "author_id": "a48206d6e1e785a4d3fa69855e4f256f",
+  "favorite_count": 48,
+  "like_count": 564,
+  "comment_count": 137,
+  "created": 1781267367,
+  "updated": 1781267367,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b0713212c4aeebd39133b1932d4f45d8.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 3732987
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-c6f34aaf6fabdfddb504d0d0634ed467.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 5272006
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-c2ffacaffaf7b2e6bf792aadae39777e.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 1479669
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-a1ec4727fff1f22f7a41a440ddf6f24f.png",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 3135794
+    }
+  ],
+  "fetched_at": "2026-09-10T18:14:55.384Z"
+}

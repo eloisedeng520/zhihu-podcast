@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1967900054590305563",
+  "post_url": "https://www.zhihu.com/pin/1967900054590305563?native=0",
+  "title": "成年人的40条通透生存法则！\n1、身边不缺女人的男人，大多数都缺德，不缺德的男人身边，都缺女人。\n2、酒，喝不出真朋友，只会喝垮了身体。\n3、不管你行得多端走的",
+  "author": "叔青山",
+  "author_id": "4f33fdada66c373673b4befde4699962",
+  "favorite_count": 5179,
+  "like_count": 2545,
+  "comment_count": 128,
+  "created": 1761963966,
+  "updated": 1761963966,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-19cbfa2bb9513948ba224ce6dabed0d6_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 52757
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

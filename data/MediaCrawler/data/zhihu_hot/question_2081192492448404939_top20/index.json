@@ -1,0 +1,177 @@
+{
+  "question_id": "2081192492448404939",
+  "question_url": "https://www.zhihu.com/question/2081192492448404939",
+  "question_title": "《王者荣耀》衍生作《王者万象棋》9 月 10 号全平台公测，你的游玩体验如何？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 104,
+  "fetched_pages": {
+    "default": 6,
+    "updated": 5
+  },
+  "fetched_at": "2026-09-10T12:52:49.532Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_95_NovaM_2081342442448733739",
+      "rank": 1,
+      "author": "NovaM",
+      "voteup_count": 95,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "02_91_框框框子_2081385005859730846",
+      "rank": 2,
+      "author": "框框框子",
+      "voteup_count": 91,
+      "images": 3,
+      "downloaded": 3
+    },
+    {
+      "folder": "03_74_青青小草_2081322805241693191",
+      "rank": 3,
+      "author": "青青小草",
+      "voteup_count": 74,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "04_54_烩面星_2081313721511630403",
+      "rank": 4,
+      "author": "烩面星",
+      "voteup_count": 54,
+      "images": 12,
+      "downloaded": 12
+    },
+    {
+      "folder": "05_41_努力不当咸鱼_2081323921769509589",
+      "rank": 5,
+      "author": "努力不当咸鱼",
+      "voteup_count": 41,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "06_38_嗷呜5384_2081344033323075015",
+      "rank": 6,
+      "author": "嗷呜5384",
+      "voteup_count": 38,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_27_天凉好个秋_2081395062961918407",
+      "rank": 7,
+      "author": "天凉好个秋",
+      "voteup_count": 27,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "08_23_蛋皇_2081339065752892616",
+      "rank": 8,
+      "author": "蛋皇",
+      "voteup_count": 23,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "09_17_赵曌_2081325930849608837",
+      "rank": 9,
+      "author": "赵曌",
+      "voteup_count": 17,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "10_16_圣羽_2081379022873928589",
+      "rank": 10,
+      "author": "圣羽",
+      "voteup_count": 16,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "11_10_千木_2081386003416334621",
+      "rank": 11,
+      "author": "千木",
+      "voteup_count": 10,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "12_9_桃花岛主欧阳克_2081345304859882398",
+      "rank": 12,
+      "author": "桃花岛主欧阳克",
+      "voteup_count": 9,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "13_8_粥里有_2081394550615164356",
+      "rank": 13,
+      "author": "粥里有",
+      "voteup_count": 8,
+      "images": 6,
+      "downloaded": 6
+    },
+    {
+      "folder": "14_8_好大的sword_2081398396452193507",
+      "rank": 14,
+      "author": "好大的sword",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_8_陌上烟雨_2081400721212231844",
+      "rank": 15,
+      "author": "陌上烟雨",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_7_礼祀_2081344382398215298",
+      "rank": 16,
+      "author": "礼祀",
+      "voteup_count": 7,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "17_6_Cizern_2081431359374074843",
+      "rank": 17,
+      "author": "Cizern",
+      "voteup_count": 6,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "18_4_玉尘_2081403702347293041",
+      "rank": 18,
+      "author": "玉尘",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "19_4_任小白_2081411321959027399",
+      "rank": 19,
+      "author": "任小白",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_4_呸呸_2081414159686693149",
+      "rank": 20,
+      "author": "呸呸",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    }
+  ],
+  "image_errors": []
+}

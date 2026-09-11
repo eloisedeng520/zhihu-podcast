@@ -1,0 +1,63 @@
+{
+  "column_rank": 7,
+  "column_name": "关于时政区的唯我评价",
+  "column_slug": "c_1996542723679884372",
+  "column_url": "https://www.zhihu.com/column/c_1996542723679884372",
+  "article_rank": 9,
+  "ranking_metric": "voteup_count",
+  "article_id": "1994059022609977964",
+  "article_url": "https://zhuanlan.zhihu.com/p/1994059022609977964",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 7053,
+  "comment_count": 733,
+  "created": null,
+  "updated": 0,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-746565b0d5bf39c3db64e4cede8e4080_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 155296
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-b371ee7e22593d67635d46045192c21f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 68680
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-362953835e099fb455586fcd4f385b9a_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 91484
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-cbde2dcc7b1508b051a3c47f951b2736_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 13076
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-b35cf7be0def6a146804bca0c11fe249_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 49631
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:57.628Z"
+}

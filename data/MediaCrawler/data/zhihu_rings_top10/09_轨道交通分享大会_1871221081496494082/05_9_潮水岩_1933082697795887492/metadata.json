@@ -1,0 +1,48 @@
+{
+  "circle_id": "1871221081496494082",
+  "circle_name": "轨道交通分享大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1871221081496494082",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1933082697795887492",
+  "post_url": "https://www.zhihu.com/pin/1933082697795887492?native=0",
+  "title": "为什么洛阳、芜湖有轨道交通，而泉州、烟台没有？\n洛阳地铁的顺利建成得益于一把手的重视和任期稳定。洛阳地铁从2009年启动筹备，2017年6月28日开工建设，20",
+  "author": "潮水岩",
+  "author_id": "94e93d6486d7eada44f3abfe02824b2f",
+  "favorite_count": 9,
+  "like_count": 39,
+  "comment_count": 7,
+  "created": 1753662873,
+  "updated": 1753662873,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-9c4634ea702ffc79aec6af35623559b5_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 472944
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-f998e7a49ef7ebf8a1ac05d95700deec_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1056844
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-3367b7ea25625239eaf4a2a9ddce9354_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 1366663
+    }
+  ],
+  "fetched_at": "2026-09-10T18:03:10.340Z"
+}

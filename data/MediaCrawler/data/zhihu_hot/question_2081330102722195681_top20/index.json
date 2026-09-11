@@ -1,0 +1,177 @@
+{
+  "question_id": "2081330102722195681",
+  "question_url": "https://www.zhihu.com/question/2081330102722195681",
+  "question_title": "如何看待 Anthropic 研究员 Jacob 离职，称 AI 公司正「拿全人类的命运下注」？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 75,
+  "fetched_pages": {
+    "default": 4,
+    "updated": 4
+  },
+  "fetched_at": "2026-09-10T12:54:46.608Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_297_姜来_2081366334156321088",
+      "rank": 1,
+      "author": "姜来",
+      "voteup_count": 297,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "02_67_白月光_2081412717861154973",
+      "rank": 2,
+      "author": "白月光",
+      "voteup_count": 67,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "03_65_苦糖_2081396911370679585",
+      "rank": 3,
+      "author": "苦糖",
+      "voteup_count": 65,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "04_47_恋猫_2081341347882185964",
+      "rank": 4,
+      "author": "恋猫",
+      "voteup_count": 47,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "05_47_危机百科_2081369745614554044",
+      "rank": 5,
+      "author": "危机百科",
+      "voteup_count": 47,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "06_46_夹夹更开心_2081400944143627933",
+      "rank": 6,
+      "author": "夹夹更开心",
+      "voteup_count": 46,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_33_熠轩_2081428268998252308",
+      "rank": 7,
+      "author": "熠轩",
+      "voteup_count": 33,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "08_30_还是不注名好_2081400909846917727",
+      "rank": 8,
+      "author": "还是不注名好",
+      "voteup_count": 30,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "09_20_毅大师_2081427620835730884",
+      "rank": 9,
+      "author": "毅大师",
+      "voteup_count": 20,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "10_13_HugoBossTang_2081428752727283369",
+      "rank": 10,
+      "author": "HugoBossTang",
+      "voteup_count": 13,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "11_12_贤德淡腾_2081418205571166755",
+      "rank": 11,
+      "author": "贤德淡腾",
+      "voteup_count": 12,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "12_10_划水的青蛙_2081356340673492782",
+      "rank": 12,
+      "author": "划水的青蛙",
+      "voteup_count": 10,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "13_8_leon lu_2081352573177574034",
+      "rank": 13,
+      "author": "leon lu",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "14_8_momo_2081446260918204405",
+      "rank": 14,
+      "author": "momo",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_8_frostlanza_2081464493306130599",
+      "rank": 15,
+      "author": "frostlanza",
+      "voteup_count": 8,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_7_杞星_2081423145878173285",
+      "rank": 16,
+      "author": "杞星",
+      "voteup_count": 7,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "17_5_疯子疯了_2081426908663767631",
+      "rank": 17,
+      "author": "疯子疯了",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "18_5_上辛乙未雨_2081442048582931872",
+      "rank": 18,
+      "author": "上辛乙未雨",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "19_5_Nd Tsee_2081448629076865039",
+      "rank": 19,
+      "author": "Nd Tsee",
+      "voteup_count": 5,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_4_asdf_2081387604180841386",
+      "rank": 20,
+      "author": "asdf",
+      "voteup_count": 4,
+      "images": 0,
+      "downloaded": 0
+    }
+  ],
+  "image_errors": []
+}

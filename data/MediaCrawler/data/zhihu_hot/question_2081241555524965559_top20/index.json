@@ -1,0 +1,177 @@
+{
+  "question_id": "2081241555524965559",
+  "question_url": "https://www.zhihu.com/question/2081241555524965559",
+  "question_title": "如何评价霍奇猜想（七大千禧难题之一）疑似被 OpenAI 解决？",
+  "ranking_metric": "voteup_count",
+  "requested_top": 20,
+  "total_answer_count": 174,
+  "fetched_pages": {
+    "default": 9,
+    "updated": 9
+  },
+  "fetched_at": "2026-09-10T12:46:31.771Z",
+  "complete": true,
+  "answers": [
+    {
+      "folder": "01_950_MoonCancer_2081371363185579419",
+      "rank": 1,
+      "author": "MoonCancer",
+      "voteup_count": 950,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "02_517_WWK_2081364923246966512",
+      "rank": 2,
+      "author": "WWK",
+      "voteup_count": 517,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "03_478_ZHZX_2081318717892322948",
+      "rank": 3,
+      "author": "ZHZX",
+      "voteup_count": 478,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "04_465_Effayoi_2081357908109947305",
+      "rank": 4,
+      "author": "Effayoi",
+      "voteup_count": 465,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "05_299_王希_2081423726206362381",
+      "rank": 5,
+      "author": "王希",
+      "voteup_count": 299,
+      "images": 8,
+      "downloaded": 8
+    },
+    {
+      "folder": "06_227_手动狗头_2081407552101815859",
+      "rank": 6,
+      "author": "手动狗头",
+      "voteup_count": 227,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "07_210_Yuhang Liu_2081365385144711067",
+      "rank": 7,
+      "author": "Yuhang Liu",
+      "voteup_count": 210,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "08_189_Algebra_2081343883984818868",
+      "rank": 8,
+      "author": "Algebra",
+      "voteup_count": 189,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "09_147_岁寒时_2081432924897928554",
+      "rank": 9,
+      "author": "岁寒时",
+      "voteup_count": 147,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "10_131_胡勃进制空间_2081410757032526815",
+      "rank": 10,
+      "author": "胡勃进制空间",
+      "voteup_count": 131,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "11_123_卡卡罗特_2081395228578164986",
+      "rank": 11,
+      "author": "卡卡罗特",
+      "voteup_count": 123,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "12_117_momo_2081388628215869738",
+      "rank": 12,
+      "author": "momo",
+      "voteup_count": 117,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "13_101_思卿不寿_2081382734526670768",
+      "rank": 13,
+      "author": "思卿不寿",
+      "voteup_count": 101,
+      "images": 2,
+      "downloaded": 2
+    },
+    {
+      "folder": "14_64_龙草_2081404232650048701",
+      "rank": 14,
+      "author": "龙草",
+      "voteup_count": 64,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "15_62_Sinnaruil_2081323539353823045",
+      "rank": 15,
+      "author": "Sinnaruil",
+      "voteup_count": 62,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "16_61_靶向药_2081445140690888533",
+      "rank": 16,
+      "author": "靶向药",
+      "voteup_count": 61,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "17_58_三千弱水_2081372543110457026",
+      "rank": 17,
+      "author": "三千弱水",
+      "voteup_count": 58,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "18_49_逸深_2081431822727226797",
+      "rank": 18,
+      "author": "逸深",
+      "voteup_count": 49,
+      "images": 1,
+      "downloaded": 1
+    },
+    {
+      "folder": "19_49_思义患不明_2081432953935106525",
+      "rank": 19,
+      "author": "思义患不明",
+      "voteup_count": 49,
+      "images": 0,
+      "downloaded": 0
+    },
+    {
+      "folder": "20_46_班某_2081322501234340657",
+      "rank": 20,
+      "author": "班某",
+      "voteup_count": 46,
+      "images": 0,
+      "downloaded": 0
+    }
+  ],
+  "image_errors": []
+}

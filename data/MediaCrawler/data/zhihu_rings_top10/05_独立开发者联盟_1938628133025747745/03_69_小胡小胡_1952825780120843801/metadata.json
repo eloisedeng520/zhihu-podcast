@@ -1,0 +1,56 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1952825780120843801",
+  "post_url": "https://www.zhihu.com/pin/1952825780120843801?native=0",
+  "title": "独立开发者如何从0到1变现（附开源项目，1000个中国独立开发者项目汇总）\n我最近在反复思考：如果一个人做独立开发，从 idea 到收款养活自己，真正的流程是什",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 69,
+  "like_count": 20,
+  "comment_count": 3,
+  "created": 1758370798,
+  "updated": 1758370798,
+  "is_essence": true,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-ea8883f61c99cc8de409a06ef150820d_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 164173
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-f9ef528c5c918ce778f0f12a0b3fa000_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 297259
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-935f7811dfc1e74b61eb5be9825d0796_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 156216
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic2.zhimg.com/50/v2-9bd048657f694f75969aabcf292aaf77_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 177983
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:15.194Z"
+}

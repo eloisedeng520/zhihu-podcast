@@ -1,0 +1,79 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "article_rank": 9,
+  "ranking_metric": "voteup_count",
+  "article_id": "2032020975005479949",
+  "article_url": "https://zhuanlan.zhihu.com/p/2032020975005479949",
+  "title": "日本“下战书”，我们必须果断应战，坚决粉碎其狼子野心",
+  "author": "上官茂华",
+  "author_id": "656c0f28a7f3f7e12aca289596d11789",
+  "author_url_token": "fo-lan-ci-xiao-qu",
+  "voteup_count": 922,
+  "comment_count": 232,
+  "created": 1777251587,
+  "updated": 1777251588,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-05d842e6891bd7b530e5fc79830a0981_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 29435
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-18374fa410ec8a69c138a8c588eaeeac_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 443981
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-a3126f209e59aafdcbe4b0552145b7a1_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 910338
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-0a13638105d1d6e165d3f3cf50d56683_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 93466
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-c60235611cda742056535b54a8c5cb7f_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 140602
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-32bf724a99c823fa55b70056af3ac37c_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 59562
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/v2-4f69cf3f95dcf9fd5d084cecf6b74ece_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1987791
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:38.632Z"
+}

@@ -1,0 +1,71 @@
+先说一个很少有活人体验过的雷霆知识：
+人从高楼跳下来落体的时候，不会无限加速。
+刚刚开始下落时，重力把你往下拉，所以速度越来越快。
+但速度越快，迎面而来的空气阻力也越大。
+最终会出现一个情况，就是向下的重力被空气阻力抵消。
+这个时候呢，人就不会明显加速了，而是以一个相对稳定的速度下降。
+我们把这个速度，叫做「终端速度」。
+用研究就测算过，一个85kg、四肢展开的跳伞者，他能达到的终端速度是44m/s，也就是158 km/h。
+如果他一直不开伞的话，就会以158 km/h的速度亲吻大地。
+但对于蚂蚁，可就是另一个世界了。
+重力与阻力抵消时，到达终端速度
+有一项横跨49个生态系统的研究发现，工蚁的平均质量从 0.06 mg 到2.34 mg 不等。
+它们向下受到的重力，微乎其微。
+身体虽然很小，却有一定的迎风面积。
+结果就是，空气稍微一推，它就跟重力抵消了，终端速度特别低。
+用人类的视角看，你觉得是一只蚂蚁在坠落。
+但从蚂蚁的尺度来看呢，它觉得是被空气托着往下飘。
+这就导致一个结果，你从桌子上把一只蚂蚁丢下去，和从七八米的高度把一只蚂蚁丢下去，结果可能大差不差。
+甚至有的蚂蚁还会在空中调整体态，来滑翔到目的地。
+
+这里还有个非常有趣的知识点——
+动物越小，空气阻力相对于重力影响就越强。
+我曾经回答过一个很有趣的问题，是“你愿意和一只1米8高的蟑螂还是180只蟑螂共同生活？”
+我的答案是无脑选一米八。
+至于依据呢，是伽利略1638年提出的平方-立方定律（Square-cube law）。
+比如一个边长为2的立方体，当它放大5倍后，它的表面积扩展了5²=25倍，而体积扩展了5³=125倍。
+
+一只蟑螂3cm，放大到一米八，那就是体积增大60³ =216000倍。
+它纤细的腿根本支撑不了如此大的增幅，会塌在地上，变成一坨散架的组织，毫无威慑力。
+反之，当一个动物体重缩小了1000倍，它的迎风面积只缩小了100倍。
+空气阻力对体重的影响，远大于我们人类这种庞然大物的感知。
+这也解释了很多问题，比如为什么昆虫可以用看起来很小的翅膀飞行，为什么蒲公英的种子可以在天上飘很久很久很久~
+更何况，蚂蚁本身还很结实。
+我们人类，皮包肉，肉包内脏和骨头。
+蚂蚁呢？
+哈哈嗐，节肢动物来咯，爷有外骨骼。
+外骨骼可以对整个身体形成支撑和保护，可以支持蚂蚁在它们那个尺度上完成看起来很牛逼的承载能力：
+
+但说白了，这还是得益于平方-立方定律。
+经常有人说，蚂蚁可以搬起自己体重几十倍的东西。
+好像如果有一只一百来斤的蚂蚁，它能轻而易举地举起钢卷似的。
+但你真把它放大到人类那个尺寸，它只会把自己的身体压垮，烂成一摊肉骨泥。
+所以漫威科幻电影《蚁人》里的很多表现，从物理角度上看是不成立的。
+不过都看漫威了，谁还带脑子，对吧~
+
+总而言之，真正决定你怕不怕摔的，是你的尺寸。
+不同尺度的生物，看待世界完全是不同的画风，而我们习惯了用人类的视角看世界。
+在我们的眼里，水很柔软，空气几乎不存在。
+但把你变成一只蚂蚁呢？
+光一滴水的表面张力，就能变成一个巨大的黏性球体，沾上了就很难脱困。
+别人吹一口气，那就是八级大狂风，飞到不知哪里去。
+蚂蚁的“超能力”，从来不是坚不可摧。
+而是足够小，小到可以泰然对抗重力。
+有些时候，从其他生物的视角看待世界，别是一番新风景~
+
+以上
+参考内容：
+空气阻力与终端速度，跳伞者的终端速度为44m/s：
+MOEBS W, LING S J, SANNY J. University Physics Volume 1[M/OL]. Houston: OpenStax, 2016[2026-09-03].
+明确讨论了几何尺度变化中表面积 ∝ M0.66M^{0.66}，体积 ∝ M1：
+CLEMENTE C J, DICK T J M. How scaling approaches can reveal fundamental principles in physiology and biomechanics[J]. Journal of Experimental Biology, 2023, 226(7): jeb245310. DOI:10.1242/jeb.245310.
+横跨49个生态系统的研究发现，工蚁的平均质量从 0.06 mg 到2.34 mg 不等：
+KASPARI M. Global energy gradients and size in colonial organisms: Worker mass and worker number in ant colonies[J]. Proceedings of the National Academy of Sciences of the United States of America, 2005, 102(14): 5079-5083.
+树冠蚂蚁的滑翔实验：
+YANOVIAK S P, DUDLEY R, KASPARI M. Directed aerial descent in canopy ants[J]. Nature, 2005, 433(7026): 624-626. DOI:10.1038/nature03254.
+1638年，伽利略出版《关于两门新科学的谈话和数学证明》，提出平方-立方定律：
+GALILEI G. Discourses and Mathematical Demonstrations Relating to Two New Sciences[M]. CREW H, DE SALVIO A, trans. New York: Macmillan, 1914.
+昆虫外骨骼的材料性能，包括硬化表皮的弹性模量、几丁质纤维和结构力学：
+VINCENT J F V, WEGST U G K. Design and mechanical properties of insect cuticle[J]. Arthropod Structure & Development, 2004, 33(3): 187-199. DOI:10.1016/j.asd.2004.05.006.
+昆虫角质层既构成保护屏障，也作为外骨骼参与运动：
+MOUSSIAN B. Recent advances in understanding mechanisms of insect cuticle differentiation[J]. Insect Biochemistry and Molecular Biology, 2010, 40(5): 363-375. DOI:10.1016/j.ibmb.2010.03.003.

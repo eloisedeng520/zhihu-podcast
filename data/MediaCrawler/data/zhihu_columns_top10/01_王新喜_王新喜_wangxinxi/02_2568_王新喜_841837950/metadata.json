@@ -1,0 +1,71 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 2,
+  "ranking_metric": "voteup_count",
+  "article_id": "841837950",
+  "article_url": "https://zhuanlan.zhihu.com/p/841837950",
+  "title": "向印度输出工业能力，有四个致命回旋镖，该清醒过来了",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 2568,
+  "comment_count": 614,
+  "created": 1728221304,
+  "updated": 1728221304,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b428fa30233671c9a12d874b6d743b05_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 58202
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-0e135ba89edd900130361d136697f859_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43789
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-afb7214928165ef834eabcfeeb7579b3_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 213608
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-13b5c43f83c71e936fbb4ba71ef21cd6_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 98693
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/v2-9206ee0a3b8cab7003a1be16dbafbe6c_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 128040
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-1c82f9001d4d292771ad7a4906117266_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 53116
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

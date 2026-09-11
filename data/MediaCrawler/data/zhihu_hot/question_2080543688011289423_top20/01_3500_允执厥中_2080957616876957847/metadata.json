@@ -1,0 +1,52 @@
+{
+  "question_id": "2080543688011289423",
+  "question_url": "https://www.zhihu.com/question/2080543688011289423",
+  "question_title": "如何看待勇哥餐饮被指维护让员工干 17 个小时的老板？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2080957616876957847",
+  "answer_url": "https://www.zhihu.com/question/2080543688011289423/answer/2080957616876957847",
+  "author": "允执厥中",
+  "voteup_count": 3500,
+  "comment_count": 379,
+  "created_time": 1788918958,
+  "updated_time": 1788946187,
+  "is_collapsed": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-3c944f9e224d99f1e2987c9135818d98_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 36628
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-6159c7ff1878ac0c325e59c64b6ea813_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38174
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-7dcd1813eef11e6d46f8c5936600d3d6_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 38885
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-376d3be7bcf04f2bffea7455d688258d_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 42259
+    }
+  ],
+  "fetched_at": "2026-09-10T12:45:35.030Z"
+}

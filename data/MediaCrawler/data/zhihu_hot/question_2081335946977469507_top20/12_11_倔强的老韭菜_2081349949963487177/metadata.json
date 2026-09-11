@@ -1,0 +1,28 @@
+{
+  "question_id": "2081335946977469507",
+  "question_url": "https://www.zhihu.com/question/2081335946977469507",
+  "question_title": "机构称 iPhone Duo 首年有望拿下 25% 市场份额，晚了三星、华为数年入局折叠屏，苹果能改写格局吗？",
+  "rank": 12,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081349949963487177",
+  "answer_url": "https://www.zhihu.com/question/2081335946977469507/answer/2081349949963487177",
+  "author": "倔强的老韭菜",
+  "voteup_count": 11,
+  "comment_count": 1,
+  "created_time": 1789012497,
+  "updated_time": 1789012497,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-ab453d3ca571349ef382453a110a8351_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 62239
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:01.709Z"
+}

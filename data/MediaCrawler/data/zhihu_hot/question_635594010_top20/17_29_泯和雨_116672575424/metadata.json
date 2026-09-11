@@ -1,0 +1,44 @@
+{
+  "question_id": "635594010",
+  "question_url": "https://www.zhihu.com/question/635594010",
+  "question_title": "如何评价游戏《绝区零》的人物建模？",
+  "rank": 17,
+  "ranking_metric": "voteup_count",
+  "answer_id": "116672575424",
+  "answer_url": "https://www.zhihu.com/question/635594010/answer/116672575424",
+  "author": "泯和雨",
+  "voteup_count": 29,
+  "comment_count": 0,
+  "created_time": 1741139916,
+  "updated_time": 1741840859,
+  "is_collapsed": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-4c1494452d2409503e6e99a3694e7bc3_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 153589
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-d268e63446ff07f924d57c6712c4f61f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 113913
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-7c5ab950e9aba05e55cb4a6a669b785b_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 530333
+    }
+  ],
+  "fetched_at": "2026-09-10T12:53:50.696Z"
+}

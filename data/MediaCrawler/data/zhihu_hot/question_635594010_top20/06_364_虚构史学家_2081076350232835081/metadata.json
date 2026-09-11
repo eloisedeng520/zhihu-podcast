@@ -1,0 +1,28 @@
+{
+  "question_id": "635594010",
+  "question_url": "https://www.zhihu.com/question/635594010",
+  "question_title": "如何评价游戏《绝区零》的人物建模？",
+  "rank": 6,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081076350232835081",
+  "answer_url": "https://www.zhihu.com/question/635594010/answer/2081076350232835081",
+  "author": "虚构史学家",
+  "voteup_count": 364,
+  "comment_count": 34,
+  "created_time": 1788947266,
+  "updated_time": 1788947266,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-2fe85f922f7338fdc1ff9bd62407682f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 1418128
+    }
+  ],
+  "fetched_at": "2026-09-10T12:53:50.696Z"
+}

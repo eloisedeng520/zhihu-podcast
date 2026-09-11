@@ -1,0 +1,40 @@
+{
+  "circle_id": "1938005292467069465",
+  "circle_name": "AI副业圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938005292467069465",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1993405156226799459",
+  "post_url": "https://www.zhihu.com/pin/1993405156226799459?native=0",
+  "title": "冷门暴利！我用一部手机&#34;薅&#34;老外羊毛，2个月狂赚3.8W美金！（实操分享）\n👍大家好，我是老张！上次聊了TikTok运营，后台直接爆了\n\n好多",
+  "author": "老张跨境之路",
+  "author_id": "b6174c1eb5a2afa03ca3105bb01008b4",
+  "favorite_count": 371,
+  "like_count": 127,
+  "comment_count": 118,
+  "created": 1768045097,
+  "updated": 1769649031,
+  "is_essence": false,
+  "image_count": 2,
+  "downloaded_image_count": 2,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-774830d0e9bed6bc0061899674d397e1.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 213085
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-5ba875e7c4515de73149d6dea8a6ac01.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1929155
+    }
+  ],
+  "fetched_at": "2026-09-10T15:47:13.561Z"
+}

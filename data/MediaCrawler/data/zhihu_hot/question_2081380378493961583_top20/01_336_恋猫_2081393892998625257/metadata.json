@@ -1,0 +1,60 @@
+{
+  "question_id": "2081380378493961583",
+  "question_url": "https://www.zhihu.com/question/2081380378493961583",
+  "question_title": "如何评价正式发布的 DeepSeek V4.1 Flash？",
+  "rank": 1,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081393892998625257",
+  "answer_url": "https://www.zhihu.com/question/2081380378493961583/answer/2081393892998625257",
+  "author": "恋猫",
+  "voteup_count": 336,
+  "comment_count": 29,
+  "created_time": 1789022974,
+  "updated_time": 1789025438,
+  "is_collapsed": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-bf3e4ac65c6ae851f9d35b89008f180c_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 39024
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-184d8b05e2ac0b87fd890e55c189fc54_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 72612
+    },
+    {
+      "index": 3,
+      "original_url": "https://www.zhihu.com/equation?tex=%28384006168%2B384016682%29%C3%97256%E2%89%88196.61B",
+      "status": "downloaded",
+      "local_file": "003.svg",
+      "content_type": "image/svg+xml",
+      "size_bytes": 9555
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-1dc4f8a096af38a2a99db8c3feec57a5_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 72002
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-c6fd2bbbb96ce3a0e702992f5ebeec60_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 47483
+    }
+  ],
+  "fetched_at": "2026-09-10T12:50:28.116Z"
+}

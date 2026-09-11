@@ -1,0 +1,31 @@
+{
+  "column_rank": 7,
+  "column_name": "关于时政区的唯我评价",
+  "column_slug": "c_1996542723679884372",
+  "column_url": "https://www.zhihu.com/column/c_1996542723679884372",
+  "article_rank": 10,
+  "ranking_metric": "voteup_count",
+  "article_id": "2074865616486405416",
+  "article_url": "https://zhuanlan.zhihu.com/p/2074865616486405416",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 6093,
+  "comment_count": 380,
+  "created": null,
+  "updated": 0,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-3013e67b8100d3cba80f016834e7d68d_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 139830
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:57.628Z"
+}

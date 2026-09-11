@@ -1,0 +1,60 @@
+{
+  "question_id": "2081074229856974140",
+  "question_url": "https://www.zhihu.com/question/2081074229856974140",
+  "question_title": "有媒体报道称 DeepSeek 备战科创板 IPO，中信证券已入场尽调，哪些信息值得关注？",
+  "rank": 3,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081143485625791061",
+  "answer_url": "https://www.zhihu.com/question/2081074229856974140/answer/2081143485625791061",
+  "author": "闻号说经济",
+  "voteup_count": 21,
+  "comment_count": 6,
+  "created_time": 1788963272,
+  "updated_time": 1788963272,
+  "is_collapsed": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-55fb0160d941cc4757589df9ccd973f7_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43243
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-588d8c660aa4fa7d03fd79bab7f68828_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 12592
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-4c480fe1816ecfac549257f6b7f1be2f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 225150
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-5714ef840211c9600e1c985f191dfcd9_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 188120
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-cc6058b84c76e2065d9f88223f23ae24_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 217962
+    }
+  ],
+  "fetched_at": "2026-09-10T12:54:10.080Z"
+}

@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2047267058384217297",
+  "post_url": "https://www.zhihu.com/pin/2047267058384217297?native=0",
+  "title": "社交场合的10个残酷真相\n10个最露骨的社交潜规则\n\n1、需要用你的人，才会主动联系你。\n2、比你强的人，没空跟你深交。\n3、比你弱的人，怕你抢走资源。\n4、饭",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 7,
+  "like_count": 2,
+  "comment_count": 0,
+  "created": 1781081206,
+  "updated": 1781081207,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/100/v2-7eae94abaa822d3c0e37bea9b9a10831_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 72138
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/100/v2-a76156878a24f259fd2a0f1b64c7abfb_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 59767
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/100/v2-689c4ac2e04c9da37d16b6e2801544fa_1440w.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 67491
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

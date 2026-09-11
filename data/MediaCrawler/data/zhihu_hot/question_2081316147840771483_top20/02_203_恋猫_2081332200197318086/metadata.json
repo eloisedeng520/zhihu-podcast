@@ -1,0 +1,76 @@
+{
+  "question_id": "2081316147840771483",
+  "question_url": "https://www.zhihu.com/question/2081316147840771483",
+  "question_title": "iPhone Duo 靠雾面纳米玻璃降低折痕可见度，怎样看待这种方式？要完全消除折叠痕还有哪些难点？",
+  "rank": 2,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081332200197318086",
+  "answer_url": "https://www.zhihu.com/question/2081316147840771483/answer/2081332200197318086",
+  "author": "恋猫",
+  "voteup_count": 203,
+  "comment_count": 39,
+  "created_time": 1789008265,
+  "updated_time": 1789008265,
+  "is_collapsed": false,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-a21259d224e37968af5d67f67abd8e4f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 202009
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-18ad3678328f9a1140a4f6b0e36eb147_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 49390
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-c5cf7750a35a25c58fc1fe590a704811_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 18737
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-91dd5c80aecfa1cfa580cba9be6182c0_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 71469
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/50/v2-c420cd21b9d08c3ca0ad8d25ed639efe_720w.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 7488
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-f68ab6e3d97e20323698252bc485b828_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 87633
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/v2-55e5dfb91ab16e88a3602a3ed51026e7_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 20055
+    }
+  ],
+  "fetched_at": "2026-09-10T12:51:38.675Z"
+}

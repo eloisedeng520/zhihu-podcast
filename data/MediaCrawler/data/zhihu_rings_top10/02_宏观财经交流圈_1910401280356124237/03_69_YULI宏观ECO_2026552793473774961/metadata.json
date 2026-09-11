@@ -1,0 +1,80 @@
+{
+  "circle_id": "1910401280356124237",
+  "circle_name": "宏观财经交流圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1910401280356124237",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2026552793473774961",
+  "post_url": "https://www.zhihu.com/pin/2026552793473774961?native=0",
+  "title": "短线逃顶七铁律：七种必须离场的危险信号\n关于股票短线交易的七条经验法则，核心是识别主力意图、规避风险信号。\n\n1. 冲高不封板（7%位置）\n\n· 现象：股价拉到",
+  "author": "YULI宏观ECO",
+  "author_id": "f6ea64e075db97c210256802161e674f",
+  "favorite_count": 69,
+  "like_count": 20,
+  "comment_count": 1,
+  "created": 1775947925,
+  "updated": 1775947925,
+  "is_essence": true,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-1a1605db5c1b7784966cdc18cc535414.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.webp",
+      "content_type": "image/webp",
+      "size_bytes": 38278
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-0785bf4e4f1ecdc90f0d5417e6e0414c.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.webp",
+      "content_type": "image/webp",
+      "size_bytes": 33772
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-fe1e21cf8dc96ff030b61cb929c0bc3e.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.webp",
+      "content_type": "image/webp",
+      "size_bytes": 26866
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-94f7166bf28ec53a7aa70df4c67d51f7.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.webp",
+      "content_type": "image/webp",
+      "size_bytes": 26232
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-5d3ff9cb130e519e602d1b46b423827c.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.webp",
+      "content_type": "image/webp",
+      "size_bytes": 31118
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-402f1412f02765f1db4807545e4c7268.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.webp",
+      "content_type": "image/webp",
+      "size_bytes": 68944
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-870da5c4b7903306fb9cbbbc5d029e4c.webp?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.webp",
+      "content_type": "image/webp",
+      "size_bytes": 59884
+    }
+  ],
+  "fetched_at": "2026-09-10T17:32:15.190Z"
+}

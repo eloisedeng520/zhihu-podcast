@@ -1,0 +1,72 @@
+{
+  "circle_id": "1920561090632323706",
+  "circle_name": "从文学到投稿",
+  "circle_url": "https://www.zhihu.com/ring/host/1920561090632323706",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2036947631407150109",
+  "post_url": "https://www.zhihu.com/pin/2036947631407150109?native=0",
+  "title": "5个AI为我的小说吵翻了\n我用5个AI审了3万字废土小说，它们为“要不要心理描写”吵翻了\n一、写了本“只靠身体说话”的小说，心里没底\n我写了部废土科幻《尘脉纪元",
+  "author": "KkingOL",
+  "author_id": "aaf9ddd126d0bee16126a0a1e1d15870",
+  "favorite_count": 18,
+  "like_count": 12,
+  "comment_count": 9,
+  "created": 1778426570,
+  "updated": 1778426570,
+  "is_essence": false,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-1d6c152b2dc37fab1d9e567ba85c2992.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 2568208
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-80ee906386245699eafa87df50ef344b.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 2693472
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-1eb45da1d7913c25472c4be3e416d112.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 2791882
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-14da5f5a315b73d65163521bbc291396.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 2730965
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-d244c9e79eb9d4078d168c6b971002eb.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 2813495
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-068ddb7c6f839def7145989a25d92818.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 2133397
+    }
+  ],
+  "fetched_at": "2026-09-10T18:22:24.363Z"
+}

@@ -1,0 +1,55 @@
+{
+  "column_rank": 1,
+  "column_name": "王新喜",
+  "column_slug": "wangxinxi",
+  "column_url": "https://www.zhihu.com/column/wangxinxi",
+  "article_rank": 6,
+  "ranking_metric": "voteup_count",
+  "article_id": "67797108",
+  "article_url": "https://zhuanlan.zhihu.com/p/67797108",
+  "title": "华为Mate 20 Pro重回Android Q名单，谷歌在焦虑什么？",
+  "author": "王新喜",
+  "author_id": "43a426f9d1963fb35b662d3430412467",
+  "author_url_token": "wang-xin-xi-71",
+  "voteup_count": 1723,
+  "comment_count": 439,
+  "created": 1559450460,
+  "updated": 1559450562,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-1c79d687e5692425619982b1f4919357_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 32349
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-cb9f7184c1910c74a5a2d7f932d4e05c_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 25129
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-b883b76ac0e8268b220153013a08a973_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 17101
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-1f27575d7ffc57a851848abc552180ff_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 33431
+    }
+  ],
+  "fetched_at": "2026-09-11T03:07:13.624Z"
+}

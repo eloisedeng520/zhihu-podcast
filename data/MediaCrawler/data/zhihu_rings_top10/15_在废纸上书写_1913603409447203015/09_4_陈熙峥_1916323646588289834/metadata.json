@@ -1,0 +1,80 @@
+{
+  "circle_id": "1913603409447203015",
+  "circle_name": "在废纸上书写",
+  "circle_url": "https://www.zhihu.com/ring/host/1913603409447203015",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1916323646588289834",
+  "post_url": "https://www.zhihu.com/pin/1916323646588289834?native=0",
+  "title": "故事新编·刺秦\n原文发在微信公众号上，今晚翻了翻看，觉得有点意思，删改了部分，分享出来。因为字数限制，后面的部分，我用截图相片的方式展现。\n\n正文\n荆轲肉夹馍供",
+  "author": "陈熙峥",
+  "author_id": "8cd2c6809d8572b2b037450921a27b1a",
+  "favorite_count": 4,
+  "like_count": 5,
+  "comment_count": 3,
+  "created": 1749667848,
+  "updated": 1749667848,
+  "is_essence": true,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-bb01b1f565d1b0eac0be46902a152e23_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 129259
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-77a0298c5fe53f753ddd8f8a0b7f38d3_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 130578
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-3ff13519d58d019fb9ff41cbbaa2fc6d_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 140959
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic2.zhimg.com/50/v2-f87b6a239c1f054e31fc395f2bd0ca9f_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 133090
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic4.zhimg.com/50/v2-0e870482239b0b73ccb2e1f41a9aaae7_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 112164
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/50/v2-bafb8853b77c09b11ef2b7dea0488176_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 177179
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/50/v2-64d97d4c96c2deb2dcb8e9ab57ebb674_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 197956
+    }
+  ],
+  "fetched_at": "2026-09-10T18:19:03.362Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908509014544872258",
+  "circle_name": "劳动仲裁那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1908509014544872258",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1909546829504316684",
+  "post_url": "https://www.zhihu.com/pin/1909546829504316684?native=0",
+  "title": "离职时，应该当场结清工资\n《工资支付暂行规定》第九条规定，劳动关系双方依法解除或终止劳动合同时，用人单位应在解除或终止劳动合同时一次付清劳动者工资。\n#工资发错",
+  "author": "劳动法咨询师韩飞",
+  "author_id": "138f6191c5b887ba07b5dd997025a0d3",
+  "favorite_count": 20,
+  "like_count": 59,
+  "comment_count": 28,
+  "created": 1748051469,
+  "updated": 1748051469,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-17e7d42328e521dbd05d2cbed194d885_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43563
+    }
+  ],
+  "fetched_at": "2026-09-10T18:14:55.384Z"
+}

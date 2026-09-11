@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938621827502049071",
+  "circle_name": "迦文聊写作",
+  "circle_url": "https://www.zhihu.com/ring/host/1938621827502049071",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1950911268404822749",
+  "post_url": "https://www.zhihu.com/pin/1950911268404822749?native=0",
+  "title": "陌生人，恭喜我，两个月关注700多，开通了致知计划！\n陌生人，恭喜我，两个月粉丝700多，开通了致知计划，哈哈哈😆内容方面，持续输出，多互动，认真细致码字，总",
+  "author": "曾曾",
+  "author_id": "18e507a15a698266ded4d15d871e7cad",
+  "favorite_count": 0,
+  "like_count": 12,
+  "comment_count": 6,
+  "created": 1757913780,
+  "updated": 1757913780,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-880f2faf5768bf53e407bf2b8fc6bcfd_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 767537
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:40.327Z"
+}

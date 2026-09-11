@@ -1,0 +1,31 @@
+{
+  "column_rank": 10,
+  "column_name": "浮生杂记807",
+  "column_slug": "c_1855645494493192192",
+  "column_url": "https://www.zhihu.com/column/c_1855645494493192192",
+  "article_rank": 6,
+  "ranking_metric": "voteup_count",
+  "article_id": "2059959036519494838",
+  "article_url": "https://zhuanlan.zhihu.com/p/2059959036519494838",
+  "title": "deepseek对于长沙占车位事件中女主闵某某的心理分析",
+  "author": "胡取禾兮",
+  "author_id": "7ef6a461bbc2905e8938de602340cd36",
+  "author_url_token": "deshi",
+  "voteup_count": 16,
+  "comment_count": 3,
+  "created": 1783912629,
+  "updated": 1783912629,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-41b448779f4a95758b0550a0baebec17_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 316922
+    }
+  ],
+  "fetched_at": "2026-09-11T03:12:12.628Z"
+}

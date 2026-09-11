@@ -1,0 +1,8 @@
+今儿把opencode+ds v4 pro换成了opencode+ds flash。
+感觉是活儿还是一样的干没啥幺蛾子，速度也没见快多少就是了。晚上看看价格。
+update：太便宜了！！！！梁圣又回来了。便宜又好用！！以下是对比：
+
+昨日，Pro全天的。
+
+今日，flash v4.1 截止16:30的。
+干活质量完全没问题 v4.1-flash（官方endpoint直接改叫deepseek-flash了）。

@@ -1,0 +1,63 @@
+{
+  "column_rank": 9,
+  "column_name": "故事会",
+  "column_slug": "c_2014809702232512493",
+  "column_url": "https://www.zhihu.com/column/c_2014809702232512493",
+  "article_rank": 10,
+  "ranking_metric": "voteup_count",
+  "article_id": "2070834946982274608",
+  "article_url": "https://zhuanlan.zhihu.com/p/2070834946982274608",
+  "title": "",
+  "author": "臭打游戏的",
+  "author_id": "3ecea9b020b01b84ce14cf8f9e0061d9",
+  "author_url_token": "ai-chi-gua-de-a-nan",
+  "voteup_count": 8216,
+  "comment_count": 570,
+  "created": null,
+  "updated": 0,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-3e3196b707604d1019b4ac78712e9acd_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 91259
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-eff74cb53d7fd71dd71340c9e5eb7458_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 113654
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-908b2905a51be9c84b19a3895a2b2898_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 224296
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-cc3cb319d0ab008b40d69910a00080be_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 281696
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-007bf7bd792b1ee8afa0a48813db01a8_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 58036
+    }
+  ],
+  "fetched_at": "2026-09-11T03:11:51.626Z"
+}

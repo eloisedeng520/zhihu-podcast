@@ -1,0 +1,55 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "article_rank": 5,
+  "ranking_metric": "voteup_count",
+  "article_id": "1934930113050443811",
+  "article_url": "https://zhuanlan.zhihu.com/p/1934930113050443811",
+  "title": "直面今日之现实，想起钱老的临终箴言，我们禁不住潸然泪下……",
+  "author": "上官茂华",
+  "author_id": "656c0f28a7f3f7e12aca289596d11789",
+  "author_url_token": "fo-lan-ci-xiao-qu",
+  "voteup_count": 1083,
+  "comment_count": 208,
+  "created": 1754103375,
+  "updated": 1754103375,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-4176bdab1da46c83f52bb80a93defcdd_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 28200
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-680e79ded238afed4f13785a800d0a65_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 91158
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-cdcccc9c03e296c1b15923153eb3faf1_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 95474
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-e8c2c9530528c9e2339399a9051dc8a4_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 118422
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:38.632Z"
+}

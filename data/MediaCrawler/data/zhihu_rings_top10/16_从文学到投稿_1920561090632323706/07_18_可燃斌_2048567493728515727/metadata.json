@@ -1,0 +1,32 @@
+{
+  "circle_id": "1920561090632323706",
+  "circle_name": "从文学到投稿",
+  "circle_url": "https://www.zhihu.com/ring/host/1920561090632323706",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2048567493728515727",
+  "post_url": "https://www.zhihu.com/pin/2048567493728515727?native=0",
+  "title": "“成为一位作家之前要看多少本书才行呢？！”\n    这是我的哀嚎，也是一个伪命题。\n\n    它只是让我一直思考我该怎么办。  \n\n    依稀记得高中语文老师",
+  "author": "可燃斌",
+  "author_id": "8ac496975d8c9ccff1be855753743723",
+  "favorite_count": 18,
+  "like_count": 20,
+  "comment_count": 2,
+  "created": 1781196951,
+  "updated": 1781196951,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b0fbc84598033d627cac69e9e2376062.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 54046
+    }
+  ],
+  "fetched_at": "2026-09-10T18:22:24.363Z"
+}

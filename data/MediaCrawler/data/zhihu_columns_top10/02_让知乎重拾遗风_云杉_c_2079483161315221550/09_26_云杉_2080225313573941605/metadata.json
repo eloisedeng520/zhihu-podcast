@@ -1,0 +1,71 @@
+{
+  "column_rank": 2,
+  "column_name": "让知乎重拾遗风",
+  "column_slug": "c_2079483161315221550",
+  "column_url": "https://www.zhihu.com/column/c_2079483161315221550",
+  "article_rank": 9,
+  "ranking_metric": "voteup_count",
+  "article_id": "2080225313573941605",
+  "article_url": "https://zhuanlan.zhihu.com/p/2080225313573941605",
+  "title": "",
+  "author": "云杉",
+  "author_id": "85a2417ed1401ed5263bd9fcfae03c44",
+  "author_url_token": "yindaweiCN",
+  "voteup_count": 26,
+  "comment_count": 0,
+  "created": null,
+  "updated": 0,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-a803991d4470da646f83c3a68a787e5a_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 94576
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-a105eb2c5ab1a03e5ffb34e87dc9b609_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 52277
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-77f6f20bacd2f5774485d8a033b377cd_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 204103
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-0756c1c9970439a5562853cb3e6e9160_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 363323
+    },
+    {
+      "index": 5,
+      "original_url": "https://pica.zhimg.com/v2-c2b09dd3e5119886779859777dade059_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 20064
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-b3d6510f59f1a80945a54d38139218b4_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 179400
+    }
+  ],
+  "fetched_at": "2026-09-11T03:08:19.628Z"
+}

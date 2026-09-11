@@ -1,0 +1,56 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2057119023540737309",
+  "post_url": "https://www.zhihu.com/pin/2057119023540737309?native=0",
+  "title": "热带雨林里藏着一群专业“男团舞者”\n今天分享一种颜值与营业能力双在线的鸟—金头娇鹟，一身哑光黑礼服配亮黄金冠，原来它们靠组队跳舞赢取配偶。\n\n1. 雄鸟组团打工",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 16,
+  "like_count": 77,
+  "comment_count": 23,
+  "created": 1784247664,
+  "updated": 1784247664,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-d6547b4d30a928706b04614c2e5215de.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 109854
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-482eae91cba1d0a7daf7cd5775792f90.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 95490
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-9d2503443b5c368acee530a61fa5f2f4.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 92811
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-2093220199191b90a6602193267b6981.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 1624132
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

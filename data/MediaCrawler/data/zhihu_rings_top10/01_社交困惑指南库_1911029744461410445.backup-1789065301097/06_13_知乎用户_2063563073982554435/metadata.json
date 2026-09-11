@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2063563073982554435",
+  "post_url": "https://www.zhihu.com/pin/2063563073982554435?native=0",
+  "title": "一个家能否聚财，看这25个细节就懂！\n1. 避免攀比心态：别总拿别人的房子、孩子、车子来比，内耗只会加重家庭负担。\n\n2. 多读书：提升认知水平，有助于更好地与",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 13,
+  "like_count": 5,
+  "comment_count": 0,
+  "created": 1784771867,
+  "updated": 1784771867,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-c7435c69d1e711911cb3228e6571b173.jpeg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 43010
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2060342187867607268",
+  "post_url": "https://www.zhihu.com/pin/2060342187867607268?native=0",
+  "title": "学会拒绝同事才能轻松\n今天早上，以前的一个同事打电话说：这个同事关系太难处了，一天把脸沉着，就好像差他几百一样的！\n那么，在职场中要如何和同事相处呢？\n先说说，",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 4,
+  "like_count": 7,
+  "comment_count": 4,
+  "created": 1784004216,
+  "updated": 1784004225,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/v2-f8fbf39e1730846ceeb6442ee5fb0033.jpg?source=0ba1ec3e",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 140470
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/v2-8b5cf0dfc45080ca99296cf07a50ad3e.jpg?source=0ba1ec3e",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 597533
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic2.zhimg.com/v2-5840483a138fe7bc1bb24ff7ad9e8359.jpg?source=0ba1ec3e",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 32378
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

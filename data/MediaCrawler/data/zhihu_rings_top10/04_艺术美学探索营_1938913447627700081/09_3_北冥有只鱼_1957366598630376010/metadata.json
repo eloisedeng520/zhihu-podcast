@@ -1,0 +1,80 @@
+{
+  "circle_id": "1938913447627700081",
+  "circle_name": "艺术美学探索营",
+  "circle_url": "https://www.zhihu.com/ring/host/1938913447627700081",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1957366598630376010",
+  "post_url": "https://www.zhihu.com/pin/1957366598630376010?native=0",
+  "title": "【画里有话·拜占庭艺术典型代表作《查士丁尼及其随从》镶嵌画】\n▶名画小档案\n创作时间：547年\n作者：东罗马帝国时期的画家\n尺寸：264cm*365cm\n类别：",
+  "author": "北冥有只鱼",
+  "author_id": "7d35b738483304ae460070ef7eb3774e",
+  "favorite_count": 3,
+  "like_count": 32,
+  "comment_count": 15,
+  "created": 1759452868,
+  "updated": 1759452868,
+  "is_essence": true,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-16e35b90248e811d05a261ea6624c612_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 275726
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-a8c6e35edca9d1664781577d0e4b02db_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 73013
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-6fa523f8e3673eb5153d733e71779b68_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 159852
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/50/v2-b69e7d04e243a6073e3e2eb72049d8d1_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 1891365
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/50/v2-eb8de118f678e740f38cac2434e2d32f_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 2002640
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/50/v2-3b059460bcb79fc0f6262a68179c6abc_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.png",
+      "content_type": "image/png",
+      "size_bytes": 1310010
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/50/v2-b75806376c56714be0f05cc866ac5a53_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.png",
+      "content_type": "image/png",
+      "size_bytes": 1217659
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:31.199Z"
+}

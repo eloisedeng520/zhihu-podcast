@@ -1,0 +1,64 @@
+{
+  "circle_id": "1938699039676818860",
+  "circle_name": "大模型全栈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938699039676818860",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1995171486638563491",
+  "post_url": "https://www.zhihu.com/pin/1995171486638563491?native=0",
+  "title": "SFT只需要对齐部分token！\n论文：ProFit: Leveraging High-Value Signals in SFT via Probability",
+  "author": "Taki",
+  "author_id": "e08e6e8addfe6427438632327e7066a4",
+  "favorite_count": 176,
+  "like_count": 79,
+  "comment_count": 3,
+  "created": 1768466293,
+  "updated": 1768545657,
+  "is_essence": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-f0782ce1923514d26f1f15572efcb78f.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 148750
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/v2-edd46e049b28e5b056e68365d07ab9de.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 95065
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/v2-c9f297981cc4b85ff082d28560b59a98.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 122450
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-de199e24641673c8ebe48db59b1c559b.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 217481
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-2d3eaf457c9f001a9388bfa13ca31996.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 191613
+    }
+  ],
+  "fetched_at": "2026-09-10T18:27:09.359Z"
+}

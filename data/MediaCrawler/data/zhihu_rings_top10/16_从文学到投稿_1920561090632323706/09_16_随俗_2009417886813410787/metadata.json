@@ -1,0 +1,48 @@
+{
+  "circle_id": "1920561090632323706",
+  "circle_name": "从文学到投稿",
+  "circle_url": "https://www.zhihu.com/ring/host/1920561090632323706",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2009417886813410787",
+  "post_url": "https://www.zhihu.com/pin/2009417886813410787?native=0",
+  "title": "为什么越是高超的作家，他的文笔就越朴实？\n真正高超的作家，不是把文字写得华丽，而是让文字消失，让思想在场。文笔朴素而思想清晰，技巧收敛却力量直接。苏轼中年以后，",
+  "author": "随俗",
+  "author_id": "08aef1d1c301a9a6a0fc38e84a73531d",
+  "favorite_count": 16,
+  "like_count": 14,
+  "comment_count": 0,
+  "created": 1771862602,
+  "updated": 1771862662,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/v2-5439e045f534e52378f870f66ce4e536.jpg?2dee4d7a7ff34756980f70b05a045ad6",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 75924
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-838a450642bb096fa98ee6b6ae4916a9.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 42612
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-1c092770e2b3d467d590783049fd6e94.jpg?b843eb580d034fdaa14c80e168f00f8b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 95312
+    }
+  ],
+  "fetched_at": "2026-09-10T18:22:24.363Z"
+}

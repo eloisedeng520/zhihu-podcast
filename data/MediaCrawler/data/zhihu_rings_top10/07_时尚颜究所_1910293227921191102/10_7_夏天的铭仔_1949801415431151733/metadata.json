@@ -1,0 +1,64 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1949801415431151733",
+  "post_url": "https://www.zhihu.com/pin/1949801415431151733?native=0",
+  "title": "新手友好！伪素颜高级感妆容教学来啦✨\n ——看似没化妆，实则每一步都藏着心机！\n从“浓颜感”到“清透氧气脸”，全靠细节取胜。照着画真的巨显气质！\n🔹底妆秘诀：",
+  "author": "夏天的铭仔",
+  "author_id": "212351849a15dd3652fa82b81e3918cd",
+  "favorite_count": 7,
+  "like_count": 6,
+  "comment_count": 0,
+  "created": 1757648954,
+  "updated": 1757648954,
+  "is_essence": true,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-e6e5606c284890ce4122011ab26dba42_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 92798
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-74bac771ac19ff8b5f00af7af3ab3100_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 114421
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-07e795c27af9ba3aca068c6c708c97c5_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 214136
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic2.zhimg.com/50/v2-79365164d66c057814af0ff2d5f6fe3b_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 151055
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/50/v2-9f90e9769f4cd64321845b6896cc7145_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 110037
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}

@@ -1,0 +1,80 @@
+{
+  "circle_id": "1938751952545644712",
+  "circle_name": "女生情感研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1938751952545644712",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2043376855965767399",
+  "post_url": "https://www.zhihu.com/pin/2043376855965767399?native=0",
+  "title": "黑豆水淡斑的千年中医智慧\n#女性 淡斑宝藏吃法，无人知晓的黑豆水小秘密\n\n一、中医智慧\n黑豆色黑，专入肾经，被誉为&#34;肾之谷&#34;，功在补肾填精、养血",
+  "author": "自然养身和蜂蜜",
+  "author_id": "846eef36f16abd577acc7fcd13acc07b",
+  "favorite_count": 261,
+  "like_count": 56,
+  "comment_count": 5,
+  "created": 1779959038,
+  "updated": 1779959038,
+  "is_essence": false,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-7153575d412e9cc57f460da350e91a3b_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 47171
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-d44b5df029b996b12ea96e9d0c217949_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 66255
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-5806758211ac80bfcc900ece2480ebd7_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 65032
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic2.zhimg.com/50/v2-f5519b4263d86fc904a3e18c9d4822f7_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 62642
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/50/v2-8d5899aef3c082527f8f5218ad8cb280_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69979
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic2.zhimg.com/50/v2-02eac362ab2c2de6a469ba3486beb5f7_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 63714
+    },
+    {
+      "index": 7,
+      "original_url": "https://pica.zhimg.com/50/v2-bfab9dce30e5874da0ea6015815011e0_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 67169
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:30.357Z"
+}

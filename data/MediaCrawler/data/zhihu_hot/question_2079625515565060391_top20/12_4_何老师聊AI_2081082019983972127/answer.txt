@@ -1,0 +1,8 @@
+说穿了就一句话：你的套餐决定你能用啥，你的任务决定你该用啥。
+Free 和 Go 用户最简单，Codex 里就给了 Terra，没得挑，直接用不用想。
+Plus 及以上你有四个选项：Sol、Terra、Luna 和刚上的 GPT-6 Astra。Terra 日常够用，Luna 快也便宜，但做正经开发你基本不用切过去。真正值得琢磨的是 Sol 和 Astra。
+Sol 是 GPT-5.6 的旗舰，全能型。写代码、debug、重构、做架构分析都稳。我在 Codex 里写了几个月，Sol 一直是主力。它不冒进，给的方案靠谱，拆代码逻辑的时候不会自作聪明改一堆不该改的东西。
+Astra 不一样。Reddit 上有人说得挺准，Astra 对开发流程的理解比 Sol 更深，代码细节抓得更好。有用户说 Astra 在 Low 档比 Sol 在 High 档表现还强，Sol High 跑得慢还容易”防御性输出”，没事找事加一堆多余的检查，Astra 在这方面克制很多。
+但 Astra 最大的问题不是质量，是额度。Plus 用户确实能用 Astra，OpenAI 已经确认向 Plus 及以上开放。但社区反馈很真实，有人说 Plus 上 Astra 的额度体验糟，断断续续的根本没法持续干活。Pro 100 和 Business Premium 每周 50 条就抠了，Business Standard 每月 15 条基本就尝个鲜。额度真的比性能更早卡住你，这是最容易被忽略的坑。
+再说一个大家常忽略的细节。如果你主要做 computer use，比如操作网页、填表单、跑自动化测试，Astra 值得上，执行速度和准确率确实比 Sol 好。但你的活如果是纯写代码，让 AI 搞架构、补代码、修 bug，Sol 仍然是更稳的选择，额度也更宽松。
+Terra 留着省额度时回退够用，Luna 在 Codex 基本不需要考虑。

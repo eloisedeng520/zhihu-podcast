@@ -1,0 +1,80 @@
+{
+  "circle_id": "1938913447627700081",
+  "circle_name": "艺术美学探索营",
+  "circle_url": "https://www.zhihu.com/ring/host/1938913447627700081",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1933679700519130936",
+  "post_url": "https://www.zhihu.com/pin/1933679700519130936?native=0",
+  "title": "盯着这幅画，我竟然产生了共情，画中人物情感透画而出\n《永别了！》Adieu!，1892，阿尔弗雷德·吉约（Alfred Guillou，1844-1926），布",
+  "author": "79岁坚持追剧",
+  "author_id": "0c8632808b6f6991a84a21fc9ee675c3",
+  "favorite_count": 108,
+  "like_count": 224,
+  "comment_count": 40,
+  "created": 1753805306,
+  "updated": 1755445243,
+  "is_essence": true,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-7e02a00f642562094ab5b825e75670c9_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 282215
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/50/v2-184a4b4197738ef938feea276d766cf5_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 324227
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic1.zhimg.com/50/v2-ab090cec094d7a430753bdfe36156ad8_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 294113
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/50/v2-806a23552c089708af754d477ccbeda0_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 213351
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic4.zhimg.com/50/v2-e06feea2c2e1b08f552a0d31c8b76f71_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 312510
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/50/v2-8230e84b11a32caf05909bd771c73a9e_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 298995
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic3.zhimg.com/50/v2-5c587b28bbb0f5f79f0fa4f8e891b8d2_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 338188
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:31.199Z"
+}

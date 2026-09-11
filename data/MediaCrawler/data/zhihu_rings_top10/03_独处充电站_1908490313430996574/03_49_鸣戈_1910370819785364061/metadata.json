@@ -1,0 +1,32 @@
+{
+  "circle_id": "1908490313430996574",
+  "circle_name": "独处充电站",
+  "circle_url": "https://www.zhihu.com/ring/host/1908490313430996574",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1910370819785364061",
+  "post_url": "https://www.zhihu.com/pin/1910370819785364061?native=0",
+  "title": "心流独处法——在外部环境中找到内在节奏\n前四期我们建立了一些独处概念的基本共识——层次、时间、环境。今天想先问一个更根本的问题：我们为什么要追求高质量独处？\n\n",
+  "author": "鸣戈",
+  "author_id": "f5f5742bac07006eb685d33a9604127d",
+  "favorite_count": 49,
+  "like_count": 30,
+  "comment_count": 2,
+  "created": 1748247896,
+  "updated": 1749112089,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/50/v2-72d95fc895a7f336f41ded7879a7dbfc_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 1417297
+    }
+  ],
+  "fetched_at": "2026-09-10T17:33:15.224Z"
+}

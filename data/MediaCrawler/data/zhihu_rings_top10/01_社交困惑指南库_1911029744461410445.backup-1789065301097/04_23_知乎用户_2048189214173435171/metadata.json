@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2048189214173435171",
+  "post_url": "https://www.zhihu.com/pin/2048189214173435171?native=0",
+  "title": "细节见人品，相处知人心！\n1、与人闲聊不追问隐私，薪资收入、感情状况、家庭矛盾从不主动打探，守住边界也保护彼此体面。\n2、别人自嘲时从不附和调侃，不顺着对方的话",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 23,
+  "like_count": 5,
+  "comment_count": 0,
+  "created": 1781106398,
+  "updated": 1781106398,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-3b0daf91b12d03eea3a4b27e95077641_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 179033
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

@@ -1,0 +1,64 @@
+{
+  "circle_id": "1938005292467069465",
+  "circle_name": "AI副业圈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938005292467069465",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1941645453549634993",
+  "post_url": "https://www.zhihu.com/pin/1941645453549634993?native=0",
+  "title": "开源AI伴侣项目，支持实时语音与游戏交互\nmoeru-ai团队开源的Airi项目，GitHub星标超3.4k，最新版本功能完整，支持Web、macOS、Wind",
+  "author": "安小强",
+  "author_id": "12f467db6e420803a16c32e873bcdc8d",
+  "favorite_count": 1004,
+  "like_count": 356,
+  "comment_count": 47,
+  "created": 1755704350,
+  "updated": 1755704350,
+  "is_essence": false,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-34906bb1adc09b80c456ab4c2b2c7929_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 630480
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-7fe819fdc6effe2965aaf9c7d25c1f33_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 455865
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-a74607448ba0be5d8eadaf0b5ba201f8_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 476574
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/50/v2-895bacb92cae485ee7ed4411a0f6adda_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 407945
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic2.zhimg.com/50/v2-7eebbe67cf124f874e301c328dcc9e47_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.png",
+      "content_type": "image/png",
+      "size_bytes": 557801
+    }
+  ],
+  "fetched_at": "2026-09-10T15:47:13.561Z"
+}

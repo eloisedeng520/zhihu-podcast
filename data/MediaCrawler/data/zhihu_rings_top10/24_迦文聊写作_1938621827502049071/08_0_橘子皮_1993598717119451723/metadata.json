@@ -1,0 +1,32 @@
+{
+  "circle_id": "1938621827502049071",
+  "circle_name": "迦文聊写作",
+  "circle_url": "https://www.zhihu.com/ring/host/1938621827502049071",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1993598717119451723",
+  "post_url": "https://www.zhihu.com/pin/1993598717119451723?native=0",
+  "title": "坚持，但是不给自己太大压力，注重分享！",
+  "author": "橘子皮",
+  "author_id": "7740f814cb515ffdcddc8dc0b8940dcb",
+  "favorite_count": 0,
+  "like_count": 4,
+  "comment_count": 0,
+  "created": 1768091020,
+  "updated": 1768091020,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-ce30f41c46ce185473eeb6d3dd5f4be0.jpg?source=ab51c8c8",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 117623
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:40.327Z"
+}

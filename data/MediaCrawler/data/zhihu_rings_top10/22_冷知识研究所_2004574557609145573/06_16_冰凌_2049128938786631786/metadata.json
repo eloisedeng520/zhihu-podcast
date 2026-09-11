@@ -1,0 +1,48 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 6,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2049128938786631786",
+  "post_url": "https://www.zhihu.com/pin/2049128938786631786?native=0",
+  "title": "脸蛋越大地位越高？揭秘红毛猩猩的腮帮子秘密\n🦧 红毛猩猩（名叫神龟，上海野生动物园网红雄性个体）\n\n这只出圈的红毛猩猩生活在上海野生动物园，因为会对着游客嘟嘴",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 16,
+  "like_count": 82,
+  "comment_count": 21,
+  "created": 1782176545,
+  "updated": 1782176614,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b2e55f99aa228f287f22cca2fb8ac1a6.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 385829
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-bc05ab9a4c429b84455c73fe0bde9102.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 407737
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-d192978cc5974a4a5f3e97c99c258226.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 312854
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

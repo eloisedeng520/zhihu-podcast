@@ -1,0 +1,56 @@
+{
+  "circle_id": "1915857047494305789",
+  "circle_name": "三国历史群英会",
+  "circle_url": "https://www.zhihu.com/ring/host/1915857047494305789",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2076821197740840257",
+  "post_url": "https://www.zhihu.com/pin/2076821197740840257?native=0",
+  "title": "《三国志》公孙瓒和《三国演义》公孙瓒\n《三国志》里的公孙瓒那是能征善战，组建精锐骑兵“白马义从”，长期与北方游牧民族乌桓、鲜卑等作战，曾率十余骑与数百鲜卑骑兵作",
+  "author": "明明想躺平",
+  "author_id": "0720a84191fb6f654f1ae3fed65a0e27",
+  "favorite_count": 8,
+  "like_count": 45,
+  "comment_count": 19,
+  "created": 1787973901,
+  "updated": 1787973901,
+  "is_essence": true,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-74123f65891af3f658d1b17a2aef0699.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 90141
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-d5c6280cc6a87b12a56f5f732df3c10b.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 88794
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-d2b9e7cf407d9b2b2cb12b65a3ef15e1.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1109524
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-61417a63f0e4a552d931b6b38ac2f51d.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 140605
+    }
+  ],
+  "fetched_at": "2026-09-10T17:59:37.181Z"
+}

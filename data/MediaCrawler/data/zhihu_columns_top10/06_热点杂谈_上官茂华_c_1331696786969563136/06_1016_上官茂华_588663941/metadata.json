@@ -1,0 +1,71 @@
+{
+  "column_rank": 6,
+  "column_name": "热点杂谈",
+  "column_slug": "c_1331696786969563136",
+  "column_url": "https://www.zhihu.com/column/c_1331696786969563136",
+  "article_rank": 6,
+  "ranking_metric": "voteup_count",
+  "article_id": "588663941",
+  "article_url": "https://zhuanlan.zhihu.com/p/588663941",
+  "title": "大疫之下，饱汉要知饿汉饥，否则，你我有没有明天都很难说",
+  "author": "上官茂华",
+  "author_id": "656c0f28a7f3f7e12aca289596d11789",
+  "author_url_token": "fo-lan-ci-xiao-qu",
+  "voteup_count": 1016,
+  "comment_count": 127,
+  "created": 1669970028,
+  "updated": 1669970028,
+  "image_count": 6,
+  "downloaded_image_count": 6,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-574de73e57ee6e5a692bb305c594037c_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 63062
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-574de73e57ee6e5a692bb305c594037c_720w.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 63062
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-b29487d4f79bde96e68fe24ae453273e_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 53988
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/v2-446bc63e5e59870578c92357476163e8_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 41281
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-7befa86c4d4b4789d7e15e974d9cb1a4_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 71503
+    },
+    {
+      "index": 6,
+      "original_url": "https://pic1.zhimg.com/v2-14deed2b744f47742f4dce9e56765d83_r.jpg?source=d16d100b",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 110686
+    }
+  ],
+  "fetched_at": "2026-09-11T03:10:38.632Z"
+}

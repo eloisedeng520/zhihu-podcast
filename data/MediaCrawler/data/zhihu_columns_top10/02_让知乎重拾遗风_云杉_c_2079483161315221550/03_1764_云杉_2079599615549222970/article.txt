@@ -1,0 +1,104 @@
+在品鉴科学家们新一波的雷霆研究前，简单介绍下搞笑诺贝尔奖。
+这个奖（Ig Nobel Prize）诞生于1991年，专门奖励那些“先让人发笑，再让人思考”的研究。
+获奖成果必须是真实的科学研究，颁奖者则是真正的诺贝尔奖得主。
+这个奖项堪称一年一度的科研抽象大赛，往年获奖题材个顶个的欢乐：
+2024年，发现某些哺乳动物可以用肛门呼吸；
+2025年，发现给牛涂成斑马，能减少牛虻叮咬；
+2015年，发现大多数哺乳动物（无论是大象还是人类），撒尿都差不多21秒....
+今年呢，直接化学奖颁给了研究蟑螂奶的团队。
+获奖者们领奖时，还戴着蟑螂帽子：
+想要这个帽子，请义乌迅速复刻。
+给他们颁奖的老爷子，是2019 年诺贝尔物理学奖得主Michel Mayor（米歇尔·马约尔），研究系外行星的。
+老爷子：我一个仰望宇宙的，这是给我干哪来了。
+说回正题，让我们看看，这帮人到底咋发现蟑螂奶营养价值的...
+研究对象不是咱们熟悉的广东双马尾（美洲大蠊），而是太平洋硕蠊 Diploptera punctata。
+长这个样子：
+
+一般的蟑螂，它是会甩籽儿的。
+把卵鞘丢出去，然后卵鞘里孵出小蟑螂，南方的朋友比较熟悉。
+但太平洋硕蠊呢，是少见的一种胎生蟑螂。
+胚胎在母体的育囊里发育，母蟑螂会分泌一种富含蛋白质的乳汁，供宝宝直接喝。
+蟑螂宝宝把这些奶喝下去之后，营养物质会在肠道里形成蛋白质晶体。
+研究者那叫一个坏啊，把蟑螂宝宝肠道切开，让晶体们释放到无菌水中：
+
+然后呢，去分析这些晶体的成分。
+最后发现，这是一种紧密排列的、糖基化的、结合脂质的蛋白质晶体。
+用人话讲，高浓缩营养压缩饼干。
+堪称蟑螂宝宝的后备隐藏能源：
+
+至于营养如何？
+论文的原话是这样说的：
+在卵巢开始形成卵黄到太平洋硕蠊胚胎孵化之间，蛋白质含量增加了 600 倍....如此高的蛋白质含量得益于由卵囊提供的 Lili-Mip 晶体，这些晶体被储存在胚胎的中肠中，一个中肠晶体大约能储存约 3.7 × 10^-5 J/颗焦耳的能量，这相当于几种哺乳动物乳汁中同等质量能量的三倍多（补充表 S3）。
+
+划重点，能量，是几种哺乳动物的三倍多。
+比野生狗奶猛多了，但并非网上盛传的“营养是牛奶的4倍”。
+各家媒体的小编不一定懂科学，但一定很懂新闻学。
+顺带一提，蟑螂奶的研究其实2016年就发表了。
+只是10年后终于被搞笑诺贝尔奖组委会盯上，安排了个化学奖。
+其他获奖项目其实也挺有趣的。
+比如技术奖，就颁给了华人团队，他们整了个活儿，把死蚊子的嘴当3D打印喷头。
+3D打印想要打印出足够精细的结构，就得足够精细的喷嘴。
+但是呢，市面上的超细喷嘴，不仅昂贵（80美金一个），还很容易报废。
+于是乎，华人科学家曹长宏、李剑宇等人把蝎子毒刺、蛇牙和各种昆虫口器都研究了一遍，试着从动物身上找替代品。
+最后他们发现，人类费事巴力想研发出来的精细喷嘴，蚊子用了几百万年。
+
+他们给这项技术起了一个看起来很战锤40K的名字：
+Necroprinting —— 死灵打印。
+物理学奖呢，颁给了一群热爱小便的人。
+我相信每位男同志都被自己的嘘嘘溅到过。
+加拿大滑铁卢大学等团队，深谙其痛苦，然后认真研究了尿液撞击小便池之后的流体力学。
+他们发现，当尿液撞击小便池表面的角度低于大约30°时，飞溅可以大幅降低。
+以此为基础，他们研究了各种各样的小便池，最后设计出了最理想那款。
+就是下图里最右边的样式，起名“鹦鹉螺”：
+
+鹦鹉螺小便池的飞溅量最低可以降到普通小便池的1.4%，很期待了说是。
+再次请义乌迅速复刻。
+哦不对，这玩意儿应该找佛山...
+除了上面三项外，其他研究也蛮有意思的。
+生物力学奖，科学家们终于给接吻下了一个严谨定义：
+同种个体之间，非攻击性的、定向的口对口接触，伴随嘴唇或口器运动，而且不能交换食物。
+都记住了嗷，下次不好意思说KISS KISS，就说：
+“我想和你发生同种个体之间，非攻击性的、定向的口对口接触，伴随嘴唇或口器运动，而且不能交换食物。”
+
+生物学奖，为了研究蛇什么时候咬人，于是去踩蛇。
+结果发现，靠近蛇头部的时候被咬的几率最高。
+不过这篇论文后来因为伦理审批问题被撤稿了，好在拿了个搞笑诺奖当安慰。
+嗅觉奖，爸妈觉得宝宝香香，但青春期孩子就不香了。
+用数据证实了我们的日常经验。
+土壤科学奖，在不同国家埋了1000条内裤。
+土壤越健康的地区，内裤分解越快。
+经济学奖，越有钱的人越会拿小孩的糖。
+研究人员摆了一罐糖，告诉受试者这些糖是准备留给小朋友的，你也可以自取。
+然后把人单独留下，看看会发生什么。
+结果在研究样本中，社会阶层较高的参与者平均拿走的糖更多。
+
+其实我还挺喜欢搞笑诺贝尔奖的。
+笑归笑，这些研究真正有意思的地方，其实从来不是整活儿。
+而是告诉我们这些平凡的科研人，科学从来不只属于宇宙、癌症和人工智能这些宏大的命题。
+它同样属于一句突如其来的为什么，一颗好奇又乐意求真的心。
+哪怕在科研高度功利化的今天，还有那么一批人，愿意一本正经地对待自己的好奇心。
+这对于每个人，都很重要。
+
+参考内容：
+1. 哺乳动物可以用肛门辅助供氧——2024 生理学奖
+OKABE R, CHEN-YOSHIKAWA T F, YONEYAMA Y, et al. Mammalian enteral ventilation ameliorates respiratory failure[J]. Med, 2021, 2(6): 773-783.e5. DOI: 10.1016/j.medj.2021.04.004. 
+2. 把牛涂成斑马纹减少牛虻叮咬——2025 生物学奖
+ KOJIMA T, OISHI K, MATSUBARA Y, et al. Cows painted with zebra-like striping can avoid biting fly attack[J]. PLoS ONE, 2019, 14(10): e0223447. DOI: 10.1371/journal.pone.0223447. 
+3. 大多数大型哺乳动物尿尿约 21 秒——2015 物理学奖
+YANG P J, PHAM J, CHOO J, et al. Duration of urination does not change with body size[J]. Proceedings of the National Academy of Sciences of the United States of America, 2014, 111(33): 11932-11937. DOI: 10.1073/pnas.1402289111. 
+4. 蟑螂奶——2026 化学奖
+BANERJEE S, COUSSENS N P, GALLAT F X, et al. Structure of a heterogeneous, glycosylated, lipid-bound, in vivo-grown protein crystal at atomic resolution from the viviparous cockroach Diploptera punctata[J]. IUCrJ, 2016, 3(4): 282-293. DOI: 10.1107/S2052252516008903. 
+5. 死蚊子嘴当 3D 打印喷嘴——2026 技术奖
+PUMA J, YANG Z, JOHNSTON E, et al. 3D necroprinting: Leveraging biotic material as the nozzle for 3D printing[J]. Science Advances, 2025, 11(47): eadw9953. DOI: 10.1126/sciadv.adw9953. 
+6. 防飞溅小便池——2026 物理学奖
+THURAIRAJAH K, SONG X, ZHU J D, et al. Splash-free urinals for global sustainability and accessibility: Design through physics and differential equations[J]. PNAS Nexus, 2025, 4(4): pgaf087. DOI: 10.1093/pnasnexus/pgaf087. 
+7. 给接吻下一个科学定义——2026 生物力学奖
+BRINDLE M, TALBOT C F, WEST S. A comparative approach to the evolution of kissing[J]. Evolution and Human Behavior, 2026, 47(1): 106788. DOI: 10.1016/j.evolhumbehav.2025.106788. 
+8. 为了研究蛇为什么咬人，于是踩蛇——2026 生物学奖
+[8] ALVES-NUNES J M, FELLONE A, ALMEIDA-SANTOS S M, et al. Study of defensive behavior of a venomous snake as a new approach to understand snakebite[J]. Scientific Reports, 2024, 14: 10230. DOI: 10.1038/s41598-024-59416-6. （该文已撤稿） 
+9. 爸妈觉得宝宝香，青春期孩子不香了——2026 嗅觉奖
+CROY I, FRACKOWIAK T, HUMMEL T, et al. Babies smell wonderful to their parents, teenagers do not: An exploratory questionnaire study on children’s age and personal odor ratings in a Polish sample[J]. Chemosensory Perception, 2017, 10(3): 81-87. DOI: 10.1007/s12078-017-9230-x. 
+10. 埋内裤检测土壤——2026 土壤科学奖
+ BENDER S F, VAN DER HEIJDEN M G A. Assessing soil health with underpants[J]. Science, 2025, 387(6737): 936. DOI: 10.1126/science.adw0030. 
+11. 有钱人更爱拿小孩子糖——2026 经济学奖
+PIFF P K, STANCATO D M, CÔTÉ S, et al. Higher social class predicts increased unethical behavior[J]. Proceedings of the National Academy of Sciences of the United States of America, 2012, 109(11): 4086-4091. DOI: 10.1073/pnas.1118373109.

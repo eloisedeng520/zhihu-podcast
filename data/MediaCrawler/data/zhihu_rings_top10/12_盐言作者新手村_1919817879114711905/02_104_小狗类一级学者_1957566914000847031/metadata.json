@@ -1,0 +1,64 @@
+{
+  "circle_id": "1919817879114711905",
+  "circle_name": "盐言作者新手村",
+  "circle_url": "https://www.zhihu.com/ring/host/1919817879114711905",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1957566914000847031",
+  "post_url": "https://www.zhihu.com/pin/1957566914000847031?native=0",
+  "title": "分享知乎短篇创作技巧\n今天想来讲一讲我的创作思路，这里有五张图片。\n\n第一张，是我发布的作品中数据较好的几个问题，我把它收集起来，然后分类：分它的吸引点是哪里？",
+  "author": "小狗类一级学者",
+  "author_id": "2c5801cf817c1cd182d0a471200b98b0",
+  "favorite_count": 104,
+  "like_count": 115,
+  "comment_count": 45,
+  "created": 1759500487,
+  "updated": 1760410412,
+  "is_essence": true,
+  "image_count": 5,
+  "downloaded_image_count": 5,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-4ba0de3287139b987415175f08277311_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 293230
+    },
+    {
+      "index": 2,
+      "original_url": "https://pica.zhimg.com/50/v2-7c12c751982d2a95e6708a9da1c45b26_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 177264
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-74353a362deca502c5e53659414bdae3_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 264899
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/50/v2-362e5dbb0cbedb1f20e34982c0b29a6a_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 305007
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/50/v2-f6a136dcead90f5c89f9382c986e293e_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 380333
+    }
+  ],
+  "fetched_at": "2026-09-10T18:11:09.333Z"
+}

@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938699039676818860",
+  "circle_name": "大模型全栈",
+  "circle_url": "https://www.zhihu.com/ring/host/1938699039676818860",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2019775422892634978",
+  "post_url": "https://www.zhihu.com/pin/2019775422892634978?native=0",
+  "title": "2 小时从零训一个 26M 参数的 GPT，minimind 把完整流程跑通了\nminimind，42.7k 星，目标是让你用最低成本完整走一遍 LLM 训练全",
+  "author": "安小强",
+  "author_id": "12f467db6e420803a16c32e873bcdc8d",
+  "favorite_count": 2725,
+  "like_count": 740,
+  "comment_count": 28,
+  "created": 1774332092,
+  "updated": 1774332092,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-744e9d56bb035d4034389667efc9eab9.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 236509
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-b5548ac76e80f5db4314419aefd62597.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 403649
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-c6b7d5c7a1a82bfd50d60068a3597eae.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 121355
+    }
+  ],
+  "fetched_at": "2026-09-10T18:27:09.359Z"
+}

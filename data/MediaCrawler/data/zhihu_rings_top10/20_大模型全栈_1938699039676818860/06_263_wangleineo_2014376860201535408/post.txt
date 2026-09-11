@@ -1,0 +1,16 @@
+周末Karpathy又整个活：autoresearch
+Karpathy的Autoresearch简单来说，就是一个train.py脚本+ralph loop，做成了一个简化版本的AlphaEvolve：链接 
+
+关于AlphaEvolve：谷歌发布 AlphaEvolve，这一工具如何改变算法优化和编程领域的未来？ 
+
+用一个Md文档作为行为手册驱动LLM，让它不断优化train.py里面的各种可变项：模型架构、optimizer、超参数、循环、batch size、模型大小等等。优化完成以后跑五分钟就能看结果，看看是loss是变好还是变坏？系统是更简单了还是更复杂了？思考以后调整再进入下一轮，无限循环下去。
+
+Karpathy后来又补充了一条推文，想让这个单机版的AI研究员联网讨论，不只是模拟一个PHD，而是一个学术社区。这样autoresearch就可以探索不同方向，互相碰撞想法。它认为Github不太合适这个场景，因为Git有一个主分支的概念，而研究探索可能是发散的。
+
+我也有个想法：应该给每个autoresearch扩展一个arxiv工具，让它可以从论文库里面检索想法，说不定有篇遗珠论文就开启一个新的研究方向了呢。
+
+EDIT：Alphaxiv反应太快了，立即推出了一个查询论文的Skill：链接 ，不过还是先要用检索工具查到论文号。
+
+意见领袖就是有影响力，这个Repo刚一天就有上万星了。希望它能带来很多研究突破，但是，在小模型上跑出的结论能不能运用到大模型，是个问题。我猜OpenAI内部，也有个类似的大规模autoresearch在跑，就看巨头版和民间的集群化版本哪个更厉害了。
+
+#AI技术 #大模型训练 #Andrej Karpathy #开源

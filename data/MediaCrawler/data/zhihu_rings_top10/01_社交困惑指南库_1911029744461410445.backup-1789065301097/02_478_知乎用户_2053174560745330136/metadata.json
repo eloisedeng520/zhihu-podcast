@@ -1,0 +1,32 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2053174560745330136",
+  "post_url": "https://www.zhihu.com/pin/2053174560745330136?native=0",
+  "title": "半生感悟，一语道破人性！\n1、翻脸是解决人际矛盾的最佳方式；\n\n2、普通人的一生：盛世之牛马，乱世之炮灰。安平榨其身，战时用其命；\n\n3、每个人都会死去，大家都",
+  "author": "知乎用户",
+  "author_id": null,
+  "favorite_count": 478,
+  "like_count": 249,
+  "comment_count": 11,
+  "created": 1782294985,
+  "updated": 1782294985,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-f41a93a5a49513b7c30841187e334460_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 250998
+    }
+  ],
+  "fetched_at": "2026-09-10T15:51:13.563Z"
+}

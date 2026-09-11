@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938751952545644712",
+  "circle_name": "女生情感研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1938751952545644712",
+  "rank": 3,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "2008271776279458988",
+  "post_url": "https://www.zhihu.com/pin/2008271776279458988?native=0",
+  "title": "如何理解女生嫁出去了就没有家了？这句话！\n女生嫁出去就没有家了？最近不少女生都在说这句话！觉得有点不可思议！但是想了一下，这一切都是在为自己失败的婚姻家庭找借口",
+  "author": "紫韵",
+  "author_id": "6c19c8fbee15480345c96c251bf8bec0",
+  "favorite_count": 6,
+  "like_count": 5,
+  "comment_count": 14,
+  "created": 1771590422,
+  "updated": 1771590422,
+  "is_essence": true,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-c4ad02107a71750da00597d601eef53b.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 120017
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-ddd858e9b5c190383787b11896a7c658.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 150262
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-2c2c5c1e16b1f161c565ccdf782e6db2.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 148589
+    }
+  ],
+  "fetched_at": "2026-09-10T18:30:30.357Z"
+}

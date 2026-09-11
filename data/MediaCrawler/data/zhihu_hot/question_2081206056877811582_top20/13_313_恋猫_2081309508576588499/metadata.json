@@ -1,0 +1,116 @@
+{
+  "question_id": "2081206056877811582",
+  "question_url": "https://www.zhihu.com/question/2081206056877811582",
+  "question_title": "如何评价苹果折叠屏手机 iPhone Duo？国行售价 15999 元起值得入手吗？",
+  "rank": 13,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081309508576588499",
+  "answer_url": "https://www.zhihu.com/question/2081206056877811582/answer/2081309508576588499",
+  "author": "恋猫",
+  "voteup_count": 313,
+  "comment_count": 63,
+  "created_time": 1789002855,
+  "updated_time": 1789002855,
+  "is_collapsed": false,
+  "image_count": 12,
+  "downloaded_image_count": 12,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b01b659e46303f11c8029fcad6be27e9_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69075
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-7a50fc1fd38f35d9a29f6d1376db875a_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 73914
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-1034e94f08aab334deba58fde5f8f52f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 92392
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic1.zhimg.com/v2-493a677d028391d39d3a2978f152f4c0_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 18501
+    },
+    {
+      "index": 5,
+      "original_url": "https://pic1.zhimg.com/v2-dc328427c324fda8993b3ae15c95985f_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 41122
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/v2-27ebc76d888040213af1319761e27b58_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 29845
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/v2-52e736f2a36c00be690162b339491426_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 18421
+    },
+    {
+      "index": 8,
+      "original_url": "https://pica.zhimg.com/50/v2-a4e5ff86da3033dc16331426af34107b_720w.gif?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "008.gif",
+      "content_type": "image/gif",
+      "size_bytes": 3292923
+    },
+    {
+      "index": 9,
+      "original_url": "https://pic1.zhimg.com/v2-3c422824e4f15765f3d0bbba62e578a4_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 31589
+    },
+    {
+      "index": 10,
+      "original_url": "https://pica.zhimg.com/50/v2-7489d664541a5aacaf4fe0b8ae05f56c_720w.gif?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "010.gif",
+      "content_type": "image/gif",
+      "size_bytes": 5296235
+    },
+    {
+      "index": 11,
+      "original_url": "https://picx.zhimg.com/v2-0a15853b200e203e9fec5c284308b0b4_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "011.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 27136
+    },
+    {
+      "index": 12,
+      "original_url": "https://pic1.zhimg.com/v2-19b098b6d5985997ede3d29092699a7e_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "012.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 71280
+    }
+  ],
+  "fetched_at": "2026-09-10T12:43:56.197Z"
+}

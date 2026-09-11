@@ -1,0 +1,48 @@
+{
+  "circle_id": "2004574557609145573",
+  "circle_name": "冷知识研究所",
+  "circle_url": "https://www.zhihu.com/ring/host/2004574557609145573",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2053725572820363126",
+  "post_url": "https://www.zhihu.com/pin/2053725572820363126?native=0",
+  "title": "海底最懂团队协作的鱼\n刷到一段海底视频直接被震撼到，整片沙地游过一团黑白条纹的“活地毯”，一开始以为是海蛇群，后来才知道是条纹鳗鲶（沙毛鱼），它的生存智慧，完全",
+  "author": "冰凌",
+  "author_id": "f39c18870604e2531bab79a27a8b4acf",
+  "favorite_count": 16,
+  "like_count": 83,
+  "comment_count": 17,
+  "created": 1782443270,
+  "updated": 1782443270,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-9f1a4c476fd92751926ab21b1269df46.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 298895
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-232f5da19866cb67e5eebcbe5215a056.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 344259
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-268e4af50c2470b9b873ee94aeaac337.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 351903
+    }
+  ],
+  "fetched_at": "2026-09-10T18:29:06.361Z"
+}

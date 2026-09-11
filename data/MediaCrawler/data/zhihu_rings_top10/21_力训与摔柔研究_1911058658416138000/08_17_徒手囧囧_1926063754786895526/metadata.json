@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911058658416138000",
+  "circle_name": "力训与摔柔研究",
+  "circle_url": "https://www.zhihu.com/ring/host/1911058658416138000",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1926063754786895526",
+  "post_url": "https://www.zhihu.com/pin/1926063754786895526?native=0",
+  "title": "肩、腹、手臂到底需不需要单独训练？\n大众健身应以大肌群（胸背臀腿）为主，通过复合多关节动作如俯卧撑、引体向上、深蹲等，可以同时锻炼到肩、腹、手等小肌群。这些动作",
+  "author": "徒手囧囧",
+  "author_id": "d26af408eaee4957eb6d6d8afc9eb9c9",
+  "favorite_count": 17,
+  "like_count": 32,
+  "comment_count": 4,
+  "created": 1751989400,
+  "updated": 1751989400,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/50/v2-7832a0ba52609b5a328db3378958d37d_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 2532680
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic3.zhimg.com/50/v2-23ebef09149c057c18a8b85b49550954_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 2443026
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic4.zhimg.com/50/v2-c8dc63d72516ed09a3c3a21c54b553cb_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 2551521
+    }
+  ],
+  "fetched_at": "2026-09-10T18:28:26.342Z"
+}

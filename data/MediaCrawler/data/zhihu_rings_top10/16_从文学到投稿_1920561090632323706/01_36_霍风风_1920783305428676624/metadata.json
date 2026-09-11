@@ -1,0 +1,56 @@
+{
+  "circle_id": "1920561090632323706",
+  "circle_name": "从文学到投稿",
+  "circle_url": "https://www.zhihu.com/ring/host/1920561090632323706",
+  "rank": 1,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1920783305428676624",
+  "post_url": "https://www.zhihu.com/pin/1920783305428676624?native=0",
+  "title": "《花城》发布“稿费倍增计划”，千字最高2000元位列国内文学杂志第一，各位怎么看？\n这是国内头个官方宣布稿费提升到千字2000元的杂志。 #写小说赚钱吗 #小说",
+  "author": "霍风风",
+  "author_id": "58b9511e921df7e9017dd8a199647fb0",
+  "favorite_count": 36,
+  "like_count": 102,
+  "comment_count": 38,
+  "created": 1750730543,
+  "updated": 1750730543,
+  "is_essence": true,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-6f6ce77a783474965cc4560243694dd8_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 384899
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic4.zhimg.com/50/v2-75f961ad88a1829ab2bc92ee5fa6fde9_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 130159
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/50/v2-81e9a1bbc97411e8bdf196f435a5083c_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 144118
+    },
+    {
+      "index": 4,
+      "original_url": "https://picx.zhimg.com/50/v2-9b9c6d24faf2ddf053831d4b07799af7_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 145958
+    }
+  ],
+  "fetched_at": "2026-09-10T18:22:24.363Z"
+}

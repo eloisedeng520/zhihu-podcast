@@ -1,0 +1,48 @@
+{
+  "circle_id": "1911029744461410445",
+  "circle_name": "社交困惑指南库",
+  "circle_url": "https://www.zhihu.com/ring/host/1911029744461410445",
+  "rank": 9,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1992191954306499565",
+  "post_url": "https://www.zhihu.com/pin/1992191954306499565?native=0",
+  "title": "社会潜规则\n1.男女之间有肢体接触，关系很容易变得不一样。\n2.刚认识不久就出去旅行，也就基本默认了晚上住一起。\n3.嘴巴甜的女人都不简单，话少的男人，多数不好",
+  "author": "提笔忆江湖",
+  "author_id": "f7d80248118ac7b708c9db40ca605c9e",
+  "favorite_count": 3929,
+  "like_count": 2809,
+  "comment_count": 168,
+  "created": 1767755643,
+  "updated": 1767755643,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-fab895efa43d570501ad7bbca6762130.png",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 1043191
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-13942db7399e89ec037f55a02429ff83.png",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 715305
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-0b0ba580f38c78b54d19e3385d8213e3.jpeg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 78693
+    }
+  ],
+  "fetched_at": "2026-09-10T18:34:51.566Z"
+}

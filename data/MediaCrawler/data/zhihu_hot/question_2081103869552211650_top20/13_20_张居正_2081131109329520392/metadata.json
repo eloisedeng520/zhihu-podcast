@@ -1,0 +1,28 @@
+{
+  "question_id": "2081103869552211650",
+  "question_url": "https://www.zhihu.com/question/2081103869552211650",
+  "question_title": "维密一员工称请假陪患癌母亲做手术遭拒，提出辞职领导却马上批准，如何看待此事？遇到公司拒假该怎么办？",
+  "rank": 13,
+  "ranking_metric": "voteup_count",
+  "answer_id": "2081131109329520392",
+  "answer_url": "https://www.zhihu.com/question/2081103869552211650/answer/2081131109329520392",
+  "author": "张居正",
+  "voteup_count": 20,
+  "comment_count": 12,
+  "created_time": 1788960322,
+  "updated_time": 1789004400,
+  "is_collapsed": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-6c5e219b7e71f78db325ba455fb46467_r.jpg?source=1def8aca",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 1513880
+    }
+  ],
+  "fetched_at": "2026-09-10T12:48:09.347Z"
+}

@@ -1,0 +1,56 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 7,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1966869721665209006",
+  "post_url": "https://www.zhihu.com/pin/1966869721665209006?native=0",
+  "title": "一个无损剪辑的宝藏工具\n今天摸鱼时翻到一个超香的开源项目——losslesscut，居然已经有34.2k⭐了！它号称是无损音视频编辑的瑞士军刀，用FFmpeg做",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 475,
+  "like_count": 110,
+  "comment_count": 12,
+  "created": 1761718386,
+  "updated": 1761718386,
+  "is_essence": false,
+  "image_count": 4,
+  "downloaded_image_count": 4,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic3.zhimg.com/50/v2-876a496bdf4b4cf77384b96f0cb98d98_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 436418
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic2.zhimg.com/50/v2-ecb4bf1b6006fbfa4b3803dc99e0b0ef_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 1090844
+    },
+    {
+      "index": 3,
+      "original_url": "https://pic3.zhimg.com/50/v2-89e39ba03bc7eb22d819b0263d747f96_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 393549
+    },
+    {
+      "index": 4,
+      "original_url": "https://pic4.zhimg.com/50/v2-b73d11d28956dee2299995db0563c567_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.png",
+      "content_type": "image/png",
+      "size_bytes": 3680343
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

@@ -1,0 +1,32 @@
+{
+  "circle_id": "1871220585780101120",
+  "circle_name": "前端工程师那点事",
+  "circle_url": "https://www.zhihu.com/ring/host/1871220585780101120",
+  "rank": 2,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2059642796215113671",
+  "post_url": "https://www.zhihu.com/pin/2059642796215113671?native=0",
+  "title": "离谱了兄弟们，前端接私活的真要颤抖了。这玩意儿真有人做出来了！\nGitHub 刚杀出一个神仙项目 ai-website-cloner-template。它不搞虚",
+  "author": "深杯酒满",
+  "author_id": "e8b9070fe801241bb2cc3e5e8556e6bf",
+  "favorite_count": 1798,
+  "like_count": 403,
+  "comment_count": 38,
+  "created": 1783837112,
+  "updated": 1783837112,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-00dcc833683e9a7d0fd9aeb764e52326.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 251707
+    }
+  ],
+  "fetched_at": "2026-09-10T18:25:35.351Z"
+}

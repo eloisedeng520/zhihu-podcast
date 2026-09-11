@@ -1,0 +1,96 @@
+答案只有一个：假吃+反复催吐导致钾大量流失，引起恶性心律失常，最后停搏致死。
+所有搞大胃王吃播的人，都在用生命换流量，哪怕看起来很健康。
+大胃王主播无非两类，一类越吃越胖，粉丝都在蹲大结局，比如良子。
+另一类呢，狂吃不胖，身材苗条，主打一个反差，就是莹莹。
+顿顿大鱼大肉，但身材瘦小到堪称营养不良：
+
+食物是有热量的，身体是讲科学的。
+你想当大胃王的同时又保持身材，要么学橙飞，猛吃猛练，闲着没事就跑个马拉松。
+要么就得像莹莹这样，镜头前狂吃，镜头后催吐。
+至于为什么催吐会低血钾，这个过程还蛮复杂的。
+很多人会下意识地以为是胃出了问题，但真正出BUG的是腰子。
+容我细细说来。
+
+首先你得知道，人在催吐的时候，不是光吐出了食物，其实还有胃液。
+胃液呢，主要是水、氢离子（H⁺）、氯离子（Cl⁻）、钠离子（Na⁺）——
+以及少量钾离子（K⁺）。
+没错，少量。
+胃液的钾浓度只有10 mmol/L 左右，作为对比，氯离子的浓度是100 mmol/L。
+所以哪怕是反复的呕吐，也不至于流失过多的钾。
+在催吐的过程中，真正大量丢失的，是胃酸。
+胃壁细胞要重新分泌胃酸，但胃酸不是凭空出来的。
+胃壁细胞把体内的氢离子（H⁺）送进胃里，同时把相应的碳酸氢根（HCO₃⁻）送进血液里：
+
+看不懂？
+咱就记住，胃里每多一份酸，血液这边就会暂时多出一份碱。
+均衡，存乎万物之间。
+正常情况下，胃酸向下进入十二指肠后，会和胰液里的碳酸氢根（HCO₃⁻）发生中和。
+这账就平了。
+但问题是，吃播网红反复催吐，本该去跑去十二指肠平账的胃酸，进马桶里了。
+身体里的碱越堆越多，就变成了「代谢性碱中毒」。
+按理来说，体内出现了过多的碳酸氢根（HCO₃⁻），肾脏加加班，也就排出去了。
+但是呢，腰子上工也得有工作环境啊。
+这个环境，有两个要求。
+第一，要有足够的循环血容量，也就是体内不能缺水。
+第二，要有足够的氯离子（Cl⁻）。
+肾脏内有一种专门的细胞，负责把碳酸氢根（HCO₃⁻）送到尿液里，这个过程需要氯离子（Cl⁻）参与：
+
+问题又来了，水和氯离子（Cl⁻），被吐出去了啊！在马桶里呢！
+巧妇难为无米之炊，肾脏的这套交换机制近乎停摆。
+碳酸氢根（HCO₃⁻）在体内蓄积，代谢性碱中毒维持住了。
+因此，临床上也把这种碱中毒，叫做「氯反应性代谢性碱中毒」，Chloride-responsive metabolic alkalosis。
+这还没完。
+刚刚说了，人体在大量失水的时候，血容量会下降。
+肾脏在这个时候，会以为人在大量失血，随即启动另外一套机制，叫做肾素—血管紧张素—醛固酮系统。
+简称RAAS。
+RAAS的目的只有一个，保水、保钠，从而保住血压。
+
+钠离子（Na⁺）能够提高细胞外液的渗透压。
+水为了维持渗透平衡，也会被一起保留下来。
+那猜猜是谁被踢走了呢？
+我们的钾离子（K⁺）同志。
+RAAS释放了大量的醛固酮，它作用于肾脏远端肾小管和集合管的主细胞，让两个过程变得活跃。
+一是把尿液里的钠离子（Na⁺）吸收回来。
+二是为了平衡，把钾离子（K⁺）扔到尿里。
+
+钠保住了，水保住了，钾尿出去了。
+这就是「肾性失钾」。
+于是乎，一个恶性链条在催吐网红身上诞生了：
+催吐——丢胃酸（HCL）、丢水——低CL、血容量下降、代谢碱中毒——RAAS——钾大量被尿出体外。
+而心肌细胞每一次跳动，都依赖钠、钾、钙在细胞膜两侧流动。
+钾离子（K⁺）参与心肌细胞的复极，也就是每次收缩后恢复电状态、准备下一次跳动：
+
+血钾过低时，心肌细胞的电稳定性会变差，高速、杂乱地抖动。
+这时候的心脏，是泵不出血的。
+大脑缺血，人就猝死了。
+正常人的血钾，是3.5～5.0 mmol/L。
+而莹莹生前只有2.3，属于重度低钾，极度接近2这条高危红线。
+面对这个水平的血钾，医生想给她补钾，也有严格的浓度和速度限制。
+毕竟一下子注射大量氯化钾也能引起心脏骤停，现在的安乐死就是这么干的……
+慢慢补钾这个过程中，依旧是心脏电活动失常的窗口期。
+发生猝死，一点也不意外。
+
+评论区有人问，吃香蕉/补液盐III/电解质水有没有用。
+针对一般的胃肠不适产生的呕吐、腹泻，及时补充电解质稳住身体，及时就医解决病因，是有用的。
+而吃播网红最大的症结，是流量和金钱，治不好的。
+无论是极端减肥，还是大胃王网红，催吐这条路，还是算了吧。
+有钱赚，更要有命花。
+以上
+
+参考文献：
+催吐、清除行为为什么会造成低钾：
+PUCKETT L. Renal and electrolyte complications in eating disorders: a comprehensive review[J]. Journal of Eating Disorders, 2023, 11(1): 26. DOI:10.1186/s40337-023-00751-w.
+反复催吐引起严重并发症：
+GIBSON D, STERRETT K, NEMANI S, et al. The medical complications of purging behaviours associated with eating disorders[J]. European Eating Disorders Review, 2025, 33(5): 853-863. DOI:10.1002/erv.3178.
+催吐导致代谢性碱中毒+低钾：
+MEHLER P S, WALSH K. Electrolyte and acid-base abnormalities associated with purging behaviors[J]. International Journal of Eating Disorders, 2016, 49(3): 311-318. DOI:10.1002/eat.22503.
+胃液里离子浓度：
+DO C, EVANS G J, DEAGUERO J, et al. Dysnatremia in gastrointestinal disorders[J]. Frontiers in Medicine, 2022, 9: 892265. DOI:10.3389/fmed.2022.892265.
+胃酸碱潮：
+NIV Y, FRASER G M. The alkaline tide phenomenon[J]. Journal of Clinical Gastroenterology, 2002, 35(1): 5-8. DOI:10.1097/00004836-200207000-00003.
+呕吐后的代谢性碱中毒：
+DO C, VASQUEZ P C, SOLEIMANI M. Metabolic alkalosis pathogenesis, diagnosis, and treatment: Core Curriculum 2022[J]. American Journal of Kidney Diseases, 2022, 80(4): 536-551. DOI:10.1053/j.ajkd.2021.12.016.
+醛固酮的作用：
+WEI K Y, GRITTER M, VOGT L, et al. Dietary potassium and the kidney: lifesaving physiology[J]. Clinical Kidney Journal, 2020, 13(6): 952-968. DOI:10.1093/ckj/sfaa157.
+低钾与心律失常、猝死：
+SKOGESTAD J, ARONSEN J M. Hypokalemia-induced arrhythmias and heart failure: new insights and implications for therapy[J]. Frontiers in Physiology, 2018, 9: 1500. DOI:10.3389/fphys.2018.01500.

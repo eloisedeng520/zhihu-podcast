@@ -2,9 +2,10 @@ export type Stage = "fetching" | "analyzing" | "writing" | "reviewing" | "synthe
 export type Paragraph = { id: string; text: string };
 export type Answer = { id: string; title: string; author: string; url: string; paragraphs: Paragraph[]; fetchedAt: string; incomplete?: boolean };
 export type KnowledgeCategory = "hot" | "columns" | "rings";
-export type KnowledgeItem = { id: string; title: string; description: string; labels: string[]; category?: KnowledgeCategory; author?: string; sourceName?: string; metric?: number };
+export type KnowledgeItem = { id: string; title: string; description: string; labels: string[]; category?: KnowledgeCategory; author?: string; sourceName?: string; metric?: number; collectionId?:string; collectionRank?:number; iconPath?:string };
+export type KnowledgeCollection = {id:string;name:string;rank:number;iconPath?:string;items:KnowledgeItem[]};
 export type Outline = { thesis: string; themes: { title: string; summary: string; sourceIds: string[] }[]; limitations: string[] };
-export type Segment = { id: string; speaker: "host" | "guest"; chapter: string; text: string; kind: "paraphrase" | "quote" | "transition"; sourceIds: string[]; duration?: number; audioKey?: string };
+export type Segment = { id: string; speaker: "host" | "guest"; chapter: string; text: string; kind: "paraphrase" | "quote" | "transition"; sourceIds: string[]; duration?: number; audioKey?: string; audioReady?: boolean };
 export type Episode = {
   id: string; answerId: string; minutes: 3 | 8; stage: Stage; status: "pending" | "working" | "failed" | "ready";
   title: string; createdAt: string; updatedAt: string; source?: Answer; outline?: Outline; segments: Segment[];
@@ -24,6 +25,16 @@ export function filterKnowledgeItems(items: KnowledgeItem[], query: string): Kno
 }
 export function filterKnowledgeCategory(items:KnowledgeItem[],category:KnowledgeCategory):KnowledgeItem[]{
   return items.filter(item=>(item.category||"hot")===category);
+}
+export function groupKnowledgeCollections(items:KnowledgeItem[],category:"columns"|"rings"="rings"):KnowledgeCollection[]{
+  const groups=new Map<string,KnowledgeCollection>();
+  for(const item of items){
+    if(item.category!==category||!item.sourceName)continue;
+    const id=item.collectionId||`${category}:${item.sourceName}`;
+    const group=groups.get(id)||{id,name:item.sourceName,rank:item.collectionRank||999,iconPath:item.iconPath,items:[]};
+    group.iconPath||=item.iconPath;group.items.push(item);groups.set(id,group);
+  }
+  return [...groups.values()].sort((a,b)=>a.rank-b.rank||a.name.localeCompare(b.name,"zh-CN"));
 }
 export type PlaybackRate = 0.75 | 1 | 1.25 | 1.5 | 2;
 export const playbackRates: PlaybackRate[] = [0.75, 1, 1.25, 1.5, 2];

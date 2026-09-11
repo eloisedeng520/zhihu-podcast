@@ -1,0 +1,32 @@
+{
+  "circle_id": "1913603409447203015",
+  "circle_name": "在废纸上书写",
+  "circle_url": "https://www.zhihu.com/ring/host/1913603409447203015",
+  "rank": 8,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1919672115088586062",
+  "post_url": "https://www.zhihu.com/pin/1919672115088586062?native=0",
+  "title": "17岁的宣战书\n#年少时的事 #你想过怎样的一生 #我与高考的难忘经历\n高三的时候有好多羁绊，很迷，很忙 ，很迷茫。总是纠结于一些人际关系，舍不得，也放不下，做",
+  "author": "舒懿",
+  "author_id": "7f24efc51e336099fa78340efccd635e",
+  "favorite_count": 4,
+  "like_count": 10,
+  "comment_count": 13,
+  "created": 1750466478,
+  "updated": 1750466478,
+  "is_essence": true,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic4.zhimg.com/50/v2-0ed58d6e018dd89fac7d344c27e55c2f_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 434443
+    }
+  ],
+  "fetched_at": "2026-09-10T18:19:03.362Z"
+}

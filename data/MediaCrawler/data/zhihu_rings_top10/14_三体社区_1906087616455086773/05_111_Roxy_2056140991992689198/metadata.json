@@ -1,0 +1,32 @@
+{
+  "circle_id": "1906087616455086773",
+  "circle_name": "三体社区",
+  "circle_url": "https://www.zhihu.com/ring/host/1906087616455086773",
+  "rank": 5,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2056140991992689198",
+  "post_url": "https://www.zhihu.com/pin/2056140991992689198?native=0",
+  "title": "她没扔那杯“废液体”，救了3000人✨\n所有人都叫她扔掉那杯奇怪的液体，但她偏要测试——结果救了3000多条生命...\n\n📍1965年7月，杜邦实验室的意外\n",
+  "author": "Roxy",
+  "author_id": "67892a1ca6d936ab359f38266e82bb34",
+  "favorite_count": 111,
+  "like_count": 203,
+  "comment_count": 22,
+  "created": 1783002258,
+  "updated": 1783002266,
+  "is_essence": false,
+  "image_count": 1,
+  "downloaded_image_count": 1,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://picx.zhimg.com/v2-b313013354adfdd9826e3229d4c29829.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 61700
+    }
+  ],
+  "fetched_at": "2026-09-10T18:17:14.378Z"
+}

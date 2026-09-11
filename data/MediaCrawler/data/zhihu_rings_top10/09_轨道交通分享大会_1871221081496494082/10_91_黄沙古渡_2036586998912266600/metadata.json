@@ -1,0 +1,96 @@
+{
+  "circle_id": "1871221081496494082",
+  "circle_name": "轨道交通分享大会",
+  "circle_url": "https://www.zhihu.com/ring/host/1871221081496494082",
+  "rank": 10,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "2036586998912266600",
+  "post_url": "https://www.zhihu.com/pin/2036586998912266600?native=0",
+  "title": "网友评论法国的地铁\n浙江网友：别嘲笑他们，法国的地铁最早在1900年建成使用。\n\n云南网友：下一句是不是“钱要花在刀刃上，不要搞面子工程”！\n\n辽宁网友：北京故",
+  "author": "黄沙古渡",
+  "author_id": "a159d1699121456b83c7c5b2afe3d7fc",
+  "favorite_count": 91,
+  "like_count": 599,
+  "comment_count": 188,
+  "created": 1778340244,
+  "updated": 1778340244,
+  "is_essence": false,
+  "image_count": 9,
+  "downloaded_image_count": 9,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pica.zhimg.com/v2-1c123945e8b051064438a0b37c86981c.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 204691
+    },
+    {
+      "index": 2,
+      "original_url": "https://picx.zhimg.com/v2-3d5ad16b75ea3cb57c1433b36301c06f.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 236858
+    },
+    {
+      "index": 3,
+      "original_url": "https://pica.zhimg.com/v2-f4f3fbfc521eb01866de9aca07ef0f28.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 270356
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/v2-45bf1da74b7f3d59aa3fe14ba9ad8c87.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 228159
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/v2-2534b3fec858d5dbcb2304f454aa41a2.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 164951
+    },
+    {
+      "index": 6,
+      "original_url": "https://pica.zhimg.com/v2-359ca47ab43a66adbb5643fe1f830171.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 140053
+    },
+    {
+      "index": 7,
+      "original_url": "https://pic1.zhimg.com/v2-90be5d796f15bcb12fd612eeb209760a.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 290938
+    },
+    {
+      "index": 8,
+      "original_url": "https://pic1.zhimg.com/v2-cbf8cf195b80a45097a35f0c8e74c0d7.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "008.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 156877
+    },
+    {
+      "index": 9,
+      "original_url": "https://pica.zhimg.com/v2-a45fe7d2f2fed9819c497573d94ab3e9.jpg?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "009.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 187175
+    }
+  ],
+  "fetched_at": "2026-09-10T18:03:10.340Z"
+}

@@ -1,0 +1,48 @@
+{
+  "circle_id": "1938628133025747745",
+  "circle_name": "独立开发者联盟",
+  "circle_url": "https://www.zhihu.com/ring/host/1938628133025747745",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "hot_supplement",
+  "post_id": "1988624658287850451",
+  "post_url": "https://www.zhihu.com/pin/1988624658287850451?native=0",
+  "title": "在GitHub看到一份一个人公司的作战地图\nindie-hacker-tools-plus，开源，一个很有意思的仓库，它给我的感觉像一张作战地图：如果你只有一个",
+  "author": "小胡小胡",
+  "author_id": "0a502ae26d3ab4fa4ec2ae810af059e8",
+  "favorite_count": 7146,
+  "like_count": 1897,
+  "comment_count": 20,
+  "created": 1766905194,
+  "updated": 1777356349,
+  "is_essence": false,
+  "image_count": 3,
+  "downloaded_image_count": 3,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic1.zhimg.com/v2-53ebdb27e8d2c9878cfa25cba777f898.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "001.png",
+      "content_type": "image/png",
+      "size_bytes": 374719
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/v2-abfb31b5eb7d07709d3b5f06ccc08d1a.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "002.png",
+      "content_type": "image/png",
+      "size_bytes": 265393
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/v2-e564d9f670871181a847aa629cfbe2a8.png?source=e3d01f54",
+      "status": "downloaded",
+      "local_file": "003.png",
+      "content_type": "image/png",
+      "size_bytes": 225818
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:15.194Z"
+}

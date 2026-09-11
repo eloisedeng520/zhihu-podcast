@@ -1,0 +1,80 @@
+{
+  "circle_id": "1910293227921191102",
+  "circle_name": "时尚颜究所",
+  "circle_url": "https://www.zhihu.com/ring/host/1910293227921191102",
+  "rank": 4,
+  "ranking_metric": "favorite_count",
+  "selection_source": "essence",
+  "post_id": "1919681302174602706",
+  "post_url": "https://www.zhihu.com/pin/1919681302174602706?native=0",
+  "title": "中国的独立品牌——北落师门\n钟表界激起涟漪的独立品牌—Fam-al Hut，北落师门。这个品牌诞生于中国重庆。首作 MKI Möbius 有力展现了中国在高精密",
+  "author": "陶叔淘世界",
+  "author_id": "1909b15355bd5951e92b5464c74bfc4c",
+  "favorite_count": 14,
+  "like_count": 35,
+  "comment_count": 9,
+  "created": 1750467688,
+  "updated": 1750467688,
+  "is_essence": true,
+  "image_count": 7,
+  "downloaded_image_count": 7,
+  "images": [
+    {
+      "index": 1,
+      "original_url": "https://pic2.zhimg.com/50/v2-e2d53e3d39bf663edc4b4c310acc93cd_r.jpg",
+      "status": "downloaded",
+      "local_file": "001.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 69040
+    },
+    {
+      "index": 2,
+      "original_url": "https://pic1.zhimg.com/50/v2-c3a85daaa165b627fdf023e95ebcc5a0_r.jpg",
+      "status": "downloaded",
+      "local_file": "002.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 42929
+    },
+    {
+      "index": 3,
+      "original_url": "https://picx.zhimg.com/50/v2-1bf25ac74782ac55ed889c6feac02813_r.jpg",
+      "status": "downloaded",
+      "local_file": "003.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 40040
+    },
+    {
+      "index": 4,
+      "original_url": "https://pica.zhimg.com/50/v2-f17e6a99033f2d9d4a6e3e34952931ea_r.jpg",
+      "status": "downloaded",
+      "local_file": "004.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 55858
+    },
+    {
+      "index": 5,
+      "original_url": "https://picx.zhimg.com/50/v2-c264f2404ed3fae63b49cf62d9859c7b_r.jpg",
+      "status": "downloaded",
+      "local_file": "005.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 106340
+    },
+    {
+      "index": 6,
+      "original_url": "https://picx.zhimg.com/50/v2-d57157fd7327948324c33e6458e3e00f_r.jpg",
+      "status": "downloaded",
+      "local_file": "006.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 84596
+    },
+    {
+      "index": 7,
+      "original_url": "https://picx.zhimg.com/50/v2-83d54c4fb4d1e630524142662b96f731_r.jpg",
+      "status": "downloaded",
+      "local_file": "007.jpg",
+      "content_type": "image/jpeg",
+      "size_bytes": 76296
+    }
+  ],
+  "fetched_at": "2026-09-10T17:48:32.182Z"
+}
