@@ -78,6 +78,12 @@ test('多观点脚本不能把一位答主的话归到另一位答主名下',()=
   const invalid=structuredClone(valid);invalid.segments[1].sourceIds=['a2p1'];
   assert.throws(()=>validateScript(invalid,source),/其他答主/);
 });
+test('多观点脚本允许没有相关看法的候选答主不发言',()=>{
+  const source={id:'q',title:'问题',author:'3 位答主',url:'',fetchedAt:'',contributors:[{id:'a',name:'甲',url:''},{id:'b',name:'乙',url:''},{id:'c',name:'丙',url:''}],paragraphs:[{id:'a1p1',text:original.repeat(4)},{id:'a2p1',text:original.repeat(4)},{id:'a3p1',text:'丙只复述问题，没有形成相关观点。'.repeat(12)}]};
+  const script={title:'圆桌',segments:Array.from({length:6},(_,i)=>i%2?{speaker:'guest',speakerName:i===1?'甲':'乙',chapter:'讨论',kind:'paraphrase',text:'转述有原文支持的观点',sourceIds:[i===1?'a1p1':'a2p1']}:{speaker:'host',speakerName:'主持人',chapter:'讨论',kind:'transition',text:'继续来看有明确依据的观点',sourceIds:[]})};
+  const result=validateScript(script,source);
+  assert.deepEqual([...new Set(result.segments.filter(s=>s.speaker==='guest').map(s=>s.speakerName))],['甲','乙']);
+});
 test('圈子快照保留圈子 ID、圈子名和帖子自身标题',()=>{
   const rings=localKnowledgeItems().filter(item=>item.category==='rings');
   assert.ok(rings.length>0);
