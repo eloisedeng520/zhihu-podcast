@@ -62,3 +62,32 @@
 .answer-chat .chat-hint,.answer-chat .chat-play{display:none}
 .source-sheet .notice{display:none}
 .chapter-bubbles{display:grid;position:relative;height:28px;margin:0 0 2px;gap:4px;align-items:start}.chapter-bubbles button{min-width:0;max-width:100%;overflow:hidden;border:1px solid #e0cdbb;background:#fffaf2;color:#9d6b4a;border-radius:999px;padding:4px 7px;font-size:8px;line-height:1.2;white-space:nowrap;text-overflow:ellipsis;box-shadow:0 2px 6px #6d523016;cursor:pointer}.chapter-bubbles button::after{content:"";position:absolute;left:50%;top:100%;height:6px;border-left:1px solid #d8b99f}.chapter-bubbles button.active{background:#b56f47;border-color:#b56f47;color:#fff}.mode-option b{font-size:14px;margin:0 0 7px}.mode-option small{line-height:1.7}.mode-option strong{font-size:14px;margin-top:14px;color:#a2694c}
+@keyframes record-spin{to{transform:rotate(360deg)}}
+.episode-art-record{cursor:pointer;border:0;padding:0}
+.episode-art.is-playing .episode-art-record{animation:record-spin 8s linear infinite}
+.episode-art.poster-transcript-mode{display:none}
+.poster-caption-window{aspect-ratio:1/1;width:100%;background:#f4ecdf;border-radius:9px;overflow:hidden;padding:28px 22px;color:#615b4f;display:flex;flex-direction:column;justify-content:center;gap:14px;scroll-behavior:smooth}
+.poster-caption-window p{margin:0;max-height:0;overflow:hidden;opacity:.25;font-size:13px;line-height:1.8;transition:all .35s ease}
+.poster-caption-window p.active{max-height:180px;opacity:1;color:#3e4939;font-weight:600}
+/* 播放页歌词模式：圆盘封面切换为同尺寸的沉浸式字幕区 */
+.episode-art.poster-transcript-mode + .poster-caption-window{display:flex}
+.poster-caption-window{background:linear-gradient(180deg,#302425,#1d1718);color:#f4eee8;border-radius:9px;justify-content:center;text-align:center;position:relative}
+.poster-caption-window p{font-size:15px;line-height:1.8;color:#aaa0a0;transform:scale(.94);transition:transform .45s,color .45s,opacity .45s}
+.poster-caption-window p.active{color:#fff;transform:scale(1.06);text-shadow:0 1px 12px #000;max-height:220px}
+.lyrics-page>h1,.lyrics-page>.player-author,.lyrics-page>.speaker-pills,.lyrics-page>.chapter-bubbles{display:none}
+.lyrics-page .poster-caption-window{margin-top:0;min-height:clamp(360px,62vh,680px);aspect-ratio:auto;border-radius:0}
+.lyrics-page .poster-caption-window p{max-height:none;opacity:.28;display:block}
+.lyrics-page .poster-caption-window p.active{opacity:1}
+.lyrics-page .poster-caption-window{margin:0 0 18px}
+/* 字幕模式与播放页保持同色背景，使用浅灰字幕 */
+.lyrics-page .poster-caption-window{background:#fcf8ef;color:#a7a095}
+.lyrics-page .poster-caption-window p{color:#b3aca1;text-shadow:none}
+.lyrics-page .poster-caption-window p.active{color:#81796d;text-shadow:none}
+.lyrics-page .poster-caption-window{height:clamp(260px,42vw,420px);min-height:0;overflow:hidden}
+.lyrics-page .poster-caption-window p{max-height:90px;opacity:.3;display:block;overflow:hidden}
+.lyrics-page .poster-caption-window p.active{max-height:180px;opacity:1}
+/* 字幕段落完整展示，不截断单段文字 */
+.lyrics-page .poster-caption-window p{max-height:none;overflow:visible;white-space:normal}
+.lyrics-page .poster-caption-window p.active{max-height:none}
+/* 字幕保持常规字重，不使用粗体 */
+.poster-caption-window p,.poster-caption-window p.active{font-weight:400}
