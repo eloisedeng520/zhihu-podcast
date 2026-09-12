@@ -1,7 +1,7 @@
 import type { Episode } from "../lib/podcast.ts";
 import { PublicError,validateOutline,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
 import { type ProviderEnv,providerStatus,fetchKnowledge,fetchAnswer,analyze,write,review,synthesize,transcribeQuestion,answerQuestion } from "./providers.ts";
-import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions } from "./store.ts";
+import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions,listLibrary,upsertLibrary,removeLibrary,type LibraryType } from "./store.ts";
 export type AppEnv = ProviderEnv & {DB:Database;AUDIO:AudioBucket};
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{"Cache-Control":"no-store","X-Content-Type-Options":"nosniff"}});
 const present=(e:Episode)=>({...e,segments:e.segments.map(({audioKey,...s})=>({...s,audioReady:!!audioKey}))});
@@ -58,6 +58,30 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(!env.DB||!env.AUDIO)throw new PublicError("节目存储尚未就绪。",503);
     await initDb(env.DB);
+    const libraryMatch=path.match(/^\/api\/library(?:\/([A-Za-z0-9_-]{1,24})\/([A-Za-z0-9_-]{1,120}))?$/);
+    if(libraryMatch){
+      const owner=await ownerKey(request);
+      const validTypes:LibraryType[]=["favorite","later","history"];
+      if(!libraryMatch[1]){
+        if(request.method!=="GET")throw new PublicError("不支持此操作。",405);
+        const typeParam=new URL(request.url).searchParams.get("type") as LibraryType|null;
+        if(typeParam&&!validTypes.includes(typeParam))throw new PublicError("收藏分类无效。",400);
+        const items=await listLibrary(env.DB,owner,typeParam||undefined);
+        return json({items});
+      }
+      const itemType=libraryMatch[1] as LibraryType,itemId=libraryMatch[2];
+      if(!validTypes.includes(itemType))throw new PublicError("收藏分类无效。",400);
+      if(request.method==="DELETE")return json({deleted:await removeLibrary(env.DB,owner,itemType,itemId)});
+      if(request.method!=="PUT"&&request.method!=="POST")throw new PublicError("不支持此操作。",405);
+      const raw=await request.text();if(raw.length>5000)throw new PublicError("请求过大。",413);
+      let payload:Record<string,unknown>={};if(raw){const body=JSON.parse(raw);if(body&&typeof body.payload==="object"&&body.payload&&!Array.isArray(body.payload))payload=body.payload;}
+      return json({item:await upsertLibrary(env.DB,owner,itemType,itemId,payload)},201);
+    }
+    if(path==="/api/library/questions" && request.method==="GET"){
+      const owner=await ownerKey(request);
+      const rows=await env.DB.prepare("SELECT q.id,q.episode_id,q.position_seconds,q.question_text,q.answer_text,q.source_ids,q.status,q.error_code,q.created_at,q.updated_at,e.payload AS episode_payload FROM episode_questions q LEFT JOIN episodes e ON e.id=q.episode_id WHERE q.owner_key = ? ORDER BY q.created_at DESC LIMIT 500").bind(owner).all<Record<string,unknown>>();
+      return json({questions:rows.results.map(row=>{let episode:any={};try{episode=JSON.parse(String(row.episode_payload||"{}"));}catch{}return {id:row.id,episodeId:row.episode_id,episodeTitle:episode.title||"",positionSeconds:Number(row.position_seconds)||0,questionText:row.question_text,answerText:row.answer_text,sourceIds:JSON.parse(String(row.source_ids||"[]")),status:row.status,errorCode:row.error_code,createdAt:row.created_at,updatedAt:row.updated_at};})});
+    }
     const episodeQuestions=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})\/questions$/);
     if(episodeQuestions){
       const episodeId=episodeQuestions[1],owner=await ownerKey(request),ep=await readEpisode(env.DB,episodeId);if(!ep)throw new PublicError("没有找到这期节目。",404);
