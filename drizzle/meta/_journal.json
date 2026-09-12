@@ -8,6 +8,13 @@
       "when": 1788589173922,
       "tag": "0000_dazzling_wither",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789201146659,
+      "tag": "0001_safe_dragon_lord",
+      "breakpoints": true
     }
   ]
 }

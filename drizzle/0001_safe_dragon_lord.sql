@@ -11,5 +11,6 @@ CREATE TABLE `episode_questions` (
 	`created_at` text NOT NULL,
 	`updated_at` text NOT NULL
 );
-CREATE INDEX `episode_questions_owner_episode_created` ON `episode_questions` (`owner_key`,`episode_id`,`created_at`);
+--> statement-breakpoint
+CREATE INDEX `episode_questions_owner_episode_created` ON `episode_questions` (`owner_key`,`episode_id`,`created_at`);--> statement-breakpoint
 CREATE INDEX `episode_questions_owner_status` ON `episode_questions` (`owner_key`,`status`);
