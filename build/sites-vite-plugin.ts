@@ -26,6 +26,7 @@ export function sites(): Plugin {
     },
     async closeBundle() {
       const outputDirectory = resolve(root, "dist", ".openai");
+      const bundledContentImages = resolve(root, "dist", "client", "data", "content-images");
       const hostingConfig = resolve(root, ".openai", "hosting.json");
       const drizzleSource = resolve(root, "drizzle");
 
@@ -40,6 +41,10 @@ export function sites(): Plugin {
           recursive: true,
         });
       }
+
+      // Article images retain their canonical Zhihu URLs in the content snapshot.
+      // Avoid bundling hundreds of megabytes of duplicate local copies in Sites.
+      await rm(bundledContentImages, { recursive: true, force: true });
     },
   };
 }
