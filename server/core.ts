@@ -63,10 +63,10 @@ export function validateScript(value: unknown, source: Answer): { title: string;
     if (!["host","guest"].includes(String(s.speaker)) || !["quote","paraphrase","transition"].includes(String(s.kind))) throw new PublicError("脚本角色或引用类型错误。", 422);
     if (s.kind === "transition" && s.speaker !== "host") throw new PublicError("讲述人的发言必须有原文依据。", 422);
     const text=str(s.text,600); const sourceIds=refs(s.sourceIds,validIds,s.kind === "transition");
-    const aliases=source.contributors?["顾言","苏禾","周岚","沈砚"]:["林舟"];
+    const aliases=source.contributors?["答者1","答者2","答者3","答者4"]:["答者1"];
     const rawSpeakerName=typeof s.speakerName==="string"?str(s.speakerName,100):undefined;
     const aliasIndex=source.contributors?source.contributors.findIndex((_,i)=>aliases[i]===rawSpeakerName):-1;
-    const speakerName=source.contributors?(aliasIndex>=0?aliases[aliasIndex]:rawSpeakerName):(s.speaker==="guest"?"林舟":undefined);
+    const speakerName=source.contributors?(aliasIndex>=0?aliases[aliasIndex]:rawSpeakerName):(s.speaker==="guest"?"答者1":undefined);
     let voiceIndex:number|undefined;
     if(source.contributors&&s.speaker==="guest"){
       const contributorIndex=aliasIndex>=0?aliasIndex:source.contributors.findIndex(contributor=>contributor.name===rawSpeakerName);

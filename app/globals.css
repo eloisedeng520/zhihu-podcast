@@ -91,3 +91,5 @@
 .lyrics-page .poster-caption-window p.active{max-height:none}
 /* 字幕保持常规字重，不使用粗体 */
 .poster-caption-window p,.poster-caption-window p.active{font-weight:400}
+/* 按住提问下方不再显示回答、章节、文字稿和历史内容 */
+.player-page .voice-question-wrap ~ *{display:none!important}
