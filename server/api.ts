@@ -9,15 +9,25 @@ const validId=(s:string)=>/^[A-Za-z0-9_-]{16,72}$/.test(s);
 async function ownerKey(request:Request){const email=request.headers.get("oai-authenticated-user-email")?.trim().toLowerCase();const anonymous=request.headers.get("X-Anonymous-Id")?.trim();const identity=email&&email.length<=320?`user:${email}`:anonymous&&/^[A-Za-z0-9_-]{16,80}$/.test(anonymous)?`anon:${anonymous}`:null;if(!identity)throw new PublicError("请重新加载页面后再提问。",400);const digest=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(identity));return [...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,"0")).join("");}
 
 export async function advance(env:AppEnv,ep:Episode):Promise<Episode> {
-  if(ep.stage==="fetching") {ep.source=await fetchAnswer(env,ep.answerId);ep.title=ep.source.title;ep.stage="analyzing";}
-  else if(ep.stage==="analyzing") {ep.outline=validateOutline(await analyze(env,ep.source!),ep.source!);ep.stage="writing";}
-  else if(ep.stage==="writing") {const result=validateScript(await write(env,ep.source!,ep.outline!,ep.minutes),ep.source!);ep.title=result.title;ep.segments=result.segments;ep.completedAudio=0;ep.review=undefined;ep.stage="reviewing";}
-  else if(ep.stage==="reviewing") {ep.review=validateReview(await review(env,ep.source!,ep.segments),ep.segments);if(!ep.review.passed)throw new PublicError("有内容未通过原文核对，已暂停。重试将重新编排脚本。",422);ep.stage="synthesizing";}
+  if(ep.stage==="fetching") {ep.source=await fetchAnswer(env,ep.answerId);ep.generationLog??=[];ep.generationLog.push({stage:"fetching",prompt:"读取知乎原文：根据 answerId 获取正文、作者、图片及来源信息。",input:{answerId:ep.answerId},output:ep.source,createdAt:new Date().toISOString()});ep.title=ep.source.title;ep.stage="analyzing";}
+  else if(ep.stage==="analyzing") {
+    let output:unknown; let prompt=""; let input:unknown;
+    try {
+      output=await analyze(env,ep.source!,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"analyzing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});
+      ep.outline=validateOutline(output,ep.source!);ep.stage="writing";
+    } catch(error) {
+      ep.generationLog??=[];
+      ep.generationLog.push({stage:"analyzing",prompt,input:{answerId:ep.answerId,source:ep.source},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});
+      throw error;
+    }
+  }
+  else if(ep.stage==="writing") {let output:unknown;let prompt="";let input:unknown;try{output=await write(env,ep.source!,ep.outline!,ep.minutes,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});const result=validateScript(output,ep.source!);ep.title=result.title;ep.segments=result.segments;ep.completedAudio=0;ep.review=undefined;ep.stage="reviewing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt,input:input??{source:ep.source,outline:ep.outline,minutes:ep.minutes},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
+  else if(ep.stage==="reviewing") {let output:unknown;output=await review(env,ep.source!,ep.segments,(o,p,i)=>{ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});ep.review=validateReview(output,ep.segments);if(!ep.review.passed)throw new PublicError("有内容未通过原文核对，已暂停。重试将重新编排脚本。",422);ep.stage="synthesizing";}
   else if(ep.stage==="synthesizing") {
     if(!providerStatus(env).audioReady)return ep;
     if(!ep.review?.passed)throw new PublicError("节目尚未通过核对，无法合成。",422);
     const s=ep.segments.find(s=>!s.audioKey);
-    if(s){const bytes=await synthesize(env,s);const {duration}=wavInfo(bytes);const key=`episodes/${ep.id}/${s.id}.wav`;await env.AUDIO.put(key,bytes,{httpMetadata:{contentType:"audio/wav"}});s.duration=duration;s.audioKey=key;ep.completedAudio=ep.segments.filter(s=>s.audioKey).length;}
+    if(s){const bytes=await synthesize(env,s);const {duration}=wavInfo(bytes);const key=`episodes/${ep.id}/${s.id}.wav`;await env.AUDIO.put(key,bytes,{httpMetadata:{contentType:"audio/wav"}});ep.generationLog??=[];ep.generationLog.push({stage:"synthesizing",prompt:"AI 主播语音合成输入",input:{segmentId:s.id,speaker:s.speaker,speakerName:s.speakerName,voiceIndex:s.voiceIndex,text:s.text},output:{audioKey:key,duration},createdAt:new Date().toISOString()});s.duration=duration;s.audioKey=key;ep.completedAudio=ep.segments.filter(s=>s.audioKey).length;}
     else {
       const parts:Uint8Array[]=[];let total=0;
       for(const segment of ep.segments){const part=await env.AUDIO.get(segment.audioKey!);if(!part)throw new PublicError("已保存的音频片段缺失，请联系维护者。",502);total+=part.size;if(total>40_000_000)throw new PublicError("整期音频超过当前大小限制。",422);parts.push(new Uint8Array(await part.arrayBuffer()));}

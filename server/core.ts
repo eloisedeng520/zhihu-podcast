@@ -63,10 +63,13 @@ export function validateScript(value: unknown, source: Answer): { title: string;
     if (!["host","guest"].includes(String(s.speaker)) || !["quote","paraphrase","transition"].includes(String(s.kind))) throw new PublicError("脚本角色或引用类型错误。", 422);
     if (s.kind === "transition" && s.speaker !== "host") throw new PublicError("讲述人的发言必须有原文依据。", 422);
     const text=str(s.text,600); const sourceIds=refs(s.sourceIds,validIds,s.kind === "transition");
-    const speakerName=typeof s.speakerName==="string"?str(s.speakerName,100):undefined;
+    const aliases=source.contributors?["顾言","苏禾","周岚","沈砚"]:["林舟"];
+    const rawSpeakerName=typeof s.speakerName==="string"?str(s.speakerName,100):undefined;
+    const aliasIndex=source.contributors?source.contributors.findIndex((_,i)=>aliases[i]===rawSpeakerName):-1;
+    const speakerName=source.contributors?(aliasIndex>=0?aliases[aliasIndex]:rawSpeakerName):(s.speaker==="guest"?"林舟":undefined);
     let voiceIndex:number|undefined;
     if(source.contributors&&s.speaker==="guest"){
-      const contributorIndex=source.contributors.findIndex(contributor=>contributor.name===speakerName);
+      const contributorIndex=aliasIndex>=0?aliasIndex:source.contributors.findIndex(contributor=>contributor.name===rawSpeakerName);
       if(contributorIndex<0)throw new PublicError("多观点脚本缺少有效的答主署名。",422);
       if(sourceIds.some(id=>!id.startsWith(`a${contributorIndex+1}p`)))throw new PublicError("答主观点引用了其他答主的原文。",422);
       voiceIndex=contributorIndex;
