@@ -55,6 +55,10 @@
 @media(max-width:520px){.app-header{padding-top:calc(14px + env(safe-area-inset-top));height:calc(72px + env(safe-area-inset-top))}}
 @media(max-width:370px){.home-hero h1{font-size:32px}.hero-art{right:-42px;top:43px;transform:scale(.9) rotate(-10deg)}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.content-item{position:relative;padding-right:0}
+.favorite-heart{position:absolute;right:0;top:11px;width:32px;min-width:32px;height:32px;padding:0;display:grid;place-items:center;font-size:25px;line-height:32px;font-family:Arial,sans-serif;font-weight:700;transform:none}
+.favorite-heart.active{color:#d45f42;transform:none}
+.library-tabs small{display:none}
 .voice-question-wrap{margin:4px 0 20px;text-align:center}.voice-question-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid #ddc9b8;border-radius:24px;padding:10px 20px;min-height:42px;color:#9b6648;background:#fff8f0;font-size:11px}.voice-question-button.recording{background:#f6dfd2;border-color:#cb704d;color:#a3472d;box-shadow:0 0 0 5px #f5e9df;animation:pulse 1.2s infinite}.voice-error{display:block;color:#b05f43;font-size:9px;margin-top:6px}.question-history{padding-bottom:20px}.question-card{padding:17px 4px;border-bottom:1px solid var(--line)}.question-meta{font-size:9px;color:#a2866f}.question-card h3{font-size:13px;line-height:1.7;margin:7px 0;font-weight:550}.question-card p{font-size:11px;line-height:1.9;color:#706657;background:#f8f2e9;padding:10px;border-radius:8px}.question-actions{display:flex;gap:14px;margin-top:9px}.question-actions button{font-size:9px;color:#a2694c}.answer-player{display:flex;align-items:center;justify-content:center;gap:12px;padding:10px;margin:-8px 0 12px;background:#f5ecdf;border-radius:10px;font-size:10px;color:#886848}.answer-player audio{display:none}.answer-player button{font-size:9px;color:#a2694c}
 .answer-chat{display:flex;flex-direction:column;gap:10px;margin:-4px 0 18px}.chat-bubble{max-width:88%;padding:11px 13px;border-radius:14px;font-size:11px;line-height:1.8}.chat-bubble small{display:block;font-size:9px;color:#9a8878;margin-bottom:4px}.chat-bubble p{margin:0;color:#514b42}.user-bubble{align-self:flex-end;background:#ead9c8;border-bottom-right-radius:4px}.ai-bubble{align-self:flex-start;background:#f5ecdf;border-bottom-left-radius:4px}.error-bubble{background:#f7e6df}.chat-hint{display:block;color:#a2694c;font-size:9px;margin-top:6px}.chat-bubble audio{display:block;width:100%;height:28px;margin-top:7px}.typing-dots{color:#b87958;font-size:9px;letter-spacing:3px}.chat-close{align-self:center;font-size:9px;color:#a2694c;padding:5px 12px}
 /* 回答朗读仅展示文字，不显示音频进度条 */
@@ -93,3 +97,5 @@
 .poster-caption-window p,.poster-caption-window p.active{font-weight:400}
 /* 按住提问下方不再显示回答、章节、文字稿和历史内容 */
 .player-page .voice-question-wrap ~ *{display:none!important}
+.heart-svg{width:19px;height:19px;display:block;color:#b8ab9b;flex:none}
+.favorite-heart.active .heart-svg{color:#d45f42}
