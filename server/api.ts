@@ -94,12 +94,17 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
       const body=JSON.parse(raw);if(!/^[A-Za-z0-9_-]{1,80}$/.test(body.answerId)||![3,8].includes(body.minutes))throw new PublicError("请选择知识内容和节目长度。");
       const key=request.headers.get("Idempotency-Key");if(!key||!/^\w[\w-]{15,70}$/.test(key))throw new PublicError("缺少有效的任务标识。");
       const existing=await readEpisode(env.DB,key);if(existing)return json(present(existing));
-      const count=await env.DB.prepare("SELECT COUNT(*) AS count FROM episodes WHERE created_at > ?").bind(new Date(Date.now()-86400000).toISOString()).first<{count:number}>();
-      if((count?.count||0)>=20)throw new PublicError("今日已创建 20 期节目，请明天再试。",429);
       const now=new Date().toISOString();const ep:Episode={id:key,answerId:body.answerId,minutes:body.minutes,stage:"fetching",status:"pending",title:"新一期节目",createdAt:now,updatedAt:now,segments:[],completedAudio:0};
       await env.DB.prepare("INSERT OR IGNORE INTO episodes (id,payload,created_at) VALUES (?,?,?)").bind(ep.id,JSON.stringify(ep),ep.createdAt).run();return json(present((await readEpisode(env.DB,key))!),201);
     }
     const match=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})(?:\/(advance|retry|audio|delete))?$/);
+    const logMatch=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})\/generation-log$/);
+    if(logMatch&&request.method==="GET"){
+      const episode=await readEpisode(env.DB,logMatch[1]);
+      if(!episode)throw new PublicError("没有找到这期节目。",404);
+      const body=JSON.stringify({episodeId:episode.id,title:episode.title,answerId:episode.answerId,generationLog:episode.generationLog||[]},null,2)+"\n";
+      return new Response(body,{headers:{"Content-Type":"application/json; charset=utf-8","Content-Disposition":`attachment; filename="generation-log-${episode.id}.json"`,"Cache-Control":"no-store","X-Content-Type-Options":"nosniff"}});
+    }
     if(!match)throw new PublicError("没有找到这个接口。",404);
     const [,id,action]=match;let ep=await readEpisode(env.DB,id);if(!ep)throw new PublicError("没有找到这期节目。",404);
     if(!action&&request.method==="GET")return json(present(ep));
