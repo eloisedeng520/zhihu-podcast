@@ -40,6 +40,10 @@ export async function removeLibrary(db:Database,ownerKey:string,itemType:Library
   const r=await db.prepare("DELETE FROM library_items WHERE owner_key = ? AND item_type = ? AND item_id = ?").bind(ownerKey,itemType,itemId).run();
   return r.meta.changes>0;
 }
+export async function readLibrary(db:Database,ownerKey:string,itemType:LibraryType,itemId:string){
+  const row=await db.prepare("SELECT item_type,item_id,payload,created_at,updated_at FROM library_items WHERE owner_key = ? AND item_type = ? AND item_id = ?").bind(ownerKey,itemType,itemId).first<{item_type:LibraryType;item_id:string;payload:string;created_at:string;updated_at:string}>();
+  return row?presentLibrary(row):null;
+}
 export async function readEpisode(db:Database,id:string) {
   const row=await db.prepare("SELECT payload FROM episodes WHERE id = ?").bind(id).first<{payload:string}>();return row?JSON.parse(row.payload) as Episode:null;
 }
