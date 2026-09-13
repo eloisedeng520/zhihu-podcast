@@ -55,6 +55,25 @@ export function validateOutline(value: unknown, source: Answer): Outline {
   if (!Array.isArray(obj.themes) || obj.themes.length < 1 || obj.themes.length > 5 || !Array.isArray(obj.limitations)) throw new PublicError("观点结构不完整，请重试。", 502);
   return {thesis:str(obj.thesis),themes:obj.themes.map(v=>{const t=record(v);return {title:str(t.title,60),summary:str(t.summary,500),sourceIds:refs(t.sourceIds,validIds)};}),limitations:obj.limitations.map(v=>str(v,300)).slice(0,6)};
 }
+export function repairGeneratedQuoteKinds(value: unknown, source: Answer): unknown {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return value;
+  const obj = value as Record<string, unknown>;
+  if (!Array.isArray(obj.segments)) return value;
+  return {
+    ...obj,
+    segments: obj.segments.map(segment=>{
+      if (!segment || typeof segment !== "object" || Array.isArray(segment)) return segment;
+      const item=segment as Record<string, unknown>;
+      if (item.kind!=="quote" || typeof item.text!=="string" || !Array.isArray(item.sourceIds)) return segment;
+      const text=item.text.trim();
+      const exact=item.sourceIds.some(id=>typeof id==="string"&&source.paragraphs.find(paragraph=>paragraph.id===id)?.text.includes(text));
+      // A model can accurately paraphrase a source while mislabelling it as a
+      // verbatim quote. Preserve exact quotes; let the independent review stage
+      // verify the support for downgraded paraphrases.
+      return exact?segment:{...item,kind:"paraphrase"};
+    }),
+  };
+}
 export function validateScript(value: unknown, source: Answer): { title: string; segments: Segment[] } {
   const obj = record(value); const validIds = new Set(source.paragraphs.map(p=>p.id));
   if (!Array.isArray(obj.segments) || obj.segments.length < 6 || obj.segments.length > 48) throw new PublicError("节目对话段数不符合要求，请重新编排。", 422);
@@ -63,10 +82,10 @@ export function validateScript(value: unknown, source: Answer): { title: string;
     if (!["host","guest"].includes(String(s.speaker)) || !["quote","paraphrase","transition"].includes(String(s.kind))) throw new PublicError("脚本角色或引用类型错误。", 422);
     if (s.kind === "transition" && s.speaker !== "host") throw new PublicError("讲述人的发言必须有原文依据。", 422);
     const text=str(s.text,600); const sourceIds=refs(s.sourceIds,validIds,s.kind === "transition");
-    const aliases=source.contributors?["顾言","苏禾","周岚","沈砚"]:["林舟"];
+    const aliases=source.contributors?["答者1","答者2","答者3","答者4"]:["答者1"];
     const rawSpeakerName=typeof s.speakerName==="string"?str(s.speakerName,100):undefined;
     const aliasIndex=source.contributors?source.contributors.findIndex((_,i)=>aliases[i]===rawSpeakerName):-1;
-    const speakerName=source.contributors?(aliasIndex>=0?aliases[aliasIndex]:rawSpeakerName):(s.speaker==="guest"?"林舟":undefined);
+    const speakerName=source.contributors?(aliasIndex>=0?aliases[aliasIndex]:rawSpeakerName):(s.speaker==="guest"?"答者1":undefined);
     let voiceIndex:number|undefined;
     if(source.contributors&&s.speaker==="guest"){
       const contributorIndex=aliasIndex>=0?aliasIndex:source.contributors.findIndex(contributor=>contributor.name===rawSpeakerName);

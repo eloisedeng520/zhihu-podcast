@@ -70,4 +70,16 @@ npm run build
 
 `.openai/hosting.json` 保留本项目的 Sites 项目标识与 D1/R2 绑定。本地密钥不会自动上传到线上，线上运行需要单独配置服务环境变量。将代码推送到 GitHub 不等于部署网站。
 
+项目也支持宝塔等普通 Linux 服务器。Node 版本使用 SQLite 与本地音频目录替代 D1/R2，同时保留原有 Cloudflare 构建：
+
+```bash
+npm run build:node
+```
+
+将 `dist/standalone` 的内容上传到服务器并以 `baota-start.mjs` 启动。完整步骤见 [宝塔部署说明](docs/BAOTA_DEPLOYMENT.md)。
+
 内容来自知乎黑客松专用知识接口，不是知乎全站搜索接口。列表数量和接口可用性可能随赛事变化；原文版权及归属属于相应作者与权利人。应用展示来源与作者，播客由 AI 改编及合成，不代表作者本人参与录制。
+
+## 知乎账号连接
+
+已接入 OAuth 授权、服务端加密会话、连接状态及退出。配置和平台 `state` 回传的待确认项见 [知乎 OAuth 接入](docs/知乎OAuth接入.md)。真实授权尚需应用凭证和登记回调地址验证。
