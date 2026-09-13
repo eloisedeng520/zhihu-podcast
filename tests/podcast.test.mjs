@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {test} from 'node:test';
 import {DatabaseSync} from 'node:sqlite';
 import {existsSync} from 'node:fs';
-import {normalizeAnswer,plainText,repairGeneratedQuoteKinds,validateScript,validateReview,wavInfo,joinWav} from '../server/core.ts';
+import {normalizeAnswer,plainText,validateOutline,validateScript,repairGeneratedOutline,repairGeneratedQuoteKinds,repairGeneratedHostKinds,validateReview,wavInfo,joinWav} from '../server/core.ts';
 import {handleApi} from '../server/api.ts';
 import {providerStatus,fetchAnswer} from '../server/providers.ts';
 import {filterKnowledgeItems,filterKnowledgeCategory,groupKnowledgeCollections} from '../lib/podcast.ts';
@@ -16,16 +16,51 @@ function wave(seconds=.1,rate=24000){const bytes=new Uint8Array(44+Math.round(se
 test('HTML清洗保留段落、移除可执行内容，结果作为纯文字展示',()=>assert.equal(plainText('<p>观点&amp;内容</p><script>secret()</script><p>第二段</p>'),'观点&内容\n第二段'));
 test('短内容与超长内容不能被扩写或静默截断',()=>{assert.throws(()=>normalizeAnswer({content:'短',title:'题',author:'人'},'1',{}),/文字较少/);assert.throws(()=>normalizeAnswer({content:'长'.repeat(30001),title:'题',author:'人'},'1',{}),/不会截断/);});
 test('缺失作者或正文应明确失败',()=>assert.throws(()=>normalizeAnswer({content:original.repeat(4),title:'题'},'1',{}),/作者/));
-test('正常双人脚本生成稳定段落编号',()=>{const s=validateScript(script,source);assert.equal(s.segments[5].id,'s6');assert.equal(s.segments.length,6);});
+test('正常双人脚本生成稳定段落编号并将受访者称为答者1',()=>{const s=validateScript(script,source);assert.equal(s.segments[5].id,'s6');assert.equal(s.segments.length,6);assert.ok(s.segments.filter(s=>s.speaker==='guest').every(s=>s.speakerName==='答者1'));});
 test('拒绝虚构来源ID、无来源嘉宾与虚假直接引用',()=>{
   for(const patch of [{sourceIds:['missing']},{sourceIds:[]},{kind:'quote',text:'这不是原文原话'}]){const s=structuredClone(script);Object.assign(s.segments[1],patch);assert.throws(()=>validateScript(s,source));}
 });
-test('生成模型误标的非逐字引用降级为转述并交给独立核对',()=>{
-  const generated=structuredClone(script);Object.assign(generated.segments[1],{kind:'quote',text:'这是对原文意思的转述，不是逐字引用'});
+test('误标为直接引用的改写会降级为转述，真实引用保持不变',()=>{
+  const generated=structuredClone(script);
+  Object.assign(generated.segments[1],{kind:'quote',text:'原文提醒读者先了解岗位职责，并结合个人经验判断。',sourceIds:['p1']});
   assert.throws(()=>validateScript(generated,source),/直接引用/);
-  assert.equal(validateScript(repairGeneratedQuoteKinds(generated,source),source).segments[1].kind,'paraphrase');
-  const exact=structuredClone(script);Object.assign(exact.segments[1],{kind:'quote',text:'选择工作时'});
-  assert.equal(validateScript(repairGeneratedQuoteKinds(exact,source),source).segments[1].kind,'quote');
+  const repaired=repairGeneratedQuoteKinds(generated,source);
+  assert.equal(repaired.segments[1].kind,'paraphrase');
+  assert.doesNotThrow(()=>validateScript(repaired,source));
+
+  const exact=structuredClone(script);
+  Object.assign(exact.segments[1],{kind:'quote',text:'选择工作时，应该先了解岗位的具体职责',sourceIds:['p1']});
+  const preserved=repairGeneratedQuoteKinds(exact,source);
+  assert.equal(preserved.segments[1].kind,'quote');
+  assert.doesNotThrow(()=>validateScript(preserved,source));
+});
+test('没有来源的主持人提问会规范为过渡语',()=>{
+  const generated={title:'提问测试',segments:Array.from({length:6},(_,i)=>i%2===0?
+    {speaker:'host',chapter:'讨论',kind:'paraphrase',text:'这个判断为什么成立？',sourceIds:[]}:
+    {speaker:'guest',chapter:'讨论',kind:'paraphrase',text:'原文提醒读者先了解岗位职责，并结合个人经验判断。',sourceIds:['p1']})};
+  const repaired=repairGeneratedHostKinds(generated);
+  assert.equal(repaired.segments[0].kind,'transition');
+  assert.doesNotThrow(()=>validateScript(repaired,source));
+});
+test('观点主题过多时合并尾部主题并保留来源',()=>{
+  const outline={thesis:'核心观点',themes:Array.from({length:7},(_,i)=>({title:`主题${i+1}`,summary:`摘要${i+1}`,sourceIds:['p1']})),limitations:[]};
+  const repaired=repairGeneratedOutline(outline);
+  assert.equal(repaired.themes.length,5);
+  assert.deepEqual(repaired.themes[4].sourceIds,['p1']);
+  assert.doesNotThrow(()=>validateOutline(repaired,source));
+});
+test('结构化背景与核心问题会校验来源并保留到大纲',()=>{
+  const outline={thesis:'核心观点',background:{summary:'围绕岗位职责与个人经验的选择困惑。',sourceIds:['p1']},coreQuestion:{question:'怎样结合岗位职责和个人经验做出选择？',scope:'只讨论原文给出的判断条件。',sourceIds:['p1']},themes:[{title:'主题',summary:'摘要',sourceIds:['p1']}],limitations:[]};
+  const result=validateOutline(outline,source);
+  assert.equal(result.background.summary,'围绕岗位职责与个人经验的选择困惑。');
+  assert.equal(result.coreQuestion.question,'怎样结合岗位职责和个人经验做出选择？');
+  assert.throws(()=>validateOutline({...outline,background:{summary:'背景',sourceIds:['missing']}},source),/观点结构|原文引用/);
+});
+test('观点结构缺少限制条件时使用空列表继续校验',()=>{
+  const outline={thesis:'核心观点',themes:[{title:'主题',summary:'摘要',sourceIds:['p1']}]};
+  const repaired=repairGeneratedOutline(outline);
+  assert.deepEqual(repaired.limitations,[]);
+  assert.doesNotThrow(()=>validateOutline(repaired,source));
 });
 test('嘉宾不能借过渡语标签规避引用',()=>{const s=structuredClone(script);Object.assign(s.segments[1],{kind:'transition',sourceIds:[]});assert.throws(()=>validateScript(s,source),/原文依据/);});
 test('独立核对必须覆盖所有脚本单元且不能重复ID',()=>{const s=validateScript(script,source).segments;assert.throws(()=>validateReview({checks:[]},s),/全部对话/);assert.throws(()=>validateReview({checks:s.map(()=>({id:'s1',supported:true}))},s),/格式不完整/);});
@@ -81,15 +116,33 @@ test('热榜按问题聚合，并默认组合赞同数最高的三位答主',()=
 test('多观点脚本不能把一位答主的话归到另一位答主名下',()=>{
   const source={id:'q',title:'问题',author:'2 位答主',url:'',fetchedAt:'',contributors:[{id:'a',name:'甲',url:''},{id:'b',name:'乙',url:''}],paragraphs:[{id:'a1p1',text:original.repeat(4)},{id:'a2p1',text:original.repeat(4)}]};
   const valid={title:'圆桌',segments:Array.from({length:6},(_,i)=>i%2?{speaker:'guest',speakerName:i===1?'甲':'乙',chapter:'讨论',kind:'paraphrase',text:'转述观点',sourceIds:[i===1?'a1p1':'a2p1']}:{speaker:'host',speakerName:'主持人',chapter:'讨论',kind:'transition',text:'继续来看另一个角度',sourceIds:[]})};
-  assert.doesNotThrow(()=>validateScript(valid,source));
+  const result=validateScript(valid,source);
+  assert.deepEqual(result.segments.filter(s=>s.speaker==='guest').map(s=>[s.speakerName,s.voiceIndex]),[['答者1',0],['答者2',1],['答者2',1]]);
   const invalid=structuredClone(valid);invalid.segments[1].sourceIds=['a2p1'];
   assert.throws(()=>validateScript(invalid,source),/其他答主/);
+  invalid.segments[1].speakerName='答者1';
+  assert.throws(()=>validateScript(invalid,source),/其他答主/);
+});
+test('答者编号按素材顺序绑定，支持答者5并拒绝不存在的编号',()=>{
+  const contributors=Array.from({length:5},(_,i)=>({id:`a${i+1}`,name:`作者${i+1}`,url:''}));
+  const multiSource={...source,contributors,paragraphs:contributors.map((_,i)=>({id:`a${i+1}p1`,text:original}))};
+  const generated=structuredClone(script);
+  const guestOrder=[5,1,3];
+  generated.segments.forEach((segment,i)=>{
+    const n=i%2?guestOrder[(i-1)/2]:1;
+    segment.sourceIds=[`a${n}p1`];
+    segment.speakerName=i%2?`答者${n}`:'主持人';
+  });
+  const result=validateScript(generated,multiSource);
+  assert.deepEqual(result.segments.filter(s=>s.speaker==='guest').map(s=>[s.speakerName,s.voiceIndex]),[['答者5',4],['答者1',0],['答者3',2]]);
+  generated.segments[1].speakerName='答者6';
+  assert.throws(()=>validateScript(generated,multiSource),/答者编号/);
 });
 test('多观点脚本允许没有相关看法的候选答主不发言',()=>{
   const source={id:'q',title:'问题',author:'3 位答主',url:'',fetchedAt:'',contributors:[{id:'a',name:'甲',url:''},{id:'b',name:'乙',url:''},{id:'c',name:'丙',url:''}],paragraphs:[{id:'a1p1',text:original.repeat(4)},{id:'a2p1',text:original.repeat(4)},{id:'a3p1',text:'丙只复述问题，没有形成相关观点。'.repeat(12)}]};
   const script={title:'圆桌',segments:Array.from({length:6},(_,i)=>i%2?{speaker:'guest',speakerName:i===1?'甲':'乙',chapter:'讨论',kind:'paraphrase',text:'转述有原文支持的观点',sourceIds:[i===1?'a1p1':'a2p1']}:{speaker:'host',speakerName:'主持人',chapter:'讨论',kind:'transition',text:'继续来看有明确依据的观点',sourceIds:[]})};
   const result=validateScript(script,source);
-  assert.deepEqual([...new Set(result.segments.filter(s=>s.speaker==='guest').map(s=>s.speakerName))],['甲','乙']);
+  assert.deepEqual([...new Set(result.segments.filter(s=>s.speaker==='guest').map(s=>s.speakerName))],['答者1','答者2']);
 });
 test('圈子快照保留圈子 ID、圈子名和帖子自身标题',()=>{
   const rings=localKnowledgeItems().filter(item=>item.category==='rings');
@@ -184,10 +237,10 @@ test('完整流程：知乎正文→AI结构与脚本→独立核对→真实音
   const replay=await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env);assert.equal((await replay.json()).id,id);
   const full=await handleApi(req(`/api/episodes/${id}/audio`),env);assert.equal(full.status,200);assert.ok(Math.abs(wavInfo(new Uint8Array(await full.arrayBuffer())).duration-.6)<.0001);
   const part=await handleApi(new Request(`https://tingjian.test/api/episodes/${id}/audio`,{headers:{Range:'bytes=0-43'}}),env);assert.equal(part.status,206);assert.equal((await part.arrayBuffer()).byteLength,44);
-  const history=await handleApi(req('/api/episodes'),env);assert.equal(history.status,401);const stored=await env.DB.prepare("SELECT payload FROM episodes").all();assert.equal(stored.results.length,1);
+  const history=await handleApi(req('/api/episodes'),env);assert.equal(history.status,200);assert.equal((await history.json()).episodes.length,1);const stored=await env.DB.prepare("SELECT payload FROM episodes").all();assert.equal(stored.results.length,1);
 });
-test('独立核对失败时没有任何TTS调用',async t=>{const calls=mockProviders(t,{badReview:true}),env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<4;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.status,'failed');assert.equal(e.stage,'reviewing');assert.equal(calls(),0);assert.equal(e.review.passed,false);});
-test('TTS失败保留已成功音频，重试仅继续未完成片段',async t=>{const calls=mockProviders(t,{failAudio:true}),env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<6;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.status,'failed');assert.equal(e.completedAudio,1);e=await (await handleApi(req(`/api/episodes/${e.id}/retry`,'POST'),env)).json();assert.equal(e.completedAudio,2);assert.equal(calls(),3);});
+test('独立核对失败时没有任何TTS调用且记录失败原因',async t=>{const calls=mockProviders(t,{badReview:true}),env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<4;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.status,'failed');assert.equal(e.stage,'reviewing');assert.equal(calls(),0);assert.equal(e.review.passed,false);assert.ok(e.generationLog.some(x=>x.stage==='reviewing'&&x.error));});
+test('TTS失败保留已成功音频，重试仅继续未完成片段并记录失败原因',async t=>{const calls=mockProviders(t,{failAudio:true}),env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<6;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.status,'failed');assert.equal(e.completedAudio,1);assert.ok(e.generationLog.some(x=>x.stage==='synthesizing'&&x.error));e=await (await handleApi(req(`/api/episodes/${e.id}/retry`,'POST'),env)).json();assert.equal(e.completedAudio,2);assert.equal(calls(),3);});
 test('首段合成后即可单独读取，无需等待整期完成',async t=>{mockProviders(t);const env=envFixture();let e=await (await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env)).json();for(let i=0;i<5;i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();assert.equal(e.stage,'synthesizing');assert.equal(e.segments[0].audioReady,true);const audio=await handleApi(req(`/api/episodes/${e.id}/audio?segment=${e.segments[0].id}`),env);assert.equal(audio.status,200);assert.equal(audio.headers.get('Content-Type'),'audio/wav');assert.ok((await audio.arrayBuffer()).byteLength>44);});
 test('没有模型配置时真实返回503，不创建假节目',async()=>{const env=envFixture();delete env.LLM_API_KEY;const r=await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env);assert.equal(r.status,503);const rows=await env.DB.prepare("SELECT payload FROM episodes").all();assert.equal(rows.results.length,0);});
 test('跨站写请求被拒绝',async()=>{const r=await handleApi(new Request('https://tingjian.test/api/episodes',{method:'POST',headers:{Origin:'https://evil.test','Content-Type':'application/json'},body:'{}'}),envFixture());assert.equal(r.status,403);});

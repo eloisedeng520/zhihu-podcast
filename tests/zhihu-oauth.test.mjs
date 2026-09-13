@@ -122,7 +122,7 @@ test('code alias, legacy key, expiration and key rotation', async t => {
 });
 
 
-test('library lists require a live Zhihu connection, including after logout and expiry', async t => {
+test('library lists are available without a Zhihu connection', async t => {
   const {env, sqlite} = fixture(t);
   env.AUDIO = {};
   const headers = {'X-Anonymous-Id': 'visitor-test-1234567890'};
@@ -135,16 +135,16 @@ test('library lists require a live Zhihu connection, including after logout and 
       if(expected===401) { assert.ok(data.error); assert.equal(data.episodes, undefined); assert.equal(data.items, undefined); assert.equal(data.questions, undefined); }
     }
   }
-  await verify(null, 401);
-  await verify('tingjian_zhihu_session='+'0'.repeat(64), 401);
+  await verify(null, 200);
+  await verify('tingjian_zhihu_session='+'0'.repeat(64), 200);
   t.mock.method(globalThis, 'fetch', async () => Response.json({access_token:'private-token', expires_in:3600}));
   let r = await callback(env, await start(env));
   let session = cookie(r, 'tingjian_zhihu_session');
   await verify(session, 200);
   await handleApi(new Request(base+'/logout', {method:'POST',headers:{Origin:origin,Cookie:session}}),env);
-  await verify(session, 401);
+  await verify(session, 200);
   r = await callback(env, await start(env));
   session = cookie(r, 'tingjian_zhihu_session');
   sqlite.prepare('UPDATE zhihu_oauth_sessions SET expires_at=0').run();
-  await verify(session, 401);
+  await verify(session, 200);
 });

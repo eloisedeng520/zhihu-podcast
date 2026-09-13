@@ -6,11 +6,21 @@ export type Answer = { id: string; title: string; author: string; url: string; p
 export type KnowledgeCategory = "hot" | "columns" | "rings";
 export type KnowledgeItem = { id: string; title: string; description: string; labels: string[]; category?: KnowledgeCategory; author?: string; sourceName?: string; metric?: number; collectionId?:string; collectionRank?:number; iconPath?:string };
 export type KnowledgeCollection = {id:string;name:string;rank:number;iconPath?:string;items:KnowledgeItem[]};
-export type Outline = { thesis: string; themes: { title: string; summary: string; sourceIds: string[] }[]; limitations: string[] };
+export type Outline = {
+  thesis: string;
+  themes: { title: string; summary: string; sourceIds: string[] }[];
+  limitations: string[];
+  /** Structured opening context used to keep the first minute understandable. */
+  background?: { summary: string; sourceIds: string[] };
+  /** The single question the episode promises to answer. */
+  coreQuestion?: { question: string; scope: string; sourceIds: string[] };
+};
 export type Segment = { id: string; speaker: "host" | "guest"; speakerName?:string; voiceIndex?:number; chapter: string; text: string; kind: "paraphrase" | "quote" | "transition"; sourceIds: string[]; duration?: number; audioKey?: string; audioReady?: boolean };
 export type GenerationLog = { stage: Stage; prompt: string; input: unknown; output?: unknown; error?: string; createdAt: string };
 export type Episode = {
   id: string; answerId: string; minutes: 3 | 8; stage: Stage; status: "pending" | "working" | "failed" | "ready";
+  /** Only episodes explicitly created through the podcast creation flow appear in My Productions. */
+  creationSource?: "podcast-create";
   title: string; createdAt: string; updatedAt: string; source?: Answer; outline?: Outline; segments: Segment[]; generationLog?: GenerationLog[];
   error?: string; review?: { passed: boolean; issues: string[] }; completedAudio: number;
 };

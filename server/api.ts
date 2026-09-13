@@ -1,6 +1,6 @@
-import { handleZhihuOAuth, readZhihuToken, type ZhihuOAuthEnv } from "./zhihu-oauth.ts";
+import { handleZhihuOAuth, type ZhihuOAuthEnv } from "./zhihu-oauth.ts";
 import type { Episode } from "../lib/podcast.ts";
-import { PublicError,validateOutline,repairGeneratedQuoteKinds,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
+import { PublicError,validateOutline,repairGeneratedOutline,repairGeneratedQuoteKinds,repairGeneratedHostKinds,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
 import { type ProviderEnv,providerStatus,fetchKnowledge,fetchAnswer,analyze,write,review,synthesize,transcribeQuestion,answerQuestion } from "./providers.ts";
 import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions,listLibrary,upsertLibrary,removeLibrary,type LibraryType } from "./store.ts";
 export type AppEnv = ProviderEnv & ZhihuOAuthEnv & {DB:Database;AUDIO:AudioBucket};
@@ -15,20 +15,20 @@ export async function advance(env:AppEnv,ep:Episode):Promise<Episode> {
     let output:unknown; let prompt=""; let input:unknown;
     try {
       output=await analyze(env,ep.source!,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"analyzing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});
-      ep.outline=validateOutline(output,ep.source!);ep.stage="writing";
+      ep.outline=validateOutline(repairGeneratedOutline(output),ep.source!);ep.stage="writing";
     } catch(error) {
       ep.generationLog??=[];
       ep.generationLog.push({stage:"analyzing",prompt,input:{answerId:ep.answerId,source:ep.source},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});
       throw error;
     }
   }
-  else if(ep.stage==="writing") {let output:unknown;let prompt="";let input:unknown;try{output=await write(env,ep.source!,ep.outline!,ep.minutes,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});const result=validateScript(repairGeneratedQuoteKinds(output,ep.source!),ep.source!);ep.title=result.title;ep.segments=result.segments;ep.completedAudio=0;ep.review=undefined;ep.stage="reviewing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt,input:input??{source:ep.source,outline:ep.outline,minutes:ep.minutes},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
-  else if(ep.stage==="reviewing") {let output:unknown;output=await review(env,ep.source!,ep.segments,(o,p,i)=>{ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});ep.review=validateReview(output,ep.segments);if(!ep.review.passed)throw new PublicError("有内容未通过原文核对，已暂停。重试将重新编排脚本。",422);ep.stage="synthesizing";}
+  else if(ep.stage==="writing") {let output:unknown;let prompt="";let input:unknown;try{output=await write(env,ep.source!,ep.outline!,ep.minutes,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});const normalized=repairGeneratedHostKinds(repairGeneratedQuoteKinds(output,ep.source!));const result=validateScript(normalized,ep.source!);ep.title=ep.answerId?.startsWith("custom-")?result.title:(ep.source?.title||result.title);ep.segments=result.segments;ep.completedAudio=0;ep.review=undefined;ep.stage="reviewing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt,input:input??{source:ep.source,outline:ep.outline,minutes:ep.minutes},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
+  else if(ep.stage==="reviewing") {let output:unknown;let prompt="";let input:unknown;try{output=await review(env,ep.source!,ep.segments,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});ep.review=validateReview(output,ep.segments);if(!ep.review.passed)throw new PublicError("有内容未通过原文核对，已暂停。重试将重新编排脚本。",422);ep.stage="synthesizing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt,input:input??{source:ep.source,segments:ep.segments},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
   else if(ep.stage==="synthesizing") {
     if(!providerStatus(env).audioReady)return ep;
     if(!ep.review?.passed)throw new PublicError("节目尚未通过核对，无法合成。",422);
     const s=ep.segments.find(s=>!s.audioKey);
-    if(s){const bytes=await synthesize(env,s);const {duration}=wavInfo(bytes);const key=`episodes/${ep.id}/${s.id}.wav`;await env.AUDIO.put(key,bytes,{httpMetadata:{contentType:"audio/wav"}});ep.generationLog??=[];ep.generationLog.push({stage:"synthesizing",prompt:"AI 主播语音合成输入",input:{segmentId:s.id,speaker:s.speaker,speakerName:s.speakerName,voiceIndex:s.voiceIndex,text:s.text},output:{audioKey:key,duration},createdAt:new Date().toISOString()});s.duration=duration;s.audioKey=key;ep.completedAudio=ep.segments.filter(s=>s.audioKey).length;}
+    if(s){const input={segmentId:s.id,speaker:s.speaker,speakerName:s.speakerName,voiceIndex:s.voiceIndex,text:s.text};let bytes:Uint8Array;try{bytes=await synthesize(env,s);}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"synthesizing",prompt:"AI 主播语音合成输入",input,output:undefined,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}const {duration}=wavInfo(bytes);const key=`episodes/${ep.id}/${s.id}.wav`;await env.AUDIO.put(key,bytes,{httpMetadata:{contentType:"audio/wav"}});ep.generationLog??=[];ep.generationLog.push({stage:"synthesizing",prompt:"AI 主播语音合成输入",input,output:{audioKey:key,duration},createdAt:new Date().toISOString()});s.duration=duration;s.audioKey=key;ep.completedAudio=ep.segments.filter(s=>s.audioKey).length;}
     else {
       const parts:Uint8Array[]=[];let total=0;
       for(const segment of ep.segments){const part=await env.AUDIO.get(segment.audioKey!);if(!part)throw new PublicError("已保存的音频片段缺失，请联系维护者。",502);total+=part.size;if(total>40_000_000)throw new PublicError("整期音频超过当前大小限制。",422);parts.push(new Uint8Array(await part.arrayBuffer()));}
@@ -60,11 +60,10 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(!env.DB||!env.AUDIO)throw new PublicError("节目存储尚未就绪。",503);
     await initDb(env.DB);
-    if(request.method==="GET"&&(path==="/api/episodes"||path==="/api/library"||path.startsWith("/api/library/"))&&!await readZhihuToken(request,env))throw new PublicError("请先连接知乎账号，再查看我的收听。",401);
     const libraryMatch=path.match(/^\/api\/library(?:\/([A-Za-z0-9_-]{1,24})\/([A-Za-z0-9_-]{1,120}))?$/);
     if(libraryMatch){
       const owner=await ownerKey(request);
-      const validTypes:LibraryType[]=["favorite","later","history"];
+      const validTypes:LibraryType[]=["favorite","later"];
       if(!libraryMatch[1]){
         if(request.method!=="GET")throw new PublicError("不支持此操作。",405);
         const typeParam=new URL(request.url).searchParams.get("type") as LibraryType|null;
@@ -113,15 +112,21 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(path==="/api/episodes" && request.method==="GET"){
       const rows=await env.DB.prepare("SELECT payload FROM episodes ORDER BY created_at DESC LIMIT 50").all<{payload:string}>();
-      return json({episodes:rows.results.map(r=>JSON.parse(r.payload) as Episode).filter(e=>e.status!=="failed").map(e=>({id:e.id,title:e.title,minutes:e.minutes,stage:e.stage,status:e.status,createdAt:e.createdAt,author:e.source?.author,duration:e.segments.reduce((n,s)=>n+(s.duration||0),0)}))});
+      return json({episodes:rows.results.map(r=>JSON.parse(r.payload) as Episode).filter(e=>e.creationSource==="podcast-create"&&e.status!=="failed").map(e=>({id:e.id,title:e.title,minutes:e.minutes,stage:e.stage,status:e.status,createdAt:e.createdAt,author:e.source?.author,duration:e.segments.reduce((n,s)=>n+(s.duration||0),0)}))});
     }
     if(path==="/api/episodes" && request.method==="POST") {
       if(!providerStatus(env).textReady)throw new PublicError("AI 编导尚未配置，请先完成文本模型接入。知乎原文可以正常浏览。",503);
-      const raw=await request.text();if(raw.length>1000)throw new PublicError("请求过大。",413);
-      const body=JSON.parse(raw);if(!/^[A-Za-z0-9_-]{1,80}$/.test(body.answerId)||![3,8].includes(body.minutes))throw new PublicError("请选择知识内容和节目长度。");
+      const raw=await request.text();if(raw.length>52000)throw new PublicError("请求过大。",413);
+      const body=JSON.parse(raw);
+      const customText=typeof body.text==="string"?body.text.trim():"";
+      const isCustom=customText.length>0;
+      if((!isCustom&&!/^[A-Za-z0-9_-]{1,80}$/.test(body.answerId))||![3,8].includes(body.minutes))throw new PublicError("请选择知识内容或粘贴文字稿，并选择节目长度。");
+      if(isCustom && (customText.length<20||customText.length>50000))throw new PublicError("文字稿请控制在 20 至 50000 字以内。");
       const key=request.headers.get("Idempotency-Key");if(!key||!/^\w[\w-]{15,70}$/.test(key))throw new PublicError("缺少有效的任务标识。");
       const existing=await readEpisode(env.DB,key);if(existing)return json(present(existing));
-      const now=new Date().toISOString();const ep:Episode={id:key,answerId:body.answerId,minutes:body.minutes,stage:"fetching",status:"pending",title:"新一期节目",createdAt:now,updatedAt:now,segments:[],completedAudio:0};
+      const now=new Date().toISOString();
+      const source= isCustom ? {id:`custom-${key}`,title:typeof body.title==="string"&&body.title.trim()?body.title.trim().slice(0,120):"我的文字稿",author:"我",url:"",fetchedAt:now,paragraphs:customText.split(/\n+/).filter(Boolean).map((text:string,i:number)=>({id:`p${i+1}`,text}))} : undefined;
+      const ep:Episode={id:key,answerId:isCustom?`custom-${key}`:body.answerId,creationSource:"podcast-create",minutes:body.minutes,stage:isCustom?"analyzing":"fetching",status:"pending",title:source?.title||"新一期节目",source,createdAt:now,updatedAt:now,segments:[],completedAudio:0};
       await env.DB.prepare("INSERT OR IGNORE INTO episodes (id,payload,created_at) VALUES (?,?,?)").bind(ep.id,JSON.stringify(ep),ep.createdAt).run();return json(present((await readEpisode(env.DB,key))!),201);
     }
     const match=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})(?:\/(advance|retry|audio|delete))?$/);
