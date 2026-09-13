@@ -1,8 +1,9 @@
+import { handleZhihuOAuth, readZhihuToken, type ZhihuOAuthEnv } from "./zhihu-oauth.ts";
 import type { Episode } from "../lib/podcast.ts";
-import { PublicError,validateOutline,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
+import { PublicError,validateOutline,repairGeneratedQuoteKinds,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
 import { type ProviderEnv,providerStatus,fetchKnowledge,fetchAnswer,analyze,write,review,synthesize,transcribeQuestion,answerQuestion } from "./providers.ts";
-import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions } from "./store.ts";
-export type AppEnv = ProviderEnv & {DB:Database;AUDIO:AudioBucket};
+import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions,listLibrary,upsertLibrary,removeLibrary,type LibraryType } from "./store.ts";
+export type AppEnv = ProviderEnv & ZhihuOAuthEnv & {DB:Database;AUDIO:AudioBucket};
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{"Cache-Control":"no-store","X-Content-Type-Options":"nosniff"}});
 const present=(e:Episode)=>({...e,segments:e.segments.map(({audioKey,...s})=>({...s,audioReady:!!audioKey}))});
 const validId=(s:string)=>/^[A-Za-z0-9_-]{16,72}$/.test(s);
@@ -21,7 +22,7 @@ export async function advance(env:AppEnv,ep:Episode):Promise<Episode> {
       throw error;
     }
   }
-  else if(ep.stage==="writing") {let output:unknown;let prompt="";let input:unknown;try{output=await write(env,ep.source!,ep.outline!,ep.minutes,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});const result=validateScript(output,ep.source!);ep.title=result.title;ep.segments=result.segments;ep.completedAudio=0;ep.review=undefined;ep.stage="reviewing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt,input:input??{source:ep.source,outline:ep.outline,minutes:ep.minutes},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
+  else if(ep.stage==="writing") {let output:unknown;let prompt="";let input:unknown;try{output=await write(env,ep.source!,ep.outline!,ep.minutes,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});const result=validateScript(repairGeneratedQuoteKinds(output,ep.source!),ep.source!);ep.title=result.title;ep.segments=result.segments;ep.completedAudio=0;ep.review=undefined;ep.stage="reviewing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt,input:input??{source:ep.source,outline:ep.outline,minutes:ep.minutes},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
   else if(ep.stage==="reviewing") {let output:unknown;output=await review(env,ep.source!,ep.segments,(o,p,i)=>{ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});ep.review=validateReview(output,ep.segments);if(!ep.review.passed)throw new PublicError("有内容未通过原文核对，已暂停。重试将重新编排脚本。",422);ep.stage="synthesizing";}
   else if(ep.stage==="synthesizing") {
     if(!providerStatus(env).audioReady)return ep;
@@ -41,6 +42,7 @@ export async function advance(env:AppEnv,ep:Episode):Promise<Episode> {
 export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
   try {
     const url=new URL(request.url);const path=url.pathname;
+    if(path.startsWith("/api/auth/zhihu/")) return handleZhihuOAuth(request,env);
     const isQuestionAudio=request.method==="POST"&&/^\/api\/episodes\/[A-Za-z0-9_-]{16,72}\/questions$/.test(path);
     if(request.method!=="GET" && request.method!=="HEAD"){
       const origin=request.headers.get("Origin");if(origin&&origin!==url.origin)throw new PublicError("请求来源不匹配。",403);
@@ -58,6 +60,31 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(!env.DB||!env.AUDIO)throw new PublicError("节目存储尚未就绪。",503);
     await initDb(env.DB);
+    if(request.method==="GET"&&(path==="/api/episodes"||path==="/api/library"||path.startsWith("/api/library/"))&&!await readZhihuToken(request,env))throw new PublicError("请先连接知乎账号，再查看我的收听。",401);
+    const libraryMatch=path.match(/^\/api\/library(?:\/([A-Za-z0-9_-]{1,24})\/([A-Za-z0-9_-]{1,120}))?$/);
+    if(libraryMatch){
+      const owner=await ownerKey(request);
+      const validTypes:LibraryType[]=["favorite","later","history"];
+      if(!libraryMatch[1]){
+        if(request.method!=="GET")throw new PublicError("不支持此操作。",405);
+        const typeParam=new URL(request.url).searchParams.get("type") as LibraryType|null;
+        if(typeParam&&!validTypes.includes(typeParam))throw new PublicError("收藏分类无效。",400);
+        const items=await listLibrary(env.DB,owner,typeParam||undefined);
+        return json({items});
+      }
+      const itemType=libraryMatch[1] as LibraryType,itemId=libraryMatch[2];
+      if(!validTypes.includes(itemType))throw new PublicError("收藏分类无效。",400);
+      if(request.method==="DELETE")return json({deleted:await removeLibrary(env.DB,owner,itemType,itemId)});
+      if(request.method!=="PUT"&&request.method!=="POST")throw new PublicError("不支持此操作。",405);
+      const raw=await request.text();if(raw.length>5000)throw new PublicError("请求过大。",413);
+      let payload:Record<string,unknown>={};if(raw){const body=JSON.parse(raw);if(body&&typeof body.payload==="object"&&body.payload&&!Array.isArray(body.payload))payload=body.payload;}
+      return json({item:await upsertLibrary(env.DB,owner,itemType,itemId,payload)},201);
+    }
+    if(path==="/api/library/questions" && request.method==="GET"){
+      const owner=await ownerKey(request);
+      const rows=await env.DB.prepare("SELECT q.id,q.episode_id,q.position_seconds,q.question_text,q.answer_text,q.source_ids,q.status,q.error_code,q.created_at,q.updated_at,e.payload AS episode_payload FROM episode_questions q LEFT JOIN episodes e ON e.id=q.episode_id WHERE q.owner_key = ? ORDER BY q.created_at DESC LIMIT 500").bind(owner).all<Record<string,unknown>>();
+      return json({questions:rows.results.map(row=>{let episode:any={};try{episode=JSON.parse(String(row.episode_payload||"{}"));}catch{}return {id:row.id,episodeId:row.episode_id,episodeTitle:episode.title||"",positionSeconds:Number(row.position_seconds)||0,questionText:row.question_text,answerText:row.answer_text,sourceIds:JSON.parse(String(row.source_ids||"[]")),status:row.status,errorCode:row.error_code,createdAt:row.created_at,updatedAt:row.updated_at};})});
+    }
     const episodeQuestions=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})\/questions$/);
     if(episodeQuestions){
       const episodeId=episodeQuestions[1],owner=await ownerKey(request),ep=await readEpisode(env.DB,episodeId);if(!ep)throw new PublicError("没有找到这期节目。",404);

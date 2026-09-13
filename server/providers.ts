@@ -43,7 +43,7 @@ async function fetchRemoteKnowledge():Promise<KnowledgeItem[]> {
 export async function fetchKnowledge():Promise<KnowledgeItem[]> {
   const local=localKnowledgeItems();
   const excludedTitles=new Set(["当面临没有把握、无法控制的事，怎样缓解巨大的压力和焦虑感？","职场：如何让老板给我升职加薪？"]);
-  try{return [...await fetchRemoteKnowledge(),{...EXAMPLE_ITEM,category:"hot",sourceName:"知乎精选"},...local].filter(item=>!excludedTitles.has(item.title.trim()));}
+  try{return [...await fetchRemoteKnowledge(),{...EXAMPLE_ITEM,category:"hot" as const,sourceName:"知乎精选"},...local].filter(item=>!excludedTitles.has(item.title.trim()));}
   catch{return local;}
 }
 export async function fetchAnswer(_env:ProviderEnv,id:string) {
