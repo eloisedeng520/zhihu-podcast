@@ -1,8 +1,9 @@
+import { handleZhihuOAuth, readZhihuToken, type ZhihuOAuthEnv } from "./zhihu-oauth.ts";
 import type { Episode } from "../lib/podcast.ts";
 import { PublicError,validateOutline,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
 import { type ProviderEnv,providerStatus,fetchKnowledge,fetchAnswer,analyze,write,review,synthesize,transcribeQuestion,answerQuestion } from "./providers.ts";
 import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions,listLibrary,upsertLibrary,removeLibrary,type LibraryType } from "./store.ts";
-export type AppEnv = ProviderEnv & {DB:Database;AUDIO:AudioBucket};
+export type AppEnv = ProviderEnv & ZhihuOAuthEnv & {DB:Database;AUDIO:AudioBucket};
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{"Cache-Control":"no-store","X-Content-Type-Options":"nosniff"}});
 const present=(e:Episode)=>({...e,segments:e.segments.map(({audioKey,...s})=>({...s,audioReady:!!audioKey}))});
 const validId=(s:string)=>/^[A-Za-z0-9_-]{16,72}$/.test(s);
@@ -41,6 +42,7 @@ export async function advance(env:AppEnv,ep:Episode):Promise<Episode> {
 export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
   try {
     const url=new URL(request.url);const path=url.pathname;
+    if(path.startsWith("/api/auth/zhihu/")) return handleZhihuOAuth(request,env);
     const isQuestionAudio=request.method==="POST"&&/^\/api\/episodes\/[A-Za-z0-9_-]{16,72}\/questions$/.test(path);
     if(request.method!=="GET" && request.method!=="HEAD"){
       const origin=request.headers.get("Origin");if(origin&&origin!==url.origin)throw new PublicError("请求来源不匹配。",403);
@@ -58,6 +60,7 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(!env.DB||!env.AUDIO)throw new PublicError("节目存储尚未就绪。",503);
     await initDb(env.DB);
+    if(request.method==="GET"&&(path==="/api/episodes"||path==="/api/library"||path.startsWith("/api/library/"))&&!await readZhihuToken(request,env))throw new PublicError("请先连接知乎账号，再查看我的收听。",401);
     const libraryMatch=path.match(/^\/api\/library(?:\/([A-Za-z0-9_-]{1,24})\/([A-Za-z0-9_-]{1,120}))?$/);
     if(libraryMatch){
       const owner=await ownerKey(request);

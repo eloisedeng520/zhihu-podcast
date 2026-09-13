@@ -99,3 +99,5 @@
 .player-page .voice-question-wrap ~ *{display:none!important}
 .heart-svg{width:19px;height:19px;display:block;color:#b8ab9b;flex:none}
 .favorite-heart.active .heart-svg{color:#d45f42}
+
+.zhihu-account{margin:0 24px 12px;padding:10px 0;border-bottom:1px solid #e6e3dc;font-size:13px}.zhihu-account-row{display:flex;align-items:center;justify-content:space-between;gap:12px}.zhihu-account-message{font-size:12px;line-height:1.6;color:#68675f;margin:8px 0 0}.zhihu-account a{text-decoration:none}
