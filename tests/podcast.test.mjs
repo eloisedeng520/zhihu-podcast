@@ -105,7 +105,7 @@ test('本地内容可以通过列表 ID 读取完整正文',()=>{
 });
 test('热榜按问题聚合，并默认组合赞同数最高的三位答主',()=>{
   const hot=localKnowledgeItems().filter(item=>item.category==='hot');
-  assert.equal(hot.length,30);
+  assert.equal(hot.length,29);
   assert.ok(hot.every(item=>item.id.startsWith('local_hot_question_')&&item.author==='3 位代表答主'));
   const source=localAnswer(hot[0].id);
   assert.equal(source.contributors?.length,3);

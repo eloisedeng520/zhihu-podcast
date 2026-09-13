@@ -26,3 +26,10 @@ export const libraryItems = sqliteTable("library_items", {
   primaryKey({ columns: [table.ownerKey, table.itemType, table.itemId] }),
   index("library_items_owner_type_updated").on(table.ownerKey, table.itemType, table.updatedAt),
 ]);
+export const zhihuOAuthSessionInfo = sqliteTable("zhihu_oauth_session_info", {
+  idHash: text("id_hash").primaryKey(),
+  stateVerified: integer("state_verified").notNull(),
+  profileJson: text("profile_json"),
+  profileError: text("profile_error"),
+  updatedAt: integer("updated_at").notNull(),
+});
