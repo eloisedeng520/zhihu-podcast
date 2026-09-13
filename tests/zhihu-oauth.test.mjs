@@ -20,7 +20,7 @@ async function start(env) {
 const callback = (env, flow, extra = 'authorization_code=one-time-code') => handleApi(new Request(`${base}/callback?state=${flow.state}&${extra}`, { headers: { Cookie: flow.cookie } }), env);
 
 test('OAuth routes run through Worker API without audio binding; validate configuration and method', async t => {
-  assert.deepEqual(await (await handleApi(new Request(`${base}/session`), {})).json(), { configured: false, connected: false, expiresAt: null });
+  assert.deepEqual(await (await handleApi(new Request(`${base}/session`), {})).json(), { configured: false, connected: false, expiresAt: null, profile: null, profileError: null, stateVerified: null });
   assert.equal((await handleApi(new Request(`${base}/authorize`), {})).status, 503);
   const { env } = fixture(t);
   assert.equal((await handleApi(new Request(`${base}/authorize`, { method: 'POST' }), env)).status, 405);
@@ -46,6 +46,10 @@ test('successful exchange uses documented form, encrypted storage, opaque cookie
   let calls = 0;
   t.mock.method(globalThis, 'fetch', async (url, init) => {
     calls++;
+    if (url === 'https://openapi.zhihu.com/user') {
+      assert.equal(init.headers.Authorization, 'Bearer private-oauth-token');
+      return Response.json({ uid: 123, fullname: '测试用户' });
+    }
     assert.equal(url, 'https://openapi.zhihu.com/access_token');
     assert.equal(init.redirect, 'error');
     assert.deepEqual(Object.fromEntries(init.body), { app_id: 'app-id', app_key: 'backend-only-secret', grant_type: 'authorization_code', redirect_uri: `${base}/callback`, code: 'one-time-code' });
@@ -63,10 +67,14 @@ test('successful exchange uses documented form, encrypted storage, opaque cookie
   const session = await (await handleApi(req, env)).json();
   assert.equal(session.connected, true);
   assert.equal(session.configured, true);
+  assert.equal(session.profile.name, '测试用户');
+  assert.equal(session.profile.uid, '123');
+  assert.equal(session.profileError, null);
+  assert.equal(session.stateVerified, true);
   assert.ok(!JSON.stringify(session).includes('token'));
   assert.equal((await readZhihuToken(req, env)).token, 'private-oauth-token');
   assert.equal((await callback(env, flow)).headers.get('location'), '/?zhihu_auth=invalid_state');
-  assert.equal(calls, 1);
+  assert.equal(calls, 2);
   const cross = await handleApi(new Request(`${base}/logout`, { method: 'POST', headers: { Origin: 'https://evil.test', Cookie: sessionCookie } }), env);
   assert.equal(cross.status, 403);
   assert.equal((await (await handleApi(req, env)).json()).connected, true);
@@ -76,18 +84,62 @@ test('successful exchange uses documented form, encrypted storage, opaque cookie
   assert.equal((await (await handleApi(req, env)).json()).connected, false);
 });
 
-test('missing, incorrect, cross-browser and expired state never exchange a token', async t => {
+test('incorrect, cross-browser and expired state never exchange a token', async t => {
   const { env, sqlite } = fixture(t);
   const flow = await start(env), other = await start(env);
   t.mock.method(globalThis, 'fetch', () => { assert.fail('must not call provider'); });
   for (const req of [
-    new Request(`${base}/callback?authorization_code=secret`, { headers: { Cookie: flow.cookie } }),
     new Request(`${base}/callback?state=${'0'.repeat(64)}&code=secret`, { headers: { Cookie: flow.cookie } }),
     new Request(`${base}/callback?state=${flow.state}&code=secret`, { headers: { Cookie: other.cookie } }),
     new Request(`${base}/callback?state=${flow.state}&code=secret`),
   ]) assert.equal((await handleApi(req, env)).headers.get('location'), '/?zhihu_auth=invalid_state');
   sqlite.prepare('UPDATE zhihu_oauth_pending SET expires_at = 0').run();
   assert.equal((await callback(env, flow)).headers.get('location'), '/?zhihu_auth=invalid_state');
+});
+
+test('missing state uses the browser-bound fallback and returns only normalized account information', async t => {
+  const { env } = fixture(t);
+  const flow = await start(env);
+  let calls = 0;
+  t.mock.method(globalThis, 'fetch', async (url, init) => {
+    calls++;
+    if (url === 'https://openapi.zhihu.com/access_token') {
+      assert.equal(init.body.get('code'), 'without-state');
+      return Response.json({ Data: { access_token: 'private-oauth-token', expires_in: 1800 } });
+    }
+    assert.equal(url, 'https://openapi.zhihu.com/user');
+    assert.equal(init.method, 'GET');
+    assert.equal(init.headers.Authorization, 'Bearer private-oauth-token');
+    assert.equal(init.headers['X-OAuth-Token'], undefined);
+    assert.equal(init.headers['X-Request-Timestamp'], undefined);
+    return Response.json({ uid: 123456789, fullname: '测试用户', gender: 'female', avatar_path: 'https://pic.test/avatar.png', headline: '认真回答问题', description: '个人描述', phone_no: '13800138000', email: 'user@example.com', url: 'https://www.zhihu.com/people/test-user', ignored_private_field: 'do-not-return' });
+  });
+  const r = await handleApi(new Request(`${base}/callback?authorization_code=without-state`, { headers: { Cookie: flow.cookie } }), env);
+  assert.equal(r.headers.get('location'), '/?zhihu_auth=connected');
+  const sessionCookie = cookie(r, 'tingjian_zhihu_session');
+  const session = await (await handleApi(new Request(`${base}/session`, { headers: { Cookie: sessionCookie } }), env)).json();
+  assert.equal(session.connected, true);
+  assert.equal(session.stateVerified, false);
+  assert.deepEqual(session.profile, { uid: '123456789', name: '测试用户', gender: 'female', avatarUrl: 'https://pic.test/avatar.png', headline: '认真回答问题', description: '个人描述', phoneNumber: '13800138000', email: 'user@example.com', url: 'https://www.zhihu.com/people/test-user' });
+  assert.equal(session.profileError, null);
+  assert.ok(!JSON.stringify(session).includes('private'));
+  assert.ok(!JSON.stringify(session).includes('ignored_private_field'));
+  assert.equal(calls, 2);
+});
+
+test('profile endpoint failure does not invalidate a successful OAuth connection', async t => {
+  const { env } = fixture(t);
+  const flow = await start(env);
+  t.mock.method(globalThis, 'fetch', async url => url === 'https://openapi.zhihu.com/access_token'
+    ? Response.json({ access_token: 'private-oauth-token', expires_in: 1800 })
+    : new Response(null, { status: 503 }));
+  const result = await callback(env, flow);
+  const sessionCookie = cookie(result, 'tingjian_zhihu_session');
+  const session = await (await handleApi(new Request(`${base}/session`, { headers: { Cookie: sessionCookie } }), env)).json();
+  assert.equal(session.connected, true);
+  assert.equal(session.stateVerified, true);
+  assert.equal(session.profile, null);
+  assert.equal(session.profileError, 'unavailable');
 });
 
 test('missing code, cancellation, provider failure and invalid expiry are sanitized', async t => {
@@ -120,7 +172,6 @@ test('code alias, legacy key, expiration and key rotation', async t => {
   env.ZHIHU_APP_KEY = 'rotated';
   assert.equal((await (await handleApi(req, env)).json()).connected, false);
 });
-
 
 test('library lists require a live Zhihu connection, including after logout and expiry', async t => {
   const {env, sqlite} = fixture(t);

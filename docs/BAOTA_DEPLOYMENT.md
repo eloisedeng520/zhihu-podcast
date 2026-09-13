@@ -48,6 +48,8 @@ HOST=127.0.0.1
 PORT=3000
 ```
 
+若启用知乎账号登录，还需配置 `ZHIHU_APP_ID`、`ZHIHU_OAUTH_APP_KEY` 和已在知乎登记的公网 HTTPS `ZHIHU_REDIRECT_URI`。OAuth 用户接口直接使用用户授权得到的 Access Token，不需要另配 Access Secret。公网 IP 的 HTTP 地址不能作为真实 OAuth 回调。
+
 然后在宝塔终端执行：
 
 ```bash
