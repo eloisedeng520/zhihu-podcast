@@ -53,26 +53,64 @@ function refs(value: unknown, validIds: Set<string>, allowEmpty = false): string
 export function validateOutline(value: unknown, source: Answer): Outline {
   const obj = record(value); const validIds = new Set(source.paragraphs.map(p=>p.id));
   if (!Array.isArray(obj.themes) || obj.themes.length < 1 || obj.themes.length > 5 || !Array.isArray(obj.limitations)) throw new PublicError("观点结构不完整，请重试。", 502);
-  return {thesis:str(obj.thesis),themes:obj.themes.map(v=>{const t=record(v);return {title:str(t.title,60),summary:str(t.summary,500),sourceIds:refs(t.sourceIds,validIds)};}),limitations:obj.limitations.map(v=>str(v,300)).slice(0,6)};
+  const background = obj.background === undefined ? undefined : (()=>{const b=record(obj.background);return {summary:str(b.summary,800),sourceIds:refs(b.sourceIds,validIds)};})();
+  const coreQuestion = obj.coreQuestion === undefined ? undefined : (()=>{const q=record(obj.coreQuestion);return {question:str(q.question,300),scope:str(q.scope,500),sourceIds:refs(q.sourceIds,validIds)};})();
+  return {thesis:str(obj.thesis),themes:obj.themes.map(v=>{const t=record(v);return {title:str(t.title,60),summary:str(t.summary,500),sourceIds:refs(t.sourceIds,validIds)};}),limitations:obj.limitations.map(v=>str(v,300)).slice(0,6),background,coreQuestion};
 }
+/**
+ * Models occasionally label a faithful paraphrase as a quote. Keep genuine
+ * verbatim quotes intact, but downgrade mismatched quotes so the independent
+ * review step can assess their meaning instead of rejecting the whole job.
+ */
 export function repairGeneratedQuoteKinds(value: unknown, source: Answer): unknown {
   if (!value || typeof value !== "object" || Array.isArray(value)) return value;
   const obj = value as Record<string, unknown>;
   if (!Array.isArray(obj.segments)) return value;
   return {
     ...obj,
-    segments: obj.segments.map(segment=>{
+    segments: obj.segments.map(segment => {
       if (!segment || typeof segment !== "object" || Array.isArray(segment)) return segment;
-      const item=segment as Record<string, unknown>;
-      if (item.kind!=="quote" || typeof item.text!=="string" || !Array.isArray(item.sourceIds)) return segment;
-      const text=item.text.trim();
-      const exact=item.sourceIds.some(id=>typeof id==="string"&&source.paragraphs.find(paragraph=>paragraph.id===id)?.text.includes(text));
-      // A model can accurately paraphrase a source while mislabelling it as a
-      // verbatim quote. Preserve exact quotes; let the independent review stage
-      // verify the support for downgraded paraphrases.
-      return exact?segment:{...item,kind:"paraphrase"};
+      const item = segment as Record<string, unknown>;
+      if (item.kind !== "quote" || typeof item.text !== "string" || !Array.isArray(item.sourceIds)) return segment;
+      const text = item.text.trim();
+      const exact = item.sourceIds.some(id =>
+        typeof id === "string" && source.paragraphs.find(paragraph => paragraph.id === id)?.text.includes(text),
+      );
+      return exact ? segment : { ...item, kind: "paraphrase" };
     }),
   };
+}
+
+/** Normalize the common host-question shape produced by the model. */
+export function repairGeneratedHostKinds(value: unknown): unknown {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return value;
+  const obj = value as Record<string, unknown>;
+  if (!Array.isArray(obj.segments)) return value;
+  return {
+    ...obj,
+    segments: obj.segments.map(segment => {
+      if (!segment || typeof segment !== "object" || Array.isArray(segment)) return segment;
+      const item = segment as Record<string, unknown>;
+      const text = typeof item.text === "string" ? item.text.trim() : "";
+      if (item.speaker === "host" && item.kind === "paraphrase" && Array.isArray(item.sourceIds) && item.sourceIds.length === 0 && /[?？]\s*$/.test(text)) {
+        return { ...item, kind: "transition" };
+      }
+      return segment;
+    }),
+  };
+}
+
+export function repairGeneratedOutline(value: unknown): unknown {
+  if (!value || typeof value !== "object" || Array.isArray(value)) return value;
+  const obj = value as Record<string, unknown>;
+  const repaired: Record<string, unknown> = { ...obj };
+  if (repaired.limitations === undefined) repaired.limitations = [];
+  if (!Array.isArray(obj.themes) || obj.themes.length <= 5) return repaired;
+  const tail = obj.themes.slice(4).filter(v => v && typeof v === "object" && !Array.isArray(v)) as Record<string, unknown>[];
+  const summary = tail.filter(v => typeof v.summary === "string").map(v => v.summary as string).join("；");
+  const sourceIds = [...new Set(tail.flatMap(v => Array.isArray(v.sourceIds) ? v.sourceIds.filter(id => typeof id === "string") as string[] : []))];
+  repaired.themes = [...obj.themes.slice(0, 4), { title: "其他相关观点", summary: summary || "原文中的其他相关观点。", sourceIds }];
+  return repaired;
 }
 export function validateScript(value: unknown, source: Answer): { title: string; segments: Segment[] } {
   const obj = record(value); const validIds = new Set(source.paragraphs.map(p=>p.id));
@@ -82,15 +120,15 @@ export function validateScript(value: unknown, source: Answer): { title: string;
     if (!["host","guest"].includes(String(s.speaker)) || !["quote","paraphrase","transition"].includes(String(s.kind))) throw new PublicError("脚本角色或引用类型错误。", 422);
     if (s.kind === "transition" && s.speaker !== "host") throw new PublicError("讲述人的发言必须有原文依据。", 422);
     const text=str(s.text,600); const sourceIds=refs(s.sourceIds,validIds,s.kind === "transition");
-    const aliases=source.contributors?["答者1","答者2","答者3","答者4"]:["答者1"];
     const rawSpeakerName=typeof s.speakerName==="string"?str(s.speakerName,100):undefined;
-    const aliasIndex=source.contributors?source.contributors.findIndex((_,i)=>aliases[i]===rawSpeakerName):-1;
-    const speakerName=source.contributors?(aliasIndex>=0?aliases[aliasIndex]:rawSpeakerName):(s.speaker==="guest"?"答者1":undefined);
+    let speakerName=s.speaker==="host"?"主持人":"答者1";
     let voiceIndex:number|undefined;
-    if(source.contributors&&s.speaker==="guest"){
+    if(source.contributors?.length&&s.speaker==="guest"){
+      const aliasIndex=source.contributors.findIndex((_,i)=>`答者${i+1}`===rawSpeakerName);
       const contributorIndex=aliasIndex>=0?aliasIndex:source.contributors.findIndex(contributor=>contributor.name===rawSpeakerName);
-      if(contributorIndex<0)throw new PublicError("多观点脚本缺少有效的答主署名。",422);
+      if(contributorIndex<0)throw new PublicError("多观点脚本缺少有效的答者编号。",422);
       if(sourceIds.some(id=>!id.startsWith(`a${contributorIndex+1}p`)))throw new PublicError("答主观点引用了其他答主的原文。",422);
+      speakerName=`答者${contributorIndex+1}`;
       voiceIndex=contributorIndex;
     }
     if (s.kind === "quote" && !sourceIds.some(id => source.paragraphs.find(p=>p.id===id)?.text.includes(text))) throw new PublicError("标记为直接引用的内容与原文不一致。",422);

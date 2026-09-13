@@ -4,7 +4,7 @@ export type Database = {prepare(sql:string):Statement};
 export type AudioObject = {body:ReadableStream;size:number;arrayBuffer():Promise<ArrayBuffer>;range?:{offset:number;length:number}};
 export type AudioBucket = {get(key:string,options?:{range?:Headers}):Promise<AudioObject|null>;put(key:string,body:Uint8Array,options?:{httpMetadata:{contentType:string}}):Promise<unknown>};
 export type EpisodeQuestion = {id:string;episodeId:string;positionSeconds:number;questionText:string;answerText:string|null;sourceIds:string[];status:"transcribing"|"answering"|"ready"|"failed";errorCode:string|null;createdAt:string;updatedAt:string};
-export type LibraryType = "favorite" | "later" | "history";
+export type LibraryType = "favorite" | "later";
 export type LibraryItem = { itemType: LibraryType; itemId: string; payload: Record<string, unknown>; createdAt: string; updatedAt: string };
 export async function initDb(db:Database) {
   await db.prepare(`CREATE TABLE IF NOT EXISTS episodes (id TEXT PRIMARY KEY, payload TEXT NOT NULL, created_at TEXT NOT NULL, lock_token TEXT, lock_until INTEGER NOT NULL DEFAULT 0)`).run();
