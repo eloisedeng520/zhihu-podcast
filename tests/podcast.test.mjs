@@ -230,6 +230,39 @@ function mockProviders(t,{badReview=false,failAudio=false}={}){
     throw new Error(`Unexpected network request: ${url}`);
   });return ()=>audioCalls;
 }
+test('自制节目从文字进入生成流程并在历史中保留来源标识',async t=>{
+  mockProviders(t);const env=envFixture();
+  let e=await (await handleApi(req('/api/episodes','POST',{text:original.repeat(4),title:'我的自制节目',minutes:8}),env)).json();
+  assert.equal(e.stage,'analyzing');assert.equal(e.source.author,'我');
+  for(let i=0;i<12&&e.status!=='ready';i++)e=await (await handleApi(req(`/api/episodes/${e.id}/advance`,'POST'),env)).json();
+  assert.equal(e.status,'ready',e.error);
+  const history=await (await handleApi(req('/api/episodes'),env)).json();
+  assert.equal(history.episodes[0].answerId,e.answerId);
+  assert.ok(history.episodes[0].answerId.startsWith('custom-'));
+});
+test('自制素材图片持久保存、归属隔离，随节目读取',async()=>{
+  const env=envFixture(),headers={'X-Anonymous-Id':'custom-owner-12345678'};
+  const png=Uint8Array.from(Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAwMCAO+aA1sAAAAASUVORK5CYII=','base64'));
+  const uploaded=await handleApi(new Request('https://tingjian.test/api/source-images',{method:'POST',headers:{...headers,'Content-Type':'image/png'},body:png}),env);
+  assert.equal(uploaded.status,201);const image=await uploaded.json();
+  const fetched=await handleApi(new Request(`https://tingjian.test${image.url}`,{headers}),env);
+  assert.equal(fetched.headers.get('Content-Type'),'image/png');assert.deepEqual(new Uint8Array(await fetched.arrayBuffer()),png);
+  assert.equal((await handleApi(new Request(`https://tingjian.test${image.url}`,{headers:{'X-Anonymous-Id':'another-owner-1234567'}}),env)).status,404);
+  const createHeaders={...headers,'Content-Type':'application/json','Idempotency-Key':'custom-images-12345678'};
+  const created=await handleApi(new Request('https://tingjian.test/api/episodes',{method:'POST',headers:createHeaders,body:JSON.stringify({text:original,minutes:3,images:[image]})}),env);
+  assert.equal(created.status,201);const e=await created.json();
+  assert.equal(e.source.images[0].url,image.url);assert.match(e.source.images[0].summary,/未识别/);
+  const stored=await (await handleApi(new Request(`https://tingjian.test/api/episodes/${e.id}`,{headers}),env)).json();
+  assert.equal(stored.source.images[0].url,image.url);
+  const invalid=await handleApi(new Request('https://tingjian.test/api/episodes',{method:'POST',headers:{...createHeaders,'X-Anonymous-Id':'another-owner-1234567'},body:JSON.stringify({text:original,minutes:3,images:[image]})}),env);
+  assert.equal(invalid.status,400);
+});
+test('图片上传拒绝伪装文件和超大文件',async()=>{
+  const env=envFixture(),headers={'X-Anonymous-Id':'custom-owner-12345678','Content-Type':'image/png'};
+  const upload=body=>handleApi(new Request('https://tingjian.test/api/source-images',{method:'POST',headers,body}),env);
+  assert.equal((await upload('<script>bad</script>')).status,415);
+  assert.equal((await upload(new Uint8Array(2*1024*1024+1))).status,413);
+});
 test('完整流程：知乎正文→AI结构与脚本→独立核对→真实音频字节存储→Range播放',async t=>{
   mockProviders(t);const env=envFixture();let r=await handleApi(req('/api/episodes','POST',{answerId:'123',minutes:3}),env);assert.equal(r.status,201);let e=await r.json();const id=e.id;
   for(let i=0;i<12&&e.status!=='ready';i++){r=await handleApi(req(`/api/episodes/${id}/advance`,'POST'),env);e=await r.json();assert.notEqual(e.status,'failed',e.error);}

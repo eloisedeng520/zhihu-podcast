@@ -1,4 +1,5 @@
 import { handleZhihuOAuth, type ZhihuOAuthEnv } from "./zhihu-oauth.ts";
+import {customSourceImages,readSourceImage,uploadSourceImage} from "./source-images.ts";
 import type { Episode } from "../lib/podcast.ts";
 import { PublicError,validateOutline,repairGeneratedOutline,repairGeneratedQuoteKinds,repairGeneratedHostKinds,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
 import { type ProviderEnv,providerStatus,fetchKnowledge,fetchAnswer,analyze,write,review,synthesize,transcribeQuestion,answerQuestion } from "./providers.ts";
@@ -46,11 +47,12 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     const url=new URL(request.url);const path=url.pathname;
     if(path.startsWith("/api/auth/zhihu/")) return handleZhihuOAuth(request,env);
     const isQuestionAudio=request.method==="POST"&&/^\/api\/episodes\/[A-Za-z0-9_-]{16,72}\/questions$/.test(path);
+    const isSourceImage=request.method==="POST"&&path==="/api/source-images";
     if(request.method!=="GET" && request.method!=="HEAD"){
       const origin=request.headers.get("Origin");if(origin&&origin!==url.origin)throw new PublicError("请求来源不匹配。",403);
       if(request.headers.get("Sec-Fetch-Site")==="cross-site")throw new PublicError("不支持跨站操作。",403);
       const contentType=request.headers.get("Content-Type")||"";
-      if(isQuestionAudio?!contentType.toLowerCase().startsWith("audio/wav"):!contentType.includes("application/json"))throw new PublicError(isQuestionAudio?"请上传 WAV 录音。":"请使用 JSON 请求。",415);
+      if(isSourceImage?!/^image\/(png|jpeg|webp)(;|$)/.test(contentType):isQuestionAudio?!contentType.toLowerCase().startsWith("audio/wav"):!contentType.includes("application/json"))throw new PublicError(isSourceImage?"请选择 PNG、JPG 或 WebP 图片。":isQuestionAudio?"请上传 WAV 录音。":"请使用 JSON 请求。",415);
     }
     if(path==="/api/status" && request.method==="GET"){
       const p=providerStatus(env);const storage=!!(env.DB&&env.AUDIO);return json({ready:p.ready&&storage,textReady:p.textReady&&storage,audioReady:p.audioReady&&storage,services:[...p.services,{name:"节目存储",configured:storage,detail:"保留节目、脚本与音频"}]});
@@ -61,6 +63,8 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
       return json(await fetchAnswer(env,id));
     }
     if(!env.DB||!env.AUDIO)throw new PublicError("节目存储尚未就绪。",503);
+    if(isSourceImage)return json(await uploadSourceImage(request,env.AUDIO,await ownerKey(request,true)),201);
+    if(path.startsWith("/api/source-images/")&&request.method==="GET")return await readSourceImage(path,env.AUDIO,await ownerKey(request,true));
     await initDb(env.DB);
     const libraryMatch=path==="/api/library/questions"?null:path.match(/^\/api\/library(?:\/([A-Za-z0-9_-]{1,24})\/([A-Za-z0-9_-]{1,120}))?$/);
     if(libraryMatch){
@@ -115,10 +119,10 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     if(path==="/api/episodes" && request.method==="GET"){
       const owner=await ownerKey(request);
       const rows=await env.DB.prepare("SELECT payload FROM episodes WHERE owner_key = ? ORDER BY created_at DESC LIMIT 50").bind(owner).all<{payload:string}>();
-      return json({episodes:rows.results.map(r=>JSON.parse(r.payload) as Episode).filter(e=>e.creationSource==="podcast-create"&&e.status!=="failed").map(e=>({id:e.id,title:e.title,minutes:e.minutes,stage:e.stage,status:e.status,createdAt:e.createdAt,author:e.source?.author,duration:e.segments.reduce((n,s)=>n+(s.duration||0),0)}))});
+      return json({episodes:rows.results.map(r=>JSON.parse(r.payload) as Episode).filter(e=>e.creationSource==="podcast-create").map(e=>({id:e.id,answerId:e.answerId,title:e.title,minutes:e.minutes,stage:e.stage,status:e.status,createdAt:e.createdAt,author:e.source?.author,duration:e.segments.reduce((n,s)=>n+(s.duration||0),0)}))});
     }
     if(path==="/api/episodes" && request.method==="POST") {
-      const raw=await request.text();if(raw.length>52000)throw new PublicError("请求过大。",413);
+      const raw=await request.text();if(raw.length>60000)throw new PublicError("请求过大。",413);
       const body=JSON.parse(raw);
       const customText=typeof body.text==="string"?body.text.trim():"";
       const isCustom=customText.length>0;
@@ -130,7 +134,8 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
       if(!providerStatus(env).textReady)throw new PublicError("AI 编导尚未配置，请先完成文本模型接入。知乎原文可以正常浏览。",503);
       if(await countBillableProductions(env.DB,owner)>=MAX_PRODUCTIONS_PER_OWNER)throw productionLimitError();
       const now=new Date().toISOString();
-      const source= isCustom ? {id:`custom-${key}`,title:typeof body.title==="string"&&body.title.trim()?body.title.trim().slice(0,120):"我的文字稿",author:"我",url:"",fetchedAt:now,paragraphs:customText.split(/\n+/).filter(Boolean).map((text:string,i:number)=>({id:`p${i+1}`,text}))} : undefined;
+      const images=isCustom?await customSourceImages(body.images,env.AUDIO,owner):[];
+      const source= isCustom ? {id:`custom-${key}`,title:typeof body.title==="string"&&body.title.trim()?body.title.trim().slice(0,120):"我的文字稿",author:"我",url:"",fetchedAt:now,images,paragraphs:customText.split(/\n+/).filter(Boolean).map((text:string,i:number)=>({id:`p${i+1}`,text}))} : undefined;
       // Idempotency keys are client generated. If two accounts happen to send
       // the same key, keep their episodes separate instead of sharing a row.
       const collision=await env.DB.prepare("SELECT owner_key FROM episodes WHERE id = ?").bind(key).first<{owner_key:string}>();
