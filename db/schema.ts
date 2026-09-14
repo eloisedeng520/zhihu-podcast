@@ -1,11 +1,12 @@
 import { sqliteTable, text, integer, real, index, primaryKey } from "drizzle-orm/sqlite-core";
 export const episodes = sqliteTable("episodes", {
   id: text("id").primaryKey(),
+  ownerKey: text("owner_key").notNull().default(""),
   payload: text("payload").notNull(),
   createdAt: text("created_at").notNull(),
   lockToken: text("lock_token"),
   lockUntil: integer("lock_until").notNull().default(0),
-});
+}, table => [index("episodes_owner_created").on(table.ownerKey, table.createdAt)]);
 export const episodeQuestions = sqliteTable("episode_questions", {
   id:text("id").primaryKey(), episodeId:text("episode_id").notNull(), ownerKey:text("owner_key").notNull(),
   positionSeconds:real("position_seconds").notNull(), questionText:text("question_text").notNull(), answerText:text("answer_text"),

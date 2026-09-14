@@ -2,14 +2,16 @@ import { handleZhihuOAuth, type ZhihuOAuthEnv } from "./zhihu-oauth.ts";
 import type { Episode } from "../lib/podcast.ts";
 import { PublicError,validateOutline,repairGeneratedOutline,repairGeneratedQuoteKinds,repairGeneratedHostKinds,validateScript,validateReview,wavInfo,joinWav } from "./core.ts";
 import { type ProviderEnv,providerStatus,fetchKnowledge,fetchAnswer,analyze,write,review,synthesize,transcribeQuestion,answerQuestion } from "./providers.ts";
-import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions,listLibrary,upsertLibrary,removeLibrary,type LibraryType } from "./store.ts";
+import { type Database,type AudioBucket,initDb,readEpisode,saveEpisode,readQuestion,listQuestions,listLibrary,upsertLibrary,removeLibrary,countBillableProductions,type LibraryType } from "./store.ts";
 export type AppEnv = ProviderEnv & ZhihuOAuthEnv & {DB:Database;AUDIO:AudioBucket};
 const json=(value:unknown,status=200)=>Response.json(value,{status,headers:{"Cache-Control":"no-store","X-Content-Type-Options":"nosniff"}});
 const present=(e:Episode)=>({...e,segments:e.segments.map(({audioKey,...s})=>({...s,audioReady:!!audioKey}))});
 const validId=(s:string)=>/^[A-Za-z0-9_-]{16,72}$/.test(s);
-async function ownerKey(request:Request){const email=request.headers.get("oai-authenticated-user-email")?.trim().toLowerCase();const anonymous=request.headers.get("X-Anonymous-Id")?.trim();const identity=email&&email.length<=320?`user:${email}`:anonymous&&/^[A-Za-z0-9_-]{16,80}$/.test(anonymous)?`anon:${anonymous}`:null;if(!identity)throw new PublicError("请重新加载页面后再提问。",400);const digest=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(identity));return [...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,"0")).join("");}
+const MAX_PRODUCTIONS_PER_OWNER=10;
+const productionLimitError=()=>new PublicError("单人最多制作 10 期播客，当前额度已用完。",429);
+async function ownerKey(request:Request, requireIdentity=false){const email=request.headers.get("oai-authenticated-user-email")?.trim().toLowerCase();const anonymous=request.headers.get("X-Anonymous-Id")?.trim()||new URL(request.url).searchParams.get("anonymous_id")?.trim();const identity=email&&email.length<=320?`user:${email}`:anonymous&&/^[A-Za-z0-9_-]{16,80}$/.test(anonymous)?`anon:${anonymous}`:requireIdentity?null:"legacy";if(!identity)throw new PublicError("请先登录知乎后再使用我的收听。",400);const digest=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(identity));return [...new Uint8Array(digest)].map(b=>b.toString(16).padStart(2,"0")).join("");}
 
-export async function advance(env:AppEnv,ep:Episode):Promise<Episode> {
+export async function advance(env:AppEnv,ep:Episode,owner?:string):Promise<Episode> {
   if(ep.stage==="fetching") {ep.source=await fetchAnswer(env,ep.answerId);ep.generationLog??=[];ep.generationLog.push({stage:"fetching",prompt:"读取知乎原文：根据 answerId 获取正文、作者、图片及来源信息。",input:{answerId:ep.answerId},output:ep.source,createdAt:new Date().toISOString()});ep.title=ep.source.title;ep.stage="analyzing";}
   else if(ep.stage==="analyzing") {
     let output:unknown; let prompt=""; let input:unknown;
@@ -23,7 +25,7 @@ export async function advance(env:AppEnv,ep:Episode):Promise<Episode> {
     }
   }
   else if(ep.stage==="writing") {let output:unknown;let prompt="";let input:unknown;try{output=await write(env,ep.source!,ep.outline!,ep.minutes,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});const normalized=repairGeneratedHostKinds(repairGeneratedQuoteKinds(output,ep.source!));const result=validateScript(normalized,ep.source!);ep.title=ep.answerId?.startsWith("custom-")?result.title:(ep.source?.title||result.title);ep.segments=result.segments;ep.completedAudio=0;ep.review=undefined;ep.stage="reviewing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"writing",prompt,input:input??{source:ep.source,outline:ep.outline,minutes:ep.minutes},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
-  else if(ep.stage==="reviewing") {let output:unknown;let prompt="";let input:unknown;try{output=await review(env,ep.source!,ep.segments,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});ep.review=validateReview(output,ep.segments);if(!ep.review.passed)throw new PublicError("有内容未通过原文核对，已暂停。重试将重新编排脚本。",422);ep.stage="synthesizing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt,input:input??{source:ep.source,segments:ep.segments},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
+  else if(ep.stage==="reviewing") {let output:unknown;let prompt="";let input:unknown;try{if(owner!==undefined&&await countBillableProductions(env.DB,owner)>=MAX_PRODUCTIONS_PER_OWNER)throw productionLimitError();output=await review(env,ep.source!,ep.segments,(o,p,i)=>{prompt=p;input=i;ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt:p,input:i,output:o,createdAt:new Date().toISOString()});});ep.review=validateReview(output,ep.segments);if(!ep.review.passed)throw new PublicError("有内容未通过原文核对，已暂停。重试将重新编排脚本。",422);ep.stage="synthesizing";}catch(error){ep.generationLog??=[];ep.generationLog.push({stage:"reviewing",prompt,input:input??{source:ep.source,segments:ep.segments},output,error:error instanceof Error?error.message:String(error),createdAt:new Date().toISOString()});throw error;}}
   else if(ep.stage==="synthesizing") {
     if(!providerStatus(env).audioReady)return ep;
     if(!ep.review?.passed)throw new PublicError("节目尚未通过核对，无法合成。",422);
@@ -60,9 +62,9 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(!env.DB||!env.AUDIO)throw new PublicError("节目存储尚未就绪。",503);
     await initDb(env.DB);
-    const libraryMatch=path.match(/^\/api\/library(?:\/([A-Za-z0-9_-]{1,24})\/([A-Za-z0-9_-]{1,120}))?$/);
+    const libraryMatch=path==="/api/library/questions"?null:path.match(/^\/api\/library(?:\/([A-Za-z0-9_-]{1,24})\/([A-Za-z0-9_-]{1,120}))?$/);
     if(libraryMatch){
-      const owner=await ownerKey(request);
+      const owner=await ownerKey(request,true);
       const validTypes:LibraryType[]=["favorite","later"];
       if(!libraryMatch[1]){
         if(request.method!=="GET")throw new PublicError("不支持此操作。",405);
@@ -80,13 +82,13 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
       return json({item:await upsertLibrary(env.DB,owner,itemType,itemId,payload)},201);
     }
     if(path==="/api/library/questions" && request.method==="GET"){
-      const owner=await ownerKey(request);
+      const owner=await ownerKey(request,true);
       const rows=await env.DB.prepare("SELECT q.id,q.episode_id,q.position_seconds,q.question_text,q.answer_text,q.source_ids,q.status,q.error_code,q.created_at,q.updated_at,e.payload AS episode_payload FROM episode_questions q LEFT JOIN episodes e ON e.id=q.episode_id WHERE q.owner_key = ? ORDER BY q.created_at DESC LIMIT 500").bind(owner).all<Record<string,unknown>>();
       return json({questions:rows.results.map(row=>{let episode:any={};try{episode=JSON.parse(String(row.episode_payload||"{}"));}catch{}return {id:row.id,episodeId:row.episode_id,episodeTitle:episode.title||"",positionSeconds:Number(row.position_seconds)||0,questionText:row.question_text,answerText:row.answer_text,sourceIds:JSON.parse(String(row.source_ids||"[]")),status:row.status,errorCode:row.error_code,createdAt:row.created_at,updatedAt:row.updated_at};})});
     }
     const episodeQuestions=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})\/questions$/);
     if(episodeQuestions){
-      const episodeId=episodeQuestions[1],owner=await ownerKey(request),ep=await readEpisode(env.DB,episodeId);if(!ep)throw new PublicError("没有找到这期节目。",404);
+      const episodeId=episodeQuestions[1],owner=await ownerKey(request,true),ep=await readEpisode(env.DB,episodeId,owner);if(!ep)throw new PublicError("没有找到这期节目。",404);
       if(request.method==="GET")return json({questions:await listQuestions(env.DB,episodeId,owner)});
       if(request.method!=="POST")throw new PublicError("不支持此操作。",405);
       const id=request.headers.get("Idempotency-Key")||"";if(!validId(id))throw new PublicError("缺少有效的提问标识。");
@@ -105,40 +107,48 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     const questionAction=path.match(/^\/api\/questions\/([A-Za-z0-9_-]{16,72})\/(audio|retry)$/);
     if(questionAction){
-      if(request.method!=="POST")throw new PublicError("不支持此操作。",405);const owner=await ownerKey(request);const q=await readQuestion(env.DB,questionAction[1],owner);if(!q)throw new PublicError("没有找到这条提问。",404);
+      if(request.method!=="POST")throw new PublicError("不支持此操作。",405);const owner=await ownerKey(request,true);const q=await readQuestion(env.DB,questionAction[1],owner);if(!q)throw new PublicError("没有找到这条提问。",404);
       if(questionAction[2]==="audio"){if(q.status!=="ready"||!q.answerText)throw new PublicError("回答尚未准备好。",409);const bytes=await synthesize(env,{id:`q-${q.id}`,speaker:"host",kind:"transition",chapter:"回答",text:q.answerText,sourceIds:q.sourceIds});const body=new Uint8Array(bytes);return new Response(body,{headers:{"Content-Type":"audio/wav","Cache-Control":"no-store","Content-Length":String(body.byteLength),"X-Content-Type-Options":"nosniff"}});}
-      if(q.status!=="failed"||q.errorCode!=="answer_failed"||!q.questionText)throw new PublicError("这条提问不需要重试。",409);const ep=await readEpisode(env.DB,q.episodeId);if(!ep?.source)throw new PublicError("节目原文暂时不可用。",409);
+      if(q.status!=="failed"||q.errorCode!=="answer_failed"||!q.questionText)throw new PublicError("这条提问不需要重试。",409);const ep=await readEpisode(env.DB,q.episodeId,owner);if(!ep?.source)throw new PublicError("节目原文暂时不可用。",409);
       await env.DB.prepare("UPDATE episode_questions SET status = 'answering', error_code = NULL, updated_at = ? WHERE id = ? AND owner_key = ? AND status = 'failed'").bind(new Date().toISOString(),q.id,owner).run();try{const result=await answerQuestion(env,ep.source,q.questionText,q.positionSeconds,(await listQuestions(env.DB,q.episodeId,owner,4)).filter(x=>x.id!==q!.id).slice(0,3));await env.DB.prepare("UPDATE episode_questions SET answer_text = ?, source_ids = ?, status = 'ready', updated_at = ? WHERE id = ? AND owner_key = ?").bind(result.answer,JSON.stringify(result.sourceIds),new Date().toISOString(),q.id,owner).run();}catch(error){await env.DB.prepare("UPDATE episode_questions SET status = 'failed', error_code = 'answer_failed', updated_at = ? WHERE id = ? AND owner_key = ?").bind(new Date().toISOString(),q.id,owner).run();throw error;}return json((await readQuestion(env.DB,q.id,owner))!);
     }
     if(path==="/api/episodes" && request.method==="GET"){
-      const rows=await env.DB.prepare("SELECT payload FROM episodes ORDER BY created_at DESC LIMIT 50").all<{payload:string}>();
+      const owner=await ownerKey(request);
+      const rows=await env.DB.prepare("SELECT payload FROM episodes WHERE owner_key = ? ORDER BY created_at DESC LIMIT 50").bind(owner).all<{payload:string}>();
       return json({episodes:rows.results.map(r=>JSON.parse(r.payload) as Episode).filter(e=>e.creationSource==="podcast-create"&&e.status!=="failed").map(e=>({id:e.id,title:e.title,minutes:e.minutes,stage:e.stage,status:e.status,createdAt:e.createdAt,author:e.source?.author,duration:e.segments.reduce((n,s)=>n+(s.duration||0),0)}))});
     }
     if(path==="/api/episodes" && request.method==="POST") {
-      if(!providerStatus(env).textReady)throw new PublicError("AI 编导尚未配置，请先完成文本模型接入。知乎原文可以正常浏览。",503);
       const raw=await request.text();if(raw.length>52000)throw new PublicError("请求过大。",413);
       const body=JSON.parse(raw);
       const customText=typeof body.text==="string"?body.text.trim():"";
       const isCustom=customText.length>0;
       if((!isCustom&&!/^[A-Za-z0-9_-]{1,80}$/.test(body.answerId))||![3,8].includes(body.minutes))throw new PublicError("请选择知识内容或粘贴文字稿，并选择节目长度。");
       if(isCustom && (customText.length<20||customText.length>50000))throw new PublicError("文字稿请控制在 20 至 50000 字以内。");
+      const owner=await ownerKey(request);
       const key=request.headers.get("Idempotency-Key");if(!key||!/^\w[\w-]{15,70}$/.test(key))throw new PublicError("缺少有效的任务标识。");
-      const existing=await readEpisode(env.DB,key);if(existing)return json(present(existing));
+      const existing=await readEpisode(env.DB,key,owner);if(existing)return json(present(existing));
+      if(!providerStatus(env).textReady)throw new PublicError("AI 编导尚未配置，请先完成文本模型接入。知乎原文可以正常浏览。",503);
+      if(await countBillableProductions(env.DB,owner)>=MAX_PRODUCTIONS_PER_OWNER)throw productionLimitError();
       const now=new Date().toISOString();
       const source= isCustom ? {id:`custom-${key}`,title:typeof body.title==="string"&&body.title.trim()?body.title.trim().slice(0,120):"我的文字稿",author:"我",url:"",fetchedAt:now,paragraphs:customText.split(/\n+/).filter(Boolean).map((text:string,i:number)=>({id:`p${i+1}`,text}))} : undefined;
-      const ep:Episode={id:key,answerId:isCustom?`custom-${key}`:body.answerId,creationSource:"podcast-create",minutes:body.minutes,stage:isCustom?"analyzing":"fetching",status:"pending",title:source?.title||"新一期节目",source,createdAt:now,updatedAt:now,segments:[],completedAudio:0};
-      await env.DB.prepare("INSERT OR IGNORE INTO episodes (id,payload,created_at) VALUES (?,?,?)").bind(ep.id,JSON.stringify(ep),ep.createdAt).run();return json(present((await readEpisode(env.DB,key))!),201);
+      // Idempotency keys are client generated. If two accounts happen to send
+      // the same key, keep their episodes separate instead of sharing a row.
+      const collision=await env.DB.prepare("SELECT owner_key FROM episodes WHERE id = ?").bind(key).first<{owner_key:string}>();
+      const episodeId=collision && collision.owner_key!==owner ? `${key.slice(0,63)}-${owner.slice(0,8)}` : key;
+      const ep:Episode={id:episodeId,answerId:isCustom?`custom-${episodeId}`:body.answerId,creationSource:"podcast-create",minutes:body.minutes,stage:isCustom?"analyzing":"fetching",status:"pending",title:source?.title||"新一期节目",source,createdAt:now,updatedAt:now,segments:[],completedAudio:0};
+      await env.DB.prepare("INSERT OR IGNORE INTO episodes (id,owner_key,payload,created_at) VALUES (?,?,?,?)").bind(ep.id,owner,JSON.stringify(ep),ep.createdAt).run();return json(present((await readEpisode(env.DB,ep.id,owner))!),201);
     }
     const match=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})(?:\/(advance|retry|audio|delete))?$/);
     const logMatch=path.match(/^\/api\/episodes\/([A-Za-z0-9_-]{16,72})\/generation-log$/);
     if(logMatch&&request.method==="GET"){
-      const episode=await readEpisode(env.DB,logMatch[1]);
+      const owner=await ownerKey(request);
+      const episode=await readEpisode(env.DB,logMatch[1],owner);
       if(!episode)throw new PublicError("没有找到这期节目。",404);
       const body=JSON.stringify({episodeId:episode.id,title:episode.title,answerId:episode.answerId,generationLog:episode.generationLog||[]},null,2)+"\n";
       return new Response(body,{headers:{"Content-Type":"application/json; charset=utf-8","Content-Disposition":`attachment; filename="generation-log-${episode.id}.json"`,"Cache-Control":"no-store","X-Content-Type-Options":"nosniff"}});
     }
     if(!match)throw new PublicError("没有找到这个接口。",404);
-    const [,id,action]=match;let ep=await readEpisode(env.DB,id);if(!ep)throw new PublicError("没有找到这期节目。",404);
+    const [,id,action]=match;const owner=await ownerKey(request);let ep=await readEpisode(env.DB,id,owner);if(!ep)throw new PublicError("没有找到这期节目。",404);
     if(!action&&request.method==="GET")return json(present(ep));
     if(action==="audio"&&(request.method==="GET"||request.method==="HEAD")){
       const segmentId=new URL(request.url).searchParams.get("segment");
@@ -153,19 +163,19 @@ export async function handleApi(request:Request,env:AppEnv):Promise<Response> {
     }
     if(action==="delete"){
       if(request.method!=="DELETE")throw new PublicError("不支持此操作。",405);
-      await env.DB.prepare("DELETE FROM episodes WHERE id = ?").bind(id).run();
+      await env.DB.prepare("DELETE FROM episodes WHERE id = ? AND owner_key = ?").bind(id,owner).run();
       return json({deleted:true});
     }
     if(!["advance","retry"].includes(action)||request.method!=="POST")throw new PublicError("不支持此操作。",405);
     if(ep.status==="ready")return json(present(ep));
     if(ep.status==="failed"&&action!=="retry")return json(present(ep));
-    const token=crypto.randomUUID();const lock=await env.DB.prepare("UPDATE episodes SET lock_token = ?, lock_until = ? WHERE id = ? AND lock_until < ?").bind(token,Date.now()+240000,id,Date.now()).run();
+    const token=crypto.randomUUID();const lock=await env.DB.prepare("UPDATE episodes SET lock_token = ?, lock_until = ? WHERE id = ? AND owner_key = ? AND lock_until < ?").bind(token,Date.now()+240000,id,owner,Date.now()).run();
     if(!lock.meta.changes)return json({...(present(ep)),busy:true},202);
-    ep=(await readEpisode(env.DB,id))!;
+    ep=(await readEpisode(env.DB,id,owner))!;
     if(action==="retry" && ep.review?.passed===false){ep.stage="writing";ep.segments=[];ep.completedAudio=0;ep.review=undefined;}
     ep.error=undefined;ep.status="working";
-    try {await advance(env,ep);if(ep.stage!=="ready")ep.status="pending";}
-    catch(e){ep.status="failed";ep.error=e instanceof PublicError?e.message:"当前步骤未完成，进度已保存，请重试。";}
-    await saveEpisode(env.DB,ep,token);return json(present((await readEpisode(env.DB,id))!));
+    try {await advance(env,ep,owner);if(ep.stage!=="ready")ep.status="pending";}
+    catch(e){if(e instanceof PublicError&&e.status===429){ep.status="pending";ep.error=e.message;}else{ep.status="failed";ep.error=e instanceof PublicError?e.message:"当前步骤未完成，进度已保存，请重试。";}}
+    await saveEpisode(env.DB,ep,token,owner);return json(present((await readEpisode(env.DB,id,owner))!));
   }catch(e){return json({error:e instanceof PublicError?e.message:e instanceof SyntaxError?"请求数据格式错误。":"服务暂时不可用，请稍后重试。"},e instanceof PublicError?e.status:e instanceof SyntaxError?400:500);}
 }
