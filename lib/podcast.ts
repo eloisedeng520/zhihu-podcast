@@ -57,7 +57,7 @@ export function choosePlaybackRate(audio: { playbackRate: number } | null, selec
 }
 export const stages: { id: Stage; label: string; detail: string }[] = [
   { id: "fetching", label: "读取回答", detail: "获取知乎原文与作者信息" },
-  { id: "analyzing", label: "理解观点", detail: "梳理论点、故事与适用边界" },
+  { id: "analyzing", label: "理解观点", detail: "梳理问题背景、来龙去脉与观点" },
   { id: "writing", label: "编排对谈", detail: "将书面表达改编成自然访谈" },
   { id: "reviewing", label: "核对原文", detail: "逐段检查改编是否忠实" },
   { id: "synthesizing", label: "录制声音", detail: "逐段合成两位 AI 主播的声音" },
